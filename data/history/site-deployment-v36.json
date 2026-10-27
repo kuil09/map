@@ -1,0 +1,29 @@
+{
+  "siteUrl": "https://humphreys-field-guide.kuil09.chatgpt.site",
+  "siteRelease": "v36",
+  "publishedAtUtc": "2026-10-27T06:24:28.804722Z",
+  "canonicalDataCommit": "19362992f30998753b77ce4a7efe00eff9b321f0",
+  "siteSourceCommit": "b33adad19dc7c6383c3267f6285eae9970fbc1dc",
+  "places": 645,
+  "sources": 960,
+  "generalPoints": 130,
+  "unmeasuredPlaces": 515,
+  "verification": {
+    "cardLanguageChecksPassed": 30,
+    "desktopOverflowCheck": "passed",
+    "filtersAndDeepLink": "passed",
+    "publicCanonicalManifest": "verified",
+    "narrowLayout": "incomplete: browser renderer error",
+    "aboutPage": "not tested",
+    "physicalMobileDevice": "not tested"
+  },
+  "googleMap": {
+    "updatedByThisRelease": false,
+    "lastReceiptRows": 607,
+    "positioned": 601,
+    "unresolved": 6,
+    "pendingAdditions": 38,
+    "cleanupComplete": false
+  },
+  "note": "The input manifest is a staging artifact; its deployed:false field is not live deployment status. No full native marker geometry backup is claimed."
+}
