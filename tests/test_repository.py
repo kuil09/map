@@ -322,16 +322,33 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(geometry['historicalKml']['historicalKmlCoordinateElements'], 0)
         self.assertFalse(geometry['historicalKml']['historicalKmlBytesMatchReceipt'])
 
-    def test_site_build_is_exact_and_deterministic(self):
+    def test_site_build_is_explicit_public_projection_and_deterministic(self):
+        from build_category_presentation import public_projection, generate, public_research
+        before = {name:(ROOT/'data'/name).read_bytes() for name in ('places.json','photos.json','research.json','metadata.json')}
+        archive, public, policy = public_projection(ROOT)
+        self.assertEqual(len(archive), 648)
+        self.assertEqual(len(public), 646)
+        self.assertEqual({p['id'] for p in archive} - {p['id'] for p in public}, set(policy['excludedPlaceIds']))
+        self.assertTrue(all(p in archive for p in public))
         with tempfile.TemporaryDirectory() as temp:
             first, second = Path(temp)/'one', Path(temp)/'two'
             a = build_site_data.build(first)
             b = build_site_data.build(second)
             self.assertEqual(a, b)
             self.assertFalse(a['deployed'])
-            for name in ('places.json', 'photos.json', 'research.json'):
-                self.assertEqual((first/name).read_bytes(), (ROOT/'data'/name).read_bytes())
+            self.assertEqual(json.loads((first/'places.json').read_text()), public)
+            self.assertEqual(json.loads((first/'research.json').read_text()), public_research(ROOT, public))
+            presentation = json.loads((first/'category-presentation.json').read_text())
+            self.assertEqual(presentation, generate(ROOT))
+            self.assertEqual([g['count'] for g in presentation['groups']], [127,140,185,74,120])
+            self.assertEqual(len(presentation['assignments']), 646)
+            self.assertEqual((first/'photos.json').read_bytes(), before['photos.json'])
+            for name in ('places.json','photos.json','research.json','category-presentation.json','canonical-input-manifest.json'):
                 self.assertEqual((first/name).read_bytes(), (second/name).read_bytes())
+                for excluded in policy['excludedPlaceIds']:
+                    self.assertNotIn(excluded, (first/name).read_text())
+        for name, raw in before.items():
+            self.assertEqual((ROOT/'data'/name).read_bytes(), raw)
 
     def test_site_build_rejects_canonical_or_live_like_destination(self):
         with self.assertRaises(ValueError):

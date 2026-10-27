@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "status": "authorized_public_exclusion",
+  "scope": "Public map and Site projection only. Preserve the canonical archive and original 648 records.",
+  "authorization": {
+    "userText": "6은 아예 빼라.",
+    "confirmedMeaning": "Exclude the sixth restricted-access layer and its two venues from public map and Site.",
+    "date": "2026-10-27"
+  },
+  "sourcePlacesSha256": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c",
+  "canonicalArchiveCount": 648,
+  "publicCount": 646,
+  "excludedPlaceIds": [
+    "activity-humphreys-downtown-lanes",
+    "activity-osan-mig-alleys"
+  ]
+}

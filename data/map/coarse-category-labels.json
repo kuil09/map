@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "languages": [
+    "en",
+    "ko",
+    "ja",
+    "zh",
+    "es"
+  ],
+  "labels": {
+    "food_drink": {
+      "en": "Food & Drink",
+      "ko": "음식·카페",
+      "ja": "食事・カフェ",
+      "zh": "餐饮与咖啡",
+      "es": "Comida y bebida"
+    },
+    "nature_camping": {
+      "en": "Nature & Camping",
+      "ko": "자연·캠핑",
+      "ja": "自然・キャンプ",
+      "zh": "自然与露营",
+      "es": "Naturaleza y camping"
+    },
+    "activities_wellness": {
+      "en": "Activities & Wellness",
+      "ko": "체험·휴식",
+      "ja": "体験・リラクゼーション",
+      "zh": "体验与休闲",
+      "es": "Actividades y bienestar"
+    },
+    "shopping": {
+      "en": "Shopping",
+      "ko": "쇼핑",
+      "ja": "ショッピング",
+      "zh": "购物",
+      "es": "Compras"
+    },
+    "culture_sights": {
+      "en": "Culture & Sights",
+      "ko": "문화·관광",
+      "ja": "文化・観光",
+      "zh": "文化与观光",
+      "es": "Cultura y lugares de interés"
+    }
+  },
+  "copy": {
+    "moreFilters": {
+      "en": "More filters",
+      "ko": "상세 필터",
+      "ja": "詳細な絞り込み",
+      "zh": "更多筛选",
+      "es": "Más filtros"
+    },
+    "originalType": {
+      "en": "Detailed type",
+      "ko": "세부 유형",
+      "ja": "詳細な種類",
+      "zh": "详细类型",
+      "es": "Tipo detallado"
+    },
+    "purposeLabel": {
+      "en": "Filter by purpose",
+      "ko": "방문 목적별 필터",
+      "ja": "目的別に絞り込む",
+      "zh": "按到访目的筛选",
+      "es": "Filtrar por propósito"
+    }
+  }
+}
