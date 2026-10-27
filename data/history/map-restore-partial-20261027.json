@@ -1,0 +1,145 @@
+{
+  "status": "partial_completion_final_verification_pending",
+  "reportPreparedAtUtc": "2026-10-27T10:55:23Z",
+  "lastSavedUiObservationAtUtc": null,
+  "lastReloadObservationAtUtc": null,
+  "observationTimeNote": "Save completion and reload were observed, but exact timestamps were not recorded. Final save/reload verification after the last icon changes remains incomplete.",
+  "mapId": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "title": "Korea Local Guide / 외국인을 위한 한국 생활·여행 가이드",
+  "titleAndDescription": {
+    "savedAndReloadedBeforeFinalIconChanges": true,
+    "futureExpansionTextRemoved": true,
+    "fiveLayerTitlesUseNormalAmpersands": true
+  },
+  "counts": {
+    "rows": 646,
+    "positioned": 639,
+    "unresolved": 7,
+    "layers": 5,
+    "layerRows": {
+      "Food & Drink / 음식·카페": 127,
+      "Nature & Camping / 자연·캠핑": 140,
+      "Activities & Wellness / 체험·휴식": 185,
+      "Shopping / 쇼핑": 74,
+      "Culture & Sights / 문화·관광": 120
+    },
+    "basis": "First post-import editor KMZ contained 646 unique Record IDs; all five editor data tables were subsequently checked.",
+    "freshAll646RecordIdsReadAfterLatestEdits": false,
+    "finalExportAfterTextAndIconEdits": false
+  },
+  "unresolvedPlaces": [
+    {
+      "id": "activity-ds-billiards-paengseong",
+      "name": "DS Billiards Paengseong | DS Billiards 팽성점"
+    },
+    {
+      "id": "activity-zeus-billiards-pyeongtaek",
+      "name": "Zeus Billiards Pyeongtaek | 제우스당구장"
+    },
+    {
+      "id": "activity-osan-cc-carom",
+      "name": "Osan CC Carom Club | 오산CC대대클럽"
+    },
+    {
+      "id": "activity-carom-billiards-osan",
+      "name": "Carom Billiards Club Osan | 캐롬당구클럽"
+    },
+    {
+      "id": "activity-muzit-darts-pyeongtaek",
+      "name": "MUZIT Darts Pyeongtaek | MUZIT(평택)"
+    },
+    {
+      "id": "redbutton-osan-city-hall",
+      "name": "Red Button · Osan City Hall | 레드버튼 오산시청점"
+    },
+    {
+      "id": "redbutton-ansan",
+      "name": "Red Button · Ansan | 레드버튼 안산점"
+    }
+  ],
+  "textAndSourceRepair": {
+    "escapedSourceCellsRepaired": 87,
+    "sourceCellsByLayer": {
+      "food_drink": 18,
+      "nature_camping": 16,
+      "activities_wellness": 27,
+      "shopping": 6,
+      "culture_sights": 20
+    },
+    "method": "Existing data-table cells edited through supported UI; no place reimport.",
+    "internalGroupAmpersandsCorrected": true,
+    "foodNatureActivitiesCultureRemainingLiteralAmpEntitiesInTableChecks": 0,
+    "shoppingQueuedCorrectionsCommitted": 25,
+    "sourceUrlReachabilityTested": false,
+    "allRepairedValuesComparedWithOriginalInFinalExport": false,
+    "descriptionFormattingNeedsFinalComparison": true
+  },
+  "icons": {
+    "mode": "Subtype grouping using the added Visit type column; one shared purpose color per top-level layer.",
+    "uniformSingleIconPerCompletedLayer": false,
+    "completedRows": 267,
+    "finalReloadVerification": false,
+    "food_drink": {
+      "colorHex": "#F9A825",
+      "domVerifiedGroups": [
+        {
+          "type": "Restaurants / 식당",
+          "rows": 119,
+          "iconId": "1577"
+        },
+        {
+          "type": "Cafés and bakeries / 카페·베이커리",
+          "rows": 8,
+          "iconId": "1534"
+        }
+      ]
+    },
+    "nature_camping": {
+      "colorHex": "#006064",
+      "domVerifiedGroups": [
+        {
+          "type": "Camping / 캠핑",
+          "rows": 87,
+          "iconId": "1765"
+        },
+        {
+          "type": "Parks and gardens / 공원·정원",
+          "rows": 32,
+          "iconId": "1886"
+        },
+        {
+          "type": "Coast and beaches / 해안·해변",
+          "rows": 21,
+          "iconId": "1521"
+        }
+      ]
+    },
+    "remainingRows": 379,
+    "remainingLayers": {
+      "activities_wellness": 185,
+      "shopping": 74,
+      "culture_sights": 120
+    }
+  },
+  "numericCoordinateComparison": {
+    "pointsCompared": 100,
+    "unchanged": 6,
+    "roundedByKmzImport": 94,
+    "maxDistanceMeters": 0.07129499040481967,
+    "meanDistanceMetersAcross100": 0.03434951625798117,
+    "method": "Haversine comparison of original and first post-import exported longitude/latitude; Earth mean radius 6371008.8 m.",
+    "originalNumericDataColumnsPreservedAtFirstExport": true,
+    "additionalGeometryWritesAfterRoundingAccepted": false,
+    "comparisonRepeatedAfterFinalEdits": false
+  },
+  "artifactSHA256": {
+    "map-before-overwrite-review.kmz": "e22d9b3c89656fa99b562b3386147d196bea6e3e7d0776d6bce7fe7f9f38c738",
+    "map-five-import-first-readback.kmz": "78fb568d5b7bc3099b7e414ebc5da1effb25446220c55c21a13b978ccf104243",
+    "map-replacement-transfer-v1-20261027.zip": "85cce03931b964f3702e8645f9a01bb1651dbd46fdc472ff0c1d07c8b8cb6090",
+    "current-map-snapshot648.json": "c60b2a5ed4677fbd44112cbdbb7700da4b933ba127511b9ba110eed3b58c23dc",
+    "finishing-checkpoint-tool-unavailable.json": "54dec0b5632e5686499e27255fdb3022f366e6c8590eb45c99ce0b0706829ea0",
+    "kmz-import-compatibility-readback.json": "100ac0f099b2e56f41db73151deacba8856ecd72ce2706484703c1db3cab9add",
+    "icon-assignment646.json": "c1dd1809bf1eb537ac43689a3932b6739e87427d68f68c6f0e2f1cfd6af309e4"
+  },
+  "blocker": "Final browser verification and styling are pending."
+}
