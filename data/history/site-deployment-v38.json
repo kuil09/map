@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "1.0",
+  "status": "succeeded",
+  "release": "v38",
+  "publicUrl": "https://humphreys-field-guide.kuil09.chatgpt.site",
+  "access": "public",
+  "canonicalDataCommit": "4db2466fd06867cdf8a4fb1c24207a0f1b86d95e",
+  "siteSourceCommit": "1fdde4f8f072f1e2e0e0a3139747ffa16fb73797",
+  "publishedAtUtc": "2026-10-27T19:57:30.110543+00:00",
+  "counts": {
+    "publicPlaces": 646,
+    "archivePlaces": 648,
+    "purposeGroups": 5,
+    "mapRows": 646,
+    "positioned": 639,
+    "unresolved": 7
+  },
+  "mapVerificationStatus": "partial",
+  "limitations": [
+    "Full current map Record ID/field/numerical geometry re-audit remains incomplete; download export did not return accessible artifact.",
+    "Narrow viewport QA used browser zoom, not an actual mobile device."
+  ],
+  "qa": {
+    "desktop": [
+      {
+        "language": "en",
+        "rows": [
+          {
+            "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+            "count": "127 of 646 places",
+            "overflow": false
+          },
+          {
+            "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+            "count": "140 of 646 places",
+            "overflow": false
+          },
+          {
+            "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+            "count": "185 of 646 places",
+            "overflow": false
+          },
+          {
+            "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+            "count": "74 of 646 places",
+            "overflow": false
+          },
+          {
+            "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+            "count": "120 of 646 places",
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "language": "ko",
+        "rows": [
+          {
+            "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+            "count": "전체 646곳 중 127곳",
+            "overflow": false
+          },
+          {
+            "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+            "count": "전체 646곳 중 140곳",
+            "overflow": false
+          },
+          {
+            "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+            "count": "전체 646곳 중 185곳",
+            "overflow": false
+          },
+          {
+            "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+            "count": "전체 646곳 중 74곳",
+            "overflow": false
+          },
+          {
+            "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+            "count": "전체 646곳 중 120곳",
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "language": "ja",
+        "rows": [
+          {
+            "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+            "count": "全646か所中127か所",
+            "overflow": false
+          },
+          {
+            "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+            "count": "全646か所中140か所",
+            "overflow": false
+          },
+          {
+            "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+            "count": "全646か所中185か所",
+            "overflow": false
+          },
+          {
+            "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+            "count": "全646か所中74か所",
+            "overflow": false
+          },
+          {
+            "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+            "count": "全646か所中120か所",
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "rows": [
+          {
+            "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+            "count": "共646处，匹配127处",
+            "overflow": false
+          },
+          {
+            "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+            "count": "共646处，匹配140处",
+            "overflow": false
+          },
+          {
+            "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+            "count": "共646处，匹配185处",
+            "overflow": false
+          },
+          {
+            "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+            "count": "共646处，匹配74处",
+            "overflow": false
+          },
+          {
+            "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+            "count": "共646处，匹配120处",
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "rows": [
+          {
+            "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+            "count": "127 de 646 lugares",
+            "overflow": false
+          },
+          {
+            "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+            "count": "140 de 646 lugares",
+            "overflow": false
+          },
+          {
+            "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+            "count": "185 de 646 lugares",
+            "overflow": false
+          },
+          {
+            "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+            "count": "74 de 646 lugares",
+            "overflow": false
+          },
+          {
+            "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+            "count": "120 de 646 lugares",
+            "overflow": false
+          }
+        ]
+      }
+    ],
+    "narrow": [
+      {
+        "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+        "language": "en",
+        "results": "646 of 646 places",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+        "language": "ko",
+        "results": "전체 646곳 중 646곳",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+        "language": "ja",
+        "results": "全646か所中646か所",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+        "language": "zh",
+        "results": "共646处，匹配646处",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+        "language": "es",
+        "results": "646 de 646 lugares",
+        "scrollWidth": 388,
+        "width": 393
+      }
+    ],
+    "viewportMethod": "Cloud Chrome browser zoom to CSS width393; not physical iOS device test",
+    "excludedSearches": {
+      "Downtown Lanes": "0 of 646 places",
+      "MiG Alleys": "0 of 646 places"
+    },
+    "applicationConsoleErrorAudit": "Latest20 errors belonged to browser extension; not a full console-history assertion",
+    "verifiedAtUtc": "2026-10-27T19:58:42Z"
+  }
+}
