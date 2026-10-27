@@ -1,0 +1,185 @@
+{
+  "mapId": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "append": {
+    "status": "completed",
+    "addedRows": 41,
+    "successfulAppendOperations": 1,
+    "newPositioned": 40,
+    "newUnresolved": 1,
+    "originalCsvRejectedBeforeWrite": true,
+    "originalCsvSHA256": "e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc",
+    "compatibilityCsv": {
+      "transform": "Removed initial UTF-8 BOM only",
+      "bytes": 151463,
+      "rows": 41,
+      "columns": 10,
+      "all410DataCellsAnd10HeadersEquivalent": true,
+      "headers": [
+        "Name",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Location limitations",
+        "Record ID",
+        "Access and booking",
+        "Additional details"
+      ],
+      "sha256": "c15497cc633be24e5449350d39fe4153c32332eec1e9cd16fd99e93c65044aa4"
+    },
+    "exactAppendSaveTime": null,
+    "savedReloadedExportVerifiedAtUtc": "2026-10-27T07:35:52Z"
+  },
+  "description": {
+    "status": "saved_and_reloaded",
+    "counts": "648/641/7",
+    "onlyTwoLanguageCountClausesChanged": true,
+    "otherDescriptionTextPreserved": true,
+    "saveClickAtUtc": "2026-10-27T07:45:30.850Z",
+    "allChangesSavedObservedAtUtc": "2026-10-27T07:45:41.366Z",
+    "reloadVerifiedAtUtc": "2026-10-27T07:45:51.523Z"
+  },
+  "consolidation": {
+    "status": "not_applied",
+    "contractCommit": "bc708aa7629a6ee3b27d18212f9adeb0497f2c3d",
+    "contractSHA256": "e54f265fe6ae072cef5182c7bb7ce3a4286c4a39d3adb7daeca56296a7c7efb2",
+    "resolvedPlaces": 648,
+    "conditionalHistoricalAliasesVerified": 8,
+    "successfulMoves": 0,
+    "categoryEdits": 0,
+    "layerRenames": 0,
+    "layerDeletions": 0,
+    "reimports": 0,
+    "proposedCountsApplied": false,
+    "remainingPreparation": {
+      "layer": "Pilgrimage & sports / 성지·스포츠",
+      "emptyNumberColumns": [
+        "Latitude",
+        "Longitude"
+      ],
+      "addedBlankCells": 82
+    },
+    "blockers": [
+      {
+        "action": "Move Oeam Folk Village between existing layers",
+        "state": "attempted_no_effect",
+        "reason": "Verified individual list rows and matching eight headers; native and extension dragging left the same object in its source layer. Cause unestablished."
+      },
+      {
+        "action": "Continue extension browser control",
+        "state": "disconnected",
+        "reason": "Debugger unattached"
+      }
+    ]
+  },
+  "finalVerification": {
+    "rows": 648,
+    "positioned": 641,
+    "unresolved": 7,
+    "layers": 7,
+    "originalFieldValuesCompared": 5352,
+    "originalFieldDifferences": 0,
+    "namesLayersStyleReferencesCompared": 648,
+    "differences": 0,
+    "explicitPointGeometriesCompared": 100,
+    "addressLocatorsCompared": 541,
+    "styleDefinitionsCompared": 22,
+    "styleMapsCompared": 11,
+    "allTemporaryStyleChangesUndone": true,
+    "militaryWarningsPreserved": true,
+    "fullGeocodedNumericGeometryVerified": false,
+    "reloadRequestedAtUtc": "2026-10-27T08:43:26.056Z",
+    "reloadVerifiedAtUtc": "2026-10-27T08:43:38.495Z"
+  },
+  "nativeIds": {
+    "currentDomIdsRecorded": 648,
+    "sameIdNameLayerPairsBeforeAfterExtensionTrial": true,
+    "historical607IdsMatching": 380,
+    "historical607IdsDifferent": 227,
+    "historicalDifferencesCause": "Unknown; no fresh pre-append ID capture exists.",
+    "historicalRecordsOverwritten": false,
+    "idsRepeatedAfterFinalReload": false,
+    "reasonFinalIdsNotRepeated": "Extension disconnected; supported KMZ export omits native IDs."
+  },
+  "kmzSHA256": {
+    "beforeAppend": "a43f79bdd93547e0896d41de8acadc8952082587802b36a5e61c3b4deca0eafc",
+    "afterAppendTitleRepairReload": "6bd4ffb90e57f3f8459c4bcf18d94310328875f920eee904271f28d23ee53939",
+    "afterDescriptionReload": "4ff19108cb4d02932bde6af38495e60ddd29720f3cf9d0214e8cb12b9ad2823d",
+    "beforeConsolidation": "716a3a8743c4480fba42eb39923415cb7165f1d13e221f372f9020114634b409",
+    "finalRestoredReload": "3a83658520ec2c6a56e8502f13fa236f0240c9d77437437606ca0904915de2db"
+  },
+  "unresolvedPlaces": [
+    [
+      "activity-zeus-billiards-pyeongtaek",
+      "Zeus Billiards Pyeongtaek | 제우스당구장"
+    ],
+    [
+      "activity-osan-cc-carom",
+      "Osan CC Carom Club | 오산CC대대클럽"
+    ],
+    [
+      "activity-carom-billiards-osan",
+      "Carom Billiards Club Osan | 캐롬당구클럽"
+    ],
+    [
+      "activity-muzit-darts-pyeongtaek",
+      "MUZIT Darts Pyeongtaek | MUZIT(평택)"
+    ],
+    [
+      "activity-humphreys-downtown-lanes",
+      "RESTRICTED ACCESS / 출입 제한 — Downtown Lanes Bowling Center · Camp Humphreys | 캠프 험프리스 다운타운 레인즈 볼링장"
+    ],
+    [
+      "redbutton-osan-city-hall",
+      "Red Button · Osan City Hall | 레드버튼 오산시청점"
+    ],
+    [
+      "redbutton-ansan",
+      "Red Button · Ansan | 레드버튼 안산점"
+    ]
+  ],
+  "addedRecordIdToObservedNativeId": {
+    "gocamping-3397": "5F8F5873060000E4",
+    "gocamping-2616": "5F8F5873060000E5",
+    "gocamping-3120": "5F8F5873060000E6",
+    "gocamping-7254": "5F8F5873060000E7",
+    "gocamping-3271": "5F8F5873060000E8",
+    "gocamping-1807": "5F8F5873060000E9",
+    "ak-wonju": "5F8F5873060000EA",
+    "starfield-city-bucheon": "5F8F5873060000EB",
+    "lotte-outlet-buyeo": "5F8F5873060000EC",
+    "lotte-ansan": "5F8F5873060000ED",
+    "market-yesan": "5F8F5873060000EE",
+    "market-naeto-jecheon": "5F8F5873060000EF",
+    "catholic-gamgok-maegoe": "5F8F5873060000F0",
+    "catholic-yeonpung": "5F8F5873060000F1",
+    "catholic-gusan-hanam": "5F8F5873060000F2",
+    "temple-sujongsa-namyangju": "5F8F5873060000F3",
+    "temple-taegosa-geumsan": "5F8F5873060000F4",
+    "culture-bucheon-bow-museum": "5F8F5873060000F5",
+    "culture-hongjuseong-history": "5F8F5873060000F6",
+    "culture-jeungpyeong-folk-museum": "5F8F5873060000F7",
+    "dining-indy-techno-daejeon": "5F8F5873060000F8",
+    "dining-dono-marco-cheonan": "5F8F5873060000F9",
+    "dining-cozy-house-suwon-jangan": "5F8F5873060000FA",
+    "dining-no-brand-burger-starfield-anseong": "5F8F5873060000FB",
+    "spa-songhaeon-songdo": "5F8F5873060000FC",
+    "spa-yulam-hwaseong": "5F8F5873060000FD",
+    "spa-have9-forest-resom-jecheon": "5F8F5873060000FE",
+    "spa-lei-seoul": "5F8F5873060000FF",
+    "redbutton-ansan": "5F8F587306000100",
+    "redbutton-bucheon-city-hall": "5F8F587306000101",
+    "redbutton-gimpo-gurae": "5F8F587306000102",
+    "activity-nonsan-national-swimming": "5F8F587306000103",
+    "gocamping-2460": "5F8F587306000104",
+    "gocamping-337": "5F8F587306000105",
+    "gocamping-2226": "5F8F587306000106",
+    "market-gwangcheon-hongseong": "5F8F587306000107",
+    "dining-leesungdang-gunsan": "5F8F587306000108",
+    "dining-binhaewon-gunsan": "5F8F587306000109",
+    "catholic-nabawi-iksan": "5F8F58730600010A",
+    "temple-sutasa-hongcheon": "5F8F58730600010B",
+    "temple-jeongamsa-jeongseon": "5F8F58730600010C"
+  }
+}

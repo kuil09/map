@@ -46,3 +46,9 @@ Before any map write:
 ## Existing metadata cleanup
 
 `pending-field-edits692.json` is a historical proposal list, **not an executable patch**. Check current value for exact native ID and field; if it differs from `before`, stop and reconcile. Do not replay the 213 completed keys. Preserve the 296 original audit strings before any explicitly authorized clearing/deletion. This repository's existence does not itself authorize deleting columns, normalizing addresses, merging layers, recreating features, or replacing the map.
+
+## Verified consolidation trial — not applied
+
+The 2026-10-27 supported-UI consolidation trial moved zero features. Temporary styles were restored; final reload preserved 648 rows, 641 positioned and seven unresolved. Two empty numeric Latitude/Longitude preparation columns remain in the 41-row Pilgrimage & sports layer. See [trial evidence](../data/history/legend-consolidation-trial-20261027.json).
+
+A current DOM-ID snapshot exposed 648 IDs, but 227 differ from the historical baseline and the cause is unknown. Fresh IDs were not rechecked after the final reload because the extension disconnected. Do not overwrite historical identity evidence or reuse old joins without exact current verification. All eight conditional historical name/address aliases were verified for this trial only; no address was normalized or re-geocoded. Native and extension dragging produced no layer membership change. Do not repeat identical attempts or claim physical consolidation.
