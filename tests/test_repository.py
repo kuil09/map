@@ -10,6 +10,7 @@ import shutil
 import subprocess
 import tempfile
 import unittest
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
@@ -50,6 +51,22 @@ class RepositoryTests(unittest.TestCase):
         cls.operation = validate.load('data/map/verified-import-history.json')['completedAppendOperations'][0]
         cls.append_ids = cls.operation['placeIds']
         cls.original_append = cls.operation['originalArtifact']
+
+    def test_kmz_privacy_scan_inspects_contents(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            package = root / 'test.kmz'
+            with zipfile.ZipFile(package, 'w') as archive:
+                archive.writestr('doc.kml', '<kml>public place</kml>')
+            self.assertEqual(validate.privacy_scan(root), 1)
+            with zipfile.ZipFile(package, 'w') as archive:
+                archive.writestr('doc.kml', '<kml>' + '/Users/' + 'private/files/' + '</kml>')
+            with self.assertRaises(ValueError):
+                validate.privacy_scan(root)
+            with zipfile.ZipFile(package, 'w') as archive:
+                archive.writestr('../doc.kml', '<kml/>')
+            with self.assertRaises(ValueError):
+                validate.privacy_scan(root)
 
     def test_full_validation(self):
         self.assertEqual(validate.validate()['status'], 'passed')

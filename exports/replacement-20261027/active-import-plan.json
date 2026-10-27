@@ -1,0 +1,104 @@
+{
+  "status": "prepared_not_verified_live",
+  "publicRows": 646,
+  "archivedRows": 648,
+  "publicLayers": 5,
+  "excludedPlaceIds": [
+    "activity-humphreys-downtown-lanes",
+    "activity-osan-mig-alleys"
+  ],
+  "files": [
+    {
+      "purpose": "food_drink",
+      "label": "Food & Drink / 음식·카페",
+      "rows": 127,
+      "cells": 1905,
+      "coordinateRows": 1,
+      "addressRows": 126,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/food_drink.csv",
+      "kmz": "kmz/food_drink.kmz",
+      "style": {
+        "iconId": "1577",
+        "colorHex": "#F9A825",
+        "iconCode": "1577-F9A825",
+        "iconDescription": "restaurant"
+      }
+    },
+    {
+      "purpose": "nature_camping",
+      "label": "Nature & Camping / 자연·캠핑",
+      "rows": 140,
+      "cells": 2100,
+      "coordinateRows": 76,
+      "addressRows": 64,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/nature_camping.csv",
+      "kmz": "kmz/nature_camping.kmz",
+      "style": {
+        "iconId": "1886",
+        "colorHex": "#006064",
+        "iconCode": "1886-006064",
+        "iconDescription": "tree"
+      }
+    },
+    {
+      "purpose": "activities_wellness",
+      "label": "Activities & Wellness / 체험·휴식",
+      "rows": 185,
+      "cells": 2775,
+      "coordinateRows": 17,
+      "addressRows": 162,
+      "previouslyUnresolvedRows": 6,
+      "csv": "csv/activities_wellness.csv",
+      "kmz": "kmz/activities_wellness.kmz",
+      "style": {
+        "iconId": "1680",
+        "colorHex": "#0288D1",
+        "iconCode": "1680-0288D1",
+        "iconDescription": "running"
+      }
+    },
+    {
+      "purpose": "shopping",
+      "label": "Shopping / 쇼핑",
+      "rows": 74,
+      "cells": 1110,
+      "coordinateRows": 0,
+      "addressRows": 74,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/shopping.csv",
+      "kmz": "kmz/shopping.kmz",
+      "style": {
+        "iconId": "1684",
+        "colorHex": "#673AB7",
+        "iconCode": "1684-673AB7",
+        "iconDescription": "shopping bag"
+      }
+    },
+    {
+      "purpose": "culture_sights",
+      "label": "Culture & Sights / 문화·관광",
+      "rows": 120,
+      "cells": 1800,
+      "coordinateRows": 6,
+      "addressRows": 114,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/culture_sights.csv",
+      "kmz": "kmz/culture_sights.kmz",
+      "style": {
+        "iconId": "1598",
+        "colorHex": "#4E342E",
+        "iconCode": "1598-4E342E",
+        "iconDescription": "historic building"
+      }
+    }
+  ],
+  "preferredMethod": "Import each of five KMZ files into the same map after confirming current empty state; do not import restricted_access or duplicate CSV alternatives.",
+  "originalNumericPoints": 100,
+  "previouslyPositionedAddressRows": 540,
+  "previouslyUnresolvedRows": 6,
+  "verification": "Count IDs once, inspect titles/fields/styles and reload. Numeric points exact; address-geocoding outcome may differ.",
+  "scope": "The owner cleared old layers and requested immediate re-import. Archive all original records; exclude two military-access listings from public map and Site.",
+  "repositoryStatus": "Prepared files; actual import receipt is pending."
+}

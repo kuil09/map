@@ -10,6 +10,7 @@ import io
 from pathlib import Path
 import re
 import sys
+import zipfile
 from urllib.parse import urlsplit, parse_qsl
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,7 +59,25 @@ def privacy_scan(root=ROOT):
     for path in sorted(root.rglob('*')):
         if not path.is_file() or any(part in ('.git', 'build', '__pycache__') for part in path.relative_to(root).parts):
             continue
-        text = path.read_text(encoding='utf-8-sig')
+        if path.suffix.lower() == '.kmz':
+            with zipfile.ZipFile(path) as archive:
+                members = archive.infolist()
+                ensure(members and sum(m.file_size for m in members) <= 10_000_000, 'Unexpected KMZ size')
+                texts = []
+                for member in members:
+                    parts = Path(member.filename).parts
+                    ensure(not Path(member.filename).is_absolute() and '..' not in parts, 'Unsafe KMZ member path')
+                    ensure(not member.flag_bits & 1, 'Encrypted KMZ member')
+                    raw = archive.read(member)
+                    if member.filename.endswith('.kml'):
+                        decoded = raw.decode('utf-8-sig')
+                    else:
+                        ensure(re.fullmatch(r'images/icon-\d+\.png', member.filename) and raw.startswith(b'\x89PNG\r\n\x1a\n'), 'Unexpected KMZ member')
+                        decoded = raw.decode('latin-1')
+                    texts.append(member.filename + '\n' + decoded)
+                text = '\n'.join(texts)
+        else:
+            text = path.read_text(encoding='utf-8-sig')
         for pattern in patterns:
             ensure(not re.search(pattern, text, re.I), f'Privacy review required: {path.relative_to(root)}')
         checked += 1

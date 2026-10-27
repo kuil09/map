@@ -1,0 +1,78 @@
+{
+  "archive/content-transformations.json": {
+    "bytes": 257110,
+    "sha256": "a9304f46e05916572b196aa069b7521a4b29e08e51810a0aaa7d167be10c4fb0"
+  },
+  "archive/current-map-snapshot648.json": {
+    "bytes": 2653376,
+    "sha256": "c60b2a5ed4677fbd44112cbdbb7700da4b933ba127511b9ba110eed3b58c23dc"
+  },
+  "coordinate-subsets/activities_wellness-coordinates-only.csv": {
+    "bytes": 59389,
+    "sha256": "b66b9d213103d0d476a7cb7c2285e5eb6fc6cb485f1827753bd53254105bc792"
+  },
+  "coordinate-subsets/culture_sights-coordinates-only.csv": {
+    "bytes": 18661,
+    "sha256": "985fa483598db535a740961fd5242131d6be23c6fd7b22eee0173f0664e122ce"
+  },
+  "coordinate-subsets/food_drink-coordinates-only.csv": {
+    "bytes": 4126,
+    "sha256": "a692bfea84aa84e33f7e315050e804b839721f976d577427c05c38159ac9ca85"
+  },
+  "coordinate-subsets/nature_camping-coordinates-only.csv": {
+    "bytes": 248338,
+    "sha256": "8ed90382e0d7a7475e2648385987e61795e40ee0bce0640f6e3259dfc1ff3a83"
+  },
+  "csv/activities_wellness.csv": {
+    "bytes": 505385,
+    "sha256": "07ebbf5a023d88f7c0eacd4a910064e60667dc0f0a775bce5ecd2778434b7ac4"
+  },
+  "csv/culture_sights.csv": {
+    "bytes": 246134,
+    "sha256": "50d03016180d7bc42e88e42fc61fd06efe7e2c8ae8de7b6e2fbf45b36e294a60"
+  },
+  "csv/food_drink.csv": {
+    "bytes": 257642,
+    "sha256": "64895d71a5821d9f7ca0c344b8ac8f97170cdc19447ab56eabc993425301b585"
+  },
+  "csv/nature_camping.csv": {
+    "bytes": 418379,
+    "sha256": "151c48fa48622867ea6dddd1ad24dd41bad195759dde445ce433d2910d905189"
+  },
+  "csv/restricted_access.csv": {
+    "bytes": 5755,
+    "sha256": "73ec45056bc45512dc9d5358cfb518175c471514ef2462fad64c5631d4b14d6c"
+  },
+  "csv/shopping.csv": {
+    "bytes": 151134,
+    "sha256": "5e7ee3827fa3a9ed107374a04a370ef02798abc433ceedaca22a2a21360068bd"
+  },
+  "kmz/activities_wellness.kmz": {
+    "bytes": 169739,
+    "sha256": "fba17b251ba00ece47b6a26dd062271c014468dfdc1fc9439a8049d693a0c321"
+  },
+  "kmz/culture_sights.kmz": {
+    "bytes": 93485,
+    "sha256": "813b695ab3a58a04fd639143da66ba688996306cccffaf9de4340b7aafe651d5"
+  },
+  "kmz/food_drink.kmz": {
+    "bytes": 72515,
+    "sha256": "ab6c66bf2628f5c80ee1c9b8f8b4b3c524eb57e3c12ee8ab3b9a48b8767c2d27"
+  },
+  "kmz/nature_camping.kmz": {
+    "bytes": 110644,
+    "sha256": "5fd545ec052ac5b6dd7ec6e1b9399e42d628c2879884133ecc1e3533651f6492"
+  },
+  "kmz/restricted_access.kmz": {
+    "bytes": 16811,
+    "sha256": "92c84319a6b049f379654e1934fd4df206779cf58d28530b072182adca2bb728"
+  },
+  "kmz/shopping.kmz": {
+    "bytes": 55052,
+    "sha256": "7b0b1c9c795a3515502b6e3c86118fc5790f1ffe109245f13c58c2be11a4ddfc"
+  },
+  "replacement-manifest.json": {
+    "bytes": 6787,
+    "sha256": "280f8f3d177842635a32ca800abd13f86823de4b3542ed8284202fafa2a7fb0e"
+  }
+}

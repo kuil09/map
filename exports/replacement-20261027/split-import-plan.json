@@ -1,0 +1,17 @@
+{
+  "status": "prepared_not_uploaded",
+  "rows": 648,
+  "addressSubsetRows": 548,
+  "numericSubsetRows": 100,
+  "addressSubsetCounts": {
+    "activities_wellness": 168,
+    "culture_sights": 114,
+    "food_drink": 126,
+    "nature_camping": 64,
+    "restricted_access": 2,
+    "shopping": 74
+  },
+  "operation": "replace purpose layers with address subsets, then add disjoint numeric subsets once; UI behavior pending verification",
+  "preservation": "100 explicit points exact;541 prior address pins may re-geocode;7 previously unresolved reviewed separately",
+  "mapWrites": 0
+}

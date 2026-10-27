@@ -1,0 +1,31 @@
+Name,Address,Category,Description,Sources,Checked,Access and booking,Access class,Visitor notes,Additional details,Detailed category,Record ID,Latitude,Longitude,WKT
+RESTRICTED ACCESS / 출입 제한 — Downtown Lanes Bowling Center · Camp Humphreys | 캠프 험프리스 다운타운 레인즈 볼링장,"Camp Humphreys, Downtown Plaza, BLDG 5722, Pyeongtaek, South Korea",Restricted Access / 출입 제한,"EN: On-installation Army MWR bowling venue; a separate game room is listed in the same building.
+RESTRICTED BASE ACCESS. Not an ordinary public walk-in recommendation. Authorized installation access/eligible patron status is required; guests need the applicable sponsor and gate approval. Confirm current facility and guest-use conditions.
+
+KO: 캠프 험프리스 영내 Army MWR 볼링장입니다. 같은 건물의 별도 게임룸도 목록에 안내되어 있습니다.
+기지 출입 제한 시설입니다. 일반인이 예약 없이 자유롭게 방문할 수 있는 추천 장소가 아닙니다. 정식 기지 출입 허가와 시설 이용 자격이 필요하며, 방문객은 해당 후원자 및 출입구 승인 절차를 따라야 합니다. 최신 시설 이용 조건과 방문객 이용 조건을 확인하세요.
+
+JA: 基地内にある陸軍MWRのボウリング場。同じ建物には別のゲームルームも掲載されています。
+基地への立ち入りは制限されています。一般客が自由に立ち寄れる施設としてのおすすめではありません。正規の基地立入許可と施設利用資格が必要で、ゲストには所定のスポンサーとゲートでの承認が必要です。施設とゲスト利用の最新条件を確認してください。
+
+ZH: 位于基地内的美国陆军MWR保龄球场；资料还列出同一栋楼内另设的游戏室。
+基地出入受限。并非面向普通公众、可直接到访的推荐场所。必须拥有获准入基地的权限及合格使用者身份；访客须满足相应的担保人和门岗批准要求。请确认当前设施及访客使用条件。
+
+ES: Bolera de Army MWR dentro de la instalación militar; también figura una sala de juegos independiente en el mismo edificio.
+ACCESO RESTRINGIDO A LA BASE. No es una recomendación de acceso libre para el público general. Se requiere autorización de acceso a la instalación y condición de usuario elegible; los invitados necesitan el patrocinador correspondiente y la aprobación de acceso en la puerta. Confirma las condiciones actuales de uso de la instalación y de acceso de invitados.","https://humphreys.armymwr.com/programs/bowling
+https://home.army.mil/humphreys/about/garrison/DES/physical-security",2026-10-26,,restricted_military_installation,"No coordinates or entrance location independently verified. Address geocoding is not an independently verified entrance, gate or parking location. Exact radius inclusion remains unverified.",,Military access required / 군 시설 출입 자격 필요,activity-humphreys-downtown-lanes,,,
+RESTRICTED ACCESS / 출입 제한 — MiG Alleys Bowling Center · Osan Air Base | 오산공군기지 미그 앨리스 볼링장,"Osan Air Base, BLDG 975, Pyeongtaek, South Korea",Restricted Access / 출입 제한,"EN: On-base bowling facility whose official page also lists video games, air hockey and foosball.
+RESTRICTED BASE ACCESS. Osan Air Base is in the Pyeongtaek/Songtan area, not central Osan city. Not a public walk-in venue. Visitors need applicable sponsor/pass authorization; confirm patron eligibility and current access rules.
+
+KO: 공식 페이지에 비디오게임, 에어하키와 테이블축구도 안내된 기지 내 볼링장입니다.
+기지 출입 제한 시설입니다. 오산공군기지는 오산시 중심부가 아니라 평택·송탄 지역에 있습니다. 일반인의 자유 방문 장소가 아닙니다. 방문객은 해당 후원자·출입증 승인이 필요합니다. 시설 이용 자격과 최신 출입 규정을 확인하세요.
+
+JA: 基地内のボウリング施設。公式ページにはビデオゲーム、エアホッケー、テーブルサッカーも掲載されています。
+基地への立ち入りは制限されています。烏山空軍基地は烏山市中心部ではなく、平沢・松炭地域にあります。一般客が自由に立ち寄れる施設ではありません。訪問者には所定のスポンサー・入場証の承認が必要です。施設利用資格と最新の入場規則を確認してください。
+
+ZH: 基地内的保龄球设施，官方网站还列有电子游戏、空气曲棍球和桌上足球。
+基地出入受限。乌山空军基地位于平泽／松炭地区，而非乌山市中心。这里不是公众可直接到访的场所。访客须获得相应担保人和通行证批准；请确认使用者资格及现行出入规定。
+
+ES: Bolera dentro de la base cuya página oficial también incluye videojuegos, hockey de aire y futbolín.
+ACCESO RESTRINGIDO A LA BASE. La base aérea de Osan está en la zona de Pyeongtaek/Songtan, no en el centro de la ciudad de Osan. No es un recinto de acceso libre al público. Los visitantes necesitan la autorización correspondiente de patrocinador y pase; confirma los requisitos para utilizar las instalaciones y las normas actuales de acceso.","https://51fss.com/mig-alleys-bowling-center/
+https://www.osan.af.mil/Resources/Visitor-Passes/",2026-10-26,,restricted_military_installation,"No coordinates or entrance location independently verified. Address geocoding is not an independently verified entrance, gate or parking location. Exact radius inclusion remains unverified.",,Military access required / 군 시설 출입 자격 필요,activity-osan-mig-alleys,,,

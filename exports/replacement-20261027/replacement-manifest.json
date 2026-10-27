@@ -1,0 +1,175 @@
+{
+  "status": "files_prepared_map_write_waiting_for_repository_commit",
+  "rows": 648,
+  "primaryCsvCount": 6,
+  "columns": 15,
+  "primaryCsvDataCells": 9720,
+  "primaryCsvHeaderCells": 90,
+  "headers": [
+    "Name",
+    "Address",
+    "Category",
+    "Description",
+    "Sources",
+    "Checked",
+    "Access and booking",
+    "Access class",
+    "Visitor notes",
+    "Additional details",
+    "Detailed category",
+    "Record ID",
+    "Latitude",
+    "Longitude",
+    "WKT"
+  ],
+  "csvEncoding": "UTF-8 without BOM; standard CSV quoting; LF records; embedded field newlines preserved",
+  "currentSnapshotOriginalExtendedDataCells": 5434,
+  "numericCoordinatePointsPreservedExactlyInFiles": 100,
+  "addressBasedRowsToReview": 541,
+  "previouslyUnresolvedRowsToReview": 7,
+  "unresolvedCanonicalIds": [
+    "activity-zeus-billiards-pyeongtaek",
+    "activity-osan-cc-carom",
+    "activity-carom-billiards-osan",
+    "activity-muzit-darts-pyeongtaek",
+    "activity-humphreys-downtown-lanes",
+    "redbutton-osan-city-hall",
+    "redbutton-ansan"
+  ],
+  "files": [
+    {
+      "purpose": "food_drink",
+      "label": "Food & Drink / 음식·카페",
+      "rows": 127,
+      "cells": 1905,
+      "coordinateRows": 1,
+      "addressRows": 126,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/food_drink.csv",
+      "kmz": "kmz/food_drink.kmz",
+      "style": {
+        "iconId": "1577",
+        "colorHex": "#F9A825",
+        "iconCode": "1577-F9A825",
+        "iconDescription": "restaurant"
+      }
+    },
+    {
+      "purpose": "nature_camping",
+      "label": "Nature & Camping / 자연·캠핑",
+      "rows": 140,
+      "cells": 2100,
+      "coordinateRows": 76,
+      "addressRows": 64,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/nature_camping.csv",
+      "kmz": "kmz/nature_camping.kmz",
+      "style": {
+        "iconId": "1886",
+        "colorHex": "#006064",
+        "iconCode": "1886-006064",
+        "iconDescription": "tree"
+      }
+    },
+    {
+      "purpose": "activities_wellness",
+      "label": "Activities & Wellness / 체험·휴식",
+      "rows": 185,
+      "cells": 2775,
+      "coordinateRows": 17,
+      "addressRows": 162,
+      "previouslyUnresolvedRows": 6,
+      "csv": "csv/activities_wellness.csv",
+      "kmz": "kmz/activities_wellness.kmz",
+      "style": {
+        "iconId": "1680",
+        "colorHex": "#0288D1",
+        "iconCode": "1680-0288D1",
+        "iconDescription": "running"
+      }
+    },
+    {
+      "purpose": "shopping",
+      "label": "Shopping / 쇼핑",
+      "rows": 74,
+      "cells": 1110,
+      "coordinateRows": 0,
+      "addressRows": 74,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/shopping.csv",
+      "kmz": "kmz/shopping.kmz",
+      "style": {
+        "iconId": "1684",
+        "colorHex": "#673AB7",
+        "iconCode": "1684-673AB7",
+        "iconDescription": "shopping bag"
+      }
+    },
+    {
+      "purpose": "culture_sights",
+      "label": "Culture & Sights / 문화·관광",
+      "rows": 120,
+      "cells": 1800,
+      "coordinateRows": 6,
+      "addressRows": 114,
+      "previouslyUnresolvedRows": 0,
+      "csv": "csv/culture_sights.csv",
+      "kmz": "kmz/culture_sights.kmz",
+      "style": {
+        "iconId": "1598",
+        "colorHex": "#4E342E",
+        "iconCode": "1598-4E342E",
+        "iconDescription": "historic building"
+      }
+    },
+    {
+      "purpose": "restricted_access",
+      "label": "Restricted Access / 출입 제한",
+      "rows": 2,
+      "cells": 30,
+      "coordinateRows": 0,
+      "addressRows": 1,
+      "previouslyUnresolvedRows": 1,
+      "csv": "csv/restricted_access.csv",
+      "kmz": "kmz/restricted_access.kmz",
+      "style": {
+        "iconId": "1541",
+        "colorHex": "#FF5252",
+        "iconCode": "1541-FF5252",
+        "iconDescription": "warning triangle"
+      }
+    }
+  ],
+  "fieldMapping": {
+    "Name": "Current map display title; BOM title and auxiliary Name originals remain in snapshot",
+    "Address": "Exact current full Address, never canonical substitution",
+    "Category": "Approved coarse-purpose label",
+    "Detailed category": "Exact original Category",
+    "Description": "Current text with narrow common import/provenance boilerplate removals; no canonical rewrite",
+    "Sources": "Exact current Sources retained; current coordinate source URL appended only if absent",
+    "Visitor notes": "Current Location limitations with stale import-state/provenance boilerplate removed; uncertainty warnings retained",
+    "Additional details": "Current visitor details retained, JSON rendered as text; internal metadata removed and archived",
+    "Record ID": "Existing Record ID if present, otherwise exactly joined canonical ID",
+    "Latitude/Longitude/WKT": "Exact existing numeric Point strings for 100 rows only; blank for other 548",
+    "Source audit and redundant helper fields": "Excluded from visitor files; all original values and exact headers remain in snapshot"
+  },
+  "importPlan": [
+    "Wait for parent repository commit and exact file hashes; do not write the map before that.",
+    "Keep the same map URL. Reuse six existing layers; defer clearing/deleting the seventh until a supported action is verified.",
+    "CSV files contain both address-only and numeric-coordinate rows. Do NOT select Address alone for the whole mixed file, because that would geocode the 100 numeric points.",
+    "A mixed CSV latitude/longitude plus Address fallback is not verified. Coordinate-subsets are optional fallbacks, not additional places; never upload both full and subset versions without removing corresponding rows.",
+    "Each companion KMZ encodes the 100 numeric Points directly and provides full address locators for the other 548. Use only if the supported existing-layer replacement chooser accepts KMZ; general KML import support does not establish replacement acceptance.",
+    "If no supported replacement path can retain the 100 explicit Points, stop that path and report; do not silently geocode them.",
+    "Apply purpose styles through supported grouping/uniform styling only; red restricted-access warning styles are embedded in companion KMZ and specified in this manifest. Do not retry the denied military individual-style conversion.",
+    "After save and reload, verify 648 canonical IDs exactly once, all current names/addresses/source/access warnings, six purpose counts and exact numeric Points; report address and previously unresolved outcomes separately."
+  ],
+  "remainingSeventhLayer": "No deletion authorized. Empty-layer data replacement/clear-row UI remains unverified; report separately if required.",
+  "mapWrites": 0,
+  "uploadsToMap": 0,
+  "deletions": 0,
+  "contentTransformations": {
+    "Description": 289,
+    "Additional details": 250,
+    "Visitor notes": 268
+  }
+}
