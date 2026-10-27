@@ -96,6 +96,20 @@
       "reason": "Browser renderer error 9 before chooser; no upload submitted.",
       "writes": 0,
       "uncertainWrites": 0
+    },
+    {
+      "at": "2026-10-27",
+      "event": "batch18_canonical_v36_prepared",
+      "publicChangeRecord": "data/history/batch18-change-record.json",
+      "places": 645,
+      "sourceReferences": 960,
+      "publishedGeneralPoints": 130,
+      "unmeasured": 515,
+      "newRecords": 3,
+      "existingPointUpdates": 3,
+      "pendingAppendRows": 38,
+      "mapWrites": 0,
+      "siteDeployed": false
     }
   ],
   "additionalPreservedSourceChange": [
@@ -137,5 +151,7 @@
     "The 213/692 field histories are the pre-resume checkpoint, not a new full readback.",
     "Private archival receipts/screenshots and raw third-party HTML are not republished here.",
     "The current source audit and research history are in data/places.json and data/research.json; source content states are not upgraded by repository migration."
-  ]
+  ],
+  "currentCanonicalRelease": "v36",
+  "canonicalReleaseStatus": "prepared_not_site_deployed"
 }

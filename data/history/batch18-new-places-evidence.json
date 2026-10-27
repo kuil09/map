@@ -1,0 +1,63 @@
+[
+  {
+    "id": "market-gwangcheon-hongseong",
+    "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=79f6fe32-fdaa-403b-960b-352b908ff57b",
+    "title": "KTO Accessible Tourism — Gwangcheon Traditional Market",
+    "body_reference": "Name/update lines2–4; identity/merchandise/address lines54–60",
+    "facts": {
+      "name": "광천전통시장",
+      "address": "충청남도 홍성군 광천읍 광천로285번길 8-16",
+      "listed_goods": [
+        "salted shrimp",
+        "seaweed",
+        "farm produce"
+      ],
+      "format": "permanent shops plus periodic market",
+      "source_updated": "2026-10-08"
+    },
+    "freshness": "Displayed source update, not live operation."
+  },
+  {
+    "id": "dining-leesungdang-gunsan",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174289",
+    "title": "Leesungdang — VISITKOREA",
+    "body_reference": "Name line202; food/address lines234–255; variable closures line274",
+    "facts": {
+      "name": "이성당",
+      "address": "전북특별자치도 군산시 중앙로 177",
+      "listed_food": [
+        "red-bean buns",
+        "vegetable buns",
+        "coffee"
+      ]
+    },
+    "freshness": "Undated current public listing; no opening/stock check."
+  },
+  {
+    "id": "dining-leesungdang-gunsan",
+    "url": "https://leesungdang1945.com/_wg/import/main.html",
+    "title": "Leesungdang — operator main page",
+    "body_reference": "Business identity/address lines7–9",
+    "facts": {
+      "business": "주식회사 이성당",
+      "address": "전라북도 군산시 중앙로177, 이성당(중앙로1가)"
+    },
+    "freshness": "Operator footer supports address only; older province style retained in evidence, current administrative name from KTO."
+  },
+  {
+    "id": "dining-binhaewon-gunsan",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191381",
+    "title": "Binhaewon — VISITKOREA",
+    "body_reference": "Name line202; menu/address lines230–249",
+    "facts": {
+      "name": "빈해원",
+      "address": "전북특별자치도 군산시 동령길 57",
+      "listed_food": [
+        "jjamppong",
+        "jjajangmyeon",
+        "tangsuyuk"
+      ]
+    },
+    "freshness": "Undated current public listing; no opening/menu-availability check."
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "batch": "eighteenth_market_food_points_batch",
+  "checked": "2026-10-27",
+  "targetSiteRelease": "v36",
+  "status": "integrated_canonical_not_site_deployed_not_map_uploaded",
+  "baselineCanonicalCommit": "88c2ee5409d7c41ffe91ee6c2e2c0eb6059a2590",
+  "baselinePlacesSHA256": "8c3610ebaa812141ec2f40ae89a0e3289c2200f69cd2974aea2fd03088248ee6",
+  "counts": {
+    "placesBefore": 642,
+    "placesAfter": 645,
+    "sourcesBefore": 956,
+    "sourcesAfter": 960,
+    "pointsBefore": 127,
+    "pointsAfter": 130,
+    "unmeasuredBefore": 515,
+    "unmeasuredAfter": 515,
+    "unchangedExistingRecords": 639,
+    "preservedExistingSourceObjects": 956,
+    "preservedOriginalRecords": 311,
+    "addedRecords": 3,
+    "existingPointCorrections": 3
+  },
+  "summary": "Three additions fill Hongseong shopping and Gunsan food gaps: Gwangcheon Traditional Market, Leesungdang and Binhaewon, supported by four directly read official/operator references. All three coordinates and distances remain null. Three existing market records receive general source-published destination points from their unchanged KTO references: Onyang Oncheon, Cheongju Yukgeori and Yongin Jungang. These are not individual stalls, market boundaries, entrances, parking or accessible routes. All 956 earlier source objects/statuses, all existing names and full addresses, the original 311 records and 639 unaffected prior records remain exact. Live opening, stock, payment, English service and dietary suitability remain unverified.",
+  "newPlaceIds": [
+    "market-gwangcheon-hongseong",
+    "dining-leesungdang-gunsan",
+    "dining-binhaewon-gunsan"
+  ],
+  "newPlaceRecordHashes": [
+    {
+      "id": "market-gwangcheon-hongseong",
+      "sha256": "05ccc52d9111568471a9f5f47e8e875d60c7003d464c9bdae8137ca489ba8dc9"
+    },
+    {
+      "id": "dining-leesungdang-gunsan",
+      "sha256": "3bec159937d90d15d37e61d5052b3d0a3f7c7fba23890b59e91ac6ac2a240411"
+    },
+    {
+      "id": "dining-binhaewon-gunsan",
+      "sha256": "0a90ead85054015d1ff782386900edf36fc2a03e52bf7a01674e21cf05fabafc"
+    }
+  ],
+  "existingChanges": [
+    {
+      "id": "market-onyang-oncheon-asan",
+      "beforeRecordSHA256": "9e06cffbb338355e4751be5ca6dd0ed300549df8a6f72dd5cade71d4094adf4d",
+      "afterRecordSHA256": "5d34fb12dbaf75ef1ffdfad547a475b82d197272a746225bb77720fabd00085c",
+      "changedFields": [
+        "coordinates",
+        "coordinate_status",
+        "radial_distance_km",
+        "coordinate_quality",
+        "coordinate_source_url",
+        "coordinate_provenance",
+        "coordinate_source_sha256",
+        "distance_reference_id",
+        "distance_method",
+        "radius_status",
+        "distance_label",
+        "notes"
+      ],
+      "before": {
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "after": {
+        "coordinates": {
+          "lat": 36.7832980345489,
+          "lng": 127.004285318033
+        },
+        "radial_distance_km": 20.1
+      },
+      "sourceURL": "https://access.visitkorea.or.kr/ms/detail.do?cotId=fc941a7b-c2a2-4c8f-aa2f-79dcc4b778df",
+      "scope": "Source-published general market destination; no entrance, parking, stall, boundary or accessible-route verification.",
+      "allExistingSourceObjectsPreserved": true,
+      "fiveLanguageNotePrefixesPreserved": true
+    },
+    {
+      "id": "market-cheongju-yukgeori",
+      "beforeRecordSHA256": "98bcffe935a9f526a0406a96dfabf58a5eb0ffcfff8bea4f9a1f48ac2eab2f71",
+      "afterRecordSHA256": "c77cc08b11bc64d26107f615cd4406c921bd28b3627dc9e41404692abd9c2986",
+      "changedFields": [
+        "coordinates",
+        "coordinate_status",
+        "radial_distance_km",
+        "coordinate_quality",
+        "coordinate_source_url",
+        "coordinate_provenance",
+        "coordinate_source_sha256",
+        "distance_reference_id",
+        "distance_method",
+        "radius_status",
+        "distance_label",
+        "notes"
+      ],
+      "before": {
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "after": {
+        "coordinates": {
+          "lat": 36.6281475986498,
+          "lng": 127.4900878094
+        },
+        "radial_distance_km": 55.2
+      },
+      "sourceURL": "https://access.visitkorea.or.kr/ms/detail.do?cotId=99c0742d-6c6b-44fa-8de5-7d979a344032",
+      "scope": "Source-published general market destination; no entrance, parking, stall, boundary or accessible-route verification.",
+      "allExistingSourceObjectsPreserved": true,
+      "fiveLanguageNotePrefixesPreserved": true
+    },
+    {
+      "id": "market-yongin-jungang",
+      "beforeRecordSHA256": "b3c4a32df13e2503c5220b65a68f4de23c17aadcdcf5e0b383a0fbc843456a43",
+      "afterRecordSHA256": "33c2f82136afcaa8d5a12f9c136e77c382e9759fc0f09ed35e4ec440fd0f991d",
+      "changedFields": [
+        "coordinates",
+        "coordinate_status",
+        "radial_distance_km",
+        "coordinate_quality",
+        "coordinate_source_url",
+        "coordinate_provenance",
+        "coordinate_source_sha256",
+        "distance_reference_id",
+        "distance_method",
+        "radius_status",
+        "distance_label",
+        "notes"
+      ],
+      "before": {
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "after": {
+        "coordinates": {
+          "lat": 37.236714316324374,
+          "lng": 127.2078580400967
+        },
+        "radial_distance_km": 34.3
+      },
+      "sourceURL": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9c57872e-895b-41db-a05e-0c676b082397",
+      "scope": "Source-published general market destination; no entrance, parking, stall, boundary or accessible-route verification.",
+      "allExistingSourceObjectsPreserved": true,
+      "fiveLanguageNotePrefixesPreserved": true
+    }
+  ],
+  "publicEvidenceArtifacts": [
+    {
+      "path": "data/history/batch18-existing-audit.json",
+      "sha256": "396bf04f256807e4fcba52de58248b7e5c43a9916a88e092676852a0203061e3"
+    },
+    {
+      "path": "data/history/batch18-new-places-audit.json",
+      "sha256": "4b829633006bd72be68b69cee616bea4da560fc69f610099bd88d9bf194d146b"
+    },
+    {
+      "path": "data/history/batch18-new-places-evidence.json",
+      "sha256": "00eb967e129404481dd0bc618408c30cfc0a6ba4e4581806c81db1c3bf66b82a"
+    },
+    {
+      "path": "data/history/batch18-new-places-holds.json",
+      "sha256": "f8ae868de36dfc5a95bb13d7897817fff6464aec5e4ca18efeef336866353f03"
+    }
+  ],
+  "preservation": {
+    "photosUnchanged": true,
+    "photoAssetsUnchanged": 32,
+    "nativeBaselineRowsUnchanged": 607,
+    "originalAuditValuesUnchanged": 296,
+    "nativeJoinsNotEstablishedUnchanged": 311,
+    "historicalAppliedChangesUnchanged": 213,
+    "historicalPendingFieldEditsUnchanged": 692,
+    "historicalAppend35Unchanged": true
+  },
+  "mapScope": {
+    "receiptBackedRows": 607,
+    "positioned": 601,
+    "unresolved": 6,
+    "pendingAppend": 38,
+    "generalPointCorrections": "staged_not_applied_to_live_map",
+    "writes": 0,
+    "freshInventoryVerified": false
+  },
+  "limits": [
+    "Source verification is not live operation, opening, inventory, English service, dietary suitability or payment acceptance.",
+    "Published market points are not stalls, boundaries, entrances, parking or accessible routes.",
+    "No native geometry changes, address normalizations, source status upgrades or historical cleanup execution.",
+    "Public audit artifacts describe their preintegration research scope; this record describes the canonical integration."
+  ],
+  "canonicalInputHashes": {
+    "places.json": "5ac13d79e8c646f8b2fa58ae1256cca50f1df69ffe29eb8dce3afef7c35583db",
+    "photos.json": "43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475",
+    "research.json": "476f6660390ab7f87615236ddddf912575ceddfea67f36eb111cb8f5d934c17e"
+  }
+}

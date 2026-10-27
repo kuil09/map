@@ -51,6 +51,7 @@ def privacy_scan(root=ROOT):
         r'Sentinel_[0-9a-f]{20,}',
         r'\bturn[0-9]+(?:search|view|fetch)[0-9]+\b',
         r'[?&](?:X-Amz-Signature|X-Goog-Signature|access_token|auth_token)=[^&\s]+',
+        r'[;?&](?:jsessionid|sessionid|session_id)=[^&\s]+',
     ]
     checked = 0
     for path in sorted(root.rglob('*')):
@@ -113,6 +114,13 @@ def validate(root=ROOT, asset_root=None):
     ensure(point_count == counts['coordinatePoints'], 'Coordinate count drift')
     ensure(len(places) - point_count == counts['unmeasured'], 'Unmeasured count drift')
     ensure(research['source_audit']['source_reference_statuses'] == dict(statuses), 'Research status summary drift')
+    ensure(research['source_audit']['source_references'] == sum(statuses.values()), 'Research source count drift')
+    ensure(research['distance_audit']['checked_records'] == point_count and research['distance_audit']['unchecked_records'] == len(places) - point_count, 'Research distance count drift')
+    ensure(research['category_counts'] == dict(collections.Counter(p['category'] for p in places)), 'Research category count drift')
+    for area, categories in research['coverage'].items():
+        expected = collections.Counter(p['category'] for p in places if p['area'] == area)
+        ensure(all(count == expected[category] for category, count in categories.items()), f'{area}: coverage count drift')
+        ensure(research['coverage_gaps'][area] == [category for category, count in categories.items() if not count], f'{area}: coverage gaps drift')
     ensure(len(photos) == counts['photos'], 'Photo count drift')
     ensure(len({p['id'] for p in photos}) == len(photos), 'Duplicate photo ID')
     assets = []
@@ -163,6 +171,7 @@ def validate(root=ROOT, asset_root=None):
     ensure(len(queue) == len(set(queue)) and not set(queue) & set(imported), 'Pending IDs duplicate imported cohort')
     ensure(set(imported) | set(queue) == set(ids), 'Imported + pending does not cover canonical places')
     ensure(sync['siteTotal'] == len(places), 'Sync site count drift')
+    ensure(research['map']['expected_total'] == len(places) and research['map']['remaining_map_uploads'] == len(queue), 'Research pending-map count drift')
     ensure(sync['confirmedNativeRows'] == 607 and sync['positionedMarkers'] + sync['unresolvedRows'] == 607, 'Receipt-backed map counts')
     archive = sync['appendFile']
     archived_csv = root / archive['path']
@@ -178,6 +187,17 @@ def validate(root=ROOT, asset_root=None):
         ensure(row['Category'][0].isascii() and row['Category'][0].isalpha(), 'Category must be English-first')
         for value in row.values():
             ensure(not value.lstrip().startswith(('=', '+', '-', '@')), 'Spreadsheet formula-like cell')
+    current = sync.get('currentAppendFile')
+    if current:
+        from map_csv import format_places, csv_bytes
+        candidate = root / current['path']
+        ensure(current['path'] != archive['path'], 'Current export must not overwrite historical append')
+        ensure(candidate.read_bytes() == csv_bytes(format_places(places, queue)), 'Current append differs from canonical queue')
+        ensure(digest(candidate) == current['sha256'] and candidate.stat().st_size == current['bytes'], 'Current append hash/size drift')
+        ensure(current['rows'] == len(queue), 'Current append row count drift')
+        ensure(current['coordinateColumns'] == 0 and current['sourceAuditColumn'] is False, 'Unsafe current append metadata')
+    for group in sync['existingUpdateGroups']:
+        ensure(set(group['explicitPlaceIds']).issubset(ids), 'Unknown existing correction ID')
     geometry = load('data/map/geometry-evidence.json', root)
     ensure(geometry['completeNativeGeometryBackup'] is False, 'Unproven geometry backup claim')
     ensure(len(geometry['importedCoordinateText']) == 100 and len(geometry['displayCoordinateComparisons']) == 47, 'Geometry evidence counts')

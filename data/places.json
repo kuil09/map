@@ -34238,11 +34238,11 @@
       "es": "Mercado cerca de la estación Onyang Oncheon con productos locales, alimentos secos, ropa y comercios de comida tradicionales."
     },
     "notes": {
-      "en": "Permanent shops and larger market days are different: KTO lists dates ending in 4 or 9. Some lanes are covered; no current footbath operation is implied. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients.",
-      "ko": "상설 점포와 장날은 구분됩니다. 한국관광공사는 끝자리 4·9일을 장날로 안내합니다. 일부 구간은 덮여 있으나 족욕탕의 현재 운영을 뜻하지는 않습니다. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요.",
-      "ja": "常設店と市の日は別です。KTOは日付の末尾が4・9の日を案内。一部は屋根付きですが、足湯の営業確認ではありません。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。",
-      "zh": "常设店铺与赶集日不同；KTO标明尾数为4或9的日期为集日。部分通道有顶棚，不代表足浴目前开放。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。",
-      "es": "Los comercios permanentes no se limitan al día de mercado: KTO indica fechas terminadas en 4 o 9. Hay zonas cubiertas; no se confirma el funcionamiento del pediluvio. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor."
+      "en": "Permanent shops and larger market days are different: KTO lists dates ending in 4 or 9. Some lanes are covered; no current footbath operation is implied. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients. KTO publishes a general market destination point, not an individual stall or the full market boundary. The exact entrance, parking and accessible route are unverified. The distance is a straight-line planning estimate, not road distance.",
+      "ko": "상설 점포와 장날은 구분됩니다. 한국관광공사는 끝자리 4·9일을 장날로 안내합니다. 일부 구간은 덮여 있으나 족욕탕의 현재 운영을 뜻하지는 않습니다. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요. 한국관광공사가 공개한 시장의 일반 위치이며 개별 점포나 시장 전체 경계를 나타내지 않습니다. 정확한 출입구·주차장·무장애 이동 경로는 미확인입니다. 거리는 계획 참고용 직선거리이며 도로거리가 아닙니다.",
+      "ja": "常設店と市の日は別です。KTOは日付の末尾が4・9の日を案内。一部は屋根付きですが、足湯の営業確認ではありません。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。 韓国観光公社が公開する市場の一般的な地点で、個別の店や市場全体の境界を示すものではありません。正確な入口、駐車場、バリアフリー経路は未確認。距離は計画用の直線距離で、道路距離ではありません。",
+      "zh": "常设店铺与赶集日不同；KTO标明尾数为4或9的日期为集日。部分通道有顶棚，不代表足浴目前开放。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。 韩国旅游发展局公布的是市场的一般位置，并不代表某个摊店或整个市场边界。具体入口、停车场和无障碍路线尚未核实。距离为行程规划用的直线估算值，并非道路距离。",
+      "es": "Los comercios permanentes no se limitan al día de mercado: KTO indica fechas terminadas en 4 o 9. Hay zonas cubiertas; no se confirma el funcionamiento del pediluvio. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor. KTO publica un punto general del mercado, no de un puesto concreto ni de todo su perímetro. No se verificaron la entrada exacta, el aparcamiento ni la ruta accesible. La distancia es una estimación en línea recta para planificar, no por carretera."
     },
     "sources": [
       {
@@ -34294,10 +34294,13 @@
     "checked": "2026-10-27",
     "checked_timezone": "Asia/Seoul",
     "map_type": "search",
-    "coordinates": null,
-    "coordinate_status": "Exact official source address only; general map point, entrance and parking not independently verified. No coordinates invented.",
-    "radial_distance_km": null,
-    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "coordinates": {
+      "lat": 36.7832980345489,
+      "lng": 127.004285318033
+    },
+    "coordinate_status": "Official tourism general market destination point; exact entrance, parking, individual stalls and accessible route unverified.",
+    "radial_distance_km": 20.1,
+    "radius_status": "Within 200 km of the documented public airfield reference using an official tourism general market point; entrance precision and full market extent unverified. Straight-line planning estimate, not road distance.",
     "market_format": "permanent shops plus scheduled five-day market",
     "live_availability": "unknown",
     "english_support": "unknown",
@@ -34313,7 +34316,20 @@
       "传统市场",
       "mercado tradicional"
     ],
-    "semantic_dedup_note": "No existing whole-market destination or address collision in the 525-place baseline."
+    "semantic_dedup_note": "No existing whole-market destination or address collision in the 525-place baseline.",
+    "coordinate_quality": "official_tourism_published",
+    "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=fc941a7b-c2a2-4c8f-aa2f-79dcc4b778df",
+    "coordinate_provenance": "KTO exact named market page matches the unchanged full address. Its name-bearing directions coordinates equal the explicit destination-marker coordinates. General market point only; not a default map center, city/base centroid, runtime geocoding, individual stall, market boundary or inferred entrance.",
+    "coordinate_source_sha256": "f2cb3d90d26f9f3f146e4ce51e26cbc10691ef34d9592a60790cff42cc5033d2",
+    "distance_reference_id": "desiderio-rksg-ourairports-20260515",
+    "distance_method": "Spherical Haversine; mean Earth radius 6371.0088 km",
+    "distance_label": {
+      "en": "≈ 20.1 km straight-line · published market point",
+      "ko": "직선 약 20.1 km · 공식 공개 시장 위치",
+      "ja": "直線約20.1 km・公式公開市場地点",
+      "zh": "直线约20.1公里·官方公开市场位置",
+      "es": "≈ 20.1 km en línea recta · punto publicado del mercado"
+    }
   },
   {
     "id": "market-osaek-osan",
@@ -34627,11 +34643,11 @@
       "es": "Mercado tradicional de Cheongju con productos agrícolas y artículos cotidianos, además de comercio de productos frescos al amanecer."
     },
     "notes": {
-      "en": "KTO separately lists a five-day market as “2·7”; confirm its calendar and early-morning activity before making a special trip. The source uses this lot-number address. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients.",
-      "ko": "한국관광공사는 오일장을 별도로 ‘2·7일’로 안내합니다. 장날·새벽시장만을 위한 방문은 일정을 재확인하세요. 출처의 지번 주소를 그대로 사용합니다. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요.",
-      "ja": "KTOは五日市を別途「2・7日」と表記。市の日や早朝を目当てに行く前に確認を。この住所は資料記載の地番です。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。",
-      "zh": "KTO另将五日集标为“2·7日”；专程赶集或逛早市前请确认日程。此处保留来源的地块地址。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。",
-      "es": "KTO indica por separado un mercado de cinco días como «2·7»; confirma el calendario y la actividad matinal antes de ir expresamente. Se conserva la dirección por parcela de la fuente. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor."
+      "en": "KTO separately lists a five-day market as “2·7”; confirm its calendar and early-morning activity before making a special trip. The source uses this lot-number address. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients. KTO publishes a general market destination point, not an individual stall or the full market boundary. The exact entrance, parking and accessible route are unverified. The distance is a straight-line planning estimate, not road distance.",
+      "ko": "한국관광공사는 오일장을 별도로 ‘2·7일’로 안내합니다. 장날·새벽시장만을 위한 방문은 일정을 재확인하세요. 출처의 지번 주소를 그대로 사용합니다. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요. 한국관광공사가 공개한 시장의 일반 위치이며 개별 점포나 시장 전체 경계를 나타내지 않습니다. 정확한 출입구·주차장·무장애 이동 경로는 미확인입니다. 거리는 계획 참고용 직선거리이며 도로거리가 아닙니다.",
+      "ja": "KTOは五日市を別途「2・7日」と表記。市の日や早朝を目当てに行く前に確認を。この住所は資料記載の地番です。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。 韓国観光公社が公開する市場の一般的な地点で、個別の店や市場全体の境界を示すものではありません。正確な入口、駐車場、バリアフリー経路は未確認。距離は計画用の直線距離で、道路距離ではありません。",
+      "zh": "KTO另将五日集标为“2·7日”；专程赶集或逛早市前请确认日程。此处保留来源的地块地址。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。 韩国旅游发展局公布的是市场的一般位置，并不代表某个摊店或整个市场边界。具体入口、停车场和无障碍路线尚未核实。距离为行程规划用的直线估算值，并非道路距离。",
+      "es": "KTO indica por separado un mercado de cinco días como «2·7»; confirma el calendario y la actividad matinal antes de ir expresamente. Se conserva la dirección por parcela de la fuente. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor. KTO publica un punto general del mercado, no de un puesto concreto ni de todo su perímetro. No se verificaron la entrada exacta, el aparcamiento ni la ruta accesible. La distancia es una estimación en línea recta para planificar, no por carretera."
     },
     "sources": [
       {
@@ -34653,10 +34669,13 @@
     "checked": "2026-10-27",
     "checked_timezone": "Asia/Seoul",
     "map_type": "search",
-    "coordinates": null,
-    "coordinate_status": "Exact official source address only; general map point, entrance and parking not independently verified. No coordinates invented.",
-    "radial_distance_km": null,
-    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "coordinates": {
+      "lat": 36.6281475986498,
+      "lng": 127.4900878094
+    },
+    "coordinate_status": "Official tourism general market destination point; exact entrance, parking, individual stalls and accessible route unverified.",
+    "radial_distance_km": 55.2,
+    "radius_status": "Within 200 km of the documented public airfield reference using an official tourism general market point; entrance precision and full market extent unverified. Straight-line planning estimate, not road distance.",
     "market_format": "established market shops plus early-morning and five-day trading",
     "live_availability": "unknown",
     "english_support": "unknown",
@@ -34672,7 +34691,20 @@
       "传统市场",
       "mercado tradicional"
     ],
-    "semantic_dedup_note": "No existing whole-market destination or address collision in the 525-place baseline."
+    "semantic_dedup_note": "No existing whole-market destination or address collision in the 525-place baseline.",
+    "coordinate_quality": "official_tourism_published",
+    "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=99c0742d-6c6b-44fa-8de5-7d979a344032",
+    "coordinate_provenance": "KTO exact named market page matches the unchanged full address. Its name-bearing directions coordinates equal the explicit destination-marker coordinates. General market point only; not a default map center, city/base centroid, runtime geocoding, individual stall, market boundary or inferred entrance.",
+    "coordinate_source_sha256": "3314fb5c0cbe42984917058438ad943edcc83d6ae318f6bd2fc3535f86da75d3",
+    "distance_reference_id": "desiderio-rksg-ourairports-20260515",
+    "distance_method": "Spherical Haversine; mean Earth radius 6371.0088 km",
+    "distance_label": {
+      "en": "≈ 55.2 km straight-line · published market point",
+      "ko": "직선 약 55.2 km · 공식 공개 시장 위치",
+      "ja": "直線約55.2 km・公式公開市場地点",
+      "zh": "直线约55.2公里·官方公开市场位置",
+      "es": "≈ 55.2 km en línea recta · punto publicado del mercado"
+    }
   },
   {
     "id": "market-yongin-jungang",
@@ -34692,11 +34724,11 @@
       "es": "Mercado de Yongin con galerías y callejuelas dedicadas a pasteles de arroz, sundae y artículos para el hogar."
     },
     "notes": {
-      "en": "Permanent Jungang shops differ from the linked outdoor Yongin five-day market, listed for 5, 10, 15, 20, 25 and 30 each month. Confirm dates; both are treated as one market visit here. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients. Listed day numbers apply only when that date exists in the month; do not infer a replacement day.",
-      "ko": "상설 중앙시장 점포와 연계된 야외 용인 오일장은 구분됩니다. 오일장은 매월 5·10·15·20·25·30일로 안내됩니다. 일정을 확인하고 하나의 시장 방문으로 계획하세요. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요. 해당 월에 실제로 있는 날짜에만 적용되며, 없는 날짜의 대체 장날을 추정하지 마세요.",
-      "ja": "常設の中央市場と連携する屋外の龍仁五日市は別の営業形態。毎月5・10・15・20・25・30日と案内されています。日程を確認し、一つの市場訪問として計画してください。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。 その月に実在する日付に限ります。存在しない日付の振替日は推測しないでください。",
-      "zh": "常设中央市场店铺与相连的龙仁露天五日集不同；集日列为每月5、10、15、20、25、30日。请确认日期，这里作为一次市场游览。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。 所列日期仅适用于该月实际存在的日期；不要推定不存在日期的补集日。",
-      "es": "Los comercios permanentes se distinguen del mercado al aire libre vinculado, anunciado los días 5, 10, 15, 20, 25 y 30. Confirma las fechas; aquí se consideran una sola visita. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor. Los números de día solo se aplican cuando esa fecha existe en el mes; no supongas una fecha sustitutiva."
+      "en": "Permanent Jungang shops differ from the linked outdoor Yongin five-day market, listed for 5, 10, 15, 20, 25 and 30 each month. Confirm dates; both are treated as one market visit here. Confirm shop opening before travel; individual sellers differ. Card acceptance and English service are unverified. Ask the food seller about ingredients. Listed day numbers apply only when that date exists in the month; do not infer a replacement day. KTO publishes a general market destination point, not an individual stall or the full market boundary. The exact entrance, parking and accessible route are unverified. The distance is a straight-line planning estimate, not road distance.",
+      "ko": "상설 중앙시장 점포와 연계된 야외 용인 오일장은 구분됩니다. 오일장은 매월 5·10·15·20·25·30일로 안내됩니다. 일정을 확인하고 하나의 시장 방문으로 계획하세요. 방문 전 개별 점포의 운영을 확인하세요. 카드 결제·영어 응대는 미확인입니다. 음식 재료는 해당 판매자에게 물어보세요. 해당 월에 실제로 있는 날짜에만 적용되며, 없는 날짜의 대체 장날을 추정하지 마세요. 한국관광공사가 공개한 시장의 일반 위치이며 개별 점포나 시장 전체 경계를 나타내지 않습니다. 정확한 출입구·주차장·무장애 이동 경로는 미확인입니다. 거리는 계획 참고용 직선거리이며 도로거리가 아닙니다.",
+      "ja": "常設の中央市場と連携する屋外の龍仁五日市は別の営業形態。毎月5・10・15・20・25・30日と案内されています。日程を確認し、一つの市場訪問として計画してください。 出発前に各店舗の営業を確認。カード・英語対応は未確認です。食材は販売店に確認してください。 その月に実在する日付に限ります。存在しない日付の振替日は推測しないでください。 韓国観光公社が公開する市場の一般的な地点で、個別の店や市場全体の境界を示すものではありません。正確な入口、駐車場、バリアフリー経路は未確認。距離は計画用の直線距離で、道路距離ではありません。",
+      "zh": "常设中央市场店铺与相连的龙仁露天五日集不同；集日列为每月5、10、15、20、25、30日。请确认日期，这里作为一次市场游览。 出发前请确认各店营业情况。银行卡与英语服务尚未核实；食材请向具体摊店确认。 所列日期仅适用于该月实际存在的日期；不要推定不存在日期的补集日。 韩国旅游发展局公布的是市场的一般位置，并不代表某个摊店或整个市场边界。具体入口、停车场和无障碍路线尚未核实。距离为行程规划用的直线估算值，并非道路距离。",
+      "es": "Los comercios permanentes se distinguen del mercado al aire libre vinculado, anunciado los días 5, 10, 15, 20, 25 y 30. Confirma las fechas; aquí se consideran una sola visita. Confirma la apertura de cada comercio antes de ir. No se verificaron tarjetas ni atención en inglés. Consulta los ingredientes con el vendedor. Los números de día solo se aplican cuando esa fecha existe en el mes; no supongas una fecha sustitutiva. KTO publica un punto general del mercado, no de un puesto concreto ni de todo su perímetro. No se verificaron la entrada exacta, el aparcamiento ni la ruta accesible. La distancia es una estimación en línea recta para planificar, no por carretera."
     },
     "sources": [
       {
@@ -34733,10 +34765,13 @@
     "checked": "2026-10-27",
     "checked_timezone": "Asia/Seoul",
     "map_type": "search",
-    "coordinates": null,
-    "coordinate_status": "Exact official source address only; general map point, entrance and parking not independently verified. No coordinates invented.",
-    "radial_distance_km": null,
-    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "coordinates": {
+      "lat": 37.236714316324374,
+      "lng": 127.2078580400967
+    },
+    "coordinate_status": "Official tourism general market destination point; exact entrance, parking, individual stalls and accessible route unverified.",
+    "radial_distance_km": 34.3,
+    "radius_status": "Within 200 km of the documented public airfield reference using an official tourism general market point; entrance precision and full market extent unverified. Straight-line planning estimate, not road distance.",
     "market_format": "permanent shops plus linked outdoor five-day market",
     "live_availability": "unknown",
     "english_support": "unknown",
@@ -34752,7 +34787,20 @@
       "传统市场",
       "mercado tradicional"
     ],
-    "semantic_dedup_note": "Entire Yongin Jungang market visit; its rice-cake/sundae/general-goods aisles and linked outdoor Yonginjang are not added as separate destinations."
+    "semantic_dedup_note": "Entire Yongin Jungang market visit; its rice-cake/sundae/general-goods aisles and linked outdoor Yonginjang are not added as separate destinations.",
+    "coordinate_quality": "official_tourism_published",
+    "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9c57872e-895b-41db-a05e-0c676b082397",
+    "coordinate_provenance": "KTO exact named market page matches the unchanged full address. Its name-bearing directions coordinates equal the explicit destination-marker coordinates. General market point only; not a default map center, city/base centroid, runtime geocoding, individual stall, market boundary or inferred entrance. The point names permanent Jungang Market, not the separate outdoor Yongin five-day market area described only as linked context.",
+    "coordinate_source_sha256": "6b23ae66082d045ea74a207ec58d00825136a0907cc3c70747420753a57c4d7e",
+    "distance_reference_id": "desiderio-rksg-ourairports-20260515",
+    "distance_method": "Spherical Haversine; mean Earth radius 6371.0088 km",
+    "distance_label": {
+      "en": "≈ 34.3 km straight-line · published market point",
+      "ko": "직선 약 34.3 km · 공식 공개 시장 위치",
+      "ja": "直線約34.3 km・公式公開市場地点",
+      "zh": "直线约34.3公里·官方公开市场位置",
+      "es": "≈ 34.3 km en línea recta · punto publicado del mercado"
+    }
   },
   {
     "id": "market-jidong-suwon",
@@ -42619,5 +42667,211 @@
     "foreign_card_payment": "unverified",
     "alert": true,
     "registry_type_status": "Exact cited non-www registry body classifies as 자동차야영장; an older www-host cached QA capture said 일반야영장. Facility table and explicit personal-trailer permission agree in both. No motorhome guarantee inferred."
+  },
+  {
+    "id": "market-gwangcheon-hongseong",
+    "name_en": "Gwangcheon Traditional Market · Hongseong",
+    "name_ko": "광천전통시장",
+    "area": "Hongseong",
+    "category": "shopping",
+    "setting": "mixed",
+    "address": "충청남도 홍성군 광천읍 광천로285번길 8-16",
+    "checked": "2026-10-27",
+    "checked_timezone": "Asia/Seoul",
+    "map_type": "search",
+    "coordinates": null,
+    "coordinate_status": "Official source street address only; exact entrance, parking, coordinates and distance not independently verified.",
+    "radial_distance_km": null,
+    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "kind": "traditional-market",
+    "market_format": "permanent market with periodic market days",
+    "source_updated": "2026-10-08",
+    "name_translation_note": "English name uses editorial romanization; no official multilingual branding implied.",
+    "description": {
+      "en": "Gwangcheon market for salted shrimp, seaweed and farm produce.",
+      "ko": "새우젓·김·농산물을 살펴볼 수 있는 광천의 전통시장.",
+      "ja": "塩辛の小エビ、海苔、農産物を扱う広川の伝統市場。",
+      "zh": "广川的传统市场，售卖虾酱、海苔和农产品。",
+      "es": "Mercado tradicional de Gwangcheon con camarón salado, algas y productos agrícolas."
+    },
+    "notes": {
+      "en": "KTO lists permanent shops and periodic market days; confirm dates and individual stalls before travel. Current opening, stock, payment and English service are unverified. Check ingredients, allergens and dietary requirements with sellers.",
+      "ko": "KTO는 상설 점포와 정기 장날을 안내합니다. 방문 전 장날과 개별 점포 운영을 확인하세요. 현재 영업·재고·결제·영어 응대는 미확인입니다. 재료·알레르기 유발 성분·식이 조건은 판매자에게 확인하세요.",
+      "ja": "KTOは常設店と定期市を紹介しています。出発前に開催日と各店の営業を確認してください。現在の営業・在庫・支払い・英語対応は未確認です。食材、アレルゲン、食事条件は販売店に確認を。",
+      "zh": "KTO介绍了常设商铺和定期集市；出发前请确认集市日期及各店营业情况。当前营业、库存、支付方式和英语服务未经核实。请向卖家确认食材、过敏原及饮食要求。",
+      "es": "KTO indica puestos permanentes y días de mercado periódico; confirma fechas y puestos antes de viajar. Apertura actual, existencias, pagos y atención en inglés sin verificar. Consulta ingredientes, alérgenos y requisitos alimentarios."
+    },
+    "sources": [
+      {
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=79f6fe32-fdaa-403b-960b-352b908ff57b",
+        "quality": "official",
+        "audit": {
+          "checked": "2026-10-27",
+          "checked_timezone": "Asia/Seoul",
+          "status": "verified",
+          "scope": "exact",
+          "http": null,
+          "title": "KTO Accessible Tourism — Gwangcheon Traditional Market",
+          "final_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=79f6fe32-fdaa-403b-960b-352b908ff57b",
+          "reason": "Exact named market page gives 광천로285번길 8-16, salted shrimp, seaweed, agricultural products and permanent-plus-periodic market format. Displayed update: 2026-10-08. Individual shop hours vary; no current opening or stock guarantee.",
+          "access_method": "Substantive public source body read; no live opening or availability check."
+        }
+      }
+    ],
+    "search_terms": [
+      "Gwangcheon Traditional Market",
+      "광천전통시장",
+      "광천시장",
+      "Hongseong",
+      "홍성",
+      "새우젓",
+      "김",
+      "traditional market",
+      "伝統市場",
+      "传统市场",
+      "mercado tradicional"
+    ],
+    "semantic_dedup_note": "One whole-market destination, not separate salted-shrimp shops, market-day stalls, a festival or the wider Gwangcheon specialty-products district."
+  },
+  {
+    "id": "dining-leesungdang-gunsan",
+    "name_en": "Leesungdang · Gunsan Jungang-ro",
+    "name_ko": "이성당 (군산 중앙로)",
+    "area": "Gunsan",
+    "category": "food",
+    "setting": "indoor",
+    "address": "전북특별자치도 군산시 중앙로 177",
+    "checked": "2026-10-27",
+    "checked_timezone": "Asia/Seoul",
+    "map_type": "search",
+    "coordinates": null,
+    "coordinate_status": "Official source street address only; exact entrance, parking, coordinates and distance not independently verified.",
+    "radial_distance_km": null,
+    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "cuisine": "cafe",
+    "place_type": "bakery_cafe",
+    "name_translation_note": "Gunsan Jungang-ro is an editorial location qualifier, not an asserted official branch name.",
+    "description": {
+      "en": "Gunsan bakery listed by KTO for sweet red-bean buns, vegetable buns and coffee.",
+      "ko": "KTO가 단팥빵·야채빵·커피를 소개하는 군산 베이커리.",
+      "ja": "KTOがあんパン、野菜パン、コーヒーを紹介する群山のベーカリー。",
+      "zh": "KTO介绍的群山面包店，列有红豆面包、蔬菜面包及咖啡。",
+      "es": "Panadería de Gunsan que KTO presenta por sus bollos de judía roja, bollos de verduras y café."
+    },
+    "notes": {
+      "en": "This entry is for Jungang-ro 177 in Gunsan, not another branch. The KTO listing is undated; check the bakery’s latest closure notices before travel. Current hours, menu availability and English service are unverified. Vegetable buns are not verified vegetarian or vegan; confirm ingredients and allergens.",
+      "ko": "다른 지점이 아닌 군산 중앙로 177의 매장입니다. KTO 안내에는 정보 작성일이 없으므로 방문 전 최신 휴무 공지를 확인하세요. 현재 영업시간·메뉴 제공 여부·영어 응대는 미확인입니다. 야채빵의 채식·비건 적합성은 확인하지 않았으니 재료와 알레르기 유발 성분을 확인하세요.",
+      "ja": "他支店ではなく、群山・中央路177の店舗です。KTOの案内は更新日不明のため、出発前に店の最新休業案内を確認してください。現在の営業時間・メニュー提供・英語対応は未確認です。野菜パンの菜食・ヴィーガン対応は未確認。食材とアレルゲンを確認してください。",
+      "zh": "本条目为群山中央路177号的店铺，并非其他分店。KTO条目未标注信息日期；出发前请查看店铺最新休业通知。当前营业时间、菜品供应及英语服务未经核实。蔬菜面包不代表已确认适合素食或纯素；请确认食材和过敏原。",
+      "es": "Esta ficha es la tienda de Jungang-ro 177, Gunsan, no otra sucursal. La ficha de KTO no está fechada; consulta los últimos avisos de cierre. Horarios actuales, productos disponibles y atención en inglés sin verificar. Los bollos de verduras no están verificados como vegetarianos o veganos; confirma ingredientes y alérgenos."
+    },
+    "sources": [
+      {
+        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174289",
+        "quality": "official",
+        "audit": {
+          "checked": "2026-10-27",
+          "checked_timezone": "Asia/Seoul",
+          "status": "verified",
+          "scope": "exact",
+          "http": null,
+          "title": "Leesungdang (이성당) — VISITKOREA",
+          "final_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174289",
+          "reason": "Exact bakery page gives Jungang-ro 177 in Gunsan and red-bean buns, vegetable buns and coffee. Listing has no visible information-update date. No opening hours, product availability, dietary suitability or card acceptance inferred.",
+          "access_method": "Substantive public source body read; no live opening or availability check."
+        }
+      },
+      {
+        "url": "https://leesungdang1945.com/_wg/import/main.html",
+        "quality": "official",
+        "audit": {
+          "checked": "2026-10-27",
+          "checked_timezone": "Asia/Seoul",
+          "status": "verified",
+          "scope": "brand",
+          "http": null,
+          "title": "Leesungdang — operator site",
+          "final_url": "https://leesungdang1945.com/_wg/import/main.html",
+          "reason": "Operator site identifies the business and Jungang-ro 177, Gunsan address; used only to corroborate identity and address. Corporate/footer scope, not proof of live shop operation.",
+          "access_method": "Substantive public source body read; no live opening or availability check."
+        }
+      }
+    ],
+    "search_terms": [
+      "Leesungdang",
+      "Lee Sung Dang",
+      "이성당",
+      "Gunsan",
+      "군산",
+      "bakery",
+      "단팥빵",
+      "야채빵",
+      "ベーカリー",
+      "面包店",
+      "panadería"
+    ],
+    "semantic_dedup_note": "One Gunsan Jungang-ro bakery record; no separate new-building café, shop counter, other-city branch or brand-wide destination."
+  },
+  {
+    "id": "dining-binhaewon-gunsan",
+    "name_en": "Binhaewon · Gunsan",
+    "name_ko": "빈해원 (군산)",
+    "area": "Gunsan",
+    "category": "food",
+    "setting": "indoor",
+    "address": "전북특별자치도 군산시 동령길 57",
+    "checked": "2026-10-27",
+    "checked_timezone": "Asia/Seoul",
+    "map_type": "search",
+    "coordinates": null,
+    "coordinate_status": "Official source street address only; exact entrance, parking, coordinates and distance not independently verified.",
+    "radial_distance_km": null,
+    "radius_status": "Regionally selected for the approximately 200 km Camp Humphreys planning scope; exact straight-line and driving distances remain unmeasured.",
+    "cuisine": "chinese",
+    "description": {
+      "en": "Chinese restaurant in Gunsan listed for spicy seafood noodle soup, black-bean noodles and sweet-and-sour pork.",
+      "ko": "짬뽕·짜장면·탕수육을 소개하는 군산 중화요리 식당.",
+      "ja": "海鮮辛口麺、ジャージャー麺、酢豚が紹介される群山の中国料理店。",
+      "zh": "群山中餐厅，旅游资料列有辣海鲜汤面、炸酱面和糖醋肉。",
+      "es": "Restaurante chino de Gunsan con sopa picante de fideos y marisco, fideos con salsa de judía negra y cerdo agridulce."
+    },
+    "notes": {
+      "en": "The KTO listing is undated and is not a live opening check. Confirm current hours, menu, prices and reservations before travel. English service and dietary suitability are unverified; ask about seafood, pork, allergens and other ingredients.",
+      "ko": "KTO 안내에는 정보 작성일이 없으며 실시간 영업 확인이 아닙니다. 방문 전 현재 영업시간·메뉴·가격·예약을 확인하세요. 영어 응대와 식이 적합성은 미확인입니다. 해산물·돼지고기·알레르기 유발 성분과 기타 재료를 확인하세요.",
+      "ja": "KTOの案内は更新日不明で、当日の営業確認ではありません。来店前に営業時間・メニュー・価格・予約を確認してください。英語対応や食事条件への適合は未確認です。魚介、豚肉、アレルゲン、その他の食材を確認してください。",
+      "zh": "KTO条目未标注信息日期，并非实时营业核实。出发前请确认当前营业时间、菜单、价格和预约情况。英语服务及饮食适用性未经核实；请询问海鲜、猪肉、过敏原及其他食材。",
+      "es": "La ficha de KTO no está fechada ni confirma apertura en tiempo real. Consulta horarios actuales, menú, precios y reservas antes de viajar. Atención en inglés e idoneidad alimentaria sin verificar; pregunta por marisco, cerdo, alérgenos y otros ingredientes."
+    },
+    "sources": [
+      {
+        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191381",
+        "quality": "official",
+        "audit": {
+          "checked": "2026-10-27",
+          "checked_timezone": "Asia/Seoul",
+          "status": "verified",
+          "scope": "exact",
+          "http": null,
+          "title": "Binhaewon (빈해원) — VISITKOREA",
+          "final_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191381",
+          "reason": "Exact Chinese restaurant page names Binhaewon, gives Dongnyeong-gil 57 in Gunsan and lists jjamppong, jjajangmyeon and tangsuyuk. Undated listing; no live operation, menu availability, booking, accessibility or heritage-access guarantee.",
+          "access_method": "Substantive public source body read; no live opening or availability check."
+        }
+      }
+    ],
+    "search_terms": [
+      "Binhaewon",
+      "빈해원",
+      "Gunsan",
+      "군산",
+      "짬뽕",
+      "짜장면",
+      "탕수육",
+      "Chinese",
+      "中国料理",
+      "中餐",
+      "comida china"
+    ],
+    "semantic_dedup_note": "One restaurant destination; its historic building is not separately counted as another attraction."
   }
 ]

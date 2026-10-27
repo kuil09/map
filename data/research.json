@@ -1,9 +1,9 @@
 {
   "checked": "2026-10-27",
-  "status": "release_cloud_v35",
-  "places": 642,
+  "status": "release_cloud_v36",
+  "places": 645,
   "baseline": 105,
-  "new_places": 537,
+  "new_places": 540,
   "languages": [
     "English",
     "한국어",
@@ -358,7 +358,7 @@
       "sea": 1,
       "scenery": 0,
       "family": 0,
-      "food": 0,
+      "food": 2,
       "hobbies": 0,
       "camping": 0,
       "activities": 1
@@ -442,7 +442,7 @@
       "activities": 1
     },
     "Hongseong": {
-      "shopping": 0,
+      "shopping": 1,
       "attractions": 0,
       "cinema": 0,
       "landmarks": 1,
@@ -938,14 +938,14 @@
   },
   "source_audit": {
     "checked": "2026-10-27",
-    "places": 642,
+    "places": 645,
     "source_reference_statuses": {
-      "verified": 897,
+      "verified": 901,
       "unconfirmed": 55,
       "blocked": 4
     },
-    "method": "Each current source assigned a semantic scope or explicitly unconfirmed/blocked status after title/body/route review. HTTP 200 alone never means venue verified. Maps links reviewed as generated name/address searches, not fetched pins. Booking-route checks inherited from the documented research and do not test inventory. V5 replaces eight weak active references with read official alternatives, adds two specific supporting pages and corrects the Pyeongtaek CGV branch route while retaining uncertainty. Historical source replacements are retained in the editorial audit. V6 replaces four uncertain official references with specific KTO pages and adds two KTO restaurant records plus two clearly labeled community coordinate sources. Direct HTML requests for four English KTO pages returned 403 and were not retried; already available public web-page readings supplied their title/body evidence. V7 reads three named provincial restaurant records and replaces two uncertain Cheonan Museum references with one current KTO identity/address page. Museum opening-day conflict remains explicit. Six named official/operator map points are extracted from their published destination-marker definitions; default map centers and runtime geocoding are excluded. V8 resolves six previously uncertain named Chungnam restaurant pages through substantive name/address/menu readings. Gongju Hanwoo closure conflict within the source is explicitly retained; no current opening claim. V9 adds three explicit KTO attraction-coordinate sources for existing Danyang and Seocheon venues. Same marker/directions pair matched against exact venue/address; no runtime geocoding or nearby-venue substitution. Existing unresolved sources were not rechecked. V10 verifies five local KTO attraction points, including one new Paengseong sports park and current Naeri locator. Existing Sopung/Oeam URLs reused rather than duplicated. No denied targets or recent closure conflicts revisited. V11 reconciles Agricultural Ecology Park street locator versus the Technology Center group-programme address with separate official records; broken Seoul reference retired. Two KTO general points added. Historical 2021/2022 accessibility text is not treated as current closure evidence. V12: two existing KTO sources now support explicit general venue points; Jinnam candidate held due to a 1.1 km branch/location discrepancy. Gyeonggang branch directions distinguished from Gimyujeong footer. V13: current rendered operator guidance replaces obsolete individual-reservation advice for Osan; group entry verified read-only. Asan Rail Bike point sourced from existing KTO URL. No prior blocked targets or recently disputed closures revisited. V14: two existing Anseong KTO references now support explicit general points. Temple dirt/stone and step qualifications and restaurant meat-stock/pork details preserved in all five languages. No prior blocked target or recent conflict rechecked. Cloud v15: seven existing records remediated and 41 researched additions; indexed/redirect-limited sources explicitly unconfirmed. Cloud v20: 31 strict additions after 32-candidate semantic/dedup review; Gwanggyo held because street-address evidence is index-only. Six exact multilingual/content corrections applied, all new-source statuses preserved (54 verified-body and4 unconfirmed references). Seoil farm program separately scoped within the existing restaurant record, with no restaurant identity/admission overwrite. No live-opening, ticket, booking-access or English-service verification. Cloud v21: independent QA accepted 18 distinct places (10 restaurants and8 hobby venues) after13 official-source page reads;30 exact metadata/translation corrections and7 brand-FAQ ordering notes applied. All25 new references preserve verified status and unknown live operation;8 branch-directory scopes use brand display labels with original directory_exact_entry retained as raw_scope. Eight existing general-venue coordinates use exact saved official-source destination pairs, including4 appended KTO sources; no prior source status was changed. No fabricated coordinates, opening, stock, English service, prices or booking availability. Cloud v22: independent QA accepted10 distinctive Buddhist temples and10 separately identified Korean spa/bath/pool facilities after strict direct official address review. Venue policy claims remain branch/chain scoped; temple photography advice is general etiquette, not a venue-specific ban. Nine existing temples/hermitages receive additive source-supported taxonomy only. One new exact named KTO destination point (Gwanchoksa,86.3km) added; other19 new distances are explicitly unknown. Existing evidence statuses, descriptions, addresses and coordinates are unchanged. No live-operation, entry, booking, English-service or foreign-card promise. Cloud v24: independent QA accepted10 whole traditional markets and9 exact restaurants across five previously empty food regions. Market permanent shops and periodic trading/events are distinguished; directory/related scopes retain their semantic labels, historical source ages and source-specific schedule limits. Existing8 references across4 records reviewed:5 promoted,2 remain unconfirmed and1 blocked403 without retry. Downtown Lanes gains an independently confirmed official BLDG5722 link point, not a gate/entrance or permission to enter. No current opening, stock, dietary suitability, foreign-card, booking, English-service or access promise. Cloud v25: independent QA accepted 9 registered campsites and 8 exact outdoor-activity venues. Registry identity, facilities and published map points do not establish current operation, inventory, booking eligibility or site entrances. Exact-before existing source refresh preserves every complete address and all unspecified fields; prior blocked sources remain blocked. No new coordinates or distances are asserted: campsite map anchors/derived marker offsets and activity source addresses are not promoted to verified venue points. Cloud v26: independent QA approved9 museums/observatories and8 restaurants after12 exact-before corrections. Two December2023 official food references carry older-official badges and five-language historical limits; Baegunjae is held because only2020 historical evidence is established. Five reservation/dated partial-room restrictions are visible alerts, not whole-facility closure claims. Source verification is not current operation, booking inventory, dietary certification or English service. Saved source code supports a GoCamping map-anchor interpretation for69 adopted points;15m is a display offset, not location error. Nine more camping anchors remain unadopted/null. Every numeric point, distance and complete address is unchanged. The latest additions comprise 9 coastal/nature destinations and 6 specialist hobby venues, with 28 source references. Coastal tides, uncertain closures and entrance steps remain explicit; the Tando guide is dated June 2024. Guro game-center entry retains the Korean school-grade guardian requirement, card authentication and late-session reservation limits. The online-only Wev/Gamemol address is not treated as a verified visitor destination. An existing-source review covered the structure of all 578 earlier records and 816 references, with 9 official URLs selected for further reading: 8 substantive bodies were read and 1 remained unavailable. No confirmed link/scope error was found; unchanged historical evidence is not a new live-operation check. The latest additions comprise eight exact restaurants and six public sports venues, supported by 22 directly read official references. Bowling, ice-skating and climbing rules are facility-specific; school-grade recommendations are not converted to mandatory numerical ages. Day use does not establish current session availability or booking eligibility. Three existing entries receive additive evidence and five-language clarifications: KTO corroborates Midongsan’s published address; a March 2023 municipal article supports Cheongju children’s-center identity/address, not current booking; a June 2021 interview supports Gogiri identity and perilla-oil noodles, not its numbered address or present operation. All 844 earlier source objects and their statuses are retained unchanged. The Gogiri 119-versus-157 address discrepancy remains unresolved; no stored address, coordinate or distance is changed. Twelve additions comprise six registered campgrounds and six shopping destinations, supported by 24 official references. Published campsite types, vehicle admission and seasonal dates remain source-specific rather than live availability guarantees. Yesan Market retains the alternate official address and Naeto Market retains its wheelchair-access warning. Two additional KTO exact named-venue pages support general destination points for the Chungju meteorological museum and National Aviation Museum; neither establishes an entrance, parking or accessible route. All 869 earlier source objects and statuses, and all 607 earlier addresses, are unchanged. Eight cultural additions are supported by twelve independently read source references: three Catholic pilgrimage sites, two Buddhist temples and three museums. Taegosa retains the county’s vicinity address with 일원 and an explicit warning that the entrance, parking and arrival point are not verified. Gusan’s visiting access, interiors, Mass and English-language services remain unconfirmed. All eight have unknown coordinates and straight-line distances. All 619 earlier place objects and 895 earlier source references, including their statuses, are unchanged. Four restaurant additions use eight tourism and operator references to distinguish exact branches, addresses and cuisine: Indy on Techno Jungang-ro, Dono Marco in Cheonan, Cozy House Suwon Jangan and the separate No Brand Burger tenant on Starfield Anseong’s first floor. All 907 earlier source objects and statuses are unchanged. Eight existing KTO references support named general destination points; they do not establish surveyed entrances, parking or accessible routes. Current opening, dish availability, dietary suitability and English service remain unverified. Four spa additions use thirteen directly reviewed operator/tourism references: Songhaeon Songdo, Yulam Hot Springs, Forest Resom Have9/Onmidang and women-only Spa Lei. Three existing spas receive exact scoped five-language visitor guidance; Asan Spavis gains two append-only official references. All 915 earlier source objects and statuses, all earlier names, addresses and coordinates remain unchanged. Pool swimwear, bath/sauna zones, jjimjil outfits and ticket products are distinguished only where the specific source supports them; unknown towels, toiletries, foreign visitor support and current availability remain explicit. Historical closure notices are not current closure evidence, and no health efficacy is asserted. Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified. Three registered public campground additions use eleven directly read official references: Ungpo (Gomgaenaru) in Iksan, Goegang in Goesan and Yeongwol Donggang. Advance internet reservation and named-booker restrictions remain source-specific; Goegang and Donggang booking-route uncertainty is visibly flagged. Own-trailer listing is not unrestricted campervan or rental-caravan permission. All three coordinates and distances remain null. Three appended KTO references support general venue destination points for Solmoe, Waujeongsa and Gongseri; these do not verify entrances, parking or accessible routes. All 942 earlier source objects/statuses, names and addresses remain exact. Current operation, booking availability, foreign-ID/phone/payment support and English assistance are unverified.",
-    "source_references": 956
+    "method": "Each current source assigned a semantic scope or explicitly unconfirmed/blocked status after title/body/route review. HTTP 200 alone never means venue verified. Maps links reviewed as generated name/address searches, not fetched pins. Booking-route checks inherited from the documented research and do not test inventory. V5 replaces eight weak active references with read official alternatives, adds two specific supporting pages and corrects the Pyeongtaek CGV branch route while retaining uncertainty. Historical source replacements are retained in the editorial audit. V6 replaces four uncertain official references with specific KTO pages and adds two KTO restaurant records plus two clearly labeled community coordinate sources. Direct HTML requests for four English KTO pages returned 403 and were not retried; already available public web-page readings supplied their title/body evidence. V7 reads three named provincial restaurant records and replaces two uncertain Cheonan Museum references with one current KTO identity/address page. Museum opening-day conflict remains explicit. Six named official/operator map points are extracted from their published destination-marker definitions; default map centers and runtime geocoding are excluded. V8 resolves six previously uncertain named Chungnam restaurant pages through substantive name/address/menu readings. Gongju Hanwoo closure conflict within the source is explicitly retained; no current opening claim. V9 adds three explicit KTO attraction-coordinate sources for existing Danyang and Seocheon venues. Same marker/directions pair matched against exact venue/address; no runtime geocoding or nearby-venue substitution. Existing unresolved sources were not rechecked. V10 verifies five local KTO attraction points, including one new Paengseong sports park and current Naeri locator. Existing Sopung/Oeam URLs reused rather than duplicated. No denied targets or recent closure conflicts revisited. V11 reconciles Agricultural Ecology Park street locator versus the Technology Center group-programme address with separate official records; broken Seoul reference retired. Two KTO general points added. Historical 2021/2022 accessibility text is not treated as current closure evidence. V12: two existing KTO sources now support explicit general venue points; Jinnam candidate held due to a 1.1 km branch/location discrepancy. Gyeonggang branch directions distinguished from Gimyujeong footer. V13: current rendered operator guidance replaces obsolete individual-reservation advice for Osan; group entry verified read-only. Asan Rail Bike point sourced from existing KTO URL. No prior blocked targets or recently disputed closures revisited. V14: two existing Anseong KTO references now support explicit general points. Temple dirt/stone and step qualifications and restaurant meat-stock/pork details preserved in all five languages. No prior blocked target or recent conflict rechecked. Cloud v15: seven existing records remediated and 41 researched additions; indexed/redirect-limited sources explicitly unconfirmed. Cloud v20: 31 strict additions after 32-candidate semantic/dedup review; Gwanggyo held because street-address evidence is index-only. Six exact multilingual/content corrections applied, all new-source statuses preserved (54 verified-body and4 unconfirmed references). Seoil farm program separately scoped within the existing restaurant record, with no restaurant identity/admission overwrite. No live-opening, ticket, booking-access or English-service verification. Cloud v21: independent QA accepted 18 distinct places (10 restaurants and8 hobby venues) after13 official-source page reads;30 exact metadata/translation corrections and7 brand-FAQ ordering notes applied. All25 new references preserve verified status and unknown live operation;8 branch-directory scopes use brand display labels with original directory_exact_entry retained as raw_scope. Eight existing general-venue coordinates use exact saved official-source destination pairs, including4 appended KTO sources; no prior source status was changed. No fabricated coordinates, opening, stock, English service, prices or booking availability. Cloud v22: independent QA accepted10 distinctive Buddhist temples and10 separately identified Korean spa/bath/pool facilities after strict direct official address review. Venue policy claims remain branch/chain scoped; temple photography advice is general etiquette, not a venue-specific ban. Nine existing temples/hermitages receive additive source-supported taxonomy only. One new exact named KTO destination point (Gwanchoksa,86.3km) added; other19 new distances are explicitly unknown. Existing evidence statuses, descriptions, addresses and coordinates are unchanged. No live-operation, entry, booking, English-service or foreign-card promise. Cloud v24: independent QA accepted10 whole traditional markets and9 exact restaurants across five previously empty food regions. Market permanent shops and periodic trading/events are distinguished; directory/related scopes retain their semantic labels, historical source ages and source-specific schedule limits. Existing8 references across4 records reviewed:5 promoted,2 remain unconfirmed and1 blocked403 without retry. Downtown Lanes gains an independently confirmed official BLDG5722 link point, not a gate/entrance or permission to enter. No current opening, stock, dietary suitability, foreign-card, booking, English-service or access promise. Cloud v25: independent QA accepted 9 registered campsites and 8 exact outdoor-activity venues. Registry identity, facilities and published map points do not establish current operation, inventory, booking eligibility or site entrances. Exact-before existing source refresh preserves every complete address and all unspecified fields; prior blocked sources remain blocked. No new coordinates or distances are asserted: campsite map anchors/derived marker offsets and activity source addresses are not promoted to verified venue points. Cloud v26: independent QA approved9 museums/observatories and8 restaurants after12 exact-before corrections. Two December2023 official food references carry older-official badges and five-language historical limits; Baegunjae is held because only2020 historical evidence is established. Five reservation/dated partial-room restrictions are visible alerts, not whole-facility closure claims. Source verification is not current operation, booking inventory, dietary certification or English service. Saved source code supports a GoCamping map-anchor interpretation for69 adopted points;15m is a display offset, not location error. Nine more camping anchors remain unadopted/null. Every numeric point, distance and complete address is unchanged. The latest additions comprise 9 coastal/nature destinations and 6 specialist hobby venues, with 28 source references. Coastal tides, uncertain closures and entrance steps remain explicit; the Tando guide is dated June 2024. Guro game-center entry retains the Korean school-grade guardian requirement, card authentication and late-session reservation limits. The online-only Wev/Gamemol address is not treated as a verified visitor destination. An existing-source review covered the structure of all 578 earlier records and 816 references, with 9 official URLs selected for further reading: 8 substantive bodies were read and 1 remained unavailable. No confirmed link/scope error was found; unchanged historical evidence is not a new live-operation check. The latest additions comprise eight exact restaurants and six public sports venues, supported by 22 directly read official references. Bowling, ice-skating and climbing rules are facility-specific; school-grade recommendations are not converted to mandatory numerical ages. Day use does not establish current session availability or booking eligibility. Three existing entries receive additive evidence and five-language clarifications: KTO corroborates Midongsan’s published address; a March 2023 municipal article supports Cheongju children’s-center identity/address, not current booking; a June 2021 interview supports Gogiri identity and perilla-oil noodles, not its numbered address or present operation. All 844 earlier source objects and their statuses are retained unchanged. The Gogiri 119-versus-157 address discrepancy remains unresolved; no stored address, coordinate or distance is changed. Twelve additions comprise six registered campgrounds and six shopping destinations, supported by 24 official references. Published campsite types, vehicle admission and seasonal dates remain source-specific rather than live availability guarantees. Yesan Market retains the alternate official address and Naeto Market retains its wheelchair-access warning. Two additional KTO exact named-venue pages support general destination points for the Chungju meteorological museum and National Aviation Museum; neither establishes an entrance, parking or accessible route. All 869 earlier source objects and statuses, and all 607 earlier addresses, are unchanged. Eight cultural additions are supported by twelve independently read source references: three Catholic pilgrimage sites, two Buddhist temples and three museums. Taegosa retains the county’s vicinity address with 일원 and an explicit warning that the entrance, parking and arrival point are not verified. Gusan’s visiting access, interiors, Mass and English-language services remain unconfirmed. All eight have unknown coordinates and straight-line distances. All 619 earlier place objects and 895 earlier source references, including their statuses, are unchanged. Four restaurant additions use eight tourism and operator references to distinguish exact branches, addresses and cuisine: Indy on Techno Jungang-ro, Dono Marco in Cheonan, Cozy House Suwon Jangan and the separate No Brand Burger tenant on Starfield Anseong’s first floor. All 907 earlier source objects and statuses are unchanged. Eight existing KTO references support named general destination points; they do not establish surveyed entrances, parking or accessible routes. Current opening, dish availability, dietary suitability and English service remain unverified. Four spa additions use thirteen directly reviewed operator/tourism references: Songhaeon Songdo, Yulam Hot Springs, Forest Resom Have9/Onmidang and women-only Spa Lei. Three existing spas receive exact scoped five-language visitor guidance; Asan Spavis gains two append-only official references. All 915 earlier source objects and statuses, all earlier names, addresses and coordinates remain unchanged. Pool swimwear, bath/sauna zones, jjimjil outfits and ticket products are distinguished only where the specific source supports them; unknown towels, toiletries, foreign visitor support and current availability remain explicit. Historical closure notices are not current closure evidence, and no health efficacy is asserted. Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified. Three registered public campground additions use eleven directly read official references: Ungpo (Gomgaenaru) in Iksan, Goegang in Goesan and Yeongwol Donggang. Advance internet reservation and named-booker restrictions remain source-specific; Goegang and Donggang booking-route uncertainty is visibly flagged. Own-trailer listing is not unrestricted campervan or rental-caravan permission. All three coordinates and distances remain null. Three appended KTO references support general venue destination points for Solmoe, Waujeongsa and Gongseri; these do not verify entrances, parking or accessible routes. All 942 earlier source objects/statuses, names and addresses remain exact. Current operation, booking availability, foreign-ID/phone/payment support and English assistance are unverified. Three additions fill Hongseong shopping and Gunsan food gaps: Gwangcheon Traditional Market, Leesungdang and Binhaewon, supported by four directly read official/operator references. All three coordinates and distances remain null. Three existing market records receive general source-published destination points from their unchanged KTO references: Onyang Oncheon, Cheongju Yukgeori and Yongin Jungang. These are not individual stalls, market boundaries, entrances, parking or accessible routes. All 956 earlier source objects/statuses, all existing names and full addresses, the original 311 records and 639 unaffected prior records remain exact. Live opening, stock, payment, English service and dietary suitability remain unverified.",
+    "source_references": 960
   },
   "instagram_audit": {
     "records": 21,
@@ -958,13 +958,13 @@
   "photos_curated_awaiting_transfer": 0,
   "map": {
     "map_id": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
-    "expected_total": 642,
+    "expected_total": 645,
     "status": "partial_sync_with_unlocated_records",
     "address_geocoded": 501,
     "official_camp_coordinates": 69,
     "official_operator_attraction_coordinates": 30,
     "community_reference_coordinates": 1,
-    "remaining_map_uploads": 35,
+    "remaining_map_uploads": 38,
     "sharing": {
       "anyone_with_link": true,
       "search_discoverability": false
@@ -973,8 +973,8 @@
     "duplicate_names": 0,
     "error_rows": 6,
     "checked": "2026-10-27",
-    "site_release": "release_cloud_v35",
-    "synchronization_note": "Last checked shared map: 607 listings, 601 markers and six unresolved locations. Thirty-five newer directory listings are not yet on the map. Source, status and coordinate updates may lag behind the directory. Label and category review is incomplete, as is single-purpose layer organization. Address-geocoded points are not verified entrances.",
+    "site_release": "release_cloud_v36",
+    "synchronization_note": "Last checked shared map: 607 listings, 601 markers and six unresolved locations. Thirty-eight newer directory listings are not yet on the map. Source, status and coordinate updates may lag behind the directory. Label and category review is incomplete, as is single-purpose layer organization. Address-geocoded points are not verified entrances. No map read or write was performed for this canonical release.",
     "confirmed_data_rows": 607,
     "positioned_markers": 601,
     "unlocated_rows": 6,
@@ -1415,6 +1415,47 @@
       "source_urls": [
         "https://www.youtube.com/watch?v=dRUOwtEuodg"
       ]
+    },
+    {
+      "name": "Jincheon Jungang Market",
+      "area": "Jincheon",
+      "status": "held_unresolved_official_address_difference",
+      "source_urls": [
+        "https://access.visitkorea.or.kr/ms/detail.do?cotId=c6dae479-ac97-4a77-abac-05895c982742",
+        "https://www.jincheon.go.kr/site/economy/sub.do?menukey=2786"
+      ],
+      "reason": "Both official bodies were directly read. KTO updated2026-10-22 gives 중앙북4길21; county exact market page gives 중앙동6길23일원. No proof established that these identify the same visitor entrance or what each locator represents. Neither substituted or promoted; permanent market and periodic trading not split."
+    },
+    {
+      "name": "Jinmi Sikdang · Hwangdeung, Iksan",
+      "area": "Iksan",
+      "status": "held_missing_current_primary_address_body",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=dfdb6b44-a624-4910-af22-e85afa08d524",
+        "https://access.visitkorea.or.kr/food/detail.do?cotId=dfdb6b44-a624-4910-af22-e85afa08d524",
+        "https://tour.jb.go.kr/index.do"
+      ],
+      "reason": "KTO narrative identifies Hwangdeung bibinbap restaurant but address details did not render. Accessible-tourism public read was denied as inaccessible via this tool; access stopped; provincial result returned Internal Error. No retry. 2020 article and third-party current addresses were not promoted. Other Jinmi restaurants in Mapo, Iksan Jungang-dong and Iksan Inhwa-dong are distinct and no same-name adverse listing is attributed to Hwangdeung.",
+      "source_url_note": "Provincial target sanitized: session identifier and query removed; sanitized URL was not separately requested."
+    },
+    {
+      "name": "Boeun Traditional Market",
+      "area": "Boeun",
+      "status": "held_no_direct_primary_body",
+      "source_urls": [
+        "https://www.chungbuk.go.kr/www/selectBbsNttView.do?bbsNo=2433&integrDeptCode=&key=4815&nttNo=274729&pageIndex=4&searchCnd=all&searchCtgry=&searchKrwd=",
+        "https://mss.go.kr/common/board/Download.do?bcIdx=1004479&cbIdx=249&streFileNm=16d0b462-9983-4962-9e7f-e0c5bc393783.pdf"
+      ],
+      "reason": "Indexed official provincial listing and ministry PDF were found, but both direct opens returned Internal Error without substantive body. No retry; indexed address not promoted. Nearby Gyeolcho Boeun Market not merged."
+    },
+    {
+      "name": "Jeungpyeong Jangtteul Market",
+      "area": "Jeungpyeong",
+      "status": "held_no_direct_primary_body",
+      "source_urls": [
+        "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=66&pageIndex=63&pageUnit=12&searchCnd=all&searchMainSe=ATTR&tourNo=1022"
+      ],
+      "reason": "Discovery-only fallback. Official provincial result direct open returned Internal Error without substantive body. Indexed page title is unrelated, and indexed market-day wording differs from other sources. No retry or address/schedule promotion."
     }
   ],
   "changes": [
@@ -1462,7 +1503,8 @@
     "Four restaurant additions bring Indian, Italian, Western and burger options to Daejeon, Cheonan, Suwon and Anseong. The directory now has 631 places, 915 source references and 125 food records. Eight existing venues gain KTO-published general destination points, not surveyed entrances or parking positions: 121 places have straight-line estimates and 510 remain unmeasured. All 907 earlier source objects, every existing name and address, and all 16 photo records / 32 display assets are unchanged. Last checked shared map: 607 listings, 601 markers and six unresolved locations; 24 newer directory listings are not yet added. Source, status and coordinate changes may lag; map review and single-purpose layer organization remain incomplete.",
     "Four spa additions: Songhaeon Songdo seawater baths/jjimjil rooms, Yulam Hot Springs, Forest Resom Have9/Onmidang and women-only Spa Lei. Three existing spas gain more precise ticket, clothing and towel guidance. The directory now has 635 places, 930 source references and 14 spa/bath listings; 121 sourced general points and 514 unmeasured locations. All 915 earlier source objects/statuses, every existing name/address/coordinate and 628 of 631 earlier complete records are unchanged. All 16 photo records and 32 display assets remain unchanged. Last checked shared map: 607 listings, 601 markers and six unresolved locations; 28 newer directory listings are not yet added. Source, status and coordinate updates may lag; cleanup and single-purpose layer organization remain incomplete. Songhaeon alone is resolved from the combined discovery hold; Supsok remains held.",
     "Cloud v34: Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified.",
-    "Cloud v35: three public campground additions in Iksan, Goesan and Yeongwol add eleven official references; three existing cultural places gain source-published general points and one append-only reference each. 642 places, 956 references, 127 sourced points and 515 unmeasured. All 636 unaffected prior records, 942 prior source objects, original 311 records/correction ledger and 16 photos/32 assets are retained. Six further camping candidates remain held. The map remains last confirmed at 607 rows / 601 markers / 6 unresolved; 35 additions are pending and cleanup is incomplete. No new map verification or update."
+    "Cloud v35: three public campground additions in Iksan, Goesan and Yeongwol add eleven official references; three existing cultural places gain source-published general points and one append-only reference each. 642 places, 956 references, 127 sourced points and 515 unmeasured. All 636 unaffected prior records, 942 prior source objects, original 311 records/correction ledger and 16 photos/32 assets are retained. Six further camping candidates remain held. The map remains last confirmed at 607 rows / 601 markers / 6 unresolved; 35 additions are pending and cleanup is incomplete. No new map verification or update.",
+    "Canonical v36 prepared: Three additions fill Hongseong shopping and Gunsan food gaps: Gwangcheon Traditional Market, Leesungdang and Binhaewon, supported by four directly read official/operator references. All three coordinates and distances remain null. Three existing market records receive general source-published destination points from their unchanged KTO references: Onyang Oncheon, Cheongju Yukgeori and Yongin Jungang. These are not individual stalls, market boundaries, entrances, parking or accessible routes. All 956 earlier source objects/statuses, all existing names and full addresses, the original 311 records and 639 unaffected prior records remain exact. Live opening, stock, payment, English service and dietary suitability remain unverified. The directory has 645 places, 960 references, 130 sourced general points and 515 unmeasured locations. All 16 photos/32 assets remain unchanged. Last confirmed map remains 607 rows / 601 markers / 6 unresolved; 38 additions pending, three market point corrections staged separately. No map update or fresh map verification."
   ],
   "open_questions": [
     "English staff service, foreign-ID/Korean-phone booking eligibility, stock, live opening and vacancy not verified.",
@@ -1506,7 +1548,8 @@
     "Indy is the Techno Jungang-ro restaurant in unit 202, not a Dunsan branch. No Brand Burger is a first-floor Starfield Anseong restaurant tenant, not the entire mall or No Brand supermarket. Restaurant source menus do not guarantee current branch inventory, dietary certification, allergen safety or English service. All four new restaurant coordinates and distances remain unknown.",
     "Bath/sauna, swimming-pool and jjimjil products are not interchangeable. Verify the exact ticket, clothing, towels/toiletries, age/sex restrictions, maintenance and foreign-ID/payment requirements before travel; English service and current admission are not guaranteed. Spa Lei is women-only. No new spa has a verified coordinate, entrance or straight-line distance. Supsok, Seokmodo, Park Habio Water Kingdom, Onyang Oncheon Land, Venue G Aqua 24 and Dragon Hill remain excluded pending adequate evidence; unreadable sources are not closure evidence.",
     "The three new Red Button branch listings support on-site board-game play, not retail or English-language games; branch fees and live operation require confirmation. Nonsan daily swim is limited to one visit per day and up to two hours, with close-fitting indoor swimwear and a cap required; the exact current session timetable remains unverified. General cable-car venue points are not boarding platforms. None of the four additions has verified coordinates or a measured distance.",
-    "Ungpo requires advance internet-only booking, the named booker attending with matching ID, and no same-day/telephone/walk-in reservations or date/pitch changes. Goegang requires advance online booking but its linked route is unreadable; Donggang has no verified current booking route. Foreign-ID, Korean identity/phone, payment and English support remain unknown. Own-trailer listings do not promise rental caravans or all RV sizes. All three campground coordinates and distances remain unknown. Solmoe, Waujeongsa and Gongseri points are general destinations, not entrances, parking or accessible routes."
+    "Ungpo requires advance internet-only booking, the named booker attending with matching ID, and no same-day/telephone/walk-in reservations or date/pitch changes. Goegang requires advance online booking but its linked route is unreadable; Donggang has no verified current booking route. Foreign-ID, Korean identity/phone, payment and English support remain unknown. Own-trailer listings do not promise rental caravans or all RV sizes. All three campground coordinates and distances remain unknown. Solmoe, Waujeongsa and Gongseri points are general destinations, not entrances, parking or accessible routes.",
+    "Gwangcheon, Leesungdang and Binhaewon have no measured coordinates or distances. Confirm individual shop opening, stock, payment, English service and ingredients before travel. Jincheon Jungang Market remains held for conflicting official addresses; Jinmi Sikdang in Hwangdeung, Boeun Traditional Market and Jeungpyeong Jangtteul Market remain held for insufficient directly read address evidence. Existing market points do not establish entrances, stalls, parking or accessible routes."
   ],
   "coverage_gaps": {
     "Anmyeondo": [
@@ -1734,7 +1777,6 @@
       "landmarks",
       "scenery",
       "family",
-      "food",
       "hobbies",
       "camping"
     ],
@@ -1803,7 +1845,6 @@
       "camping"
     ],
     "Hongseong": [
-      "shopping",
       "attractions",
       "cinema",
       "sea",
@@ -2130,14 +2171,14 @@
     ]
   },
   "category_counts": {
-    "shopping": 59,
+    "shopping": 60,
     "attractions": 22,
     "cinema": 15,
     "landmarks": 111,
     "sea": 21,
     "scenery": 29,
     "family": 32,
-    "food": 125,
+    "food": 127,
     "hobbies": 35,
     "activities": 106,
     "camping": 87
@@ -2163,18 +2204,18 @@
       "checked": "2026-10-26"
     },
     "method": "Haversine spherical straight-line distance with mean Earth radius 6371.0088 km; no driving calculation. Values are planning estimates from sourced points, not surveyed precision.",
-    "checked_records": 127,
+    "checked_records": 130,
     "unchecked_records": 515,
     "minimum_km": 1.4,
     "maximum_km": 162.3,
-    "within_200": 127,
+    "within_200": 130,
     "outside_200": 0,
     "rejected_reference": {
       "url": "https://army.dodlodging.net/propertys/camp-humphreys",
       "reason": "Published coordinate pair is geographically inconsistent with Pyeongtaek; not used."
     },
     "quality_groups": {
-      "official_tourism_published": 53,
+      "official_tourism_published": 56,
       "official_operator_published": 3,
       "community_reference": 1,
       "operator_published": 1,
@@ -2197,14 +2238,21 @@
       "adopted_coordinate_pairs": 0,
       "null_coordinate_distance_pairs": 3,
       "limits": "No listing map center, display-offset anchor, address-geocoding result or guessed entrance was adopted."
+    },
+    "latest_market_food_batch": {
+      "new_records": 3,
+      "new_records_with_unknown_coordinates": 3,
+      "existing_general_market_points": 3,
+      "limits": "Published general market destinations only, not entrances, stalls or full market extent. No road distances or complete-radius verification."
     }
   },
   "cloud_baseline_places": 311,
-  "cloud_added_places": 331,
+  "cloud_added_places": 334,
   "release_added_places": 3,
   "temple_browsing_count": 21,
   "spa_browsing_count": 14,
   "landmark_browsing_count": 112,
-  "traditional_market_browsing_count": 12,
-  "catholic_browsing_count": 27
+  "traditional_market_browsing_count": 13,
+  "catholic_browsing_count": 27,
+  "publication_status": "canonical_prepared_not_site_deployed"
 }

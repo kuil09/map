@@ -1,0 +1,251 @@
+{
+  "status": "ready_for_independent_review_not_published",
+  "checked": "2026-10-27",
+  "checked_timezone": "Asia/Seoul",
+  "created_utc": "2026-10-27T06:03:15.827859+00:00",
+  "scope": "Bounded local-food and market gap research; three supported additions, four held candidates. No repository or map writes.",
+  "baseline": {
+    "remote": "kuil09/map",
+    "commit": "88c2ee5409d7c41ffe91ee6c2e2c0eb6059a2590",
+    "record_count": 642,
+    "sha256": "8c3610ebaa812141ec2f40ae89a0e3289c2200f69cd2974aea2fd03088248ee6"
+  },
+  "count": 3,
+  "region_category_gap_before": {
+    "Hongseong": {
+      "shopping": 0,
+      "food": 0,
+      "total": 3
+    },
+    "Gunsan": {
+      "shopping": 0,
+      "food": 0,
+      "total": 2
+    }
+  },
+  "gap_outcomes": [
+    "First Hongseong shopping destination: regional salted-shrimp/seaweed market.",
+    "First Gunsan food coverage: bakery/café and Chinese restaurant, not generic chain fillers."
+  ],
+  "candidate_selection": "Kept three strong exact-address candidates rather than pad with a fourth unresolved market locator or index-only address.",
+  "source_body_evidence": [
+    {
+      "id": "market-gwangcheon-hongseong",
+      "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=79f6fe32-fdaa-403b-960b-352b908ff57b",
+      "title": "KTO Accessible Tourism — Gwangcheon Traditional Market",
+      "body_reference": "Name/update lines2–4; identity/merchandise/address lines54–60",
+      "facts": {
+        "name": "광천전통시장",
+        "address": "충청남도 홍성군 광천읍 광천로285번길 8-16",
+        "listed_goods": [
+          "salted shrimp",
+          "seaweed",
+          "farm produce"
+        ],
+        "format": "permanent shops plus periodic market",
+        "source_updated": "2026-10-08"
+      },
+      "freshness": "Displayed source update, not live operation."
+    },
+    {
+      "id": "dining-leesungdang-gunsan",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174289",
+      "title": "Leesungdang — VISITKOREA",
+      "body_reference": "Name line202; food/address lines234–255; variable closures line274",
+      "facts": {
+        "name": "이성당",
+        "address": "전북특별자치도 군산시 중앙로 177",
+        "listed_food": [
+          "red-bean buns",
+          "vegetable buns",
+          "coffee"
+        ]
+      },
+      "freshness": "Undated current public listing; no opening/stock check."
+    },
+    {
+      "id": "dining-leesungdang-gunsan",
+      "url": "https://leesungdang1945.com/_wg/import/main.html",
+      "title": "Leesungdang — operator main page",
+      "body_reference": "Business identity/address lines7–9",
+      "facts": {
+        "business": "주식회사 이성당",
+        "address": "전라북도 군산시 중앙로177, 이성당(중앙로1가)"
+      },
+      "freshness": "Operator footer supports address only; older province style retained in evidence, current administrative name from KTO."
+    },
+    {
+      "id": "dining-binhaewon-gunsan",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191381",
+      "title": "Binhaewon — VISITKOREA",
+      "body_reference": "Name line202; menu/address lines230–249",
+      "facts": {
+        "name": "빈해원",
+        "address": "전북특별자치도 군산시 동령길 57",
+        "listed_food": [
+          "jjamppong",
+          "jjajangmyeon",
+          "tangsuyuk"
+        ]
+      },
+      "freshness": "Undated current public listing; no opening/menu-availability check."
+    }
+  ],
+  "prior_holds_reviewed": [
+    "batch12-shopping-held.json",
+    "batch14-food-held.json",
+    "batch11-food-held.json",
+    "batch9-newcontent-holds.json",
+    "batch7-markets-audit.json",
+    "batch7-food-prior-denials.json",
+    "batch12-shopping-audit.json",
+    "batch14-food-audit.json"
+  ],
+  "prior_hold_disposition": {
+    "Hongseong coverage": "Earlier discovery-only regional hold superseded for exact Gwangcheon market only by directly read KTO October2026 listing. County link still failed; not presented as verified.",
+    "Danyang restaurant firewall": "Retained and not retried.",
+    "Dangjin reconstruction": "Retained and not retried.",
+    "GOD EAT403": "Retained and not retried."
+  },
+  "dedup": {
+    "all642_records_checked": true,
+    "normalized_id_name_address_collisions": [],
+    "prior_hold_identity_matches_for_selected": [],
+    "semantic_review": "No existing Gunsan food/market/property compound rows; existing Gunsan rows are Seonyu Sky Sun Line and Okdol Beach. Gwangcheon is not Hongjuseong History Museum, Chungnam Meteorological Science Museum or Hongseong campground. No separate market stalls, brewery district, café annex or historic-building attraction created."
+  },
+  "failed_or_limited_actions": [
+    {
+      "action": "Public web open",
+      "target": "https://leesungdang1945.com/",
+      "outcome": "completed",
+      "reason": "Readable title only; no substantive location body. Independently discovered operator main page later yielded address, corroborated by KTO. No access denial occurred.",
+      "retry_count": 0
+    },
+    {
+      "action": "Public web open",
+      "target": "https://www.chungbuk.go.kr/www/selectBbsNttView.do?bbsNo=2433&integrDeptCode=&key=4815&nttNo=274729&pageIndex=4&searchCnd=all&searchCtgry=&searchKrwd=",
+      "outcome": "uncertain",
+      "reason": "Internal Error; no substantive body.",
+      "retry_count": 0
+    },
+    {
+      "action": "Public web open",
+      "target": "https://tour.jb.go.kr/index.do",
+      "outcome": "uncertain",
+      "reason": "Internal Error; no substantive body.",
+      "retry_count": 0,
+      "target_note": "Session identifier and query removed; sanitized URL was not separately requested. Exact attempted target retained privately."
+    },
+    {
+      "action": "Public web open",
+      "target": "https://mss.go.kr/common/board/Download.do?bcIdx=1004479&cbIdx=249&streFileNm=16d0b462-9983-4962-9e7f-e0c5bc393783.pdf",
+      "outcome": "uncertain",
+      "reason": "Internal Error; no substantive body.",
+      "retry_count": 0
+    },
+    {
+      "action": "Public web open",
+      "target": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=66&pageIndex=63&pageUnit=12&searchCnd=all&searchMainSe=ATTR&tourNo=1022",
+      "outcome": "uncertain",
+      "reason": "Internal Error; no substantive body.",
+      "retry_count": 0
+    },
+    {
+      "action": "Public web open",
+      "target": "https://access.visitkorea.or.kr/food/detail.do?cotId=dfdb6b44-a624-4910-af22-e85afa08d524",
+      "outcome": "denied_tool_inaccessible",
+      "reason": "Tool reported URL not accessible via this tool. Access stopped; no body or retry. Origin HTTP denial not established.",
+      "retry_count": 0
+    },
+    {
+      "action": "Public web click on KTO-linked county market website",
+      "target": "https://hongseong.go.kr/market/sub3_1.jsp",
+      "outcome": "uncertain",
+      "reason": "Failed to fetch:400 Timeout fetching. No retry; previously read exact KTO body supplies candidate evidence.",
+      "retry_count": 0
+    }
+  ],
+  "held_candidates": [
+    {
+      "name": "Jincheon Jungang Market",
+      "area": "Jincheon",
+      "status": "held_unresolved_official_address_difference",
+      "source_urls": [
+        "https://access.visitkorea.or.kr/ms/detail.do?cotId=c6dae479-ac97-4a77-abac-05895c982742",
+        "https://www.jincheon.go.kr/site/economy/sub.do?menukey=2786"
+      ],
+      "reason": "Both official bodies were directly read. KTO updated2026-10-22 gives 중앙북4길21; county exact market page gives 중앙동6길23일원. No proof established that these identify the same visitor entrance or what each locator represents. Neither substituted or promoted; permanent market and periodic trading not split."
+    },
+    {
+      "name": "Jinmi Sikdang · Hwangdeung, Iksan",
+      "area": "Iksan",
+      "status": "held_missing_current_primary_address_body",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=dfdb6b44-a624-4910-af22-e85afa08d524",
+        "https://access.visitkorea.or.kr/food/detail.do?cotId=dfdb6b44-a624-4910-af22-e85afa08d524",
+        "https://tour.jb.go.kr/index.do"
+      ],
+      "reason": "KTO narrative identifies Hwangdeung bibinbap restaurant but address details did not render. Accessible-tourism public read was denied as inaccessible via this tool; access stopped; provincial result returned Internal Error. No retry. 2020 article and third-party current addresses were not promoted. Other Jinmi restaurants in Mapo, Iksan Jungang-dong and Iksan Inhwa-dong are distinct and no same-name adverse listing is attributed to Hwangdeung.",
+      "source_url_note": "Provincial target sanitized: session identifier and query removed; sanitized URL was not separately requested."
+    },
+    {
+      "name": "Boeun Traditional Market",
+      "area": "Boeun",
+      "status": "held_no_direct_primary_body",
+      "source_urls": [
+        "https://www.chungbuk.go.kr/www/selectBbsNttView.do?bbsNo=2433&integrDeptCode=&key=4815&nttNo=274729&pageIndex=4&searchCnd=all&searchCtgry=&searchKrwd=",
+        "https://mss.go.kr/common/board/Download.do?bcIdx=1004479&cbIdx=249&streFileNm=16d0b462-9983-4962-9e7f-e0c5bc393783.pdf"
+      ],
+      "reason": "Indexed official provincial listing and ministry PDF were found, but both direct opens returned Internal Error without substantive body. No retry; indexed address not promoted. Nearby Gyeolcho Boeun Market not merged."
+    },
+    {
+      "name": "Jeungpyeong Jangtteul Market",
+      "area": "Jeungpyeong",
+      "status": "held_no_direct_primary_body",
+      "source_urls": [
+        "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=66&pageIndex=63&pageUnit=12&searchCnd=all&searchMainSe=ATTR&tourNo=1022"
+      ],
+      "reason": "Discovery-only fallback. Official provincial result direct open returned Internal Error without substantive body. Indexed page title is unrelated, and indexed market-day wording differs from other sources. No retry or address/schedule promotion."
+    }
+  ],
+  "limitations": [
+    "All coordinates and radial distances null. Regional planning selection is not a measured within200km claim or driving-distance promise.",
+    "No live opening, current hours, inventory, price, booking, payment, English-service, accessibility or dietary guarantees.",
+    "Dates or perpetual opening not expanded from shorthand five-day market wording.",
+    "Successful web reader did not expose origin HTTP codes; null retained.",
+    "Public copy is original short factual paraphrase; no copied marketing prose, photos, rawHTML, tool IDs or private evidence paths."
+  ],
+  "access_safety": {
+    "cloud_web_only": true,
+    "raw_shell_network_requests": 0,
+    "prior_denied_targets_retried": 0,
+    "shared_browser_used": false,
+    "user_mac_access": false,
+    "webllm_used": false,
+    "accounts_used": false,
+    "outreach_or_booking": false,
+    "costs": false,
+    "repository_writes": false,
+    "map_writes": false,
+    "publication": false
+  },
+  "validation": {
+    "five_languages": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "es"
+    ],
+    "all_geometry_null": true,
+    "all_exact_primary_address_body": true,
+    "all_canonical_areas_and_cuisines": true,
+    "normalized_collisions": 0,
+    "no_public_raw_html_or_tool_ids": true
+  },
+  "artifact_sha256": {
+    "batch18-new-places.json": "8aa43583efd0222e6600cd4be3002ec5b5ded74f7e034dc4a98dd24dba17d931",
+    "batch18-new-places-holds.json": "f8ae868de36dfc5a95bb13d7897817fff6464aec5e4ca18efeef336866353f03",
+    "batch18-new-places-evidence.json": "00eb967e129404481dd0bc618408c30cfc0a6ba4e4581806c81db1c3bf66b82a"
+  }
+}

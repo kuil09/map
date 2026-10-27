@@ -1,0 +1,197 @@
+{
+  "schema": "batch18-existing-source-audit/v1",
+  "checked_utc": "2026-10-27T06:02:03.159985+00:00",
+  "publication": "Public factual paraphrased summary. The separate exact-before/after patch proposal and raw verification evidence are private working materials, not for repository publication.",
+  "baseline_sha256": "8c3610ebaa812141ec2f40ae89a0e3289c2200f69cd2974aea2fd03088248ee6",
+  "baseline_remote_commit_parent_supplied": "88c2ee5409d7c41ffe91ee6c2e2c0eb6059a2590",
+  "summary": {
+    "proposed_existing_records": 3,
+    "coordinate_changes": 3,
+    "new_places": 0,
+    "removed_places": 0,
+    "name_changes": 0,
+    "address_changes": 0,
+    "original311_changes": 0,
+    "new_source_objects": 0,
+    "modified_existing_source_objects": 0,
+    "measured_before": 127,
+    "measured_after_proposal": 130,
+    "unmeasured_before": 515,
+    "unmeasured_after_proposal": 512,
+    "source_count_before": 956,
+    "source_count_after_proposal": 956,
+    "within_200km_new": 3,
+    "outside_200km_new": 0,
+    "entrance_verified_true": 0,
+    "full_radius_verified": false,
+    "five_language_notes": true,
+    "repository_mutations": 0,
+    "map_mutations": 0,
+    "publication_mutations": 0,
+    "browser_actions": 0,
+    "denied_target_retries": 0,
+    "new_access_failures": 0
+  },
+  "rows": [
+    {
+      "place_id": "market-onyang-oncheon-asan",
+      "name_en": "Onyang Oncheon Market · Asan",
+      "decision": "propose_source_published_general_market_point",
+      "coordinates": {
+        "lat": 36.7832980345489,
+        "lng": 127.004285318033
+      },
+      "radial_distance_km": 20.1,
+      "haversine_km_unrounded": 20.053777821005283,
+      "address_unchanged": true,
+      "all_source_objects_unchanged": true,
+      "original_five_language_notes_retained_as_exact_prefixes": true,
+      "evidence": {
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=fc941a7b-c2a2-4c8f-aa2f-79dcc4b778df",
+        "final_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=fc941a7b-c2a2-4c8f-aa2f-79dcc4b778df",
+        "publisher": "Korea Tourism Organization, Open Tourism",
+        "scope": "exact named market general destination",
+        "retrieved_http": 200,
+        "checked_utc": "2026-10-27T05:59:51.364627+00:00",
+        "raw_sha256": "f2cb3d90d26f9f3f146e4ce51e26cbc10691ef34d9592a60790cff42cc5033d2",
+        "published_name": "온양온천시장",
+        "existing_name": "온양온천시장",
+        "identity_match": "Exact Korean destination name after trimming surrounding whitespace; whole named market, not any individual shop or separate adjacent market.",
+        "published_address": "충청남도 아산시 시장길 29 (온천동)",
+        "existing_address": "충청남도 아산시 시장길 29 (온천동)",
+        "address_match": "Full existing address exactly equals source address after whitespace trim; no address change. Cheongju preserves its source lot-number address.",
+        "published_coordinate_strings": {
+          "lat": "36.7832980345489",
+          "lng": "127.004285318033"
+        },
+        "coordinate_source_line": 506,
+        "assignment_source_lines": [
+          657,
+          658
+        ],
+        "marker_binding_source_line": 789,
+        "marker_binding_summary": "The name-bearing directions action publishes this latitude/longitude pair. Identical values are assigned to the destination-location variables and used for the target marker. Separate user-location marker code does not supply the accepted point.",
+        "semantics": "Official general market destination only, not a default map center, city/base center, individual shop, full market boundary, exact entrance, parking bay or accessible route.",
+        "execution": "Public web-reader body plus one unauthenticated HTML GET; no JavaScript execution, geocoding, browser, user-device or shared-map interaction.",
+        "precision": "Source decimal strings retained; decimal length does not imply surveyed accuracy.",
+        "entrance_verified": false,
+        "parking_verified": false,
+        "accessible_route_verified": false
+      }
+    },
+    {
+      "place_id": "market-cheongju-yukgeori",
+      "name_en": "Cheongju Yukgeori Market",
+      "decision": "propose_source_published_general_market_point",
+      "coordinates": {
+        "lat": 36.6281475986498,
+        "lng": 127.4900878094
+      },
+      "radial_distance_km": 55.2,
+      "haversine_km_unrounded": 55.23781623232171,
+      "address_unchanged": true,
+      "all_source_objects_unchanged": true,
+      "original_five_language_notes_retained_as_exact_prefixes": true,
+      "evidence": {
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=99c0742d-6c6b-44fa-8de5-7d979a344032",
+        "final_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=99c0742d-6c6b-44fa-8de5-7d979a344032",
+        "publisher": "Korea Tourism Organization, Open Tourism",
+        "scope": "exact named market general destination",
+        "retrieved_http": 200,
+        "checked_utc": "2026-10-27T05:59:54.990632+00:00",
+        "raw_sha256": "3314fb5c0cbe42984917058438ad943edcc83d6ae318f6bd2fc3535f86da75d3",
+        "published_name": "청주 육거리종합시장",
+        "existing_name": "청주 육거리종합시장",
+        "identity_match": "Exact Korean destination name after trimming surrounding whitespace; whole named market, not any individual shop or separate adjacent market.",
+        "published_address": "충청북도 청주시 상당구 석교동 131",
+        "existing_address": "충청북도 청주시 상당구 석교동 131",
+        "address_match": "Full existing address exactly equals source address after whitespace trim; no address change. Cheongju preserves its source lot-number address.",
+        "published_coordinate_strings": {
+          "lat": "36.6281475986498",
+          "lng": "127.4900878094"
+        },
+        "coordinate_source_line": 508,
+        "assignment_source_lines": [
+          659,
+          660
+        ],
+        "marker_binding_source_line": 791,
+        "marker_binding_summary": "The name-bearing directions action publishes this latitude/longitude pair. Identical values are assigned to the destination-location variables and used for the target marker. Separate user-location marker code does not supply the accepted point.",
+        "semantics": "Official general market destination only, not a default map center, city/base center, individual shop, full market boundary, exact entrance, parking bay or accessible route.",
+        "execution": "Public web-reader body plus one unauthenticated HTML GET; no JavaScript execution, geocoding, browser, user-device or shared-map interaction.",
+        "precision": "Source decimal strings retained; decimal length does not imply surveyed accuracy.",
+        "entrance_verified": false,
+        "parking_verified": false,
+        "accessible_route_verified": false
+      }
+    },
+    {
+      "place_id": "market-yongin-jungang",
+      "name_en": "Yongin Jungang Market",
+      "decision": "propose_source_published_general_market_point",
+      "coordinates": {
+        "lat": 37.236714316324374,
+        "lng": 127.2078580400967
+      },
+      "radial_distance_km": 34.3,
+      "haversine_km_unrounded": 34.297529868190864,
+      "address_unchanged": true,
+      "all_source_objects_unchanged": true,
+      "original_five_language_notes_retained_as_exact_prefixes": true,
+      "evidence": {
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9c57872e-895b-41db-a05e-0c676b082397",
+        "final_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9c57872e-895b-41db-a05e-0c676b082397",
+        "publisher": "Korea Tourism Organization, Open Tourism",
+        "scope": "exact named market general destination",
+        "retrieved_http": 200,
+        "checked_utc": "2026-10-27T05:59:59.567640+00:00",
+        "raw_sha256": "6b23ae66082d045ea74a207ec58d00825136a0907cc3c70747420753a57c4d7e",
+        "published_name": "용인중앙시장",
+        "existing_name": "용인중앙시장",
+        "identity_match": "Exact Korean destination name after trimming surrounding whitespace; whole named market, not any individual shop or separate adjacent market.",
+        "published_address": "경기도 용인시 처인구 금령로107번길 13 (김량장동)",
+        "existing_address": "경기도 용인시 처인구 금령로107번길 13 (김량장동)",
+        "address_match": "Full existing address exactly equals source address after whitespace trim; no address change. Cheongju preserves its source lot-number address.",
+        "published_coordinate_strings": {
+          "lat": "37.236714316324374",
+          "lng": "127.2078580400967"
+        },
+        "coordinate_source_line": 430,
+        "assignment_source_lines": [
+          581,
+          582
+        ],
+        "marker_binding_source_line": 713,
+        "marker_binding_summary": "The name-bearing directions action publishes this latitude/longitude pair. Identical values are assigned to the destination-location variables and used for the target marker. Separate user-location marker code does not supply the accepted point.",
+        "semantics": "Official general market destination only, not a default map center, city/base center, individual shop, full market boundary, exact entrance, parking bay or accessible route.",
+        "execution": "Public web-reader body plus one unauthenticated HTML GET; no JavaScript execution, geocoding, browser, user-device or shared-map interaction.",
+        "precision": "Source decimal strings retained; decimal length does not imply surveyed accuracy.",
+        "entrance_verified": false,
+        "parking_verified": false,
+        "accessible_route_verified": false
+      }
+    }
+  ],
+  "history_review_conclusion": "Targets occur in market content and source QA, but no prior explicit-coordinate proposal, coordinate hold, or denied read of these exact KTO Access pages was found. The prior Cheongju English-page failure concerns a different URL; it was not retried.",
+  "near_existing_pairs_under_150m": [],
+  "blocked_actions": [],
+  "new_access_failures": [],
+  "local_preflight_issue": {
+    "action": "Prepare raw HTTP read using Python requests",
+    "target": "Local Python import only",
+    "reason": "requests package not installed",
+    "network_executed": false,
+    "status": "resolved with standard-library urllib before any target request; not a denied target retry"
+  },
+  "completion": {
+    "completed": "Three existing null general destination pairs verified against exact names, unchanged full addresses, matching directions and explicit destination-marker binding. Exact-before/after patch proposal produced; no mutations applied.",
+    "denied": [],
+    "pending": "Independent QA and parent-authorized integration only.",
+    "uncertain": [
+      "Exact entrances, parking, individual stalls, full market boundaries and accessible routes remain unverified.",
+      "Current shop opening, market-day execution, English service, card acceptance and food ingredients were not tested.",
+      "The general-point calculation does not establish road distance or a full-market/entrance 200 km radius; 512 canonical destinations remain unmeasured after this proposal."
+    ]
+  },
+  "scope_compliance": "Cloud/web research and standalone scratch evidence/proposal/audit only. No repository or map writes, publication, deployment, browser, user Mac/Codex, WebLLM, account actions, cost, outreach, runtime geocoding, offsets or guessed coordinates. No denied target retried."
+}

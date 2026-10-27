@@ -21,6 +21,10 @@ The output contains the three exact canonical JSON files and `canonical-input-ma
 
 `exports/map-append35-v35.csv` is the reviewed, immutable v35 append artifact. Its hash is in `data/map/sync-state.json`; never replace that named historical artifact with a future export. `scripts/build_exports.py --out build` produces a current append candidate from the ordered `pendingAppendPlaceIds` and canonical places, plus explicitly historical reconstruction and coordinate-reference outputs. Generated output is not a write authorization.
 
+For canonical v36, `currentAppendFile` records the separate `exports/map-append38-v36.csv`: the unchanged historical 35 rows followed by three new market/food records. `appendFile` continues to identify the immutable v35 artifact. The three existing market point corrections are in `existingUpdateGroups` as staged, not applied; they are not new rows and are not part of the append candidate. Neither artifact has been uploaded by this release.
+
+The v36 canonical release remains marked prepared, not Site-deployed. `sourceSiteCommit` retains the v35 migration source and must not be treated as the future consumer commit. When the exact committed inputs are released, update the consumer's cache-busting asset/JSON versions, verify all three deployed input hashes, and record its publication evidence separately.
+
 Before any map write:
 
 1. Read the current map's inventory and intended destination schema. Reconcile against 607 known native identities and the receipt-backed imported IDs; never assume the old row count is fresh.

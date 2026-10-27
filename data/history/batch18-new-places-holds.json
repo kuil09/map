@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Jincheon Jungang Market",
+    "area": "Jincheon",
+    "status": "held_unresolved_official_address_difference",
+    "source_urls": [
+      "https://access.visitkorea.or.kr/ms/detail.do?cotId=c6dae479-ac97-4a77-abac-05895c982742",
+      "https://www.jincheon.go.kr/site/economy/sub.do?menukey=2786"
+    ],
+    "reason": "Both official bodies were directly read. KTO updated2026-10-22 gives 중앙북4길21; county exact market page gives 중앙동6길23일원. No proof established that these identify the same visitor entrance or what each locator represents. Neither substituted or promoted; permanent market and periodic trading not split."
+  },
+  {
+    "name": "Jinmi Sikdang · Hwangdeung, Iksan",
+    "area": "Iksan",
+    "status": "held_missing_current_primary_address_body",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=dfdb6b44-a624-4910-af22-e85afa08d524",
+      "https://access.visitkorea.or.kr/food/detail.do?cotId=dfdb6b44-a624-4910-af22-e85afa08d524",
+      "https://tour.jb.go.kr/index.do"
+    ],
+    "reason": "KTO narrative identifies Hwangdeung bibinbap restaurant but address details did not render. Accessible-tourism public read was denied as inaccessible via this tool; access stopped; provincial result returned Internal Error. No retry. 2020 article and third-party current addresses were not promoted. Other Jinmi restaurants in Mapo, Iksan Jungang-dong and Iksan Inhwa-dong are distinct and no same-name adverse listing is attributed to Hwangdeung.",
+    "source_url_note": "Provincial target sanitized: session identifier and query removed; sanitized URL was not separately requested."
+  },
+  {
+    "name": "Boeun Traditional Market",
+    "area": "Boeun",
+    "status": "held_no_direct_primary_body",
+    "source_urls": [
+      "https://www.chungbuk.go.kr/www/selectBbsNttView.do?bbsNo=2433&integrDeptCode=&key=4815&nttNo=274729&pageIndex=4&searchCnd=all&searchCtgry=&searchKrwd=",
+      "https://mss.go.kr/common/board/Download.do?bcIdx=1004479&cbIdx=249&streFileNm=16d0b462-9983-4962-9e7f-e0c5bc393783.pdf"
+    ],
+    "reason": "Indexed official provincial listing and ministry PDF were found, but both direct opens returned Internal Error without substantive body. No retry; indexed address not promoted. Nearby Gyeolcho Boeun Market not merged."
+  },
+  {
+    "name": "Jeungpyeong Jangtteul Market",
+    "area": "Jeungpyeong",
+    "status": "held_no_direct_primary_body",
+    "source_urls": [
+      "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=66&pageIndex=63&pageUnit=12&searchCnd=all&searchMainSe=ATTR&tourNo=1022"
+    ],
+    "reason": "Discovery-only fallback. Official provincial result direct open returned Internal Error without substantive body. Indexed page title is unrelated, and indexed market-day wording differs from other sources. No retry or address/schedule promotion."
+  }
+]

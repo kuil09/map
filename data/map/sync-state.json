@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-27",
-  "siteRelease": "v35",
-  "siteTotal": 642,
+  "siteRelease": "v36",
+  "siteTotal": 645,
   "confirmedNativeRows": 607,
   "positionedMarkers": 601,
   "unresolvedRows": 6,
@@ -40,7 +40,10 @@
     "activity-nonsan-national-swimming",
     "gocamping-2460",
     "gocamping-337",
-    "gocamping-2226"
+    "gocamping-2226",
+    "market-gwangcheon-hongseong",
+    "dining-leesungdang-gunsan",
+    "dining-binhaewon-gunsan"
   ],
   "pendingCohorts": [
     {
@@ -119,6 +122,17 @@
       ],
       "status": "not_imported",
       "sourceRelease": "release_cloud_v35"
+    },
+    {
+      "cohort": "eighteenth_market_food_points_batch",
+      "placeIds": [
+        "market-gwangcheon-hongseong",
+        "dining-leesungdang-gunsan",
+        "dining-binhaewon-gunsan"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v36",
+      "sourceReleaseStatus": "canonical_prepared_not_site_deployed"
     }
   ],
   "existingUpdateGroups": [
@@ -295,6 +309,22 @@
       "status": "not_cleared_by_row_import",
       "coordinateUpdateStatus": "staged_not_applied_to_live_map",
       "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "eighteenth_market_food_points_batch",
+      "recordedUpdateCounts": {
+        "existing_record_updates": 3,
+        "existing_source_updates": 0,
+        "existing_coordinate_updates": 3
+      },
+      "explicitPlaceIds": [
+        "market-onyang-oncheon-asan",
+        "market-cheongju-yukgeori",
+        "market-yongin-jungang"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": "staged_not_applied_to_live_map",
+      "scope": "Three existing general market points and five-language caution extensions. Every existing source object, name and full address preserved. Separate from 38 pending new rows; no new native-ID joins or native-marker writes."
     }
   ],
   "olderSourceDetailRowsReconciliationIncomplete": 105,
@@ -344,5 +374,22 @@
     "Prior source, status and coordinate updates remain separate from successful row imports.",
     "Do not mark 692 historical proposed field edits executed without exact-ID fresh before-value checks.",
     "Existing Activities / 체험 category is intentionally retained for import compatibility. Display category normalization and purpose-layer consolidation are incomplete."
-  ]
+  ],
+  "lastPublishedSiteRelease": "v35",
+  "siteReleaseStatus": "canonical_prepared_not_site_deployed",
+  "currentAppendFile": {
+    "path": "exports/map-append38-v36.csv",
+    "rows": 38,
+    "sha256": "b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213",
+    "bytes": 141285,
+    "addressBased": true,
+    "coordinateColumns": 0,
+    "sourceAuditColumn": false,
+    "containsGeneralPointReferenceTextFor": [
+      "culture-hongjuseong-history",
+      "culture-jeungpyeong-folk-museum"
+    ],
+    "status": "prepared_not_uploaded",
+    "existingMapRowsReplacement": false
+  }
 }

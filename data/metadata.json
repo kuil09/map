@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "canonicalRepository": "https://github.com/kuil09/map",
   "snapshotDate": "2026-10-27",
-  "snapshotRelease": "v35",
+  "snapshotRelease": "v36",
   "sourceSiteCommit": "bacf5a334a7850977ff0673925c6305191e221a6",
   "siteUrl": "https://humphreys-field-guide.kuil09.chatgpt.site",
   "mapUrl": "https://www.google.com/maps/d/u/0/viewer?mid=1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
@@ -14,14 +14,14 @@
     "es"
   ],
   "counts": {
-    "places": 642,
-    "sourceReferences": 956,
+    "places": 645,
+    "sourceReferences": 960,
     "sourceStatuses": {
-      "verified": 897,
+      "verified": 901,
       "unconfirmed": 55,
       "blocked": 4
     },
-    "coordinatePoints": 127,
+    "coordinatePoints": 130,
     "unmeasured": 515,
     "photos": 16,
     "photoAssets": 32,
@@ -39,5 +39,7 @@
     "integration": "Copy canonical JSON into a site build only after checking all 32 existing licensed asset hashes."
   },
   "datasetLicense": "No new blanket license is granted by this preservation migration; see docs/RIGHTS.md.",
-  "status": "Canonical data snapshot and integration contract; this commit alone does not upload Google My Maps or redeploy the existing Site."
+  "status": "Canonical v36 data prepared for the existing Site; publication of this repository alone does not upload Google My Maps or redeploy the Site. The sourceSiteCommit identifies the retained v35 migration source, not the future Site release.",
+  "lastPublishedSiteRelease": "v35",
+  "releaseStatus": "canonical_prepared_not_site_deployed"
 }

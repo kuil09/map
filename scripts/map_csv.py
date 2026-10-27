@@ -1,4 +1,4 @@
-"""Reproduce the reviewed v35 35-place address-based My Maps CSV.
+"""Reproduce reviewed address-based My Maps CSV artifacts, including v35/v36.
 
 Pure formatting only: no network, map actions, or embedded local paths.
 Call format_places(places, ordered_ids), then csv_bytes(rows).
