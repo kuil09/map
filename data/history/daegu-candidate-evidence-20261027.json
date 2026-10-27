@@ -1,0 +1,1561 @@
+{
+  "schemaVersion": "1.0",
+  "status": "research_only_not_public_directory_or_map",
+  "checkedAtUtc": "2026-10-27T20:11:13Z",
+  "canonicalArchivePlaces": 648,
+  "canonicalPlacesSha256": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c",
+  "scope": "Daegu civilian regional candidates, with Camp Walker as orientation only. No military entrance, nationwide completion, or Humphreys 200 km cap asserted.",
+  "candidateCount": 8,
+  "publicationGate": "Editorial conflict review, five-language canonical conversion, schema/identity/source validation, then separate serial map and Site integration. Candidates are not import-ready.",
+  "groups": [
+    {
+      "scope": "food_and_activities",
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.ssbnc.kr/doc/store1.php",
+          "publisher": "Samsong BNC / Samsong Bakery",
+          "quality": "official",
+          "role": "operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Branch table identifies 삼송빵집 본점 and supplies its address, phone, hours, parking restriction and sold-out caveat."
+          }
+        },
+        {
+          "id": "S2",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=215016",
+          "publisher": "Korea Tourism Organization / VISITKOREA",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Exact main-store listing corroborates operator street number and identifies baked items and second-floor seating. English tourism text is not proof of English-speaking staff."
+          }
+        },
+        {
+          "id": "S3",
+          "url": "https://www.daegufood.go.kr/kor/food/food.asp?gotoPage=30&idx=1083&snm=110",
+          "publisher": "Daegu Metropolitan City / Daegu Food",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_with_conflicting_fields",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Same main-branch name and phone but a different street number. Hours summary conflicts with narrative closing times. Retained as discrepancy evidence, not chosen as controlling address/hours."
+          }
+        },
+        {
+          "id": "G1",
+          "url": "https://www.daegufood.go.kr/kor/food/food2.asp?gotoPage=1&idx=166&snm=13",
+          "publisher": "Daegu Metropolitan City / Daegu Food",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Named restaurant page supplies street address, phone, published hours, holiday exception, menu and parking note. No explicit last-updated date was visible."
+          }
+        },
+        {
+          "id": "G2",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85672",
+          "publisher": "Korea Tourism Organization / VISITKOREA",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Named restaurant page corroborates street address and phone and describes the food; its holiday field conflicts with the city directory."
+          }
+        },
+        {
+          "id": "I1",
+          "url": "https://dgicerink2.dpfc.or.kr/sub/sub02/sub02_01.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu Second Ice Rink",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_public_day_use",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Individual admission and daily skate rental are explicitly separate from monthly membership and lessons."
+          }
+        },
+        {
+          "id": "I2",
+          "url": "https://dgicerink2.dpfc.or.kr/sub/sub01/sub01_04.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu Second Ice Rink",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_address_access",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Exact venue address and parking/navigation caveats. The route-correction image was not used to infer a coordinate or entrance."
+          }
+        },
+        {
+          "id": "I3",
+          "url": "https://dgicerink2.dpfc.or.kr/sub/sub02/sub02_05.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu Second Ice Rink",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_safety",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Rink safety page gives helmet/glove and staff-instruction requirements."
+          }
+        },
+        {
+          "id": "I4",
+          "url": "https://dgicerink2.dpfc.or.kr/",
+          "publisher": "Daegu Public Facilities Corporation / Daegu Second Ice Rink",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_current_site_activity",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Homepage lists 2026-10-21 re-registration guidance and 2026-10-15 November lesson announcement; not a live lane/capacity check."
+          }
+        },
+        {
+          "id": "I5",
+          "url": "https://dgicerink2.dpfc.or.kr/sub05/sub05_01.php?idx=3354&mode=view",
+          "publisher": "Daegu Public Facilities Corporation / Daegu Second Ice Rink",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_recent_notice",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": "2026-10-15",
+            "notes": "November 2026 lesson notice identifies the Second Ice Rink department; stated notice start 2026-10-15 and end 2026-10-21. Does not establish lesson availability now."
+          }
+        },
+        {
+          "id": "R1",
+          "url": "https://shooting.dpfc.or.kr/08_info/sub01.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu International Shooting Range",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_tourist_use",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Tourist-use guide distinguishes casual visitors from professional-athlete facilities; operational visitor rules reviewed without interpreting the underlying law."
+          }
+        },
+        {
+          "id": "R2",
+          "url": "https://shooting.dpfc.or.kr/reservation_new/sub02.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu International Shooting Range",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_booking_scope_and_address",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Public landing page gives address and separately labels tourist groups of at least 10 versus registered-athlete indoor lanes. No form was submitted."
+          }
+        },
+        {
+          "id": "R3",
+          "url": "https://portal.dpfc.or.kr/sub.php?Page1=5&Page2=1&Page3=1&Page4=0&search_post=35",
+          "publisher": "Daegu Public Facilities Corporation",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_faq",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "FAQ section is explicitly Daegu International Shooting Range, not another facility; photo-ID examples and beginner safety supervision reviewed."
+          }
+        },
+        {
+          "id": "R4",
+          "url": "https://shooting.dpfc.or.kr/05_customer/sub03.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu International Shooting Range",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_notice_index",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Newest venue-scoped monthly operating notice visible is April 2026. A newer shared Second Ice Rink item is not treated as a shooting-range operational update."
+          }
+        },
+        {
+          "id": "R5",
+          "url": "https://shooting.dpfc.or.kr/04_guide/sub06.php",
+          "publisher": "Daegu Public Facilities Corporation / Daegu International Shooting Range",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T20:08:22Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue_address",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Venue directions page corroborates the same street address; no travel distance or entrance coordinate extracted."
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "id": "dining-daegu-samsong-main",
+          "name_en": "Samsong Bakery · Main Store",
+          "name_ko": "삼송빵집 본점",
+          "area": "Daegu",
+          "category": "food",
+          "kind": "bakery_cafe",
+          "setting": "indoor",
+          "address": "대구광역시 중구 중앙대로 397",
+          "aliases": [
+            "삼송빵집 본점",
+            "삼송제과 본점",
+            "Samsong Bakery main store",
+            "Samsong BNC"
+          ],
+          "checked_at": "2026-10-27T20:08:22Z",
+          "review_status": "research_candidate_only_not_import_ready",
+          "map_type": "search",
+          "coordinates": null,
+          "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+          "radial_distance_km": null,
+          "camp_walker_distance_km": null,
+          "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+          "humphreys_200km_cap_applied": false,
+          "duplicate_check": {
+            "status": "no_matching_canonical_record",
+            "canonical_count": 648,
+            "method": "Unicode/spacing/punctuation-normalized IDs, names and aliases; normalized exact street address; exact source URLs. Manual review confirms no Daegu area entries. Not coordinate proximity deduplication.",
+            "matching_name_ids": [],
+            "matching_address_ids": [],
+            "matching_source_ids": []
+          },
+          "visitor_fields": {
+            "open_status": {
+              "status": "officially_listed_not_live_confirmed",
+              "value": "Exact operator branch page and KTO listing are readable; no live opening or stock check.",
+              "source_ids": [
+                "S1",
+                "S2"
+              ]
+            },
+            "reservation": {
+              "status": "partially_reported_not_currently_confirmed",
+              "value": "City narrative recommends takeaway pre-order but separately says weekend reservations are unavailable; operator branch page gives no booking workflow. Do not promise reservation availability.",
+              "source_ids": [
+                "S3"
+              ]
+            },
+            "foreigner_id": {
+              "status": "unknown",
+              "value": null,
+              "reason": "No foreign-visitor identification policy found in reviewed branch sources."
+            },
+            "payment": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Foreign-issued cards, cash-only rules and payment brands are not established."
+            },
+            "language": {
+              "status": "unknown",
+              "value": null,
+              "reason": "English tourism content does not establish English menus or staff service."
+            },
+            "public_access": {
+              "status": "public_civilian_listing",
+              "value": "Ordinary commercial bakery/cafe listed by its operator and national tourism authority; no military-access venue.",
+              "source_ids": [
+                "S1",
+                "S2"
+              ]
+            },
+            "accessibility": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Step-free route to the actual entrance or second-floor seating has not been established."
+            },
+            "holiday_closures": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Operator branch table supplies no holiday calendar; city listing mentions one holiday day but also contains address/hours conflicts."
+            },
+            "current_prices": {
+              "status": "unknown",
+              "value": null,
+              "reason": "No operator branch-specific price verification performed."
+            }
+          },
+          "facts": {
+            "exact_branch": {
+              "value": "Main store (본점), not Samsong 1957 or another Samsong branch.",
+              "source_ids": [
+                "S1",
+                "S2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "address": {
+              "value": "Operator lists 대구시 중구 중앙대로 397 (동성로3가 1-3); KTO agrees on 397 Jungang-daero.",
+              "source_ids": [
+                "S1",
+                "S2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "food_and_seating": {
+              "value": "KTO identifies whole-corn buns, baked vegetable croquettes and second-floor cafe-style seating.",
+              "source_ids": [
+                "S2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "phone": {
+              "value": "053-254-4064",
+              "source_ids": [
+                "S1",
+                "S2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "published_hours": {
+              "value": "08:00–22:00; operator warns of earlier closure when products sell out.",
+              "source_ids": [
+                "S1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "parking": {
+              "value": "Operator lists no parking in the Jungang-ro public-transport-only zone.",
+              "source_ids": [
+                "S1"
+              ],
+              "status": "verified_published_fact"
+            }
+          },
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "english_name_status": "Based on KTO English venue title; separator/editorial casing adjusted.",
+          "conflicts": [
+            {
+              "fields": [
+                "address",
+                "hours"
+              ],
+              "source_ids": [
+                "S1",
+                "S2",
+                "S3"
+              ],
+              "detail": "City directory says 395 Jungang-daero, while operator and KTO say 397. City summary says 08:00–22:00 but its narrative describes earlier weekday/weekend closing. Use 397 for this candidate; retain operator hours as published with sold-out caveat, not a guarantee. Exact building entrance remains unverified."
+            }
+          ],
+          "suggested_guide_text_en": "Main-store bakery stop for whole-corn buns, with cafe-style seating upstairs. Confirm day-specific closing; products can sell out early."
+        },
+        {
+          "id": "dining-daegu-gugil-ttarogukbap",
+          "name_en": "Gugil Ttarogukbap",
+          "name_ko": "국일따로국밥",
+          "area": "Daegu",
+          "category": "food",
+          "kind": "korean_soup",
+          "setting": "indoor",
+          "address": "대구광역시 중구 국채보상로 571",
+          "aliases": [
+            "국일따로국밥",
+            "Gugil Ttarogukbap",
+            "Gukil Ttaro Gukbap",
+            "Kukil Ttaro Gukbap"
+          ],
+          "checked_at": "2026-10-27T20:08:22Z",
+          "review_status": "research_candidate_only_not_import_ready",
+          "map_type": "search",
+          "coordinates": null,
+          "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+          "radial_distance_km": null,
+          "camp_walker_distance_km": null,
+          "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+          "humphreys_200km_cap_applied": false,
+          "duplicate_check": {
+            "status": "no_matching_canonical_record",
+            "canonical_count": 648,
+            "method": "Unicode/spacing/punctuation-normalized IDs, names and aliases; normalized exact street address; exact source URLs. Manual review confirms no Daegu area entries. Not coordinate proximity deduplication.",
+            "matching_name_ids": [],
+            "matching_address_ids": [],
+            "matching_source_ids": []
+          },
+          "visitor_fields": {
+            "open_status": {
+              "status": "officially_listed_not_live_confirmed",
+              "value": "Exact city and KTO pages remain publicly listed; actual current opening not tested.",
+              "source_ids": [
+                "G1",
+                "G2"
+              ]
+            },
+            "reservation": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Reviewed sources do not establish a current reservation channel or requirement."
+            },
+            "foreigner_id": {
+              "status": "unknown",
+              "value": null,
+              "reason": "No foreign-visitor identification policy found."
+            },
+            "payment": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Foreign-card acceptance and payment methods are not established."
+            },
+            "language": {
+              "status": "unknown",
+              "value": null,
+              "reason": "KTO English page and 1330 helpline languages are not restaurant staff-language evidence."
+            },
+            "public_access": {
+              "status": "public_civilian_listing",
+              "value": "Civilian restaurant in city and national tourism directories; no military-access venue.",
+              "source_ids": [
+                "G1",
+                "G2"
+              ]
+            },
+            "accessibility": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Step-free entrance, accessible restroom and seating route were not verified."
+            },
+            "holiday_closures": {
+              "status": "conflicting",
+              "value": "City says one holiday day closed; KTO says open year-round. Do not publish an unconditional 365-day claim.",
+              "source_ids": [
+                "G1",
+                "G2"
+              ]
+            },
+            "current_prices": {
+              "status": "unknown",
+              "value": null,
+              "reason": "City lists menu prices but their current validity was not independently established; omitted from candidate."
+            }
+          },
+          "facts": {
+            "exact_venue": {
+              "value": "Named restaurant at 571 Gukchaebosang-ro, Jung-gu; no additional branch label asserted.",
+              "source_ids": [
+                "G1",
+                "G2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "phone": {
+              "value": "053-253-7623",
+              "source_ids": [
+                "G1",
+                "G2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "food": {
+              "value": "Ttaro-gukbap serves rice separately from soup. KTO describes beef-bone broth with meat and coagulated ox blood.",
+              "source_ids": [
+                "G2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "published_hours": {
+              "value": "Both sources list 24-hour operation, subject to unresolved holiday exception.",
+              "source_ids": [
+                "G1",
+                "G2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "parking": {
+              "value": "City listing says no on-site parking and refers visitors to nearby paid parking.",
+              "source_ids": [
+                "G1"
+              ],
+              "status": "verified_published_fact"
+            }
+          },
+          "source_ids": [
+            "G1",
+            "G2"
+          ],
+          "english_name_status": "KTO English venue title.",
+          "conflicts": [
+            {
+              "fields": [
+                "holiday_closures"
+              ],
+              "source_ids": [
+                "G1",
+                "G2"
+              ],
+              "detail": "The city directory's 명절 1일 exception conflicts with KTO's open-all-year field. Preserve uncertainty rather than treating 24-hour as 365-day operation."
+            }
+          ],
+          "suggested_guide_text_en": "Daegu-style ttaro-gukbap with rice served separately. The documented soup includes beef and coagulated ox blood; holiday opening needs confirmation."
+        },
+        {
+          "id": "activity-daegu-second-ice-rink",
+          "name_en": "Daegu Second Ice Rink",
+          "name_ko": "대구제2빙상장",
+          "area": "Daegu",
+          "category": "activities",
+          "kind": "ice_skating",
+          "setting": "indoor",
+          "address": "대구광역시 동구 이노밸리로36길 7",
+          "aliases": [
+            "대구제2빙상장",
+            "대구 제2빙상장",
+            "Daegu Second Ice Rink",
+            "Daegu 2nd Ice Rink"
+          ],
+          "checked_at": "2026-10-27T20:08:22Z",
+          "review_status": "research_candidate_only_not_import_ready",
+          "map_type": "search",
+          "coordinates": null,
+          "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+          "radial_distance_km": null,
+          "camp_walker_distance_km": null,
+          "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+          "humphreys_200km_cap_applied": false,
+          "duplicate_check": {
+            "status": "no_matching_canonical_record",
+            "canonical_count": 648,
+            "method": "Unicode/spacing/punctuation-normalized IDs, names and aliases; normalized exact street address; exact source URLs. Manual review confirms no Daegu area entries. Not coordinate proximity deduplication.",
+            "matching_name_ids": [],
+            "matching_address_ids": [],
+            "matching_source_ids": []
+          },
+          "visitor_fields": {
+            "open_status": {
+              "status": "current_operator_activity_not_live_confirmed",
+              "value": "Current operator notice activity and day-use guide verified; no live capacity or date-specific closure check.",
+              "source_ids": [
+                "I1",
+                "I4",
+                "I5"
+              ]
+            },
+            "reservation": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Individual admission is documented, but a day-use reservation requirement or walk-in guarantee is not explicit in reviewed pages. The general booking link may serve lessons or rentals."
+            },
+            "foreigner_id": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Passport/foreign-registration acceptance for ordinary admission was not established. Discount document rules do not establish foreigner eligibility."
+            },
+            "payment": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Payment methods and foreign-issued card acceptance are unverified."
+            },
+            "language": {
+              "status": "unknown",
+              "value": null,
+              "reason": "English-speaking staff, translated safety briefing and English booking support unverified."
+            },
+            "public_access": {
+              "status": "public_municipal_day_use_verified",
+              "value": "Municipal operator publishes per-person admission; not a military facility or athlete-only session.",
+              "source_ids": [
+                "I1"
+              ]
+            },
+            "accessibility": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Step-free entrance and accessible skating provision were not verified."
+            },
+            "discounts": {
+              "status": "unknown",
+              "value": null,
+              "reason": "No assumption that Korean military/resident discount categories apply to US personnel or other foreign visitors."
+            },
+            "equipment_availability": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Skate sizes, stock, helmet rental and glove purchase availability were not established."
+            }
+          },
+          "facts": {
+            "address": {
+              "value": "대구광역시 동구 이노밸리로 36길 7; phone 053-960-7700.",
+              "source_ids": [
+                "I2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "public_day_use": {
+              "value": "Guide explicitly offers individual admission and daily skate rental, distinct from monthly memberships and lessons.",
+              "source_ids": [
+                "I1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "published_hours": {
+              "value": "Public skating 10:00–17:00 on weekdays/weekends; closed first and third Mondays monthly. Ice-maintenance breaks interrupt skating.",
+              "source_ids": [
+                "I1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "published_standard_adult_price": {
+              "value": "Individual adult admission KRW 5,000; daily skate rental KRW 3,000 separately. Rates are published, not a payment quote.",
+              "source_ids": [
+                "I1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "equipment_and_safety": {
+              "value": "Helmet and gloves required; follow rink staff instructions and leave the ice during resurfacing. Alcohol-affected visitors are excluded.",
+              "source_ids": [
+                "I3"
+              ],
+              "status": "verified_published_fact"
+            },
+            "parking_navigation": {
+              "value": "Operator warns of limited parking and a T Map approach-routing error; consult its directions page rather than assuming an entrance.",
+              "source_ids": [
+                "I2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "recent_operator_activity": {
+              "value": "Homepage shows October 2026 notices; November lesson notice belongs to the Second Ice Rink and is dated 2026-10-15.",
+              "source_ids": [
+                "I4",
+                "I5"
+              ],
+              "status": "verified_published_fact"
+            }
+          },
+          "source_ids": [
+            "I1",
+            "I2",
+            "I3",
+            "I4",
+            "I5"
+          ],
+          "english_name_status": "Editorial translation of official Korean facility name; not the older 대구실내빙상장 in Buk-gu.",
+          "conflicts": [],
+          "suggested_guide_text_en": "Public ice skating at Daegu's Second Ice Rink, with individual admission and separate skate rental. Bring gloves; helmets are required. Confirm day-use arrangements and date-specific closures."
+        },
+        {
+          "id": "activity-daegu-international-shooting-tourist",
+          "name_en": "Daegu International Shooting Range · Tourist Experiences",
+          "name_ko": "대구국제사격장 관광사격",
+          "area": "Daegu",
+          "category": "activities",
+          "kind": "recreational_shooting",
+          "setting": "mixed",
+          "address": "대구광역시 북구 문주길 170",
+          "aliases": [
+            "대구국제사격장",
+            "대구사격장",
+            "Daegu International Shooting Range"
+          ],
+          "checked_at": "2026-10-27T20:08:22Z",
+          "review_status": "research_candidate_only_not_import_ready",
+          "map_type": "search",
+          "coordinates": null,
+          "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+          "radial_distance_km": null,
+          "camp_walker_distance_km": null,
+          "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+          "humphreys_200km_cap_applied": false,
+          "duplicate_check": {
+            "status": "no_matching_canonical_record",
+            "canonical_count": 648,
+            "method": "Unicode/spacing/punctuation-normalized IDs, names and aliases; normalized exact street address; exact source URLs. Manual review confirms no Daegu area entries. Not coordinate proximity deduplication.",
+            "matching_name_ids": [],
+            "matching_address_ids": [],
+            "matching_source_ids": []
+          },
+          "visitor_fields": {
+            "open_status": {
+              "status": "published_visitor_rules_not_date_confirmed",
+              "value": "Current readable operator guide and booking-scope page verified. No venue-specific October 2026 operating notice established; actual opening and capacity remain unknown.",
+              "source_ids": [
+                "R1",
+                "R2",
+                "R4"
+              ]
+            },
+            "reservation": {
+              "status": "verified_published_rule",
+              "value": "See facts.walk_in_rule. Published rule only; no contact or booking made.",
+              "source_ids": [
+                "R1"
+              ]
+            },
+            "foreigner_id": {
+              "status": "document_types_verified_eligibility_not_guaranteed",
+              "value": "Passports and foreign-registration cards explicitly appear among accepted photo IDs. This does not establish every foreign visitor's eligibility, nationality exception, or US military-ID acceptance.",
+              "source_ids": [
+                "R3"
+              ]
+            },
+            "payment": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Foreign-issued cards, cash and payment brands not established."
+            },
+            "language": {
+              "status": "unknown",
+              "value": null,
+              "reason": "An English landing link exists but no substantive English service information was readable; English staff/safety briefing availability unverified."
+            },
+            "public_access": {
+              "status": "public_civilian_tourist_use_verified",
+              "value": "Civilian tourist experiences verified; professional-athlete indoor lanes excluded.",
+              "source_ids": [
+                "R1",
+                "R2"
+              ]
+            },
+            "accessibility": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Step-free entrance and activity-specific accessibility not verified."
+            },
+            "current_prices": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Operator tariff exists, but no prices retained here; activity-specific charges and availability must be checked."
+            },
+            "discounts": {
+              "status": "unknown",
+              "value": null,
+              "reason": "Korean military discount categories must not be generalized to US personnel."
+            }
+          },
+          "facts": {
+            "address": {
+              "value": "대구광역시 북구 문주길 170 (금호동); phone 053-312-0000.",
+              "source_ids": [
+                "R2",
+                "R5"
+              ],
+              "status": "verified_published_fact"
+            },
+            "tourist_scope": {
+              "value": "Public tourist shooting experiences are separate from indoor lanes reserved for registered professional athletes.",
+              "source_ids": [
+                "R1",
+                "R2"
+              ],
+              "status": "verified_published_fact"
+            },
+            "published_hours": {
+              "value": "09:00–18:00; lunch break 12:00–13:00. Mondays and statutory public holidays other than Sundays are closed. Winter clay activity ends at 17:00 during November–January.",
+              "source_ids": [
+                "R1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "walk_in_rule": {
+              "value": "Fewer than 10 visitors may come without advance booking before the 17:00 ticket cutoff. Groups of 10 or more require advance telephone booking.",
+              "source_ids": [
+                "R1"
+              ],
+              "status": "verified_published_fact"
+            },
+            "age_and_id": {
+              "value": "Operator lists age 14+ and photo identification for live-fire activities; its FAQ specifically includes passports and foreign-registration cards.",
+              "source_ids": [
+                "R1",
+                "R3"
+              ],
+              "status": "verified_published_fact"
+            },
+            "supervision": {
+              "value": "FAQ describes a safety briefing before the experience and trained safety staff present.",
+              "source_ids": [
+                "R3"
+              ],
+              "status": "verified_published_fact"
+            },
+            "notice_freshness": {
+              "value": "Visible shooting-range operating-notice index reaches April 2026; a shared newer Second Ice Rink item is not evidence of recent shooting-range operations.",
+              "source_ids": [
+                "R4"
+              ],
+              "status": "verified_published_fact"
+            }
+          },
+          "source_ids": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ],
+          "english_name_status": "Operator uses Daegu International Shooting Range; Tourist Experiences is an editorial scope label.",
+          "conflicts": [],
+          "suggested_guide_text_en": "Civilian supervised shooting experiences, distinct from athlete-only lanes. Live-fire visitors need age-appropriate photo ID; the operator lists passports and foreign-registration cards. Confirm English safety support and the visit day's operations."
+        }
+      ]
+    },
+    {
+      "scope": "nature_shopping_culture",
+      "sources": [
+        {
+          "id": "apsan-access",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b64cb108-3e58-4b76-bcbb-4262ef0979c3",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "대구앞산공원 — 열린관광 모두의 여행",
+          "scope": "exact_venue_and_public_directions",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "public_html_get_and_web_open",
+          "http_status": 200,
+          "published_or_updated": "2026-06-17",
+          "reviewed_facts_summary": "Named park, address, general directions coordinates, trail context and accessibility information. Seasonal hours appear without a clear facility scope.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee.",
+          "sha256": "14abdb215d86f2cba2c78cee42784eec7f966f55cf666c4127a157dadc7a3007"
+        },
+        {
+          "id": "apsan-en",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87639",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "Daegu Apsan Park (대구앞산공원)",
+          "scope": "exact_venue",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "web_open",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Mountain park and views; free general admission; facility-dependent hours. Cable-car charges are separate and were not adopted as current operator prices.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "duryu-access",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=d94b35a4-6031-4da3-a14d-a7091cfe454f",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "대구두류공원 — 열린관광 모두의 여행",
+          "scope": "exact_venue_and_public_directions",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "public_html_get_and_web_open",
+          "http_status": 200,
+          "published_or_updated": "2025-11-25",
+          "reviewed_facts_summary": "Named public park, address, general directions coordinates, open-year-round listing and accessibility facilities. Separate cultural, sports and commercial facilities are not validated by the park listing alone.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee.",
+          "sha256": "39146eacfa99040931b9b93d2d0226e11277f39eb4bf517acd630a542101d22c"
+        },
+        {
+          "id": "duryu-en",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89045",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "Daegu Duryu Park (대구두류공원)",
+          "scope": "exact_venue",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "web_open",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Park identity, same address, year-round listing and parking. A tourism hotline language list is not evidence of English-speaking park staff.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "seomun-access",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9b79d379-def2-455d-a50d-95562aa702e9",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "대구 서문시장 & 서문시장 야시장 — 열린관광 모두의 여행",
+          "scope": "exact_market_complex_and_public_directions",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "public_html_get_and_official_search_index",
+          "http_status": 200,
+          "published_or_updated": "2025-10-21",
+          "reviewed_facts_summary": "Complex address, explicit directions point, separate daytime/night schedules, accessible parking, ramps, an elevator and toilets. These facilities are not evidence that every stall or route is accessible.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee.",
+          "sha256": "856b70f26db22d3e7935d4ef539a6d09bdd8c73aae8771fe9ccb9c4166aecaef"
+        },
+        {
+          "id": "seomun-en",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?dataSetId=233&menuSn=977&vcontsId=87243",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "Daegu Seomun Market & Seomun Night Market",
+          "scope": "exact_market_complex",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "official_search_index",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Textiles, clothing, household goods and food; same complex address and separate daytime/night schedules. General cards-accepted statement, without foreign-card or every-vendor assurance.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "seomun-shopping",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?dataSetId=264&menuSn=929&vcontsId=250071",
+          "publisher": "Korea Tourism Organization",
+          "quality": "official",
+          "title": "[Daegu] Daegu Seomun Market",
+          "scope": "exact_market_complex",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "web_open",
+          "http_status": null,
+          "published_or_updated": "2025-10-21",
+          "reviewed_facts_summary": "Same address; daytime opening listed as 08:00, while the destination listing uses 09:00.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "seomun-operator-ko",
+          "url": "https://nightseomun.com/",
+          "publisher": "Daegu Traditional Market Support Agency",
+          "quality": "official",
+          "title": "서문야시장",
+          "scope": "night_market_operator",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "public_html_get_and_web_open",
+          "http_status": 200,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Korean homepage lists Friday/Saturday 19:00–23:30 and Sunday 19:00–22:30, closed Monday–Thursday. Weather or public-health responses may change hours. Footer address belongs to the operating foundation, not the market.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee.",
+          "sha256": "58196cc14bf410e7e6b7d0f22014500a6766c3a31f1b65961feb9057549c812c"
+        },
+        {
+          "id": "seomun-operator-en",
+          "url": "https://nightseomun.com/html/lang/index_eng.php",
+          "publisher": "Daegu Traditional Market Support Agency",
+          "quality": "official",
+          "title": "Seomun Night Market — English page",
+          "scope": "night_market_operator_language_variant",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "official_search_index",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "English page retains different summer/winter hours and implies weekday opening. It conflicts with the Korean homepage and is not selected as the current schedule.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "seomun-route-address",
+          "url": "https://www.data.go.kr/data/15017321/standard.do",
+          "publisher": "Public Data Portal; Daegu Jung-gu road-tourism record",
+          "quality": "official",
+          "title": "전국길관광정보표준데이터",
+          "scope": "municipal_route_endpoint",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "official_search_index",
+          "http_status": null,
+          "published_or_updated": "2026-06-26 record date",
+          "reviewed_facts_summary": "Daegu modern-alley route 3 uses Seomun Market at 50 Dalseong-ro as its endpoint. This is an alternate complex locator, not proof of an entrance.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "seongmodang-diocese",
+          "url": "https://www.daegu-archdiocese.or.kr/page/shrine.html?idx=12&process=read&srl=&view_option=",
+          "publisher": "Catholic Archdiocese of Daegu",
+          "quality": "official",
+          "title": "성모당 — 성지/사적지",
+          "scope": "exact_shrine",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "web_open",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Shrine on the archdiocesan grounds; address and contact. Regular Mass Monday–Saturday 11:00; retreats and meals require reservation. Accommodation is mentioned separately; no current availability, eligibility or payment conditions verified.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        },
+        {
+          "id": "cbck-shrines",
+          "url": "https://missa.cbck.or.kr/Shrines",
+          "publisher": "Catholic Bishops’ Conference of Korea",
+          "quality": "official",
+          "title": "전국 성지·순교 사적지·순례지 안내",
+          "scope": "official_shrine_directory",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "public_html_get_and_web_open",
+          "http_status": 200,
+          "published_or_updated": "2026-07-27",
+          "reviewed_facts_summary": "Directory includes Seongmodang and clergy cemetery at 112 Namsan-ro 4-gil, with shrine telephone. A directory entry is not a current opening policy.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee.",
+          "sha256": "d907d14d4a23ddabf9612cbd70bcfd8b30f060d078d6f51861f59be528f71e0e"
+        },
+        {
+          "id": "seongmodang-name-en",
+          "url": "https://www.wyd2027did-daegu.org/en",
+          "publisher": "Daegu World Youth Day diocesan site",
+          "quality": "official",
+          "title": "2027 WYD Daegu DID Official Site",
+          "scope": "english_name_only",
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "access_method": "web_open",
+          "http_status": null,
+          "published_or_updated": null,
+          "reviewed_facts_summary": "Calendar uses the English name Seongmodang (Shrine of Our Lady). Historical event listings do not establish an English-language service or current visitor program.",
+          "availability_caveat": "Public page review is not an on-site inspection or live availability guarantee."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "scenery-daegu-apsan-park",
+          "name_en": "Daegu Apsan Park",
+          "name_ko": "대구앞산공원",
+          "area": "Daegu",
+          "district": "Nam-gu",
+          "region": "Daegu / Camp Walker regional guide",
+          "category": "scenery",
+          "kind": "mountain-park",
+          "setting": "outdoor",
+          "address": "대구광역시 남구 앞산순환로 574-87",
+          "description": {
+            "en": "A wooded mountain-park option for walks and city views."
+          },
+          "notes": {
+            "en": "General park admission is listed as free; cable car and individual facilities are separate. Facility hours differ across tourism pages; confirm the intended activity. Published point is not an entrance."
+          },
+          "sources": [
+            "apsan-access",
+            "apsan-en"
+          ],
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "map_type": "search",
+          "coordinates": {
+            "lat": 35.8289746480382,
+            "lng": 128.58903004805
+          },
+          "coordinate_status": "Official tourism general venue point; exact entrance, parking and accessible route unverified.",
+          "radial_distance_km": null,
+          "radius_status": "Daegu regional scope; Humphreys 200 km screen not applied.",
+          "distance_reference_id": null,
+          "distance_method": null,
+          "regional_access_assessment": "Civilian Daegu urban destination, selected by public municipality and venue address. No Camp Walker gate, entrance, origin point, travel distance or travel time established.",
+          "live_availability": "not_checked",
+          "search_terms": [
+            "Apsan",
+            "앞산공원",
+            "대구앞산공원"
+          ],
+          "images": [],
+          "publication_review": {
+            "status": "research_candidate_only",
+            "full_map_field_audit": "partial_not_complete",
+            "translations": "English editorial draft only; remaining canonical locales not prepared.",
+            "canonical_modified": false
+          },
+          "coordinate_quality": "official_tourism_published",
+          "coordinate_source_sha256": "14abdb215d86f2cba2c78cee42784eec7f966f55cf666c4127a157dadc7a3007",
+          "coordinate_provenance": {
+            "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+            "directions_anchor": "<a href=\"javascript:findingAway('대구앞산공원', '35.8289746480382', '128.58903004805');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+            "address_match": "대구광역시 남구 앞산순환로 574-87",
+            "verified_entrance": false
+          },
+          "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b64cb108-3e58-4b76-bcbb-4262ef0979c3",
+          "visit_constraints": {
+            "admission": {
+              "status": "official_tourism_listed",
+              "general_park": "Free",
+              "separate_facilities": "Cable car and other facilities are outside the free-general-admission claim.",
+              "source_ids": [
+                "apsan-en"
+              ]
+            },
+            "hours": {
+              "status": "scope_conflict_unresolved",
+              "english_listing": "Varies by facility; open year-round.",
+              "korean_access_listing": "Summer 10:00–19:00 / winter 10:00–18:00; facility scope and season boundaries unspecified.",
+              "publication_rule": "Do not call the whole park 24-hour or adopt those seasonal hours as a verified cable-car schedule.",
+              "source_ids": [
+                "apsan-access",
+                "apsan-en"
+              ]
+            },
+            "booking": {
+              "general_individual_visit": "No reservation rule found; not the same as verified no-reservation policy.",
+              "cable_car_or_special_programs": "Unverified; separate operator verification needed.",
+              "transaction_tested": false
+            },
+            "foreign_id": "No ID eligibility policy established.",
+            "payment": "Foreign-issued card acceptance and payment for cable car, parking or facilities unverified.",
+            "language": "English tourism page exists; on-site English assistance or tours unverified.",
+            "accessibility": {
+              "official_listing": "A step-free main approach, designated disabled parking and accessible toilets are listed.",
+              "limits": "Does not establish accessible mountain trails, cable-car boarding, current parking availability or a continuous accessible itinerary.",
+              "source_ids": [
+                "apsan-access"
+              ]
+            },
+            "safety": "Check weather and local trail restrictions; no route fitness/safety assessment was performed."
+          },
+          "deduplication": {
+            "exact_id_name_address_matches": [],
+            "alias_identity_matches": [],
+            "method": "NFKC/case/spacing/punctuation-normalized candidate ID, English name, Korean name and address against every canonical record; exact alias name checks. Korean Daegu municipality scan also found no pre-existing Daegu records.",
+            "scope_note": "No claim that source-list overlap alone is a duplicate. Public complex and its constituent facilities are not silently merged."
+          }
+        },
+        {
+          "id": "scenery-daegu-duryu-park",
+          "name_en": "Daegu Duryu Park",
+          "name_ko": "대구두류공원",
+          "area": "Daegu",
+          "district": "Dalseo-gu",
+          "region": "Daegu / Camp Walker regional guide",
+          "category": "scenery",
+          "kind": "urban-park",
+          "setting": "outdoor",
+          "address": "대구광역시 달서구 두류공원로 161 (성당동)",
+          "description": {
+            "en": "An urban park with walking space, monuments and nearby cultural facilities."
+          },
+          "notes": {
+            "en": "The park listing does not verify admission, booking or current operation of E-World, 83 Tower, pools, sports venues or performances. Published point is not an entrance."
+          },
+          "sources": [
+            "duryu-access",
+            "duryu-en"
+          ],
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "map_type": "search",
+          "coordinates": {
+            "lat": 35.84866220192912,
+            "lng": 128.55908001618815
+          },
+          "coordinate_status": "Official tourism general venue point; exact entrance, parking and accessible route unverified.",
+          "radial_distance_km": null,
+          "radius_status": "Daegu regional scope; Humphreys 200 km screen not applied.",
+          "distance_reference_id": null,
+          "distance_method": null,
+          "regional_access_assessment": "Civilian Daegu urban destination, selected by public municipality and venue address. No Camp Walker gate, entrance, origin point, travel distance or travel time established.",
+          "live_availability": "not_checked",
+          "search_terms": [
+            "Duryu Park",
+            "두류공원",
+            "대구두류공원"
+          ],
+          "images": [],
+          "publication_review": {
+            "status": "research_candidate_only",
+            "full_map_field_audit": "partial_not_complete",
+            "translations": "English editorial draft only; remaining canonical locales not prepared.",
+            "canonical_modified": false
+          },
+          "coordinate_quality": "official_tourism_published",
+          "coordinate_source_sha256": "39146eacfa99040931b9b93d2d0226e11277f39eb4bf517acd630a542101d22c",
+          "coordinate_provenance": {
+            "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+            "directions_anchor": "<a href=\"javascript:findingAway('대구두류공원', '35.84866220192912', '128.55908001618815');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+            "address_match": "대구광역시 달서구 두류공원로 161 (성당동)",
+            "verified_entrance": false
+          },
+          "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=d94b35a4-6031-4da3-a14d-a7091cfe454f",
+          "visit_constraints": {
+            "hours": {
+              "status": "official_tourism_listed",
+              "general_park": "Always open / year-round in Korean listing.",
+              "limits": "No guarantee against temporary works, event restrictions or facility closures.",
+              "source_ids": [
+                "duryu-access"
+              ]
+            },
+            "admission": {
+              "general_park_fee": "Not established in the reviewed official pages; do not infer free parking or free facilities."
+            },
+            "booking": {
+              "general_individual_visit": "No reservation condition found; not verified as a blanket no-booking policy.",
+              "sports_performances_and_commercial_attractions": "Separate rules and availability unverified.",
+              "transaction_tested": false
+            },
+            "foreign_id": "No general-visit ID requirement or facility discount eligibility established.",
+            "payment": "Foreign-card acceptance and parking/facility payment methods unverified.",
+            "language": "English tourism information is available; on-site English-speaking staff not verified.",
+            "accessibility": {
+              "official_listing": "Accessible approach, level main entrance, designated parking, accessible toilets and one office wheelchair for loan are listed.",
+              "limits": "Rental availability, booking/ID/deposit rules and a complete step-free route are unverified.",
+              "source_ids": [
+                "duryu-access"
+              ]
+            }
+          },
+          "deduplication": {
+            "exact_id_name_address_matches": [],
+            "alias_identity_matches": [],
+            "method": "NFKC/case/spacing/punctuation-normalized candidate ID, English name, Korean name and address against every canonical record; exact alias name checks. Korean Daegu municipality scan also found no pre-existing Daegu records.",
+            "scope_note": "No claim that source-list overlap alone is a duplicate. Public complex and its constituent facilities are not silently merged."
+          }
+        },
+        {
+          "id": "shopping-daegu-seomun-market",
+          "name_en": "Daegu Seomun Market & Seomun Night Market",
+          "name_ko": "대구 서문시장 & 서문시장 야시장",
+          "area": "Daegu",
+          "district": "Jung-gu",
+          "region": "Daegu / Camp Walker regional guide",
+          "category": "shopping",
+          "kind": "traditional-market",
+          "setting": "mixed",
+          "address": "대구광역시 중구 큰장로26길 45",
+          "description": {
+            "en": "A traditional shopping complex known for textiles, clothing and household goods, with a separately scheduled night market."
+          },
+          "notes": {
+            "en": "Day shops and night stalls have different calendars. Prefer the Korean night-market operator schedule over its conflicting English page, and check weather notices. Foreign-card acceptance is not established for every vendor."
+          },
+          "sources": [
+            "seomun-access",
+            "seomun-en",
+            "seomun-shopping",
+            "seomun-operator-ko",
+            "seomun-operator-en",
+            "seomun-route-address"
+          ],
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "map_type": "search",
+          "coordinates": {
+            "lat": 35.8688780818299,
+            "lng": 128.580760261909
+          },
+          "coordinate_status": "Official tourism general venue point; exact entrance, parking and accessible route unverified.",
+          "radial_distance_km": null,
+          "radius_status": "Daegu regional scope; Humphreys 200 km screen not applied.",
+          "distance_reference_id": null,
+          "distance_method": null,
+          "regional_access_assessment": "Civilian Daegu urban destination, selected by public municipality and venue address. No Camp Walker gate, entrance, origin point, travel distance or travel time established.",
+          "live_availability": "not_checked",
+          "search_terms": [
+            "Seomun Market",
+            "Daegu Seomun",
+            "서문시장",
+            "서문야시장",
+            "서문시장 야시장"
+          ],
+          "images": [],
+          "publication_review": {
+            "status": "research_candidate_only",
+            "full_map_field_audit": "partial_not_complete",
+            "translations": "English editorial draft only; remaining canonical locales not prepared.",
+            "canonical_modified": false
+          },
+          "coordinate_quality": "official_tourism_published",
+          "coordinate_source_sha256": "856b70f26db22d3e7935d4ef539a6d09bdd8c73aae8771fe9ccb9c4166aecaef",
+          "coordinate_provenance": {
+            "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+            "directions_anchor": "<a href=\"javascript:findingAway('대구 서문시장 & 서문시장 야시장', '35.8688780818299', '128.580760261909');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+            "address_match": "대구광역시 중구 큰장로26길 45",
+            "verified_entrance": false
+          },
+          "coordinate_source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9b79d379-def2-455d-a50d-95562aa702e9",
+          "alert": true,
+          "venue_relationship": {
+            "scope": "One market-complex candidate with two separately scheduled operations; not two duplicate place records.",
+            "not_this_location": "The night operator footer at 대구 남구 대명로 215 is its foundation office, not the visitor market address."
+          },
+          "address_discrepancy": {
+            "selected": "대구광역시 중구 큰장로26길 45",
+            "selected_source_ids": [
+              "seomun-access",
+              "seomun-en",
+              "seomun-shopping"
+            ],
+            "alternate_official_locator": "대구광역시 중구 달성로 50",
+            "alternate_source_id": "seomun-route-address",
+            "resolution": "Selected exact-market KTO street address; retain alternate complex locator without assuming it is a particular gate, parking entrance or separate venue."
+          },
+          "visit_constraints": {
+            "day_market_hours": {
+              "status": "official_listings_conflict",
+              "destination_listing": "09:00–18:00; first and third Sundays closed; varies by shop.",
+              "shopping_feature": "08:00–18:00; first and third Sundays closed.",
+              "planning_rule": "09:00–18:00 may be displayed only as KTO destination-listing guidance with shop variability; no single opening time verified across all shops.",
+              "source_ids": [
+                "seomun-access",
+                "seomun-en",
+                "seomun-shopping"
+              ]
+            },
+            "night_market_hours": {
+              "status": "operator_korean_homepage_confirmed",
+              "friday_saturday": "19:00–23:30",
+              "sunday": "19:00–22:30",
+              "monday_thursday": "Closed",
+              "exceptions": "Weather/natural-disaster and public-health changes possible. Date-specific opening not checked.",
+              "source_ids": [
+                "seomun-operator-ko"
+              ],
+              "checked": "2026-10-27",
+              "checked_timezone": "Etc/UTC"
+            },
+            "language_version_conflict": {
+              "english_operator_page": "Different seasonal hours and apparent weekday opening.",
+              "decision": "Do not use the English schedule; current Korean homepage and KTO destination schedules agree for the night market.",
+              "source_ids": [
+                "seomun-operator-ko",
+                "seomun-operator-en"
+              ]
+            },
+            "booking": {
+              "independent_shopping": "No reservation policy found.",
+              "guided_tours": "Not investigated or booked; separate service.",
+              "transaction_tested": false
+            },
+            "foreign_id": "No entry-ID policy found; purchase-specific or tax-refund eligibility not established.",
+            "payment": {
+              "cards": "KTO lists cards accepted at complex level.",
+              "foreign_issued_cards": "Unverified, and not confirmed for every shop or night stall.",
+              "source_ids": [
+                "seomun-en"
+              ]
+            },
+            "language": "English destination/operator pages exist, but vendor English service unverified.",
+            "accessibility": {
+              "official_listing": "Ramped/step-free main access, elevator and accessible toilets in district 2, accessible parking and family amenities listed.",
+              "limits": "Individual stalls, crowd conditions, exact entry route and current facility operation unverified.",
+              "source_ids": [
+                "seomun-access"
+              ]
+            }
+          },
+          "deduplication": {
+            "exact_id_name_address_matches": [],
+            "alias_identity_matches": [],
+            "method": "NFKC/case/spacing/punctuation-normalized candidate ID, English name, Korean name and address against every canonical record; exact alias name checks. Korean Daegu municipality scan also found no pre-existing Daegu records.",
+            "scope_note": "No claim that source-list overlap alone is a duplicate. Public complex and its constituent facilities are not silently merged."
+          }
+        },
+        {
+          "id": "culture-daegu-seongmodang",
+          "name_en": "Seongmodang (Shrine of Our Lady)",
+          "name_ko": "성모당",
+          "area": "Daegu",
+          "district": "Jung-gu",
+          "region": "Daegu / Camp Walker regional guide",
+          "category": "landmarks",
+          "kind": "catholic-pilgrimage",
+          "setting": "outdoor",
+          "address": "대구광역시 중구 남산로4길 112",
+          "description": {
+            "en": "A Catholic Marian shrine on the Archdiocese of Daegu grounds, inspired by the Lourdes grotto."
+          },
+          "notes": {
+            "en": "Active worship takes precedence. The archdiocese lists regular Mass and reservation-required retreats/meals, but ordinary visitor hours, group policy, English service and step-free access remain unverified. No exact-shrine coordinates accepted."
+          },
+          "sources": [
+            "seongmodang-diocese",
+            "cbck-shrines",
+            "seongmodang-name-en"
+          ],
+          "checked": "2026-10-27",
+          "checked_timezone": "Etc/UTC",
+          "map_type": "search",
+          "coordinates": null,
+          "coordinate_status": "Address only; no official exact-shrine point verified. Map search is not an entrance.",
+          "radial_distance_km": null,
+          "radius_status": "Daegu regional scope; Humphreys 200 km screen not applied.",
+          "distance_reference_id": null,
+          "distance_method": null,
+          "regional_access_assessment": "Civilian Daegu urban destination, selected by public municipality and venue address. No Camp Walker gate, entrance, origin point, travel distance or travel time established.",
+          "live_availability": "not_checked",
+          "search_terms": [
+            "Seongmodang",
+            "Shrine of Our Lady",
+            "성모당",
+            "대구 성모당",
+            "천주교",
+            "성지순례"
+          ],
+          "images": [],
+          "publication_review": {
+            "status": "research_candidate_only",
+            "full_map_field_audit": "partial_not_complete",
+            "translations": "English editorial draft only; remaining canonical locales not prepared.",
+            "canonical_modified": false
+          },
+          "cultural_type": "catholic",
+          "place_type": "catholic_pilgrimage_site",
+          "diocese": "Daegu",
+          "catholic_site_type": "marian_shrine",
+          "english_name_status": "English name appears on the diocesan WYD site; not evidence of English services.",
+          "visit_intent": [
+            "quiet_cultural_visit",
+            "pilgrimage"
+          ],
+          "access_class": "civilian_religious_site",
+          "alert": true,
+          "visit_constraints": {
+            "mass_schedule": {
+              "status": "published_regular_schedule_not_date_confirmed",
+              "schedule": "Monday–Saturday 11:00",
+              "source_ids": [
+                "seongmodang-diocese"
+              ],
+              "limits": "Not an opening-hours promise; holiday and special-service exceptions not verified."
+            },
+            "opening_hours": "Unknown. Mass times are not visitor opening hours.",
+            "admission_fees": "Unknown in reviewed diocesan/CBCK pages.",
+            "booking": {
+              "ordinary_individual_visit": "Unverified",
+              "groups": "Unverified",
+              "retreats_and_meals": "Reservation required per diocese; no reservation made.",
+              "accommodation": "Mentioned by diocese at a separate education facility; availability, eligibility and booking terms not verified and not a lodging recommendation.",
+              "transaction_tested": false,
+              "source_ids": [
+                "seongmodang-diocese"
+              ]
+            },
+            "foreign_id": "Visitor and retreat eligibility, accepted foreign ID and any Korean phone/account requirement unknown.",
+            "payment": "Donation, retreat, meals and accommodation payment methods and foreign-card support unknown.",
+            "language": "On-site English service, English Mass and English guided visits unverified.",
+            "accessibility": "Step-free shrine access, parking location and accessible toilets unverified.",
+            "conduct": "Editorial visitor advice: remain quiet, respect worship, and follow posted photography/access restrictions. No access to offices or other private facilities is implied."
+          },
+          "contacts": {
+            "shrine": "+82-53-250-3055",
+            "retreat_meal_inquiry_published_by_diocese": "+82-53-254-4671",
+            "contacted": false
+          },
+          "deduplication": {
+            "exact_id_name_address_matches": [],
+            "alias_identity_matches": [],
+            "method": "NFKC/case/spacing/punctuation-normalized candidate ID, English name, Korean name and address against every canonical record; exact alias name checks. Korean Daegu municipality scan also found no pre-existing Daegu records.",
+            "scope_note": "No claim that source-list overlap alone is a duplicate. Public complex and its constituent facilities are not silently merged."
+          }
+        }
+      ]
+    }
+  ],
+  "coordinateEvidence": [
+    {
+      "candidate_id": "scenery-daegu-apsan-park",
+      "coordinates": {
+        "lat": 35.8289746480382,
+        "lng": 128.58903004805
+      },
+      "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b64cb108-3e58-4b76-bcbb-4262ef0979c3",
+      "evidence": {
+        "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+        "directions_anchor": "<a href=\"javascript:findingAway('대구앞산공원', '35.8289746480382', '128.58903004805');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+        "address_match": "대구광역시 남구 앞산순환로 574-87",
+        "verified_entrance": false
+      },
+      "sha256": "14abdb215d86f2cba2c78cee42784eec7f966f55cf666c4127a157dadc7a3007"
+    },
+    {
+      "candidate_id": "scenery-daegu-duryu-park",
+      "coordinates": {
+        "lat": 35.84866220192912,
+        "lng": 128.55908001618815
+      },
+      "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=d94b35a4-6031-4da3-a14d-a7091cfe454f",
+      "evidence": {
+        "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+        "directions_anchor": "<a href=\"javascript:findingAway('대구두류공원', '35.84866220192912', '128.55908001618815');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+        "address_match": "대구광역시 달서구 두류공원로 161 (성당동)",
+        "verified_entrance": false
+      },
+      "sha256": "39146eacfa99040931b9b93d2d0226e11277f39eb4bf517acd630a542101d22c"
+    },
+    {
+      "candidate_id": "shopping-daegu-seomun-market",
+      "coordinates": {
+        "lat": 35.8688780818299,
+        "lng": 128.580760261909
+      },
+      "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=9b79d379-def2-455d-a50d-95562aa702e9",
+      "evidence": {
+        "method": "Explicit public-facing 길안내 (Directions) anchor href on the named venue page; not inferred from hidden application state or map center.",
+        "directions_anchor": "<a href=\"javascript:findingAway('대구 서문시장 & 서문시장 야시장', '35.8688780818299', '128.580760261909');\" title=\"새창\" class=\"btn_guide\">길안내</a>",
+        "address_match": "대구광역시 중구 큰장로26길 45",
+        "verified_entrance": false
+      },
+      "sha256": "856b70f26db22d3e7935d4ef539a6d09bdd8c73aae8771fe9ccb9c4166aecaef"
+    }
+  ],
+  "mapAuditStatus": "Existing full Record ID/field/numerical coordinate re-audit remains partial; this candidate research does not complete it."
+}
