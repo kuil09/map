@@ -18,11 +18,16 @@ import build_exports
 import map_csv
 
 V35_COMMIT = '88c2ee5409d7c41ffe91ee6c2e2c0eb6059a2590'
+V36_COMMIT = 'd7f722845fef1ef178cf3ff8768f55e504092678'
 
 
 def v35_bytes(path):
     # Full local Git history is required; never fetch during offline tests.
     return subprocess.check_output(['git', '-C', str(ROOT), 'show', f'{V35_COMMIT}:{path}'])
+
+
+def v36_bytes(path):
+    return subprocess.check_output(['git', '-C', str(ROOT), 'show', f'{V36_COMMIT}:{path}'])
 
 
 def record_hash(value):
@@ -47,12 +52,12 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual(expected[f'site-{name}-v35'], known[name])
             self.assertEqual(hashlib.sha256(v35_bytes(f'data/{name}.json')).hexdigest(), known[name])
 
-    def test_v36_current_snapshot_hashes(self):
+    def test_v36_historical_snapshot_hashes(self):
         expected = {'places.json':'5ac13d79e8c646f8b2fa58ae1256cca50f1df69ffe29eb8dce3afef7c35583db', 'photos.json':'43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475', 'research.json':'476f6660390ab7f87615236ddddf912575ceddfea67f36eb111cb8f5d934c17e'}
         change = validate.load('data/history/batch18-change-record.json')
         self.assertEqual(change['canonicalInputHashes'], expected)
         for name, digest in expected.items():
-            self.assertEqual(validate.digest(ROOT/'data'/name), digest)
+            self.assertEqual(hashlib.sha256(v36_bytes('data/'+name)).hexdigest(), digest)
 
     def test_historical_append_content_exact(self):
         with (ROOT / self.sync['appendFile']['path']).open(encoding='utf-8-sig', newline='') as handle:
@@ -74,24 +79,27 @@ class RepositoryTests(unittest.TestCase):
 
     def test_unknown_locations_stay_unknown(self):
         unknown = [p for p in self.places if p['coordinates'] is None]
-        self.assertEqual(len(unknown), 515)
+        self.assertEqual(len(unknown), 518)
         self.assertTrue(all(p['radial_distance_km'] is None for p in unknown))
         pending_points = [i for i in self.sync['pendingAppendPlaceIds'] if self.by_id[i]['coordinates'] is not None]
         self.assertEqual(set(pending_points), {'culture-hongjuseong-history', 'culture-jeungpyeong-folk-museum'})
 
     def test_batch18_exact_scope_and_preservation(self):
+        historical_places = json.loads(v36_bytes('data/places.json'))
+        historical_by_id = {p['id']: p for p in historical_places}
+        historical_sync = json.loads(v36_bytes('data/map/sync-state.json'))
         before = json.loads(v35_bytes('data/places.json'))
         before_by_id = {p['id']: p for p in before}
         change = validate.load('data/history/batch18-change-record.json')
         added = change['newPlaceIds']
         edited = {p['id']: p for p in change['existingChanges']}
-        self.assertEqual([p['id'] for p in self.places[:642]], [p['id'] for p in before])
-        self.assertEqual([p['id'] for p in self.places[642:]], added)
-        self.assertEqual(self.places[:311], before[:311])
-        self.assertEqual(sum(self.by_id[p['id']] == p for p in before), 639)
+        self.assertEqual([p['id'] for p in historical_places[:642]], [p['id'] for p in before])
+        self.assertEqual([p['id'] for p in historical_places[642:]], added)
+        self.assertEqual(historical_places[:311], before[:311])
+        self.assertEqual(sum(historical_by_id[p['id']] == p for p in before), 639)
         self.assertEqual(sum(len(p['sources']) for p in before), 956)
         for old in before:
-            after = self.by_id[old['id']]
+            after = historical_by_id[old['id']]
             self.assertEqual(after['sources'], old['sources'])
             for field in ('name_en', 'name_ko', 'address', 'description', 'checked', 'map_type'):
                 self.assertEqual(after[field], old[field])
@@ -110,15 +118,15 @@ class RepositoryTests(unittest.TestCase):
             for lang in validate.LANGUAGES:
                 self.assertTrue(after['notes'][lang].startswith(old['notes'][lang]))
         for item in change['newPlaceRecordHashes']:
-            place = self.by_id[item['id']]
+            place = historical_by_id[item['id']]
             self.assertEqual(record_hash(place), item['sha256'])
             self.assertIsNone(place['coordinates'])
             self.assertIsNone(place['radial_distance_km'])
-        self.assertEqual(len(self.places), 645)
-        self.assertEqual(sum(len(p['sources']) for p in self.places), 960)
-        self.assertEqual(sum(p['coordinates'] is not None for p in self.places), 130)
-        self.assertEqual(len(self.sync['pendingAppendPlaceIds']), 38)
-        group = self.sync['existingUpdateGroups'][-1]
+        self.assertEqual(len(historical_places), 645)
+        self.assertEqual(sum(len(p['sources']) for p in historical_places), 960)
+        self.assertEqual(sum(p['coordinates'] is not None for p in historical_places), 130)
+        self.assertEqual(len(historical_sync['pendingAppendPlaceIds']), 38)
+        group = historical_sync['existingUpdateGroups'][-1]
         self.assertEqual(set(group['explicitPlaceIds']), set(edited))
         self.assertEqual(group['coordinateUpdateStatus'], 'staged_not_applied_to_live_map')
         self.assertFalse(set(edited) & set(added))
@@ -156,6 +164,114 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(item['originalSourceAudit'].encode('utf-8')).hexdigest(), item['valueUtf8SHA256'])
             self.assertEqual(item['recordId'], baseline[item['nativeId']]['siteRecordId'])
             self.assertEqual(item['originalSourceAudit'], baseline[item['nativeId']]['baselineFields']['Source audit'])
+
+    def test_v37_current_snapshot_hashes(self):
+        change = validate.load('data/history/batch19-change-record.json')
+        expected = {'places.json':'a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c', 'photos.json':'43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475', 'research.json':'fbbe5b133bdfdfcca25c49fabc21bf0ae0e1db09fdc6475256ec119484a46e7a'}
+        self.assertEqual(change['canonicalInputHashes'], expected)
+        for name, digest in expected.items():
+            self.assertEqual(validate.digest(ROOT/'data'/name), digest)
+
+    def test_batch19_exact_scope_and_preservation(self):
+        before = json.loads(v36_bytes('data/places.json'))
+        change = validate.load('data/history/batch19-change-record.json')
+        edited = {p['id']:p for p in change['existingChanges']}
+        self.assertEqual(len(self.places), 648)
+        self.assertEqual(sum(len(p['sources']) for p in self.places), 970)
+        self.assertEqual(sum(p['coordinates'] is not None for p in self.places), 130)
+        self.assertEqual(self.places[:311], before[:311])
+        self.assertEqual([p['id'] for p in self.places[:645]], [p['id'] for p in before])
+        self.assertEqual([p['id'] for p in self.places[645:]], change['newPlaceIds'])
+        self.assertEqual(sum(self.by_id[p['id']] == p for p in before), 643)
+        self.assertEqual(sum(len(p['sources']) for p in before), 960)
+        self.assertEqual(set(edited), {'gocamping-6865', 'gocamping-2022'})
+        for old in before:
+            after = self.by_id[old['id']]
+            self.assertEqual(after['sources'][:len(old['sources'])], old['sources'])
+            for field in ('name_en', 'name_ko', 'description', 'checked', 'map_type', 'coordinates', 'radial_distance_km'):
+                self.assertEqual(after[field], old[field])
+            if old['id'] not in edited:
+                self.assertEqual(after, old)
+                continue
+            item = edited[old['id']]
+            self.assertEqual(record_hash(old), item['beforeRecordSHA256'])
+            self.assertEqual(record_hash(after), item['afterRecordSHA256'])
+            self.assertEqual({key for key in set(old)|set(after) if old.get(key) != after.get(key)}, set(item['changedFields']))
+            self.assertEqual(len(after['sources']), len(old['sources'])+1)
+            self.assertIsNone(after['coordinates'])
+            self.assertIsNone(after['radial_distance_km'])
+            self.assertFalse(item['liveMapApplied'])
+            for lang in validate.LANGUAGES:
+                self.assertTrue(after['notes'][lang].startswith(old['notes'][lang]))
+        for item in change['newPlaceRecordHashes']:
+            place = self.by_id[item['id']]
+            self.assertEqual(record_hash(place), item['sha256'])
+            self.assertIsNone(place['coordinates'])
+            self.assertIsNone(place['radial_distance_km'])
+        self.assertEqual(len(self.sync['pendingAppendPlaceIds']), 41)
+        self.assertEqual(set(self.sync['existingUpdateGroups'][-1]['explicitPlaceIds']), set(edited))
+        self.assertFalse(set(edited) & set(self.sync['pendingAppendPlaceIds']))
+        self.assertEqual(self.sync['existingUpdateGroups'][-1]['addressUpdateStatus'], 'canonical_only_not_applied_to_live_map')
+
+    def test_batch19_address_and_dated_maintenance_scope(self):
+        before = {p['id']:p for p in json.loads(v36_bytes('data/places.json'))}
+        wangsong = self.by_id['gocamping-6865']
+        self.assertEqual(wangsong['address'], '경기도 의왕시 왕송못동로 295 (월암동, 왕송호수캠핑장 매표소)')
+        for lang in validate.LANGUAGES:
+            suffix = wangsong['notes'][lang][len(before[wangsong['id']]['notes'][lang]):]
+            self.assertIn('571', suffix)
+            self.assertIn('295', suffix)
+        hwarang = self.by_id['gocamping-2022']
+        self.assertEqual(hwarang['address'], before[hwarang['id']]['address'])
+        en = hwarang['notes']['en']
+        self.assertIn('2026-11-09–13', en)
+        self.assertIn('does not state a full-site closure', en)
+        self.assertNotIn('2026-10-19', en)
+        self.assertNotIn('rear-gate', en)
+
+    def test_v36_history_and_append38_remain_immutable(self):
+        for path in ('data/history/batch18-change-record.json', 'data/history/batch18-existing-audit.json', 'data/history/batch18-new-places-audit.json', 'data/history/batch18-new-places-evidence.json', 'data/history/batch18-new-places-holds.json', 'data/history/site-deployment-v36.json', 'exports/map-append38-v36.csv'):
+            self.assertEqual((ROOT/path).read_bytes(), v36_bytes(path), path)
+        old_sync = json.loads(v36_bytes('data/map/sync-state.json'))
+        self.assertEqual(self.sync['archivedAppendFiles'][-1], old_sync['currentAppendFile'])
+        self.assertEqual(self.sync['appendAttemptHistory'][0], old_sync['lastAppendAttempt'])
+        self.assertEqual(self.sync['appendFile'], old_sync['appendFile'])
+        self.assertEqual(self.sync['pendingAppendPlaceIds'][:38], old_sync['pendingAppendPlaceIds'])
+        old_places = json.loads(v36_bytes('data/places.json'))
+        self.assertEqual(map_csv.csv_bytes(map_csv.format_places(old_places, old_sync['pendingAppendPlaceIds'])), v36_bytes('exports/map-append38-v36.csv'))
+        history = validate.load('data/history/verification-history.json')
+        old_history = json.loads(v36_bytes('data/history/verification-history.json'))
+        self.assertEqual(history['events'][:len(old_history['events'])], old_history['events'])
+        for field in ('evidenceArtifacts', 'additionalPreservedSourceChange', 'excludedFailedEdits', 'historyLimits'):
+            self.assertEqual(history[field], old_history[field])
+        research = validate.load('data/research.json')
+        old_research = json.loads(v36_bytes('data/research.json'))
+        for field in ('changes', 'held_candidates', 'open_questions'):
+            self.assertEqual(research[field][:len(old_research[field])], old_research[field])
+        for field in ('verified_utc', 'verification_scope', 'confirmed_data_rows', 'positioned_markers', 'unlocated_rows', 'legend_reorganization'):
+            self.assertEqual(research['map'][field], old_research['map'][field])
+
+    def test_batch19_public_evidence_and_no_private_artifacts(self):
+        change = validate.load('data/history/batch19-change-record.json')
+        self.assertEqual(len(change['publicEvidenceArtifacts']), 4)
+        for artifact in change['publicEvidenceArtifacts']:
+            self.assertEqual(validate.digest(ROOT/artifact['path']), artifact['sha256'])
+        for name in ('batch19-existing-patches.json', 'batch19-independent-qa.json', 'batch19-private-action-ledger.json', 'batch19-private-source-snapshots.json'):
+            self.assertEqual(list(ROOT.rglob(name)), [])
+        self.assertEqual(validate.load('data/metadata.json')['lastPublishedSiteRelease'], 'v36')
+        self.assertEqual(validate.load('data/metadata.json')['releaseStatus'], 'canonical_prepared_not_site_deployed')
+        self.assertEqual(validate.load('data/history/verification-history.json')['currentSiteRelease'], 'v36')
+
+    def test_latest_append_attempt_is_failure_not_map_sync(self):
+        attempt = self.sync['lastAppendAttempt']
+        self.assertEqual(attempt['rows'], 38)
+        self.assertEqual(attempt['status'], 'failed_before_upload')
+        self.assertEqual(attempt['confirmedWrites'], 0)
+        self.assertEqual(attempt['uncertainWrites'], 0)
+        self.assertFalse(attempt['currentFreshInventoryVerified'])
+        self.assertEqual((self.sync['confirmedNativeRows'], self.sync['positionedMarkers'], self.sync['unresolvedRows']), (607, 601, 6))
+        self.assertEqual(self.sync['currentAppendFile']['rows'], 41)
+        self.assertEqual(self.sync['currentAppendFile']['status'], 'prepared_not_uploaded')
 
     def test_no_guessed_native_joins(self):
         joins = validate.load('data/map/identity-index.json')
@@ -197,7 +313,7 @@ class RepositoryTests(unittest.TestCase):
         actual = map_csv.csv_bytes(rows)
         self.assertEqual(actual, (ROOT/self.sync['currentAppendFile']['path']).read_bytes())
         self.assertEqual(hashlib.sha256(actual).hexdigest(), self.sync['currentAppendFile']['sha256'])
-        self.assertEqual(len(rows), 38)
+        self.assertEqual(len(rows), 41)
         old_ids = json.loads(v35_bytes('data/map/sync-state.json'))['pendingAppendPlaceIds']
         self.assertEqual(map_csv.csv_bytes(map_csv.format_places(self.places, old_ids)), (ROOT/self.sync['appendFile']['path']).read_bytes())
 
@@ -218,7 +334,7 @@ class RepositoryTests(unittest.TestCase):
             points = json.loads((first/'source-points-reference.geojson').read_text())
             self.assertFalse(points['nativeMapGeometry'])
             self.assertEqual(len(points['features']),130)
-            self.assertEqual(points['unknownCoordinatesOmitted'],515)
+            self.assertEqual(points['unknownCoordinatesOmitted'],518)
             for feature in points['features']:
                 place = self.by_id[feature['id']]
                 self.assertEqual(feature['geometry']['coordinates'],[place['coordinates']['lng'],place['coordinates']['lat']])

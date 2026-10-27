@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "batch": "nineteenth_landmark_camping_batch",
+  "checked": "2026-10-27",
+  "targetSiteRelease": "v37",
+  "status": "integrated_canonical_not_site_deployed_not_map_uploaded",
+  "baselineCanonicalCommit": "d7f722845fef1ef178cf3ff8768f55e504092678",
+  "baselinePlacesSHA256": "5ac13d79e8c646f8b2fa58ae1256cca50f1df69ffe29eb8dce3afef7c35583db",
+  "counts": {
+    "placesBefore": 645,
+    "placesAfter": 648,
+    "sourcesBefore": 960,
+    "sourcesAfter": 970,
+    "pointsBefore": 130,
+    "pointsAfter": 130,
+    "unmeasuredBefore": 515,
+    "unmeasuredAfter": 518,
+    "unchangedExistingRecords": 643,
+    "preservedExistingSourceObjects": 960,
+    "preservedOriginalRecords": 311,
+    "addedRecords": 3,
+    "existingSourceCorrections": 2,
+    "existingAddressCorrections": 1,
+    "existingPointCorrections": 0
+  },
+  "summary": "Three additions fill landmark gaps in Iksan, Hongcheon and Jeongseon: Nabawi Catholic Church, Sutasa Temple and the combined Jeongamsa Temple/Sumano Pagoda destination. Eight directly read official references support their identities, full addresses and limited historical/cultural scope; all three coordinate/distance pairs remain null. Wangsong Lake Campground receives the operator ticket-office street address for address search, with the old registry lot address preserved in all five note histories. Hwarang Campground receives a dated 2026-11-09 through 2026-11-13 drainage-works notice, not a whole-site closure claim; the expired October 19–26 rear-gate notice is not presented as current. Both camping records retain null coordinates and gain one source each. All 960 prior source objects/statuses, 643 unaffected records and the original 311 records remain exact. These canonical corrections are not live map edits. Current operation, admission, booking, English support, exact entrances, parking and accessible routes remain unverified.",
+  "newPlaceIds": [
+    "catholic-nabawi-iksan",
+    "temple-sutasa-hongcheon",
+    "temple-jeongamsa-jeongseon"
+  ],
+  "newPlaceRecordHashes": [
+    {
+      "id": "catholic-nabawi-iksan",
+      "sha256": "7cdd86c0900a394d01c2ee838df4773424b983a3acdcb01dd4e69cd0fface1e1"
+    },
+    {
+      "id": "temple-sutasa-hongcheon",
+      "sha256": "3baf4a9fad35b52207bdd61d729efd862b37b775bc72284b5fe72d06285d7475"
+    },
+    {
+      "id": "temple-jeongamsa-jeongseon",
+      "sha256": "0c1d562e9cafc6d7d9dfc9dc2ee45c9f0fa393fa20053198588c9e2ba472aea0"
+    }
+  ],
+  "existingChanges": [
+    {
+      "id": "gocamping-6865",
+      "beforeRecordSHA256": "2d37c877f8f881910ed7b5994aba9134ca9b5eb136f0eeb677af477af989029d",
+      "afterRecordSHA256": "137f19499627ae8d51f8735d23012a44cf6b69f370ad556d2ce0d77b42f71a3f",
+      "changedFields": [
+        "notes",
+        "sources",
+        "address"
+      ],
+      "before": {
+        "address": "경기도 의왕시 월암동 571번지 일원",
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "after": {
+        "address": "경기도 의왕시 왕송못동로 295 (월암동, 왕송호수캠핑장 매표소)",
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "addedSourceURLs": [
+        "https://www.uuc.or.kr/camp/contents/view?contentsNo=85&menuLevel=2&menuNo=95"
+      ],
+      "scope": "Operator ticket-office address for canonical address search only; old registry lot address preserved.",
+      "allExistingSourceObjectsPreserved": true,
+      "fiveLanguageNotePrefixesPreserved": true,
+      "liveMapApplied": false
+    },
+    {
+      "id": "gocamping-2022",
+      "beforeRecordSHA256": "06494de8454132482bc903776ba733914fb0a2be7d42ec1180f0f55d6db7fbb0",
+      "afterRecordSHA256": "836c25f27481f6d6ff775116e9b4fd7c239b8b9a493ef52fbd24caee2fb8c82a",
+      "changedFields": [
+        "notes",
+        "sources"
+      ],
+      "before": {
+        "address": "경기도 안산시 단원구 초지동 동산로 268",
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "after": {
+        "address": "경기도 안산시 단원구 초지동 동산로 268",
+        "coordinates": null,
+        "radial_distance_km": null
+      },
+      "addedSourceURLs": [
+        "https://hwarangcamp.ansanuc.net/notice/detail.do?bbsIdx=243&pageIndex=1"
+      ],
+      "scope": "Dated2026-11-09 through13 drainage-maintenance notice; not whole-site closure or booking proof.",
+      "allExistingSourceObjectsPreserved": true,
+      "fiveLanguageNotePrefixesPreserved": true,
+      "liveMapApplied": false
+    }
+  ],
+  "publicEvidenceArtifacts": [
+    {
+      "path": "data/history/batch19-existing-audit.json",
+      "sha256": "6f2b3a30f97589954248aee93d2cc68d2e915049a1f6f9ab540c05e705dc3dff"
+    },
+    {
+      "path": "data/history/batch19-new-places-audit.json",
+      "sha256": "ba958e558b46ef4cf5e0944969ee2c275681e8c520a804f51aca48f59fccca34"
+    },
+    {
+      "path": "data/history/batch19-new-places-evidence.json",
+      "sha256": "2e7fe013948e3da18d214735fbf03ca8825c0db456949f314f70b8f18b6734a2"
+    },
+    {
+      "path": "data/history/batch19-new-places-holds.json",
+      "sha256": "ffd9955ca9785e1a0e5eb27d111e0959f420750c4cda7d6090c1022286e572e3"
+    }
+  ],
+  "preservation": {
+    "photosUnchanged": true,
+    "photoAssetsUnchanged": 32,
+    "nativeBaselineRowsUnchanged": 607,
+    "originalAuditValuesUnchanged": 296,
+    "nativeJoinsNotEstablishedUnchanged": 311,
+    "historicalAppliedChangesUnchanged": 213,
+    "historicalPendingFieldEditsUnchanged": 692,
+    "historicalAppend35Unchanged": true,
+    "historicalAppend38Unchanged": true,
+    "earlierChangeRecordsAndSiteDeploymentReceiptUnchanged": true
+  },
+  "mapScope": {
+    "receiptBackedRows": 607,
+    "positioned": 601,
+    "unresolved": 6,
+    "pendingAppend": 41,
+    "existingCorrections": "canonical_only_not_applied_to_live_map",
+    "writes": 0,
+    "freshInventoryVerified": false,
+    "latest38RowAttempt": "failed_before_upload_zero_writes_zero_uncertain_writes"
+  },
+  "limits": [
+    "Source verification is not current operation, opening, booking availability, English support or accessibility.",
+    "No new numerical points or entrances are approved; all five affected records have null geometry/distance.",
+    "Wangsong canonical address correction is not native-map address normalization or a change to the historical607 snapshot/692-field ledger.",
+    "Hwarang notice is dated November9–13,2026 drainage works, not whole-site closure; expired October19–26 rear-gate notice is not current.",
+    "Public audit artifacts preserve their preintegration research scope; this record describes canonical integration.",
+    "Earlier35/38-row files remain immutable; reconcile any manual upload before using overlapping41-row candidate."
+  ],
+  "canonicalInputHashes": {
+    "places.json": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c",
+    "photos.json": "43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475",
+    "research.json": "fbbe5b133bdfdfcca25c49fabc21bf0ae0e1db09fdc6475256ec119484a46e7a"
+  }
+}

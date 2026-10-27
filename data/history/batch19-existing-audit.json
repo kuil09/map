@@ -1,0 +1,188 @@
+{
+  "schema": "batch19-existing-source-audit-public/v1",
+  "checked": "2026-10-27",
+  "baseline_git_head": "d7f722845fef1ef178cf3ff8768f55e504092678",
+  "status": "proposal_only_not_applied",
+  "summary": {
+    "proposed_existing_records": 2,
+    "coordinate_changes": 0,
+    "address_changes": 1,
+    "source_only_corrections": 2,
+    "new_places": 0,
+    "removed_places": 0,
+    "original311_changes": 0,
+    "new_source_objects": 2,
+    "modified_existing_source_objects": 0,
+    "measured_before": 130,
+    "measured_after_proposal": 130,
+    "five_language_notes_preserved_as_exact_prefixes": true,
+    "repository_mutations": 0,
+    "map_mutations": 0,
+    "browser_actions": 0,
+    "denied_target_retries": 0,
+    "access_failures": 5,
+    "research_access_failures": 4,
+    "later_independent_qa_access_failures": 1
+  },
+  "rows": [
+    {
+      "place_id": "gocamping-6865",
+      "name_en": "Wangsong Lake Campground",
+      "decision": "Operator ticket-office street address supplied; source-only correction with null coordinates retained.",
+      "sources": [
+        "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=6865",
+        "https://www.uuc.or.kr/camp/contents/view?contentsNo=85&menuLevel=2&menuNo=95"
+      ],
+      "coordinates_changed": false,
+      "coordinates": null,
+      "radial_distance_km": null,
+      "address_before": "경기도 의왕시 월암동 571번지 일원",
+      "address_after": "경기도 의왕시 왕송못동로 295 (월암동, 왕송호수캠핑장 매표소)",
+      "notes_append": {
+        "en": "Operator directions checked on 2026-10-27 give the campground ticket office as 295 Wangsongmotdong-ro; this street address replaces the registry lot address (월암동 571번지 일원) for address search only. No explicit numerical destination point was accepted. The exact entrance, parking and accessible route remain unverified.",
+        "ko": "2026-10-27 확인한 운영기관 길안내는 캠핑장 매표소를 왕송못동로 295로 안내합니다. 주소 검색용 표시는 등록 지번(월암동 571번지 일원) 대신 이 도로명주소를 사용합니다. 명시적인 수치 목적지 좌표는 채택하지 않았으며, 정확한 출입구·주차장·무장애 이동 경로는 미확인입니다.",
+        "ja": "2026年10月27日に確認した運営機関の道案内では、キャンプ場の券売所は왕송못동로 295です。住所検索用の表示を登録地番（월암동 571번지 일원）からこの道路名住所に更新しました。明示的な数値の目的地座標は採用しておらず、正確な入口、駐車場、バリアフリー経路は未確認です。",
+        "zh": "2026年10月27日核查的运营方路线说明将营地售票处列为왕송못동로 295；地址搜索改用此道路地址，原登记仍为地块地址（월암동 571번지 일원）。未采用明确的数值目的地坐标，具体入口、停车场及无障碍路线仍未核实。",
+        "es": "Las indicaciones del operador, revisadas el 27-10-2026, sitúan la taquilla del camping en 295 Wangsongmotdong-ro; esta dirección sustituye a la parcela del registro (월암동 571번지 일원) solo para la búsqueda por dirección. No se aceptó ningún punto de destino numérico explícito. La entrada exacta, el aparcamiento y la ruta accesible siguen sin verificar."
+      },
+      "entrance_verified": false,
+      "parking_verified": false,
+      "accessible_route_verified": false
+    },
+    {
+      "place_id": "gocamping-2022",
+      "name_en": "Ansan Hwarang Auto Campground",
+      "decision": "Source-dated drainage works notice added without inferring whole-site closure; null coordinates retained.",
+      "sources": [
+        "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=2022",
+        "https://hwarangcamp.ansanuc.net/notice/detail.do?bbsIdx=243&pageIndex=1"
+      ],
+      "coordinates_changed": false,
+      "coordinates": null,
+      "radial_distance_km": null,
+      "address_before": "경기도 안산시 단원구 초지동 동산로 268",
+      "address_after": "경기도 안산시 단원구 초지동 동산로 268",
+      "notes_append": {
+        "en": "The operator notice checked on 2026-10-27 announces campground drainage-maintenance works for 2026-11-09–13; it does not state a full-site closure. Confirm site access and bookings for those dates. No explicit numerical destination point was accepted; the exact entrance, parking and accessible route remain unverified.",
+        "ko": "2026-10-27 확인한 운영기관 공지는 2026-11-09~13 캠핑장 내 배수로 정비 공사를 안내하며, 전체 휴장을 명시하지는 않습니다. 해당 날짜의 출입과 예약 가능 여부를 확인하세요. 명시적인 수치 목적지 좌표는 채택하지 않았으며, 정확한 출입구·주차장·무장애 이동 경로는 미확인입니다.",
+        "ja": "2026年10月27日に確認した運営機関の告知は、2026年11月9～13日のキャンプ場内排水路整備工事を案内していますが、全場閉鎖とは記載していません。その日の立入りと予約を確認してください。明示的な数値の目的地座標は採用しておらず、正確な入口、駐車場、バリアフリー経路は未確認です。",
+        "zh": "2026年10月27日核查的运营方公告安排于2026年11月9日至13日进行营地排水沟整修，未说明全场关闭。请确认这些日期的出入及预约情况。未采用明确的数值目的地坐标，具体入口、停车场及无障碍路线仍未核实。",
+        "es": "El aviso del operador revisado el 27-10-2026 anuncia obras de mantenimiento del drenaje del camping del 9 al 13 de noviembre de 2026; no indica el cierre total del recinto. Confirma el acceso y las reservas para esas fechas. No se aceptó ningún punto de destino numérico explícito; la entrada exacta, el aparcamiento y la ruta accesible siguen sin verificar."
+      },
+      "entrance_verified": false,
+      "parking_verified": false,
+      "accessible_route_verified": false
+    }
+  ],
+  "holds": [
+    {
+      "place_id": "gocamping-100057",
+      "decision": "no_patch",
+      "reason": "Operator homepage could not be read; registry remains unchanged. No point accepted."
+    },
+    {
+      "place_id": "gocamping-404",
+      "decision": "no_patch",
+      "reason": "Municipal tourism detail timed out and operator failed. A readable 2022 Welchon story explicitly based on 2021 information corroborates historical address but supplies no newly acceptable named point or current correction; not used to pad a third patch."
+    },
+    {
+      "place_id": "gocamping-3120",
+      "decision": "no_patch",
+      "reason": "Existing operator source reconfirmed campground name and street address; raw source has only a roughmap timestamp/key and no explicit destination coordinate pair. No new material correction established; retained unchanged."
+    }
+  ],
+  "blocked_actions": [
+    {
+      "action": "Public web open of discovered Solnaeum operator homepage",
+      "target": "https://www.solnaeum.co.kr/",
+      "reason": "Reader returned (502) Bad Gateway.",
+      "outcome": "unconfirmed_bad_gateway",
+      "completed": "No operator body established; no retry, alternate-client retrieval or patch.",
+      "http": 502,
+      "denied": false,
+      "pending": false,
+      "uncertain_execution": false,
+      "retry_count": 0,
+      "bypass_attempted": false,
+      "stopped": true
+    },
+    {
+      "action": "Public web click of Wangsong official directions image",
+      "target": "https://www.uuc.or.kr/camp/contents/view?contentsNo=85&menuLevel=2&menuNo=95 — directions map image link; resolved destination URL unavailable in failed reader result",
+      "reason": "Reader returned an unexplained Internal Error while following the directions image; resolved destination URL was not returned.",
+      "outcome": "uncertain_reader_error",
+      "completed": "Image not retrieved. Its static image path was later visible in the already successful parent HTML; image was not retried or fetched through another client.",
+      "http": null,
+      "denied": false,
+      "pending": false,
+      "uncertain_execution": true,
+      "retry_count": 0,
+      "bypass_attempted": false,
+      "stopped": true
+    },
+    {
+      "action": "Public web open of Geumsan exact municipal tourism detail",
+      "target": "https://www.geumsan.go.kr/tour/html/sub02/020512.html",
+      "reason": "Reader returned (400) Timeout fetching.",
+      "outcome": "unconfirmed_timeout",
+      "completed": "Search discovery only; no direct body promoted, raw GET not attempted, no target variants tried.",
+      "http": 400,
+      "denied": false,
+      "pending": false,
+      "uncertain_execution": false,
+      "retry_count": 0,
+      "bypass_attempted": false,
+      "stopped": true
+    },
+    {
+      "action": "Public web open of discovered Geumsan operator homepage",
+      "target": "http://www.xn--jj0bv76ax6ehwhz2i.com/",
+      "reason": "Reader followed to https://www.xn--jj0bv76ax6ehwhz2i.com/ and returned (502) Bad Gateway.",
+      "outcome": "unconfirmed_bad_gateway",
+      "completed": "No operator body established; no retry, alternate-client retrieval or patch.",
+      "http": 502,
+      "denied": false,
+      "pending": false,
+      "uncertain_execution": false,
+      "retry_count": 0,
+      "bypass_attempted": false,
+      "stopped": true
+    },
+    {
+      "action": "Independent QA public web open of exact Hwarang drainage-works notice",
+      "target": "https://hwarangcamp.ansanuc.net/notice/detail.do?bbsIdx=243&pageIndex=1",
+      "reason": "Later independent QA reader returned Internal Error: URL not accessible via this tool; tool-level denied/inaccessible, origin HTTP unknown.",
+      "outcome": "denied_tool_inaccessible",
+      "completed": "Stopped without retry, bypass or alternate-client retrieval after this denial. Earlier successful raw notice and its image matching the successfully read homepage had already been independently inspected; earlier success is retained, not relabeled.",
+      "http": null,
+      "denied": true,
+      "pending": false,
+      "uncertain_execution": false,
+      "retry_count": 0,
+      "bypass_attempted": false,
+      "stopped": true,
+      "evidence_stage": "later_independent_QA_access_check"
+    }
+  ],
+  "completion": {
+    "completed": "Two material source corrections proposed with exact-before preservation; one ticket-office street address and one dated maintenance notice. No coordinate met the explicit named-point requirement.",
+    "denied": [
+      {
+        "action": "Independent QA public web open of exact Hwarang drainage-works notice",
+        "target": "https://hwarangcamp.ansanuc.net/notice/detail.do?bbsIdx=243&pageIndex=1",
+        "reason": "Later independent QA reader returned Internal Error: URL not accessible via this tool; tool-level denied/inaccessible, origin HTTP unknown.",
+        "stopped": true,
+        "retry_count": 0,
+        "bypass_attempted": false
+      }
+    ],
+    "pending": "Independent QA approval only; integration and publication have not been performed by this task.",
+    "uncertain": [
+      "Exact entrances, parking and accessible routes remain unverified.",
+      "Hwarang notice does not establish whole-site closure or availability during works.",
+      "Wangsong ticket-office address is not a numerical map destination.",
+      "A later independent QA fresh read of the exact Hwarang notice was tool-inaccessible; origin availability is unknown. Earlier successfully captured notice/image evidence remains intact."
+    ]
+  },
+  "scope_compliance": "Public source research and standalone private proposal/evidence only. No repository, map, browser, user Mac, Codex, WebLLM, cost, account, booking, deployment or outreach actions. No failure target retried; no default centers, GoCamping offsets, geocoding or inferred points adopted."
+}

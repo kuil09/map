@@ -1,0 +1,78 @@
+{
+  "checked": "2026-10-27",
+  "checked_timezone": "Asia/Seoul",
+  "held_candidates": [],
+  "held_claims": [
+    {
+      "place_id": "catholic-nabawi-iksan",
+      "claim": "Current physical-condition survey and site-specific photography rules",
+      "status": "unverified_not_published",
+      "reason": "Operator read failed; heritage sign page denied; current directory does not establish these. Historical architecture source is dated, not treated as a current survey."
+    },
+    {
+      "place_id": "temple-sutasa-hongcheon",
+      "claim": "Founder/date, National Treasure rank, guaranteed display of Wolinseokbo, and 24-hour access",
+      "status": "not_adopted",
+      "reason": "Not necessary to the verified destination. Exact current artifact display and access unestablished; no superlative/designation promotion."
+    },
+    {
+      "place_id": "temple-jeongamsa-jeongseon",
+      "claim": "Step-free route to pagoda, live guiding, English support, night access and operator rules",
+      "status": "unverified_not_published",
+      "reason": "Parking/loan amenities and county guiding program do not establish those conditions."
+    }
+  ],
+  "failed_or_limited_actions": [
+    {
+      "action": "Public official-page open",
+      "target": "https://www.hongcheon.go.kr/tour/selectTourCntntsWebView.do?key=2035&pageIndex=7&pageUnit=6&searchCnd=all&searchShowAt=Y&tourNo=2019",
+      "outcome": "uncertain",
+      "reason": "County page did not yield a usable body; the final response reported 400 Redirect loop detected. Exact source was inadvertently opened twice while resolving truncated output, not through an alternate route. Not promoted as verified; KTO independently supplies temple identity/address.",
+      "attempts": 2,
+      "completed": "No county body used; independent KTO body read."
+    },
+    {
+      "action": "Follow public KTO operator website link",
+      "target": "Website link labeled www.nabawi.kr on the KTO Nabawi Catholic Church listing",
+      "originating_public_page": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=83714",
+      "outcome": "uncertain",
+      "reason": "Internal Error with no substantive body or origin HTTP status. No retry.",
+      "attempts": 1,
+      "completed": "Operator body not read; KTO directory and separate historical article read."
+    },
+    {
+      "action": "Follow public KTO operator website link",
+      "target": "http://www.jungamsa.com",
+      "outcome": "uncertain",
+      "reason": "Internal Error with no substantive body or origin HTTP status. No retry.",
+      "attempts": 1,
+      "completed": "Operator body not read; KTO and county tourism bodies read."
+    },
+    {
+      "action": "Public official-page open",
+      "target": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0022300000000&ccbaCpno=1125122300000&ccbaCtcd=32&ccbaKdcd=12&pageNo=1_1_1_0",
+      "outcome": "uncertain",
+      "reason": "400 Timeout fetching. No substantive body and no retry. Clay Four Heavenly Kings claim not promoted.",
+      "attempts": 1,
+      "completed": "No heritage-body evidence used."
+    },
+    {
+      "action": "Public official-page open",
+      "target": "https://www.heritage.go.kr/heri/cul/culGuidePostDetail.do?ccbaCpno=1333503180000&ccgbGbtype=UNI&ccgbGbtypeNo=2&pageNo=1_1_4_0",
+      "outcome": "denied",
+      "reason": "403 Forbidden. Stopped and did not retry or change hostname/tool to obtain the denied content.",
+      "attempts": 1,
+      "completed": "No heritage-body evidence used; independent KTO publication supports limited architecture."
+    },
+    {
+      "action": "Public official article open",
+      "target": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=429ad159-ac51-49c3-b071-d547cdaf5423",
+      "outcome": "uncertain",
+      "reason": "Cache miss, no substantive body. No retry; indexed recent article not promoted.",
+      "attempts": 1,
+      "completed": "Older independent KTO article read and explicitly dated."
+    }
+  ],
+  "prior_holds": "No selected venue matched prior culture, temple or held-candidate identities. Previously blocked and unresolved unrelated venues remain untouched.",
+  "stopping_condition": "Three exact-address destinations in three genuine regional gaps prepared for independent review. No broader search or publication."
+}

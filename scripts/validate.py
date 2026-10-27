@@ -188,10 +188,22 @@ def validate(root=ROOT, asset_root=None):
         for value in row.values():
             ensure(not value.lstrip().startswith(('=', '+', '-', '@')), 'Spreadsheet formula-like cell')
     current = sync.get('currentAppendFile')
+    archived_paths = {archive['path']}
+    for prior in sync.get('archivedAppendFiles', []):
+        path = root / prior['path']
+        ensure(prior['path'] not in archived_paths, 'Duplicate historical append artifact')
+        archived_paths.add(prior['path'])
+        ensure(path.stat().st_size == prior['bytes'] and digest(path) == prior['sha256'], 'Preserved append artifact hash/size drift')
+        with path.open(encoding='utf-8-sig', newline='') as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+            ensure(len(reader.fieldnames) == 10 and not {'Latitude', 'Longitude', 'Source audit'} & set(reader.fieldnames), 'Unsafe preserved append fields')
+        ensure(len(rows) == prior['rows'] and len({row['Record ID'] for row in rows}) == len(rows), 'Preserved append row count/identity drift')
+        ensure(all(row['Record ID'] in ids for row in rows), 'Preserved append unknown ID')
     if current:
         from map_csv import format_places, csv_bytes
         candidate = root / current['path']
-        ensure(current['path'] != archive['path'], 'Current export must not overwrite historical append')
+        ensure(current['path'] not in archived_paths, 'Current export must not overwrite historical append')
         ensure(candidate.read_bytes() == csv_bytes(format_places(places, queue)), 'Current append differs from canonical queue')
         ensure(digest(candidate) == current['sha256'] and candidate.stat().st_size == current['bytes'], 'Current append hash/size drift')
         ensure(current['rows'] == len(queue), 'Current append row count drift')

@@ -1,6 +1,6 @@
 {
   "snapshotDate": "2026-10-27",
-  "currentSiteRelease": "v35",
+  "currentSiteRelease": "v36",
   "sourceSiteCommit": "bacf5a334a7850977ff0673925c6305191e221a6",
   "evidenceArtifacts": [
     {
@@ -110,6 +110,40 @@
       "pendingAppendRows": 38,
       "mapWrites": 0,
       "siteDeployed": false
+    },
+    {
+      "at": "2026-10-27T06:24:28.804722Z",
+      "event": "site_v36_publication_receipt_recorded",
+      "publicReceipt": "data/history/site-deployment-v36.json",
+      "scope": "Retained publication receipt; not a new deployment or live read by v37 integration."
+    },
+    {
+      "atApproximate": "2026-10-27T06:52:00Z",
+      "event": "append38_failed_before_upload",
+      "artifact": "exports/map-append38-v36.csv",
+      "artifactSHA256": "b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213",
+      "status": "failed_before_upload",
+      "reason": "Opening the existing destination data table caused Chrome Aw, Snap renderer error 9. No import dialog, file chooser, upload or save was reached.",
+      "writes": 0,
+      "uncertainWrites": 0,
+      "wholeMapFreshInventoryVerified": false,
+      "scope": "Destination-layer observation only; whole-map 607/601/6 remains the prior receipt, not a fresh full inventory. No access denial was established."
+    },
+    {
+      "at": "2026-10-27",
+      "event": "batch19_canonical_v37_prepared",
+      "publicChangeRecord": "data/history/batch19-change-record.json",
+      "places": 648,
+      "sourceReferences": 970,
+      "publishedGeneralPoints": 130,
+      "unmeasured": 518,
+      "newRecords": 3,
+      "existingSourceUpdates": 2,
+      "canonicalAddressUpdates": 1,
+      "existingPointUpdates": 0,
+      "pendingAppendRows": 41,
+      "mapWrites": 0,
+      "siteDeployed": false
     }
   ],
   "additionalPreservedSourceChange": [
@@ -152,6 +186,6 @@
     "Private archival receipts/screenshots and raw third-party HTML are not republished here.",
     "The current source audit and research history are in data/places.json and data/research.json; source content states are not upgraded by repository migration."
   ],
-  "currentCanonicalRelease": "v36",
+  "currentCanonicalRelease": "v37",
   "canonicalReleaseStatus": "prepared_not_site_deployed"
 }

@@ -1,0 +1,225 @@
+{
+  "status": "producer_complete_independent_addition_qa_passed_not_published",
+  "checked": "2026-10-27",
+  "checked_timezone": "Asia/Seoul",
+  "created_utc": "2026-10-27T06:45:55.424548+00:00",
+  "scope": "Bounded three-record sacred-cultural destination research. No repository, Site or map edits.",
+  "baseline": {
+    "commit": "d7f722845fef1ef178cf3ff8768f55e504092678",
+    "record_count": 645,
+    "places_sha256": "5ac13d79e8c646f8b2fa58ae1256cca50f1df69ffe29eb8dce3afef7c35583db"
+  },
+  "count": 3,
+  "region_category_gap_before": {
+    "Iksan": {
+      "total": 2,
+      "landmarks": 0,
+      "existing_ids": [
+        "activity-iksan-public-riding",
+        "gocamping-2460"
+      ]
+    },
+    "Hongcheon": {
+      "total": 1,
+      "landmarks": 0,
+      "existing_ids": [
+        "activity-alpaca-world"
+      ]
+    },
+    "Jeongseon": {
+      "total": 1,
+      "landmarks": 0,
+      "existing_ids": [
+        "activity-jeongseon-railbike"
+      ]
+    }
+  },
+  "gap_outcomes": [
+    "First landmark/religious-cultural destination in each of Iksan, Hongcheon and Jeongseon.",
+    "Two distinctive Buddhist temple destinations and one Catholic shrine; not count padding with halls, pagodas or monuments as separate places."
+  ],
+  "source_body_evidence": [
+    {
+      "place_id": "catholic-nabawi-iksan",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=83714",
+      "title": "Nabawi Catholic Church (화산천주교회(나바위 성당)) — VISITKOREA",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "Exact church listing confirms Nabawi 1-gil 146 in Iksan and the Kim Dae-geon commemoration. Undated public listing; year-round shorthand does not verify current access, Mass or English services."
+    },
+    {
+      "place_id": "catholic-nabawi-iksan",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3b8c3c79-b5c9-41bc-bf2a-ff99650826f6",
+      "title": "[익산] 여행이나 출장에 준비된 숙소, 반딧불이 모텔 — KTO; Nabawi Church section",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "December 2019 article contains a separate exact Nabawi section describing a tiled Korean-style corridor and Western brick bell tower, with the matching road address. Used only for stable architecture, not current condition or operation."
+    },
+    {
+      "place_id": "temple-sutasa-hongcheon",
+      "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90429",
+      "title": "Sutasa Temple (수타사) — VISITKOREA",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "Exact temple listing provides Sutasa-ro 473 and the bell, three-storey pagoda and Wolinseokbo collection. Founding date, founder, national designation, 24-hour access and actual artifact display are not adopted."
+    },
+    {
+      "place_id": "temple-sutasa-hongcheon",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=227777",
+      "title": "KTO — Korean Temple Food: A Sustainable Cuisine Inspired by Buddhist Teachings — A Beginner’s Guide to Templestay: Temple etiquette",
+      "scope": "policy",
+      "body_verified": true,
+      "summary": "May 2025 general etiquette section supports quiet conduct, respecting restricted areas and consulting staff before photography. Not a site-specific rule or evidence of Templestay availability."
+    },
+    {
+      "place_id": "temple-jeongamsa-jeongseon",
+      "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=32ea5dfc-f8b6-4a41-9ba1-4165847c4216",
+      "title": "KTO Accessible Tourism — 정암사 수마노탑",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "Page updated 2026-06-18 names the pagoda and Jeongamsa, with Hambaeksan-ro 1410. Accessible parking and wheelchair-loan mentions do not establish a step-free pagoda route or live access."
+    },
+    {
+      "place_id": "temple-jeongamsa-jeongseon",
+      "url": "https://www.jeongseon.go.kr/tour/jeongseontour/cultural_heritage?contentSeq=254753&mode=read",
+      "title": "Jeongseon County Tourism — 정암사 수마노탑",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "Exact pagoda page confirms Hambaeksan-ro 1410 and seven-storey stone blocks shaped like bricks. The pagoda and temple are represented as one destination."
+    },
+    {
+      "place_id": "temple-jeongamsa-jeongseon",
+      "url": "https://www.jeongseon.go.kr/tour/travelinformation/culture_tour_commentator",
+      "title": "Jeongseon County Tourism — 문화관광해설사의집",
+      "scope": "exact",
+      "body_verified": true,
+      "summary": "Official visitor-information page names the Jeongamsa interpretation house at Hambaeksan-ro 1410 and describes on-site interpretation requests. This supports public cultural visiting, not live staffing or English guiding."
+    },
+    {
+      "place_id": "temple-jeongamsa-jeongseon",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=227777",
+      "title": "KTO — Korean Temple Food: A Sustainable Cuisine Inspired by Buddhist Teachings — A Beginner’s Guide to Templestay: Temple etiquette",
+      "scope": "policy",
+      "body_verified": true,
+      "summary": "May 2025 general etiquette section supports quiet conduct, respecting restricted areas and consulting staff before photography. Not a site-specific rule or evidence of Templestay availability."
+    }
+  ],
+  "prior_history_reviewed": [
+    "batch3-culture-review.json",
+    "batch6-temples-audit.json",
+    "batch13-culture-audit.json",
+    "batch13-culture-holds.json",
+    "batch18-new-places-holds.json",
+    "Other culture/temple and held-candidate files scanned for exact selected identities."
+  ],
+  "dedup": {
+    "all_645_records_checked": true,
+    "normalized_id_name_address_collisions": [],
+    "selected_prior_hold_matches": [],
+    "semantic_decisions": {
+      "catholic-nabawi-iksan": "One Nabawi church-and-shrine destination. The chapel, memorials and history room are not separate additions; distinct from existing Iksan riding center and campground.",
+      "temple-sutasa-hongcheon": "One Sutasa temple campus. No separate record for its halls, bell, book collection, pagoda, nearby valley or rural theme park; distinct from Alpaca World.",
+      "temple-jeongamsa-jeongseon": "One Jeongseon Jeongamsa temple-and-pagoda destination, not separate pagoda, hall or interpretation-house rows. Same-name Hongseong Jeongamsa is a different property and is not merged."
+    }
+  },
+  "failed_or_limited_actions": [
+    {
+      "action": "Public official-page open",
+      "target": "https://www.hongcheon.go.kr/tour/selectTourCntntsWebView.do?key=2035&pageIndex=7&pageUnit=6&searchCnd=all&searchShowAt=Y&tourNo=2019",
+      "outcome": "uncertain",
+      "reason": "County page did not yield a usable body; the final response reported 400 Redirect loop detected. Exact source was inadvertently opened twice while resolving truncated output, not through an alternate route. Not promoted as verified; KTO independently supplies temple identity/address.",
+      "attempts": 2,
+      "completed": "No county body used; independent KTO body read."
+    },
+    {
+      "action": "Follow public KTO operator website link",
+      "target": "Website link labeled www.nabawi.kr on the KTO Nabawi Catholic Church listing",
+      "originating_public_page": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=83714",
+      "outcome": "uncertain",
+      "reason": "Internal Error with no substantive body or origin HTTP status. No retry.",
+      "attempts": 1,
+      "completed": "Operator body not read; KTO directory and separate historical article read."
+    },
+    {
+      "action": "Follow public KTO operator website link",
+      "target": "http://www.jungamsa.com",
+      "outcome": "uncertain",
+      "reason": "Internal Error with no substantive body or origin HTTP status. No retry.",
+      "attempts": 1,
+      "completed": "Operator body not read; KTO and county tourism bodies read."
+    },
+    {
+      "action": "Public official-page open",
+      "target": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0022300000000&ccbaCpno=1125122300000&ccbaCtcd=32&ccbaKdcd=12&pageNo=1_1_1_0",
+      "outcome": "uncertain",
+      "reason": "400 Timeout fetching. No substantive body and no retry. Clay Four Heavenly Kings claim not promoted.",
+      "attempts": 1,
+      "completed": "No heritage-body evidence used."
+    },
+    {
+      "action": "Public official-page open",
+      "target": "https://www.heritage.go.kr/heri/cul/culGuidePostDetail.do?ccbaCpno=1333503180000&ccgbGbtype=UNI&ccgbGbtypeNo=2&pageNo=1_1_4_0",
+      "outcome": "denied",
+      "reason": "403 Forbidden. Stopped and did not retry or change hostname/tool to obtain the denied content.",
+      "attempts": 1,
+      "completed": "No heritage-body evidence used; independent KTO publication supports limited architecture."
+    },
+    {
+      "action": "Public official article open",
+      "target": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=429ad159-ac51-49c3-b071-d547cdaf5423",
+      "outcome": "uncertain",
+      "reason": "Cache miss, no substantive body. No retry; indexed recent article not promoted.",
+      "attempts": 1,
+      "completed": "Older independent KTO article read and explicitly dated."
+    }
+  ],
+  "quality_boundaries": [
+    "All accepted identity and street-address claims have substantive official public bodies.",
+    "Nabawi architecture is supported by a December 2019 exact shrine section, corroborated only for identity/address by the undated current KTO directory; no live condition survey claimed.",
+    "Jeongamsa public visitor scope is independently supported by county interpretation-house information, but staffing and English support remain unknown.",
+    "KTO temple etiquette is general guidance only. No new site-specific ban, dress rule, retreat requirement or booking claim.",
+    "All geometry and radial distances null; regional planning choice is not a measured within-200-km or road-distance claim.",
+    "No 24-hour, always-open, wheelchair-route, tour-language, price, Mass or interior access guarantee adopted.",
+    "No images, raw HTML, private paths, session URLs, tool references or personal contact details in public proposal artifacts."
+  ],
+  "access_safety": {
+    "cloud_public_web_only": true,
+    "raw_shell_network_requests": 0,
+    "denied_targets_retried": 0,
+    "shared_browser_used": false,
+    "user_mac_access": false,
+    "webllm_used": false,
+    "accounts_used": false,
+    "outreach_or_booking": false,
+    "costs": false,
+    "repository_writes": false,
+    "map_writes": false,
+    "publication": false
+  },
+  "validation": {
+    "language_fields": 30,
+    "five_languages": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "es"
+    ],
+    "all_geometry_null": true,
+    "all_exact_primary_address_body": true,
+    "normalized_collisions": 0,
+    "new_area_or_kind_labels_needed": false
+  },
+  "artifact_sha256": {
+    "batch19-new-places.json": "84d88213cc15be3f0d2589300746d3185ac29daef9ca7acf922d36b8f9152ff2",
+    "batch19-new-places-holds.json": "ffd9955ca9785e1a0e5eb27d111e0959f420750c4cda7d6090c1022286e572e3",
+    "batch19-new-places-evidence.json": "2e7fe013948e3da18d214735fbf03ca8825c0db456949f314f70b8f18b6734a2"
+  },
+  "independent_addition_review": {
+    "status": "passed",
+    "checked": "2026-10-27",
+    "proposal_sha256": "84d88213cc15be3f0d2589300746d3185ac29daef9ca7acf922d36b8f9152ff2",
+    "scope": "Independent official source-body, exact address, regional gap/duplicate, five-language, access-uncertainty and null-geometry review. No addition-content corrections requested.",
+    "holds_sha256": "ffd9955ca9785e1a0e5eb27d111e0959f420750c4cda7d6090c1022286e572e3"
+  }
+}
