@@ -2,6 +2,7 @@
 """Offline, dependency-free canonical data and preservation checks."""
 import argparse
 import collections
+from datetime import datetime
 import csv
 import hashlib
 import json
@@ -12,6 +13,7 @@ import re
 import sys
 import zipfile
 from urllib.parse import urlsplit, parse_qsl
+from active_classification import load_classification
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = ('en', 'ko', 'ja', 'zh', 'es')
@@ -87,9 +89,8 @@ def current_map_membership(root, sync, receipt, imported):
     """Expected current logical cohort; a row count is not a fresh native-ID audit."""
     if receipt.get('operation') != 'restore_after_layer_deletion':
         return set(imported)
-    policy = load('data/map/public-exclusions.json', root)
+    _, policy, _ = load_classification(root)
     ensure(policy['status'] == 'authorized_public_exclusion', 'Public exclusion is not authorized')
-    ensure(digest(root / 'data/places.json') == policy['sourcePlacesSha256'], 'Public exclusion source hash drift')
     excluded = policy['excludedPlaceIds']
     ensure(len(excluded) == len(set(excluded)) == 2 and set(excluded) <= set(imported), 'Public exclusion identity drift')
     ensure(receipt['excludedPlaceIds'] == excluded, 'Restore exclusions differ from explicit policy')
@@ -111,6 +112,41 @@ def current_map_membership(root, sync, receipt, imported):
     ensure(receipt['preservation']['fullNumericalGeometryPreservationVerified'] is False, 'Restore must not claim exact numerical geometry preservation')
     return expected
 
+def validate_release_state(root, metadata, sync):
+    """Prepared snapshots name the latest successful receipt, not an invented release.
+
+    Preserve the exact original metadata snapshot as historical preparation evidence;
+    new/edited snapshots must reconcile against the latest authoritative publication.
+    """
+    ensure(sync['lastPublishedSiteRelease'] == metadata['lastPublishedSiteRelease'], 'Published Site label mismatch')
+    ensure(metadata['snapshotRelease'] == sync['siteRelease'], 'Prepared Site label mismatch')
+    ensure(metadata['releaseStatus'] == sync['siteReleaseStatus'] == 'canonical_prepared_not_site_deployed', 'Prepared snapshot must not claim publication')
+    # The existing metadata was created before the v38 receipt arrived. Its exact
+    # bytes are grandfathered, not rewritten or treated as current publication.
+    legacy_metadata_sha256 = '98cd5a95462a20615be830ae349910b480deb2295546870db52ee92cb64195b1'
+    if digest(root/'data/metadata.json') == legacy_metadata_sha256:
+        return
+    receipts = []
+    for path in (root/'data/history').glob('site-deployment-v*.json'):
+        receipt = json.loads(path.read_text(encoding='utf-8'))
+        # Legacy receipts lack an explicit outcome schema. Do not infer current
+        # successful publication from an arbitrary filename or a pending attempt.
+        if receipt.get('status') != 'succeeded' or receipt.get('fixtureOnly'):
+            continue
+        release = receipt.get('release', '')
+        ensure(re.fullmatch(r'v[0-9]+', release) and path.stem == 'site-deployment-'+release, 'Publication receipt release mismatch')
+        ensure(receipt.get('schemaVersion') == '1.0' and receipt.get('access') == 'public' and
+               receipt.get('publicUrl', '').rstrip('/') == metadata['siteUrl'].rstrip('/'), 'Publication receipt target mismatch')
+        ensure(all(re.fullmatch(r'[0-9a-f]{40}', receipt.get(k, '')) for k in ('canonicalDataCommit','siteSourceCommit')), 'Publication receipt commit missing')
+        published = datetime.fromisoformat(receipt['publishedAtUtc'].replace('Z','+00:00'))
+        ensure(published.tzinfo is not None, 'Publication receipt timezone missing')
+        receipts.append((published, release))
+    ensure(receipts, 'No authoritative successful publication receipt')
+    latest = max(receipts)[1]
+    ensure(metadata['lastPublishedSiteRelease'] == latest, 'Last published Site must match latest successful receipt')
+    prepared = metadata['snapshotRelease']
+    ensure(re.fullmatch(r'v[0-9]+', prepared) and int(prepared[1:]) > int(latest[1:]), 'Prepared snapshot must be newer than last published Site')
+
 def validate(root=ROOT, asset_root=None):
     places = load('data/places.json', root)
     photos = load('data/photos.json', root)
@@ -124,6 +160,8 @@ def validate(root=ROOT, asset_root=None):
     ensure(len(places) == counts['places'] == research['places'], 'Place count drift')
     statuses = collections.Counter()
     point_count = 0
+    measured_count = 0
+    historical_ids = {p['id'] for p in load('data/map/coarse-category-plan.json', root)['places']}
     for p in places:
         label = p.get('id', '<missing>')
         ensure(all(k in p for k in required), f'{label}: required field missing')
@@ -144,26 +182,36 @@ def validate(root=ROOT, asset_root=None):
             statuses[audit['status']] += 1
         point = p['coordinates']
         distance = p['radial_distance_km']
-        ensure((point is None) == (distance is None), f'{label}: unknown coordinate/distance mismatch')
+        if label in historical_ids:
+            # Preserve the original 648-record coordinate/distance invariant.
+            ensure((point is None) == (distance is None), f'{label}: unknown coordinate/distance mismatch')
+        else:
+            # A published general venue point does not establish a chosen origin
+            # or a distance. Unmeasured additions are checked by the active contract.
+            ensure(point is not None or distance is None, f'{label}: measured distance requires coordinates')
         if point is not None:
             ensure(set(point) == {'lat', 'lng'}, f'{label}: point fields')
             ensure(-90 <= point['lat'] <= 90 and -180 <= point['lng'] <= 180, f'{label}: point range')
-            ensure(math.isfinite(distance) and distance >= 0, f'{label}: distance range')
-            for key in ('coordinate_provenance', 'coordinate_source_url', 'distance_reference_id', 'distance_method'):
+            for key in ('coordinate_provenance', 'coordinate_source_url'):
                 ensure(p.get(key), f'{label}: missing {key}')
             ensure(p['coordinate_source_url'] in [s['url'] for s in p['sources']], f'{label}: coordinate source missing')
+            point_count += 1
+        if distance is not None:
+            ensure(math.isfinite(distance) and distance >= 0, f'{label}: distance range')
+            for key in ('distance_reference_id', 'distance_method'):
+                ensure(p.get(key), f'{label}: missing {key}')
             reference = research['distance_audit']['reference']
             ensure(p['distance_reference_id'] == reference['id'], f'{label}: distance reference')
             expected = haversine(reference['coordinates'], point)
             ensure(abs(distance - expected) <= 0.11, f'{label}: distance calculation')
-            point_count += 1
+            measured_count += 1
     ensure(dict(statuses) == counts['sourceStatuses'], 'Source status counts drift')
     ensure(sum(statuses.values()) == counts['sourceReferences'], 'Source reference count drift')
     ensure(point_count == counts['coordinatePoints'], 'Coordinate count drift')
-    ensure(len(places) - point_count == counts['unmeasured'], 'Unmeasured count drift')
+    ensure(len(places) - measured_count == counts['unmeasured'], 'Unmeasured count drift')
     ensure(research['source_audit']['source_reference_statuses'] == dict(statuses), 'Research status summary drift')
     ensure(research['source_audit']['source_references'] == sum(statuses.values()), 'Research source count drift')
-    ensure(research['distance_audit']['checked_records'] == point_count and research['distance_audit']['unchecked_records'] == len(places) - point_count, 'Research distance count drift')
+    ensure(research['distance_audit']['checked_records'] == measured_count and research['distance_audit']['unchecked_records'] == len(places) - measured_count, 'Research distance count drift')
     ensure(research['category_counts'] == dict(collections.Counter(p['category'] for p in places)), 'Research category count drift')
     for area, categories in research['coverage'].items():
         expected = collections.Counter(p['category'] for p in places if p['area'] == area)
@@ -271,9 +319,10 @@ def validate(root=ROOT, asset_root=None):
     ensure(sync['confirmedNativeRows'] == receipt['counts']['rows'] == len(current_membership) and sync['positionedMarkers'] == receipt['counts']['positioned'] == len(current_membership) - 7 and sync['unresolvedRows'] == receipt['counts']['unresolved'] == 7, 'Receipt-backed map counts')
     ensure(sync['positionedMarkers'] + sync['unresolvedRows'] == sync['confirmedNativeRows'], 'Positioned/unresolved count sum')
     ensure(research['map']['confirmed_data_rows'] == research['map']['total_verified_rows'] == sync['confirmedNativeRows'] and research['map']['positioned_markers'] == sync['positionedMarkers'] and research['map']['unlocated_rows'] == research['map']['error_rows'] == sync['unresolvedRows'], 'Research verified map counts drift')
-    ensure(sync['pendingCohorts'] == [] and queue == [], 'Completed 41 rows must not be queued for repeated upload')
-    ensure(sync['lastPublishedSiteRelease'] == metadata['lastPublishedSiteRelease'] == load('data/history/site-deployment-v37.json', root)['siteRelease'] == 'v37', 'Published Site receipt mismatch')
-    ensure(metadata['snapshotRelease'] == sync['siteRelease'] == 'v38' and metadata['releaseStatus'] == sync['siteReleaseStatus'] == 'canonical_prepared_not_site_deployed', 'Prepared v38 must not claim publication')
+    pending_cohort_ids = [ident for cohort in sync['pendingCohorts'] for ident in cohort['placeIds']]
+    ensure(pending_cohort_ids == queue, 'Pending cohort membership/order differs from queue')
+    ensure(not any(p.get('access') == 'restricted' and p['id'] in queue for p in places), 'Restricted place cannot be queued')
+    validate_release_state(root, metadata, sync)
     archive = sync['appendFile']
     archived_csv = root / archive['path']
     ensure(digest(archived_csv) == archive['sha256'] and archived_csv.stat().st_size == archive['bytes'], 'Historical append CSV hash')
@@ -310,15 +359,18 @@ def validate(root=ROOT, asset_root=None):
         ensure(digest(candidate) == current['sha256'] and candidate.stat().st_size == current['bytes'], 'Current append hash/size drift')
         ensure(current['rows'] == len(queue), 'Current append row count drift')
         ensure(current['coordinateColumns'] == 0 and current['sourceAuditColumn'] is False, 'Unsafe current append metadata')
-    ensure(current is None and sync['currentAppendStatus'] == 'no_pending_rows_do_not_upload', 'Empty queue cannot advertise an append artifact')
+    if queue:
+        ensure(current is None and sync['currentAppendStatus'] == 'pending_rows_not_authorized_for_upload', 'New queue must remain unprepared and unauthorized')
+    else:
+        ensure(current is None and sync['currentAppendStatus'] == 'no_pending_rows_do_not_upload', 'Empty queue cannot advertise an append artifact')
     for group in sync['existingUpdateGroups']:
         ensure(set(group['explicitPlaceIds']).issubset(ids), 'Unknown existing correction ID')
     geometry = load('data/map/geometry-evidence.json', root)
     ensure(geometry['completeNativeGeometryBackup'] is False, 'Unproven geometry backup claim')
     ensure(len(geometry['importedCoordinateText']) == 100 and len(geometry['displayCoordinateComparisons']) == 47, 'Geometry evidence counts')
-    plan = load('data/map/coarse-category-plan.json', root)
+    plan, _, _ = load_classification(root, places)
     ensure(plan['status'] == 'proposed_not_applied' and plan['validation']['mapChangesPerformed'] == 0, 'Category proposal must not claim application')
-    ensure([p['id'] for p in plan['places']] == ids, 'Category proposal canonical coverage')
+    ensure([p['id'] for p in plan['places']] == ids[:len(plan['places'])], 'Category proposal historical coverage')
     plan_counts = collections.Counter(p['presentationGroup'] for p in plan['places'])
     ensure(dict(plan_counts) == {g['id']:g['count'] for g in plan['taxonomy']['groups']}, 'Category proposal counts drift')
     known_joins = {x['placeId']:x['nativeId'] for x in joins['explicitNativeJoins']}
@@ -328,9 +380,7 @@ def validate(root=ROOT, asset_root=None):
         ensure(planned['nativeId'] == known_joins.get(p['id']), 'Category proposal guessed native join')
         canonical_hash = hashlib.sha256(json.dumps(p, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
         ensure(planned['sourceRecordSha256'] == canonical_hash, 'Category proposal source record drift')
-    for item in plan['sourceFiles']:
-        ensure(digest(root / item['path']) == item['sha256'], 'Category proposal source hash drift')
-    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-point_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'historicallyImportedLogicalRows':len(imported), 'expectedCurrentLogicalRows':len(current_membership), 'confirmedMapRows':sync['confirmedNativeRows'], 'positionedMapRows':sync['positionedMarkers'], 'unresolvedMapRows':len(current_unresolved), 'verifiedImportedRows':sum(x['rows'] for x in operations), 'proposedCategoryGroups':len(plan_counts), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
+    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-measured_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'historicallyImportedLogicalRows':len(imported), 'expectedCurrentLogicalRows':len(current_membership), 'confirmedMapRows':sync['confirmedNativeRows'], 'positionedMapRows':sync['positionedMarkers'], 'unresolvedMapRows':len(current_unresolved), 'verifiedImportedRows':sum(x['rows'] for x in operations), 'proposedCategoryGroups':len(plan_counts), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

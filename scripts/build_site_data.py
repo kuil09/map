@@ -7,7 +7,7 @@ from pathlib import Path
 import shutil
 import subprocess
 from validate import ROOT, validate
-from build_category_presentation import write as write_category_presentation, write_public
+from build_category_presentation import write as write_category_presentation, write_public, public_projection
 
 
 def build(out, root=ROOT):
@@ -36,7 +36,8 @@ def build(out, root=ROOT):
             dirty = bool(subprocess.check_output(['git', '-C', str(root), 'status', '--porcelain', '--untracked-files=all', '--', 'data'], stderr=subprocess.DEVNULL, text=True).strip())
     except (subprocess.CalledProcessError, FileNotFoundError):
         pass
-    manifest = {'canonicalRepository':'https://github.com/kuil09/map','canonicalCommit':head if dirty is False else None,'canonicalHead':head,'canonicalWorkingTreeDirty':dirty,'projection':{'canonicalArchivePlaces':648,'publicPlaces':646,'excludedPlaces':2,'policyPath':'data/map/public-exclusions.json'},'provenanceRule':'Places and research are explicit public projections; canonical archive data remain unchanged. Input hashes identify the staged bytes. canonicalCommit is set only for a clean data working tree in this repository.','snapshotRelease':json.loads((root/'data/metadata.json').read_text())['snapshotRelease'],'inputs':inputs,'photoBinariesCopied':False,'deployed':False}
+    archive, public, policy = public_projection(root)
+    manifest = {'canonicalRepository':'https://github.com/kuil09/map','canonicalCommit':head if dirty is False else None,'canonicalHead':head,'canonicalWorkingTreeDirty':dirty,'projection':{'canonicalArchivePlaces':len(archive),'publicPlaces':len(public),'excludedPlaces':len(policy['excludedPlaceIds']),'policyPath':'data/map/public-exclusions.json'},'provenanceRule':'Places and research are explicit public projections; canonical archive data remain unchanged. Input hashes identify the staged bytes. canonicalCommit is set only for a clean data working tree in this repository.','snapshotRelease':json.loads((root/'data/metadata.json').read_text())['snapshotRelease'],'inputs':inputs,'photoBinariesCopied':False,'deployed':False}
     (out / 'canonical-input-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     return manifest
 

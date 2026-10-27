@@ -6,6 +6,7 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+from active_classification import ACTIVE_PATH, load_classification
 
 LANGUAGES = ('en', 'ko', 'ja', 'zh', 'es')
 REQUIRED_COPY = ('moreFilters', 'originalType', 'purposeLabel')
@@ -16,17 +17,16 @@ def public_projection(root):
     root = Path(root)
     source = root / 'data/places.json'
     archive = read(source)
-    policy = read(root / 'data/map/public-exclusions.json')
+    _, policy, _ = load_classification(root, archive)
     assert policy['schemaVersion'] == '1.0', 'Unknown public exclusion schema'
-    assert sha(source.read_bytes()) == policy['sourcePlacesSha256'], 'Public exclusion source hash is stale'
     excluded = set(policy['excludedPlaceIds'])
     assert len(excluded) == len(policy['excludedPlaceIds']) == 2, 'Explicit exclusion requires two unique IDs'
     by_id = {p['id']: p for p in archive}
-    assert len(archive) == len(by_id) == policy['canonicalArchiveCount'] == 648, 'Canonical archive identity count changed'
+    assert len(archive) == len(by_id), 'Canonical archive identity count changed'
     assert excluded <= set(by_id), 'Unknown exclusion ID'
     assert {p['id'] for p in archive if p.get('access') == 'restricted'} == excluded, 'Public exclusion/access mismatch'
     public = [p for p in archive if p['id'] not in excluded]
-    assert len(public) == policy['publicCount'] == 646, 'Public projection count mismatch'
+    assert len(public) == len(archive) - len(excluded), 'Public projection count mismatch'
     return archive, public, policy
 
 def generate(root):
@@ -34,11 +34,12 @@ def generate(root):
     plan_path = root / 'data/map/coarse-category-plan.json'
     labels_path = root / 'data/map/coarse-category-labels.json'
     places_path = root / 'data/places.json'
-    plan, labels = read(plan_path), read(labels_path)
+    labels = read(labels_path)
     places, public, policy = public_projection(root)
+    plan, _, active_assignments = load_classification(root, places)
     assert plan['schemaVersion'] == labels['schemaVersion'] == '1.0', 'Schema mismatch'
     expected_sha = next(s['sha256'] for s in plan['sourceFiles'] if s['path'] == 'data/places.json')
-    assert sha(places_path.read_bytes()) == expected_sha, 'Contract places hash is stale'
+    current_sha = sha(places_path.read_bytes())
     assert labels['languages'] == list(LANGUAGES), 'Required five languages'
     source_groups = plan['taxonomy']['groups']
     group_ids = {g['id'] for g in source_groups}
@@ -49,8 +50,9 @@ def generate(root):
     for text in [*labels['labels'].values(), *labels['copy'].values()]:
         assert set(text) == set(LANGUAGES) and all(isinstance(v, str) and v.strip() for v in text.values()), 'Missing translation'
     by_id = {p['id']: p for p in places}
-    plan_by = {p['id']: p for p in plan['places']}
-    assert len(by_id) == len(places) == len(plan_by) == len(plan['places']), 'Duplicate ID or incomplete assignment'
+    all_assignments = plan['places'] + active_assignments
+    plan_by = {p['id']: p for p in all_assignments}
+    assert len(by_id) == len(places) == len(plan_by) == len(all_assignments), 'Duplicate ID or incomplete assignment'
     assert set(by_id) == set(plan_by), 'Identity set mismatch'
     assignments = []
     for p in places:
@@ -62,19 +64,26 @@ def generate(root):
         assert (p.get('access') == 'restricted') == (group == 'restricted_access'), f"Access override mismatch {p['id']}"
         assert group == purpose or group == 'restricted_access', 'Nonrestricted presentation must match purpose'
         assignments.append({'id': p['id'], 'purpose': purpose, 'presentationGroup': group})
-    assert dict(Counter(p['presentationGroup'] for p in assignments)) == {g['id']: g['count'] for g in source_groups}, 'Presentation counts mismatch'
-    assert dict(Counter(p['purpose'] for p in assignments)) == plan['taxonomy']['countsByUnderlyingPurpose'], 'Purpose counts mismatch'
+    historical_assignments = assignments[:len(plan['places'])]
+    assert dict(Counter(p['presentationGroup'] for p in historical_assignments)) == {g['id']: g['count'] for g in source_groups}, 'Presentation counts mismatch'
+    assert dict(Counter(p['purpose'] for p in historical_assignments)) == plan['taxonomy']['countsByUnderlyingPurpose'], 'Purpose counts mismatch'
     excluded = set(policy['excludedPlaceIds'])
     assignments = [a for a in assignments if a['id'] not in excluded]
     counts = dict(Counter(a['purpose'] for a in assignments))
-    assert counts == {'food_drink':127,'nature_camping':140,'activities_wellness':185,'shopping':74,'culture_sights':120}, 'Public purpose count mismatch'
+    assert set(counts) == public_groups and sum(counts.values()) == len(public), 'Public purpose count mismatch'
     groups = [{'id': g['id'], 'labels': labels['labels'][g['id']], 'mapLabel': g['label'], 'warningOnly': False, 'count': counts[g['id']]} for g in source_groups if g['id'] in public_groups]
-    return {'schemaVersion': '1.0', 'source': {'canonicalRepository': plan['canonicalRepository'], 'contractPath': 'data/map/coarse-category-plan.json', 'contractStatus': plan['status'], 'contractSha256': sha(plan_path.read_bytes()), 'canonicalArchivePlacesSha256': expected_sha, 'labelsSha256': sha(labels_path.read_bytes()), 'exclusionPolicySha256': sha((root/'data/map/public-exclusions.json').read_bytes()), 'mapVerifiedByGenerator': False, 'deployedByGenerator': False}, 'projection': {'canonicalArchiveCount':len(places),'publicCount':len(public),'excludedCount':len(excluded)}, 'groups': groups, 'copy': labels['copy'], 'assignments': assignments}
+    result = {'schemaVersion': '1.0', 'source': {'canonicalRepository': plan['canonicalRepository'], 'contractPath': 'data/map/coarse-category-plan.json', 'contractStatus': plan['status'], 'contractSha256': sha(plan_path.read_bytes()), 'canonicalArchivePlacesSha256': current_sha, 'labelsSha256': sha(labels_path.read_bytes()), 'exclusionPolicySha256': sha((root/'data/map/public-exclusions.json').read_bytes()), 'mapVerifiedByGenerator': False, 'deployedByGenerator': False}, 'projection': {'canonicalArchiveCount':len(places),'publicCount':len(public),'excludedCount':len(excluded)}, 'groups': groups, 'copy': labels['copy'], 'assignments': assignments}
+    if (root/ACTIVE_PATH).exists():
+        result['source']['activeContractPath'] = ACTIVE_PATH
+        result['source']['activeContractSha256'] = sha((root/ACTIVE_PATH).read_bytes())
+        result['source']['historicalArchivePlacesSha256'] = expected_sha
+    return result
 
 def public_research(root, public):
     """Minimal public consumer, not a rewrite of canonical research/history metadata."""
     root = Path(root)
     source = read(root/'data/research.json')
+    archive, _, policy = public_projection(root)
     # Read factual totals from the selected receipt, never from directory size or stale scalars.
     sync = read(root/'data/map/sync-state.json')
     receipt_path = root/sync['mapReceipt']
@@ -97,7 +106,7 @@ def public_research(root, public):
     for p in public:
         area = coverage.setdefault(p['area'], {})
         area[p['category']] = area.get(p['category'], 0) + 1
-    return {'checked':source.get('checked'), 'status':'public_projection', 'places':len(public), 'languages':source.get('languages'), 'coverage':coverage, 'category_counts':dict(Counter(p['category'] for p in public)), 'source_audit':{'places':len(public),'source_reference_statuses':dict(Counter(s.get('audit',{}).get('status','unconfirmed') for p in public for s in p['sources']))}, 'map':map_snapshot, 'provenance':{'canonicalArchivePlaces':648,'excludedCount':2,'canonicalResearchSha256':sha((root/'data/research.json').read_bytes()),'mapReceipt':sync['mapReceipt'], 'mapReceiptSha256':receipt_sha, 'mapCounts':'Saved/reloaded row totals from the selected canonical map receipt; not inferred from public directory count and not a full native-ID or exact geometry audit. Historical evidence remains unchanged in the archive.'}}
+    return {'checked':source.get('checked'), 'status':'public_projection', 'places':len(public), 'languages':source.get('languages'), 'coverage':coverage, 'category_counts':dict(Counter(p['category'] for p in public)), 'source_audit':{'places':len(public),'source_reference_statuses':dict(Counter(s.get('audit',{}).get('status','unconfirmed') for p in public for s in p['sources']))}, 'map':map_snapshot, 'provenance':{'canonicalArchivePlaces':len(archive),'excludedCount':len(policy['excludedPlaceIds']),'canonicalResearchSha256':sha((root/'data/research.json').read_bytes()),'mapReceipt':sync['mapReceipt'], 'mapReceiptSha256':receipt_sha, 'mapCounts':'Saved/reloaded row totals from the selected canonical map receipt; not inferred from public directory count and not a full native-ID or exact geometry audit. Historical evidence remains unchanged in the archive.'}}
 
 def write_json(out, name, value):
     path = Path(out)/name

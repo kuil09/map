@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.0",
+  "status": "prepared_not_applied",
+  "mapId": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "operation": "add_more_items_only",
+  "oldRows": 646,
+  "newRows": 8,
+  "expectedRowsAfter": 654,
+  "oldUnresolved": 7,
+  "existingRowsMustNotBeReplaced": true,
+  "duplicateImportsAllowed": false,
+  "encoding": "utf-8_without_bom",
+  "titleColumn": "이름",
+  "locationColumn": "주소",
+  "locationPolicy": "Five street-address locators and three coordinate-pair text locators. Numerical map placement must be checked after import; source Latitude/Longitude fields are preserved separately. No exact-geocoding claim.",
+  "files": [
+    {
+      "path": "exports/append-walker-daegu-20261027/food_drink.csv",
+      "purpose": "food_drink",
+      "layerTitle": "Food & Drink / 음식·카페",
+      "rows": 2,
+      "recordIds": [
+        "dining-daegu-samsong-main",
+        "dining-daegu-gugil-ttarogukbap"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Latitude",
+        "Longitude",
+        "Visit type"
+      ],
+      "bytes": 13761,
+      "sha256": "5f199cc8158d4023700bf6b4d89938384c0bcddff2dd66b639f0135ca070fc1c",
+      "status": "not_uploaded"
+    },
+    {
+      "path": "exports/append-walker-daegu-20261027/nature_camping.csv",
+      "purpose": "nature_camping",
+      "layerTitle": "Nature & Camping / 자연·캠핑",
+      "rows": 2,
+      "recordIds": [
+        "scenery-daegu-apsan-park",
+        "scenery-daegu-duryu-park"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Latitude",
+        "Longitude",
+        "Visit type"
+      ],
+      "bytes": 15198,
+      "sha256": "6484d312ff4bcc6d2202adb30ee190ac7ab8eddfffd4c948e423486d2b055207",
+      "status": "not_uploaded"
+    },
+    {
+      "path": "exports/append-walker-daegu-20261027/activities_wellness.csv",
+      "purpose": "activities_wellness",
+      "layerTitle": "Activities & Wellness / 체험·휴식",
+      "rows": 2,
+      "recordIds": [
+        "activity-daegu-second-ice-rink",
+        "activity-daegu-international-shooting-tourist"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Latitude",
+        "Longitude"
+      ],
+      "bytes": 18663,
+      "sha256": "830f7c49f83e7c36295fc2a4eb56f596662cbc42b68add42a01b4c08ab32925b",
+      "status": "not_uploaded"
+    },
+    {
+      "path": "exports/append-walker-daegu-20261027/shopping.csv",
+      "purpose": "shopping",
+      "layerTitle": "Shopping / 쇼핑",
+      "rows": 1,
+      "recordIds": [
+        "shopping-daegu-seomun-market"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Latitude",
+        "Longitude"
+      ],
+      "bytes": 10303,
+      "sha256": "6a24b4c76d7a15358857623c6093544d8130fdd87c98f56ba951571356baf5f6",
+      "status": "not_uploaded"
+    },
+    {
+      "path": "exports/append-walker-daegu-20261027/culture_sights.csv",
+      "purpose": "culture_sights",
+      "layerTitle": "Culture & Sights / 문화·관광",
+      "rows": 1,
+      "recordIds": [
+        "culture-daegu-seongmodang"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Latitude",
+        "Longitude"
+      ],
+      "bytes": 7656,
+      "sha256": "b6e7834abb19035a1487e253837ce40e816d5b9d1c964f8e3d42e863340103bf",
+      "status": "not_uploaded"
+    }
+  ]
+}
