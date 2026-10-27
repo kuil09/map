@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAtKst": "2026-10-28",
+  "verifiedAtUtc": "2026-10-27T15:00:00Z",
+  "baseCommit": "875f1951c307d916f655d3c25ebea92d41de6816",
+  "status": "public_map_count_verified",
+  "scope": "Google My Maps public layer row counts via KML export",
+  "note": "Current verified public map state including the 8 Daegu places from round 1. Earlier unpublished integration commits (26067965, 4a73dada) were abandoned by owner decision.",
+  "totalRows": 654,
+  "layers": [
+    {
+      "name": "Shopping",
+      "rows": 75
+    },
+    {
+      "name": "Food & Drink",
+      "rows": 129
+    },
+    {
+      "name": "Nature & Camping",
+      "rows": 142
+    },
+    {
+      "name": "Activities & Wellness",
+      "rows": 187
+    },
+    {
+      "name": "Culture & Sights",
+      "rows": 121
+    }
+  ],
+  "daeguPlacesIncluded": 8,
+  "daeguRecordIds": [
+    "dining-daegu-samsong-main",
+    "dining-daegu-gugil-ttarogukbap",
+    "scenery-daegu-apsan-park",
+    "scenery-daegu-duryu-park",
+    "activity-daegu-second-ice-rink",
+    "activity-daegu-international-shooting-tourist",
+    "shopping-daegu-seomun-market",
+    "culture-daegu-seongmodang"
+  ],
+  "abandonedCommits": [
+    {
+      "sha": "26067965",
+      "note": "Unpublished integration attempt, abandoned by owner decision"
+    },
+    {
+      "sha": "4a73dada",
+      "note": "Unpublished integration attempt, abandoned by owner decision"
+    }
+  ],
+  "verificationMethod": "Public KML export via Google My Maps API",
+  "canonicalPlacesJsonCount": 648,
+  "canonicalPlacesJsonSha256": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c"
+}
