@@ -2,6 +2,7 @@
 import copy
 import csv
 import hashlib
+import io
 import json
 from pathlib import Path
 import sys
@@ -19,6 +20,8 @@ import map_csv
 
 V35_COMMIT = '88c2ee5409d7c41ffe91ee6c2e2c0eb6059a2590'
 V36_COMMIT = 'd7f722845fef1ef178cf3ff8768f55e504092678'
+V37_COMMIT = 'a1630b40ba030b85e05113f2e04ba960d2404ef9'
+INTEGRATION_BASE = 'a1fc07a6dd24b595ba1e99df8edb25fe49e00199'
 
 
 def v35_bytes(path):
@@ -28,6 +31,10 @@ def v35_bytes(path):
 
 def v36_bytes(path):
     return subprocess.check_output(['git', '-C', str(ROOT), 'show', f'{V36_COMMIT}:{path}'])
+
+
+def v37_bytes(path):
+    return subprocess.check_output(['git', '-C', str(ROOT), 'show', f'{V37_COMMIT}:{path}'])
 
 
 def record_hash(value):
@@ -40,6 +47,9 @@ class RepositoryTests(unittest.TestCase):
         cls.places = validate.load('data/places.json')
         cls.by_id = {p['id']: p for p in cls.places}
         cls.sync = validate.load('data/map/sync-state.json')
+        cls.operation = validate.load('data/map/verified-import-history.json')['completedAppendOperations'][0]
+        cls.append_ids = cls.operation['placeIds']
+        cls.original_append = cls.operation['originalArtifact']
 
     def test_full_validation(self):
         self.assertEqual(validate.validate()['status'], 'passed')
@@ -64,7 +74,7 @@ class RepositoryTests(unittest.TestCase):
             rows = list(csv.DictReader(handle))
         historical_sync = json.loads(v35_bytes('data/map/sync-state.json'))
         self.assertEqual([r['Record ID'] for r in rows], historical_sync['pendingAppendPlaceIds'])
-        self.assertEqual([r['Record ID'] for r in rows], self.sync['pendingAppendPlaceIds'][:35])
+        self.assertEqual([r['Record ID'] for r in rows], self.append_ids[:35])
         self.assertEqual(sum(len(r['Sources'].splitlines()) for r in rows), 79)
         for row in rows:
             place = self.by_id[row['Record ID']]
@@ -81,7 +91,7 @@ class RepositoryTests(unittest.TestCase):
         unknown = [p for p in self.places if p['coordinates'] is None]
         self.assertEqual(len(unknown), 518)
         self.assertTrue(all(p['radial_distance_km'] is None for p in unknown))
-        pending_points = [i for i in self.sync['pendingAppendPlaceIds'] if self.by_id[i]['coordinates'] is not None]
+        pending_points = [i for i in self.append_ids if self.by_id[i]['coordinates'] is not None]
         self.assertEqual(set(pending_points), {'culture-hongjuseong-history', 'culture-jeungpyeong-folk-museum'})
 
     def test_batch18_exact_scope_and_preservation(self):
@@ -144,7 +154,7 @@ class RepositoryTests(unittest.TestCase):
         for field in ('changes', 'held_candidates', 'open_questions'):
             self.assertEqual(research[field][:len(old_research[field])], old_research[field])
         for field in ('verified_utc', 'verification_scope', 'confirmed_data_rows', 'positioned_markers', 'unlocated_rows', 'legend_reorganization'):
-            self.assertEqual(research['map'][field], old_research['map'][field])
+            self.assertEqual(validate.load('data/history/map-status-v37-before-append41.json')[field], old_research['map'][field])
 
     def test_batch18_public_evidence_exact_and_private_material_absent(self):
         change = validate.load('data/history/batch18-change-record.json')
@@ -165,12 +175,14 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual(item['recordId'], baseline[item['nativeId']]['siteRecordId'])
             self.assertEqual(item['originalSourceAudit'], baseline[item['nativeId']]['baselineFields']['Source audit'])
 
-    def test_v37_current_snapshot_hashes(self):
+    def test_v37_historical_snapshot_hashes(self):
         change = validate.load('data/history/batch19-change-record.json')
         expected = {'places.json':'a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c', 'photos.json':'43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475', 'research.json':'fbbe5b133bdfdfcca25c49fabc21bf0ae0e1db09fdc6475256ec119484a46e7a'}
         self.assertEqual(change['canonicalInputHashes'], expected)
         for name, digest in expected.items():
-            self.assertEqual(validate.digest(ROOT/'data'/name), digest)
+            self.assertEqual(hashlib.sha256(v37_bytes('data/'+name)).hexdigest(), digest)
+            if name != 'research.json':
+                self.assertEqual(validate.digest(ROOT/'data'/name), digest)
 
     def test_batch19_exact_scope_and_preservation(self):
         before = json.loads(v36_bytes('data/places.json'))
@@ -208,9 +220,10 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual(record_hash(place), item['sha256'])
             self.assertIsNone(place['coordinates'])
             self.assertIsNone(place['radial_distance_km'])
-        self.assertEqual(len(self.sync['pendingAppendPlaceIds']), 41)
+        self.assertEqual(len(json.loads(v37_bytes('data/map/sync-state.json'))['pendingAppendPlaceIds']), 41)
+        self.assertEqual(self.sync['pendingAppendPlaceIds'], [])
         self.assertEqual(set(self.sync['existingUpdateGroups'][-1]['explicitPlaceIds']), set(edited))
-        self.assertFalse(set(edited) & set(self.sync['pendingAppendPlaceIds']))
+        self.assertFalse(set(edited) & set(self.append_ids))
         self.assertEqual(self.sync['existingUpdateGroups'][-1]['addressUpdateStatus'], 'canonical_only_not_applied_to_live_map')
 
     def test_batch19_address_and_dated_maintenance_scope(self):
@@ -233,12 +246,12 @@ class RepositoryTests(unittest.TestCase):
         for path in ('data/history/batch18-change-record.json', 'data/history/batch18-existing-audit.json', 'data/history/batch18-new-places-audit.json', 'data/history/batch18-new-places-evidence.json', 'data/history/batch18-new-places-holds.json', 'data/history/site-deployment-v36.json', 'exports/map-append38-v36.csv'):
             self.assertEqual((ROOT/path).read_bytes(), v36_bytes(path), path)
         old_sync = json.loads(v36_bytes('data/map/sync-state.json'))
-        self.assertEqual(self.sync['archivedAppendFiles'][-1], old_sync['currentAppendFile'])
+        self.assertEqual(self.sync['archivedAppendFiles'][0], old_sync['currentAppendFile'])
         self.assertEqual(self.sync['appendAttemptHistory'][0], old_sync['lastAppendAttempt'])
         self.assertEqual(self.sync['appendFile'], old_sync['appendFile'])
-        self.assertEqual(self.sync['pendingAppendPlaceIds'][:38], old_sync['pendingAppendPlaceIds'])
+        self.assertEqual(self.append_ids[:38], old_sync['pendingAppendPlaceIds'])
         old_places = json.loads(v36_bytes('data/places.json'))
-        self.assertEqual(map_csv.csv_bytes(map_csv.format_places(old_places, old_sync['pendingAppendPlaceIds'])), v36_bytes('exports/map-append38-v36.csv'))
+        self.assertEqual(map_csv.csv_bytes(map_csv.format_places(old_places, old_sync['pendingAppendPlaceIds']), include_bom=True), v36_bytes('exports/map-append38-v36.csv'))
         history = validate.load('data/history/verification-history.json')
         old_history = json.loads(v36_bytes('data/history/verification-history.json'))
         self.assertEqual(history['events'][:len(old_history['events'])], old_history['events'])
@@ -249,7 +262,7 @@ class RepositoryTests(unittest.TestCase):
         for field in ('changes', 'held_candidates', 'open_questions'):
             self.assertEqual(research[field][:len(old_research[field])], old_research[field])
         for field in ('verified_utc', 'verification_scope', 'confirmed_data_rows', 'positioned_markers', 'unlocated_rows', 'legend_reorganization'):
-            self.assertEqual(research['map'][field], old_research['map'][field])
+            self.assertEqual(validate.load('data/history/map-status-v37-before-append41.json')[field], old_research['map'][field])
 
     def test_batch19_public_evidence_and_no_private_artifacts(self):
         change = validate.load('data/history/batch19-change-record.json')
@@ -258,20 +271,25 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual(validate.digest(ROOT/artifact['path']), artifact['sha256'])
         for name in ('batch19-existing-patches.json', 'batch19-independent-qa.json', 'batch19-private-action-ledger.json', 'batch19-private-source-snapshots.json'):
             self.assertEqual(list(ROOT.rglob(name)), [])
-        self.assertEqual(validate.load('data/metadata.json')['lastPublishedSiteRelease'], 'v36')
+        self.assertEqual(validate.load('data/metadata.json')['lastPublishedSiteRelease'], 'v37')
         self.assertEqual(validate.load('data/metadata.json')['releaseStatus'], 'canonical_prepared_not_site_deployed')
-        self.assertEqual(validate.load('data/history/verification-history.json')['currentSiteRelease'], 'v36')
+        self.assertEqual(validate.load('data/history/verification-history.json')['currentSiteRelease'], 'v37')
 
-    def test_latest_append_attempt_is_failure_not_map_sync(self):
+    def test_latest_append_receipt_supersedes_preserved_failure(self):
+        failure = self.sync['appendAttemptHistory'][-1]
+        self.assertEqual(failure, json.loads(v37_bytes('data/map/sync-state.json'))['lastAppendAttempt'])
+        self.assertEqual((failure['rows'], failure['status'], failure['confirmedWrites'], failure['uncertainWrites']), (38, 'failed_before_upload', 0, 0))
+        self.assertFalse(failure['currentFreshInventoryVerified'])
         attempt = self.sync['lastAppendAttempt']
-        self.assertEqual(attempt['rows'], 38)
-        self.assertEqual(attempt['status'], 'failed_before_upload')
-        self.assertEqual(attempt['confirmedWrites'], 0)
-        self.assertEqual(attempt['uncertainWrites'], 0)
-        self.assertFalse(attempt['currentFreshInventoryVerified'])
-        self.assertEqual((self.sync['confirmedNativeRows'], self.sync['positionedMarkers'], self.sync['unresolvedRows']), (607, 601, 6))
-        self.assertEqual(self.sync['currentAppendFile']['rows'], 41)
-        self.assertEqual(self.sync['currentAppendFile']['status'], 'prepared_not_uploaded')
+        self.assertEqual((attempt['rows'], attempt['status'], attempt['successfulOperations'], attempt['duplicateAppends']), (41, 'saved_reloaded_verified', 1, 0))
+        self.assertIsNone(attempt['exactAppendSaveAtUtc'])
+        self.assertFalse(attempt['nativeIdsExposed'])
+        self.assertEqual((self.sync['confirmedNativeRows'], self.sync['positionedMarkers'], self.sync['unresolvedRows']), (648, 641, 7))
+        self.assertIsNone(self.sync['currentAppendFile'])
+        self.assertEqual(self.sync['pendingAppendPlaceIds'], [])
+        self.assertEqual(self.sync['pendingCohorts'], [])
+        self.assertEqual(self.sync['currentAppendStatus'], 'no_pending_rows_do_not_upload')
+        self.assertEqual(self.sync['archivedAppendFiles'][-1], self.original_append)
 
     def test_no_guessed_native_joins(self):
         joins = validate.load('data/map/identity-index.json')
@@ -309,13 +327,87 @@ class RepositoryTests(unittest.TestCase):
             self.assertEqual((out/'index.html').read_text(), 'existing site')
 
     def test_csv_generator_exact_bytes(self):
-        rows = map_csv.format_places(self.places, self.sync['pendingAppendPlaceIds'])
+        rows = map_csv.format_places(self.places, self.append_ids)
         actual = map_csv.csv_bytes(rows)
-        self.assertEqual(actual, (ROOT/self.sync['currentAppendFile']['path']).read_bytes())
-        self.assertEqual(hashlib.sha256(actual).hexdigest(), self.sync['currentAppendFile']['sha256'])
+        historical = (ROOT/self.original_append['path']).read_bytes()
+        self.assertTrue(historical.startswith(b'\xef\xbb\xbf'))
+        self.assertEqual(actual, historical[3:])
+        self.assertEqual(map_csv.csv_bytes(rows, include_bom=True), historical)
+        self.assertEqual(hashlib.sha256(historical).hexdigest(), self.original_append['sha256'])
         self.assertEqual(len(rows), 41)
         old_ids = json.loads(v35_bytes('data/map/sync-state.json'))['pendingAppendPlaceIds']
-        self.assertEqual(map_csv.csv_bytes(map_csv.format_places(self.places, old_ids)), (ROOT/self.sync['appendFile']['path']).read_bytes())
+        self.assertEqual(map_csv.csv_bytes(map_csv.format_places(self.places, old_ids), include_bom=True), (ROOT/self.sync['appendFile']['path']).read_bytes())
+
+    def test_csv_header_is_exact_and_bom_free_with_plain_utf8_reader(self):
+        rows = map_csv.format_places(self.places, self.append_ids)
+        actual = map_csv.csv_bytes(rows)
+        header = (','.join('"' + field + '"' for field in map_csv.FIELDS) + '\r\n').encode('ascii')
+        self.assertTrue(actual.startswith(header))
+        self.assertFalse(actual.startswith(b'\xef\xbb\xbf'))
+        reader = csv.DictReader(io.StringIO(actual.decode('utf-8'), newline=''), strict=True)
+        self.assertEqual(reader.fieldnames, map_csv.FIELDS)
+        self.assertEqual(len(reader.fieldnames), 10)
+        self.assertFalse({'Latitude', 'Longitude', 'Source audit'} & set(reader.fieldnames))
+        self.assertTrue(actual.endswith(b'\r\n'))
+
+    def test_csv_all_cells_roundtrip_without_field_loss(self):
+        rows = map_csv.format_places(self.places, self.append_ids)
+        for row in rows:
+            self.assertEqual(set(row), set(map_csv.FIELDS))
+        actual = list(csv.DictReader(io.StringIO(map_csv.csv_bytes(rows).decode('utf-8'), newline=''), strict=True))
+        self.assertEqual(actual, rows)
+        self.assertEqual([row['Record ID'] for row in actual], self.append_ids)
+        self.assertEqual(sum(len(row) for row in actual), 410)
+        with (ROOT/self.original_append['path']).open(encoding='utf-8-sig', newline='') as handle:
+            self.assertEqual(actual, list(csv.DictReader(handle, strict=True)))
+
+    def test_csv_five_language_descriptions_and_notes_preserved(self):
+        rows = map_csv.format_places(self.places, self.append_ids)
+        parsed = list(csv.DictReader(io.StringIO(map_csv.csv_bytes(rows).decode('utf-8'), newline=''), strict=True))
+        self.assertEqual(map_csv.LANGUAGES, ('en', 'ko', 'ja', 'zh', 'es'))
+        for row in parsed:
+            place = self.by_id[row['Record ID']]
+            expected = '\n\n'.join(lang.upper() + ': ' + place['description'][lang] + '\n' + place['notes'][lang] for lang in map_csv.LANGUAGES)
+            self.assertEqual(row['Description'], expected)
+
+    def test_csv_unicode_quotes_delimiters_and_embedded_bom_roundtrip(self):
+        samples = ('English café', '한국어 설명', '日本語の説明', '中文说明', 'Español: información')
+        rows = [{field: field + ': ' + sample + ', "quoted"\nLF\rCR\r\nCRLF\ufeffembedded'
+                 for field in map_csv.FIELDS} for sample in samples]
+        plain = map_csv.csv_bytes(rows)
+        legacy = map_csv.csv_bytes(rows, include_bom=True)
+        self.assertEqual(legacy, b'\xef\xbb\xbf' + plain)
+        self.assertEqual(list(csv.DictReader(io.StringIO(plain.decode('utf-8'), newline=''), strict=True)), rows)
+        self.assertEqual(list(csv.DictReader(io.StringIO(legacy.decode('utf-8-sig'), newline=''), strict=True)), rows)
+        self.assertEqual(plain.count(b'\xef\xbb\xbf'), len(rows) * len(map_csv.FIELDS))
+
+    def test_csv_empty_input_and_missing_cell(self):
+        expected = (','.join('"' + field + '"' for field in map_csv.FIELDS) + '\r\n').encode('ascii')
+        self.assertEqual(map_csv.csv_bytes([]), expected)
+        self.assertEqual(map_csv.csv_bytes([], include_bom=True), b'\xef\xbb\xbf' + expected)
+        with self.assertRaises(KeyError):
+            map_csv.csv_bytes([{'Name': 'Incomplete'}])
+
+    def test_immutable_csv_artifact_hashes(self):
+        expected = {
+            'map-append35-v35.csv': '33371ddb3efb701bae199a6486d2d7b71c5a3a06c823f631bec2e47358b2c2c4',
+            'map-append38-v36.csv': 'b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213',
+            'map-append41-v37.csv': 'e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc',
+        }
+        for name, digest in expected.items():
+            self.assertEqual(hashlib.sha256((ROOT/'exports'/name).read_bytes()).hexdigest(), digest)
+
+    def test_successful_evidence_preserves_exact_column_names(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)/'repo'
+            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns('build', '.git', '__pycache__'))
+            artifact = root/self.operation['successfulArtifact']['path']
+            original = artifact.read_bytes()
+            self.assertFalse(original.startswith(b'\xef\xbb\xbf'))
+            self.assertEqual(validate.validate(root)['status'], 'passed')
+            artifact.write_bytes(b'"\xef\xbb\xbfName"' + original[len(b'"Name"'):])
+            with self.assertRaisesRegex(ValueError, 'Successful compatibility CSV must remove only BOM'):
+                validate.validate(root)
 
     def test_csv_formatter_rejects_duplicate_and_missing_ids(self):
         with self.assertRaises(ValueError):
@@ -329,6 +421,15 @@ class RepositoryTests(unittest.TestCase):
             a, b = build_exports.build(first), build_exports.build(second)
             self.assertEqual(a, b)
             self.assertFalse(a['uploaded'])
+            self.assertEqual(a['csvEncoding'], 'utf-8')
+            self.assertFalse(a['csvByteOrderMark'])
+            self.assertEqual(a['appendRows'], 0)
+            self.assertFalse(a['importable'])
+            self.assertFalse(a['uploadAuthorized'])
+            self.assertEqual(a['appendStatus'], 'no_pending_rows_do_not_upload')
+            self.assertFalse((first/'map-append-current.csv').exists())
+            self.assertFalse((first/'map-append-current.rows.json').exists())
+            self.assertFalse(any('map-append-current' in item['path'] for item in a['outputs']))
             for item in a['outputs']:
                 self.assertEqual((first/item['path']).read_bytes(), (second/item['path']).read_bytes())
             points = json.loads((first/'source-points-reference.geojson').read_text())
@@ -342,6 +443,93 @@ class RepositoryTests(unittest.TestCase):
             self.assertTrue(historical['notForImport'])
             self.assertFalse(historical['nativeGeometryIncluded'])
             self.assertEqual(len(historical['records']),607)
+
+    def test_zero_pending_export_removes_stale_import_artifacts(self):
+        with tempfile.TemporaryDirectory() as temp:
+            out = Path(temp)
+            (out/'map-append-current.csv').write_bytes((ROOT/self.original_append['path']).read_bytes())
+            (out/'map-append-current.rows.json').write_text('[{"stale": true}]')
+            result = build_exports.build(out)
+            self.assertEqual(result['appendRows'], 0)
+            self.assertFalse(result['importable'])
+            self.assertFalse((out/'map-append-current.csv').exists())
+            self.assertFalse((out/'map-append-current.rows.json').exists())
+
+    def test_verified_rows_cannot_be_requeued_or_reimported(self):
+        for mutation in ('requeue', 'repeat_operation'):
+            with self.subTest(mutation=mutation), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)/'repo'
+                shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns('build', '.git', '__pycache__'))
+                if mutation == 'requeue':
+                    path = root/'data/map/sync-state.json'
+                    data = json.loads(path.read_text())
+                    data['pendingAppendPlaceIds'] = self.append_ids
+                    expected = 'Pending IDs duplicate imported cohort'
+                else:
+                    path = root/'data/map/verified-import-history.json'
+                    data = json.loads(path.read_text())
+                    data['completedAppendOperations'].append(copy.deepcopy(data['completedAppendOperations'][0]))
+                    expected = 'Repeated verified append IDs'
+                path.write_text(json.dumps(data, ensure_ascii=False))
+                with self.assertRaisesRegex(ValueError, expected):
+                    validate.validate(root)
+
+    def test_v38_status_only_preserves_all_v37_content_and_queues(self):
+        for path in ('data/places.json', 'data/photos.json', 'data/map/baseline607.json', 'data/map/identity-index.json', 'data/map/geometry-evidence.json', 'data/map/unresolved6.json', 'data/map/pending-field-edits692.json', 'data/history/applied-field-changes213.json', 'data/history/original-source-audits296.json', 'exports/map-append35-v35.csv', 'exports/map-append38-v36.csv', 'exports/map-append41-v37.csv'):
+            self.assertEqual((ROOT/path).read_bytes(), v37_bytes(path), path)
+        old_sync = json.loads(v37_bytes('data/map/sync-state.json'))
+        for field in ('existingUpdateGroups', 'cleanup', 'pendingFieldEditCount', 'appliedFieldChangeCount', 'pendingCivilianAddressNormalizationIds'):
+            self.assertEqual(self.sync[field], old_sync[field])
+        original_cohorts = [{k:v for k,v in c.items() if k not in ('status','sourceReleaseStatus')} for c in old_sync['pendingCohorts']]
+        completed_cohorts = [{k:v for k,v in c.items() if k not in ('status','priorStatus','historicalSourceReleaseStatus','verifiedAtUtc','receipt')} for c in self.operation['cohorts']]
+        self.assertEqual(completed_cohorts, original_cohorts)
+        self.assertEqual(validate.load('data/history/map-status-v37-before-append41.json'), json.loads(v37_bytes('data/research.json'))['map'])
+        old_history = json.loads(v37_bytes('data/history/verification-history.json'))
+        self.assertEqual(validate.load('data/history/verification-history.json')['events'][:len(old_history['events'])], old_history['events'])
+        self.assertEqual((ROOT/'data/history/site-deployment-v37.json').read_bytes(), subprocess.check_output(['git','-C',str(ROOT),'show',INTEGRATION_BASE+':data/history/site-deployment-v37.json']))
+        self.assertEqual(validate.load('data/metadata.json')['snapshotRelease'], 'v38')
+        self.assertEqual(validate.load('data/metadata.json')['lastPublishedSiteRelease'], 'v37')
+
+    def test_successful_fixture_exact_410_cells_and_receipt_limits(self):
+        receipt = validate.load(self.operation['receipt'])
+        successful = (ROOT/self.operation['successfulArtifact']['path']).read_bytes()
+        original = (ROOT/self.original_append['path']).read_bytes()
+        self.assertEqual(successful, original[3:])
+        self.assertEqual(len(successful), 151463)
+        self.assertEqual(hashlib.sha256(successful).hexdigest(), 'c15497cc633be24e5449350d39fe4153c32332eec1e9cd16fd99e93c65044aa4')
+        reader = csv.DictReader(io.StringIO(successful.decode('utf-8'), newline=''), strict=True)
+        rows = list(reader)
+        self.assertEqual(reader.fieldnames, map_csv.FIELDS)
+        self.assertEqual(rows, map_csv.format_places(self.places, self.append_ids))
+        self.assertEqual(sum(len(row) for row in rows), 410)
+        preservation = receipt['preservation']
+        self.assertEqual((preservation['explicitPointGeometriesCompared'], preservation['existingAddressLocatorsCompared']), (100, 501))
+        self.assertFalse(preservation['full601NumericalGeometryPreservationVerified'])
+        self.assertFalse(preservation['nativeIdsFreshlyVerified'])
+        self.assertEqual(preservation['newNativeIds'], [])
+        self.assertEqual(receipt['schema']['existingTitleColumn'], 'U+FEFF + Name')
+        self.assertTrue(receipt['schema']['extraNameColumnRetained'])
+        self.assertEqual(receipt['append']['newDisplayTitlesRepaired'], 41)
+        self.assertEqual(receipt['schema']['deletedColumns'], 0)
+        self.assertEqual(receipt['legendConsolidation']['categoryWrites'], 0)
+        self.assertEqual(receipt['timestamps']['descriptionReloadVerifiedAtUtc'], '2026-10-27T07:45:51.523Z')
+        unresolved = validate.load('data/map/unresolved7.json')
+        self.assertEqual(unresolved[-1]['siteRecordId'], 'redbutton-ansan')
+        self.assertIsNone(unresolved[-1]['nativeId'])
+
+    def test_category_contract_is_proposal_only(self):
+        plan = validate.load('data/map/coarse-category-plan.json')
+        self.assertEqual(plan['status'], 'proposed_not_applied')
+        self.assertEqual([g['count'] for g in plan['taxonomy']['groups']], [127, 140, 185, 74, 120, 2])
+        self.assertEqual(sum(p['nativeId'] is not None for p in plan['places']), 296)
+        self.assertEqual(plan['validation']['mapChangesPerformed'], 0)
+        self.assertEqual([p['id'] for p in plan['places']], [p['id'] for p in self.places])
+        research = validate.load('data/research.json')
+        self.assertEqual(research['map']['category_consolidation']['category_writes'], 0)
+        self.assertEqual(research['release_added_places'], 0)
+        self.assertEqual(research['map']['legend_reorganization']['target_single_purpose_layers'], 6)
+        self.assertEqual(research['map']['legend_reorganization']['target_status'], 'proposed_not_applied')
+        self.assertEqual(validate.load('data/history/map-status-v37-before-append41.json')['legend_reorganization']['target_single_purpose_layers'], 8)
 
     def test_site_manifest_does_not_attribute_dirty_data_to_head(self):
         with tempfile.TemporaryDirectory() as temp:

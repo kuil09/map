@@ -6,6 +6,7 @@ import csv
 import hashlib
 import json
 import math
+import io
 from pathlib import Path
 import re
 import sys
@@ -165,14 +166,58 @@ def validate(root=ROOT, asset_root=None):
     unresolved = load('data/map/unresolved6.json', root)
     ensure(len(unresolved) == 6 and all(x['nativeId'] in native_ids for x in unresolved), 'Unresolved coverage')
     sync = load('data/map/sync-state.json', root)
-    imported = joins['receiptBackedImportedPlaceIds']
+    historical_imported = joins['receiptBackedImportedPlaceIds']
+    ensure(len(historical_imported) == len(set(historical_imported)) == 607, 'Historical imported cohort IDs')
+    verified_history = load(sync['verifiedImportHistory'], root)
+    operations = verified_history['completedAppendOperations']
+    imported = list(historical_imported)
+    for operation in operations:
+        receipt_path = root / operation['receipt']
+        receipt = load(operation['receipt'], root)
+        ensure(digest(receipt_path) == operation['receiptSHA256'], 'Verified receipt hash drift')
+        new_ids = operation['placeIds']
+        ensure(new_ids == receipt['append']['recordIds'], 'Verified imported membership drift')
+        ensure(len(new_ids) == len(set(new_ids)) == operation['rows'] == receipt['append']['rows'] == 41, 'Verified append row count')
+        ensure(not set(new_ids) & set(imported), 'Repeated verified append IDs')
+        ensure(operation['successfulOperations'] == receipt['append']['successfulOperations'] == 1 and operation['duplicateAppends'] == receipt['append']['duplicateAppends'] == 0, 'Repeat append operation')
+        ensure(operation['nativeIds'] == [] and operation['nativeIdsExposed'] is False, 'Invented new native IDs')
+        ensure(operation['exactAppendSaveAtUtc'] is None and receipt['timestamps']['exactOriginalAppendSaveAtUtc'] is None, 'Invented exact append timestamp')
+        ensure([i for cohort in operation['cohorts'] for i in cohort['placeIds']] == new_ids, 'Verified cohort membership drift')
+        ensure(all(c['status'] == 'imported_saved_reloaded_verified' for c in operation['cohorts']), 'Unverified imported cohort')
+        original_artifact = operation['originalArtifact']
+        successful = operation['successfulArtifact']
+        original_bytes = (root / original_artifact['path']).read_bytes()
+        successful_bytes = (root / successful['path']).read_bytes()
+        ensure(original_bytes.startswith(b'\xef\xbb\xbf') and successful_bytes == original_bytes[3:], 'Successful compatibility CSV must remove only BOM')
+        ensure(digest(root / original_artifact['path']) == original_artifact['sha256'] == receipt['append']['originalCsvSHA256'], 'Original append evidence drift')
+        ensure(digest(root / successful['path']) == successful['sha256'] == receipt['append']['compatibilityCsv']['sha256'], 'Successful CSV hash drift')
+        ensure(len(successful_bytes) == successful['bytes'] == receipt['append']['compatibilityCsv']['bytes'], 'Successful CSV size drift')
+        from map_csv import FIELDS
+        parsed = csv.DictReader(io.StringIO(successful_bytes.decode('utf-8'), newline=''), strict=True)
+        rows = list(parsed)
+        ensure(parsed.fieldnames == FIELDS == receipt['append']['compatibilityCsv']['headers'], 'Successful CSV exact header drift')
+        ensure([r['Record ID'] for r in rows] == new_ids and sum(len(r) for r in rows) == 410, 'Successful CSV 410-cell membership drift')
+        ensure(successful['notForImport'] is True, 'Historical successful CSV is not an upload candidate')
+        imported.extend(new_ids)
+    ensure(len(operations) == 1 and len(imported) == 648, 'Verified import history coverage')
+    receipt = load(sync['mapReceipt'], root)
+    current_unresolved = load(sync['currentUnresolvedFile'], root)
+    ensure(len(current_unresolved) == 7 and [x['siteRecordId'] for x in current_unresolved] == [x['recordId'] for x in receipt['unresolved']], 'Current unresolved identity drift')
+    ensure([x['name'] for x in current_unresolved] == [x['name'] for x in receipt['unresolved']], 'Current unresolved name drift')
+    ensure(all(x['nativeId'] is None for x in current_unresolved), 'Unverified fresh unresolved native ID')
+    ensure([x['siteRecordId'] for x in current_unresolved[:6]] == [x['siteRecordId'] for x in unresolved], 'Original six unresolved not preserved')
     queue = sync['pendingAppendPlaceIds']
-    ensure(len(imported) == len(set(imported)) == 607, 'Imported cohort IDs')
+    ensure(len(imported) == len(set(imported)) == 648, 'Imported cohort IDs')
     ensure(len(queue) == len(set(queue)) and not set(queue) & set(imported), 'Pending IDs duplicate imported cohort')
     ensure(set(imported) | set(queue) == set(ids), 'Imported + pending does not cover canonical places')
     ensure(sync['siteTotal'] == len(places), 'Sync site count drift')
     ensure(research['map']['expected_total'] == len(places) and research['map']['remaining_map_uploads'] == len(queue), 'Research pending-map count drift')
-    ensure(sync['confirmedNativeRows'] == 607 and sync['positionedMarkers'] + sync['unresolvedRows'] == 607, 'Receipt-backed map counts')
+    ensure(sync['confirmedNativeRows'] == receipt['counts']['rows'] == len(imported) and sync['positionedMarkers'] == receipt['counts']['positioned'] == 641 and sync['unresolvedRows'] == receipt['counts']['unresolved'] == 7, 'Receipt-backed map counts')
+    ensure(sync['positionedMarkers'] + sync['unresolvedRows'] == sync['confirmedNativeRows'], 'Positioned/unresolved count sum')
+    ensure(research['map']['confirmed_data_rows'] == research['map']['total_verified_rows'] == sync['confirmedNativeRows'] and research['map']['positioned_markers'] == sync['positionedMarkers'] and research['map']['unlocated_rows'] == research['map']['error_rows'] == sync['unresolvedRows'], 'Research verified map counts drift')
+    ensure(sync['pendingCohorts'] == [] and queue == [], 'Completed 41 rows must not be queued for repeated upload')
+    ensure(sync['lastPublishedSiteRelease'] == metadata['lastPublishedSiteRelease'] == load('data/history/site-deployment-v37.json', root)['siteRelease'] == 'v37', 'Published Site receipt mismatch')
+    ensure(metadata['snapshotRelease'] == sync['siteRelease'] == 'v38' and metadata['releaseStatus'] == sync['siteReleaseStatus'] == 'canonical_prepared_not_site_deployed', 'Prepared v38 must not claim publication')
     archive = sync['appendFile']
     archived_csv = root / archive['path']
     ensure(digest(archived_csv) == archive['sha256'] and archived_csv.stat().st_size == archive['bytes'], 'Historical append CSV hash')
@@ -204,16 +249,32 @@ def validate(root=ROOT, asset_root=None):
         from map_csv import format_places, csv_bytes
         candidate = root / current['path']
         ensure(current['path'] not in archived_paths, 'Current export must not overwrite historical append')
-        ensure(candidate.read_bytes() == csv_bytes(format_places(places, queue)), 'Current append differs from canonical queue')
+        candidate_bytes = candidate.read_bytes()
+        ensure(queue and candidate_bytes == csv_bytes(format_places(places, queue), include_bom=candidate_bytes.startswith(b'\xef\xbb\xbf')), 'Current append differs from canonical queue')
         ensure(digest(candidate) == current['sha256'] and candidate.stat().st_size == current['bytes'], 'Current append hash/size drift')
         ensure(current['rows'] == len(queue), 'Current append row count drift')
         ensure(current['coordinateColumns'] == 0 and current['sourceAuditColumn'] is False, 'Unsafe current append metadata')
+    ensure(current is None and sync['currentAppendStatus'] == 'no_pending_rows_do_not_upload', 'Empty queue cannot advertise an append artifact')
     for group in sync['existingUpdateGroups']:
         ensure(set(group['explicitPlaceIds']).issubset(ids), 'Unknown existing correction ID')
     geometry = load('data/map/geometry-evidence.json', root)
     ensure(geometry['completeNativeGeometryBackup'] is False, 'Unproven geometry backup claim')
     ensure(len(geometry['importedCoordinateText']) == 100 and len(geometry['displayCoordinateComparisons']) == 47, 'Geometry evidence counts')
-    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-point_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
+    plan = load('data/map/coarse-category-plan.json', root)
+    ensure(plan['status'] == 'proposed_not_applied' and plan['validation']['mapChangesPerformed'] == 0, 'Category proposal must not claim application')
+    ensure([p['id'] for p in plan['places']] == ids, 'Category proposal canonical coverage')
+    plan_counts = collections.Counter(p['presentationGroup'] for p in plan['places'])
+    ensure(dict(plan_counts) == {g['id']:g['count'] for g in plan['taxonomy']['groups']}, 'Category proposal counts drift')
+    known_joins = {x['placeId']:x['nativeId'] for x in joins['explicitNativeJoins']}
+    for p, planned in zip(places, plan['places']):
+        ensure(all(planned[k] == p[k] for k in ('id', 'name_en', 'name_ko', 'address')), 'Category proposal protected field drift')
+        ensure(planned['sourceCategory'] == p['category'], 'Category proposal changed canonical category')
+        ensure(planned['nativeId'] == known_joins.get(p['id']), 'Category proposal guessed native join')
+        canonical_hash = hashlib.sha256(json.dumps(p, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+        ensure(planned['sourceRecordSha256'] == canonical_hash, 'Category proposal source record drift')
+    for item in plan['sourceFiles']:
+        ensure(digest(root / item['path']) == item['sha256'], 'Category proposal source hash drift')
+    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-point_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'confirmedMapRows':len(imported), 'positionedMapRows':sync['positionedMarkers'], 'unresolvedMapRows':len(current_unresolved), 'verifiedImportedRows':sum(x['rows'] for x in operations), 'proposedCategoryGroups':len(plan_counts), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

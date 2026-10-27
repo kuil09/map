@@ -163,9 +163,14 @@ def format_places(places, ordered_ids):
     return [format_place(by_id[ident]) for ident in ordered_ids]
 
 
-def csv_bytes(rows):
-    """UTF-8 BOM, quote every field, doubled quotes, CRLF records."""
+def csv_bytes(rows, *, include_bom=False):
+    """UTF-8 without BOM, quoted fields, doubled quotes and CRLF records.
+
+    Use include_bom=True only to reproduce historical BOM-bearing artifacts.
+    Cell contents, including any embedded U+FEFF characters, are preserved.
+    """
     matrix = [FIELDS, *[[row[field] for field in FIELDS] for row in rows]]
-    return ('\ufeff' + '\r\n'.join(','.join('"' + str(value).replace('"', '""') + '"' for value in row)
-                                      for row in matrix) + '\r\n').encode('utf-8')
+    return (('\ufeff' if include_bom else '') + '\r\n'.join(
+        ','.join('"' + str(value).replace('"', '""') + '"' for value in row)
+        for row in matrix) + '\r\n').encode('utf-8')
 

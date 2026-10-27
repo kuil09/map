@@ -20,7 +20,7 @@ The current distance reference and Haversine method are in `data/research.json.d
 
 `data/map/baseline607.json` preserves captured native table `baselineFields`, including old field text. It is historical data, not the canonical description to republish or a live import file. `nativeId` identifies the existing Google My Maps feature. `place.id` identifies the guide entry.
 
-`identity-index.json` establishes only 296 explicit native-to-place joins from captured `Record ID` cells. The remaining 311 native records remain unjoined. Receipt-backed membership of all 607 imported place IDs is preserved separately; it does not establish a one-to-one native mapping for those 311. No fuzzy or row-order joins are accepted.
+`identity-index.json` establishes only 296 explicit native-to-place joins from captured `Record ID` cells. The remaining 311 native records remain unjoined. Receipt-backed membership of all 607 imported place IDs is preserved separately; it does not establish a one-to-one native mapping for those 311. No fuzzy or row-order joins are accepted. `verified-import-history.json` separately adds receipt-backed membership for 41 later imported place IDs, bringing current membership to 648 without changing the historical identity index or inventing new native IDs. `unresolved7.json` records the current seven unresolved place IDs; `unresolved6.json` remains immutable historical evidence. Empty `pendingAppendPlaceIds` requires `currentAppendFile: null`; historical CSVs are not import candidates.
 
 The original audit values have per-string UTF-8 hashes. Do not change those strings to improve wording. New evidence belongs in current source objects and a new dated history event. Historical proposed edits are not instructions to execute, and recorded success is not fresh map verification.
 
@@ -34,3 +34,7 @@ The original audit values have per-string UTF-8 hashes. Do not change those stri
 2. Record old/new values, evidence URL, date, scope and known limitations in a new dated history entry. Do not overwrite historical snapshots.
 3. Recompute metadata counts and derived research summaries where affected. Run validation/tests and regenerate outputs.
 4. Review map deltas separately from site data. An imported row does not mean later source or coordinate changes were synchronized.
+
+## Proposed visitor-purpose presentation
+
+`data/map/coarse-category-plan.json` is `proposed_not_applied`: an exhaustive 648-ID presentation contract with exact names, addresses and source-record hashes. Five ordinary purposes plus a two-place restricted-access warning override do not replace canonical `category` or subtype fields. Only 296 historical native joins are supplied; all others remain null. No live category, layer or Site filter change is established by this plan.

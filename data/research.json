@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-27",
-  "status": "release_cloud_v37",
+  "status": "release_cloud_v38",
   "places": 648,
   "baseline": 105,
   "new_places": 543,
@@ -959,46 +959,65 @@
   "map": {
     "map_id": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
     "expected_total": 648,
-    "status": "partial_sync_with_unlocated_records",
-    "address_geocoded": 501,
+    "status": "rows_synchronized_with_unlocated_records_and_pending_corrections",
+    "address_geocoded": 541,
     "official_camp_coordinates": 69,
     "official_operator_attraction_coordinates": 30,
     "community_reference_coordinates": 1,
-    "remaining_map_uploads": 41,
+    "remaining_map_uploads": 0,
     "sharing": {
       "anyone_with_link": true,
       "search_discoverability": false
     },
-    "total_verified_rows": 607,
-    "duplicate_names": 0,
-    "error_rows": 6,
+    "total_verified_rows": 648,
+    "error_rows": 7,
     "checked": "2026-10-27",
-    "site_release": "release_cloud_v37",
-    "synchronization_note": "Last receipt-backed whole map: 607 listings, 601 markers and six unresolved locations; this is not a fresh full-map inventory. Forty-one newer directory listings are pending. The 38-row upload attempt on 2026-10-27 around 06:52 UTC stopped when opening the existing destination data table caused a browser renderer error before any import dialog, file chooser, upload or save; zero writes and zero uncertain writes. Only the destination-layer view was observed, not all map rows. Existing source, address and coordinate corrections remain separate and unapplied. Label/category review and single-purpose layer organization are incomplete. Address-geocoded points are not verified entrances. Reconcile any manual 35- or 38-row upload before using the overlapping 41-row candidate.",
-    "confirmed_data_rows": 607,
-    "positioned_markers": 601,
-    "unlocated_rows": 6,
-    "verified_utc": "2026-10-27T00:33:38.121382+00:00",
-    "verification_scope": "After save and reload, 607 row identities/counts and all 154 fields of the 14 latest appended records were checked, with exactly six activity Category cells normalized to the existing group. All 213 prior destination-layer rows and 2,343 displayed fields, the separate 41-row layer, and prior names/layers/styles were unchanged. No new layer was added. Details of 105 older source records and later source/coordinate corrections remain incompletely reconciled. Address-geocoded points are not verified entrances.",
+    "site_release": "release_cloud_v38",
+    "synchronization_note": "Verified after save and reload: 648 listings, 641 positioned and seven unresolved; 41 listings were appended once (40 positioned, Red Button Ansan unresolved), with no duplicate append. All 41 display titles were repaired after a legacy title-column mismatch and all ten fields per new row matched. No listings remain to append: historical 35/38/41-row files must not be uploaded again. Existing source, address and point corrections and 692 historical cleanup proposals remain unapplied. No source-audit columns were deleted; seven physical layers remain. Category consolidation is proposed only. Address-geocoded positions are not verified entrances.",
+    "confirmed_data_rows": 648,
+    "positioned_markers": 641,
+    "unlocated_rows": 7,
+    "verified_utc": "2026-10-27T07:45:51.523Z",
+    "verification_scope": "The receipt checks all 648 row counts and 41 appended Record IDs/ten-field values after save and reload. The 607 earlier names/layers, 4,674 original field values, 607 style references, 22 style definitions and 11 style maps were unchanged. All 100 explicit point geometries and 501 address locators were unchanged; numerical coordinates for the 501 address-geocoded pins were not exposed, so full 601-marker numerical preservation is not established. New native IDs were not exposed and no native-ID joins were inferred. Map description count clauses were verified as 648/641/7 after reload at 2026-10-27T07:45:51.523Z; all other description text, all 648 Placemarks and styles matched the prior export. Exact original append save-click time is unknown.",
     "unlocated_ids": [
       "activity-zeus-billiards-pyeongtaek",
       "activity-osan-cc-carom",
       "activity-carom-billiards-osan",
       "activity-muzit-darts-pyeongtaek",
       "activity-humphreys-downtown-lanes",
-      "redbutton-osan-city-hall"
+      "redbutton-osan-city-hall",
+      "redbutton-ansan"
     ],
     "pending_data_row_verification": 105,
-    "verified_address_cards": 40,
-    "verified_coordinate_rows_in_latest_import": 28,
     "legend_reorganization": {
-      "style_and_titles_status": "saved_verified_after_reload",
+      "style_and_titles_status": "existing_styles_and_repaired_new_titles_verified_after_reload",
       "structure_status": "incomplete",
       "original_layers_retained": 7,
-      "target_single_purpose_layers": 8,
-      "verified_utc": "2026-10-26T21:57:15Z",
-      "position_or_field_changes": 0
-    }
+      "target_single_purpose_layers": 6,
+      "target_status": "proposed_not_applied",
+      "target_plan": "data/map/coarse-category-plan.json",
+      "verified_utc": "2026-10-27T07:45:51.523Z",
+      "classification_writes": 0,
+      "layer_moves": 0,
+      "historical_target_scope": "The earlier eight-layer target and prior style receipt remain unchanged in data/history/map-status-v37-before-append41.json; the six-group target is a proposal, not an applied reorganization."
+    },
+    "receipt": "data/history/map-append41-verified-receipt.json",
+    "historical_checkpoint": "data/history/map-status-v37-before-append41.json",
+    "new_address_geocoded_rows": 40,
+    "new_native_ids_exposed": false,
+    "category_consolidation": {
+      "status": "proposed_not_applied",
+      "plan": "data/map/coarse-category-plan.json",
+      "category_writes": 0,
+      "layer_moves": 0
+    },
+    "historical_metrics": {
+      "duplicate_names": 0,
+      "verified_address_cards": 40,
+      "verified_coordinate_rows_in_latest_import": 28
+    },
+    "historical_metrics_scope": "Retained pre-append41 checkpoint metrics, not repeated by the latest receipt. See historical_checkpoint for the complete prior map status.",
+    "address_geocoded_scope": "Derived count: 501 historical address-based positions plus 40 positioned rows from the address-only append. This is not a numerical-geometry or entrance survey."
   },
   "held_candidates": [
     {
@@ -1505,7 +1524,8 @@
     "Cloud v34: Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified.",
     "Cloud v35: three public campground additions in Iksan, Goesan and Yeongwol add eleven official references; three existing cultural places gain source-published general points and one append-only reference each. 642 places, 956 references, 127 sourced points and 515 unmeasured. All 636 unaffected prior records, 942 prior source objects, original 311 records/correction ledger and 16 photos/32 assets are retained. Six further camping candidates remain held. The map remains last confirmed at 607 rows / 601 markers / 6 unresolved; 35 additions are pending and cleanup is incomplete. No new map verification or update.",
     "Canonical v36 prepared: Three additions fill Hongseong shopping and Gunsan food gaps: Gwangcheon Traditional Market, Leesungdang and Binhaewon, supported by four directly read official/operator references. All three coordinates and distances remain null. Three existing market records receive general source-published destination points from their unchanged KTO references: Onyang Oncheon, Cheongju Yukgeori and Yongin Jungang. These are not individual stalls, market boundaries, entrances, parking or accessible routes. All 956 earlier source objects/statuses, all existing names and full addresses, the original 311 records and 639 unaffected prior records remain exact. Live opening, stock, payment, English service and dietary suitability remain unverified. The directory has 645 places, 960 references, 130 sourced general points and 515 unmeasured locations. All 16 photos/32 assets remain unchanged. Last confirmed map remains 607 rows / 601 markers / 6 unresolved; 38 additions pending, three market point corrections staged separately. No map update or fresh map verification.",
-    "Canonical v37 prepared: Three additions fill landmark gaps in Iksan, Hongcheon and Jeongseon: Nabawi Catholic Church, Sutasa Temple and the combined Jeongamsa Temple/Sumano Pagoda destination. Eight directly read official references support their identities, full addresses and limited historical/cultural scope; all three coordinate/distance pairs remain null. Wangsong Lake Campground receives the operator ticket-office street address for address search, with the old registry lot address preserved in all five note histories. Hwarang Campground receives a dated 2026-11-09 through 2026-11-13 drainage-works notice, not a whole-site closure claim; the expired October 19–26 rear-gate notice is not presented as current. Both camping records retain null coordinates and gain one source each. All 960 prior source objects/statuses, 643 unaffected records and the original 311 records remain exact. These canonical corrections are not live map edits. Current operation, admission, booking, English support, exact entrances, parking and accessible routes remain unverified. The directory has 648 places, 970 references, 130 sourced general points and 518 unmeasured locations. All 16 photos/32 assets remain unchanged. Last receipt-backed map remains 607 rows / 601 markers / 6 unresolved; 41 additions pending. The latest 38-row upload attempt failed before upload with zero writes; no fresh whole-map inventory was established. Immutable 35- and 38-row CSV artifacts are retained; reconcile manual uploads before any new append."
+    "Canonical v37 prepared: Three additions fill landmark gaps in Iksan, Hongcheon and Jeongseon: Nabawi Catholic Church, Sutasa Temple and the combined Jeongamsa Temple/Sumano Pagoda destination. Eight directly read official references support their identities, full addresses and limited historical/cultural scope; all three coordinate/distance pairs remain null. Wangsong Lake Campground receives the operator ticket-office street address for address search, with the old registry lot address preserved in all five note histories. Hwarang Campground receives a dated 2026-11-09 through 2026-11-13 drainage-works notice, not a whole-site closure claim; the expired October 19–26 rear-gate notice is not presented as current. Both camping records retain null coordinates and gain one source each. All 960 prior source objects/statuses, 643 unaffected records and the original 311 records remain exact. These canonical corrections are not live map edits. Current operation, admission, booking, English support, exact entrances, parking and accessible routes remain unverified. The directory has 648 places, 970 references, 130 sourced general points and 518 unmeasured locations. All 16 photos/32 assets remain unchanged. Last receipt-backed map remains 607 rows / 601 markers / 6 unresolved; 41 additions pending. The latest 38-row upload attempt failed before upload with zero writes; no fresh whole-map inventory was established. Immutable 35- and 38-row CSV artifacts are retained; reconcile manual uploads before any new append.",
+    "Canonical v38 prepared: the verified one-time 41-row My Maps append brings the shared map to 648 rows, 641 positioned and seven unresolved. Red Button Ansan is newly unresolved; the six earlier unresolved listings remain. All 41 display titles and ten-field values were verified after a legacy title-column mismatch was repaired. Original 607 names/layers, 4,674 field values, styles, 100 explicit geometries and 501 address locators were unchanged; the 501 address-based pin coordinates and new native IDs were not exposed. Pending append is zero and all overlapping CSVs are historical evidence only. Original BOM-bearing CSV bytes remain exact, with successful BOM-free evidence separately retained. Existing source/address/point updates, 692 historical cleanup proposals, source-audit columns and seven physical layers remain unchanged. The coarse-category plan is proposed only. Directory content, all 970 source objects, 130 sourced general points, 518 unmeasured records and 16 photos/32 assets are unchanged. v37 remains the published Site until a separately verified v38 release."
   ],
   "open_questions": [
     "English staff service, foreign-ID/Korean-phone booking eligibility, stock, live opening and vacancy not verified.",
@@ -1551,7 +1571,8 @@
     "The three new Red Button branch listings support on-site board-game play, not retail or English-language games; branch fees and live operation require confirmation. Nonsan daily swim is limited to one visit per day and up to two hours, with close-fitting indoor swimwear and a cap required; the exact current session timetable remains unverified. General cable-car venue points are not boarding platforms. None of the four additions has verified coordinates or a measured distance.",
     "Ungpo requires advance internet-only booking, the named booker attending with matching ID, and no same-day/telephone/walk-in reservations or date/pitch changes. Goegang requires advance online booking but its linked route is unreadable; Donggang has no verified current booking route. Foreign-ID, Korean identity/phone, payment and English support remain unknown. Own-trailer listings do not promise rental caravans or all RV sizes. All three campground coordinates and distances remain unknown. Solmoe, Waujeongsa and Gongseri points are general destinations, not entrances, parking or accessible routes.",
     "Gwangcheon, Leesungdang and Binhaewon have no measured coordinates or distances. Confirm individual shop opening, stock, payment, English service and ingredients before travel. Jincheon Jungang Market remains held for conflicting official addresses; Jinmi Sikdang in Hwangdeung, Boeun Traditional Market and Jeungpyeong Jangtteul Market remain held for insufficient directly read address evidence. Existing market points do not establish entrances, stalls, parking or accessible routes.",
-    "Nabawi current interior/Mass access and English support, Sutasa artifact viewing and access hours, and Jeongamsa step-free pagoda access/live guiding remain unverified. Confirm Wangsong ticket-office directions and Hwarang site access/bookings during the announced November 9–13, 2026 drainage works. No whole-site closure is established and no expired October rear-gate closure is presented as current. Solnaeum, Geumsan and KINTEX source reviews produced no justified further correction or point. See the sanitized batch19 audit/hold artifacts for access limits."
+    "Nabawi current interior/Mass access and English support, Sutasa artifact viewing and access hours, and Jeongamsa step-free pagoda access/live guiding remain unverified. Confirm Wangsong ticket-office directions and Hwarang site access/bookings during the announced November 9–13, 2026 drainage works. No whole-site closure is established and no expired October rear-gate closure is presented as current. Solnaeum, Geumsan and KINTEX source reviews produced no justified further correction or point. See the sanitized batch19 audit/hold artifacts for access limits.",
+    "The v38 map receipt supersedes historical map row/append counts above: 648 rows, 641 positioned, seven unresolved and zero append rows remain. The Red Button Ansan location is newly unresolved. Source/address/point corrections, older detail reconciliation, 692 historical cleanup proposals and category/layer consolidation are separate and remain unresolved; the coarse-category contract is only a proposal."
   ],
   "coverage_gaps": {
     "Anmyeondo": [
@@ -2254,7 +2275,7 @@
   },
   "cloud_baseline_places": 311,
   "cloud_added_places": 337,
-  "release_added_places": 3,
+  "release_added_places": 0,
   "temple_browsing_count": 23,
   "spa_browsing_count": 14,
   "landmark_browsing_count": 115,

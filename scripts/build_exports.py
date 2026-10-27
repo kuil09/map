@@ -35,8 +35,14 @@ def build(out, root=ROOT):
     sync = load('data/map/sync-state.json', root)
     rows = format_places(places, sync['pendingAppendPlaceIds'])
     data = csv_bytes(rows)
-    (out / 'map-append-current.csv').write_bytes(data)
-    write_json(out / 'map-append-current.rows.json', rows)
+    # A zero-row CSV is not an import candidate. Remove only our known stale
+    # staging outputs so a previous nonempty export cannot be mistaken for work.
+    if rows:
+        (out / 'map-append-current.csv').write_bytes(data)
+        write_json(out / 'map-append-current.rows.json', rows)
+    else:
+        for name in ('map-append-current.csv', 'map-append-current.rows.json'):
+            (out / name).unlink(missing_ok=True)
     write_json(out / 'historical-reconstruction607.json', reconstruct(root))
     features = []
     for place in places:
@@ -46,7 +52,13 @@ def build(out, root=ROOT):
         features.append({'type':'Feature','id':place['id'],'geometry':{'type':'Point','coordinates':[point['lng'],point['lat']]},'properties':{'id':place['id'],'name_en':place['name_en'],'name_ko':place['name_ko'],'address':place['address'],'coordinate_source_url':place['coordinate_source_url'],'coordinate_provenance':place['coordinate_provenance'],'coordinate_status':place['coordinate_status'],'radial_distance_km':place['radial_distance_km'],'distance_reference_id':place['distance_reference_id'],'scope':'Published source reference point only; not native Google marker geometry or a verified entrance.'}})
     write_json(out / 'source-points-reference.geojson', {'type':'FeatureCollection','name':'Published source reference points — NOT a native map backup','nativeMapGeometry':False,'unknownCoordinatesOmitted':len(places)-len(features),'features':features})
     manifest = {'canonicalRepository':'https://github.com/kuil09/map','snapshotRelease':load('data/metadata.json', root)['snapshotRelease'],'inputs':{str(p):hashlib.sha256((root/p).read_bytes()).hexdigest() for p in ['data/places.json','data/map/sync-state.json','data/map/baseline607.json','data/history/applied-field-changes213.json','data/history/verification-history.json']},'appendRows':len(rows),'addressBasedImport':True,'coordinateColumns':0,'sourceAuditColumn':False,'uploaded':False,'outputs':[]}
-    for name in ['map-append-current.csv','map-append-current.rows.json','historical-reconstruction607.json','source-points-reference.geojson']:
+    manifest['appendStatus'] = 'pending_rows_not_authorized_for_upload' if rows else 'no_pending_rows_do_not_upload'
+    manifest['importable'] = bool(rows)
+    manifest['uploadAuthorized'] = False
+    manifest['csvEncoding'] = 'utf-8'
+    manifest['csvByteOrderMark'] = False
+    output_names = (['map-append-current.csv', 'map-append-current.rows.json'] if rows else []) + ['historical-reconstruction607.json', 'source-points-reference.geojson']
+    for name in output_names:
         path = out / name
         manifest['outputs'].append({'path':name,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
     write_json(out / 'export-manifest.json', manifest)

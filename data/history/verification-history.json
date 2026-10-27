@@ -1,6 +1,6 @@
 {
   "snapshotDate": "2026-10-27",
-  "currentSiteRelease": "v36",
+  "currentSiteRelease": "v37",
   "sourceSiteCommit": "bacf5a334a7850977ff0673925c6305191e221a6",
   "evidenceArtifacts": [
     {
@@ -144,6 +144,40 @@
       "pendingAppendRows": 41,
       "mapWrites": 0,
       "siteDeployed": false
+    },
+    {
+      "at": "2026-10-27T07:17:01.209236Z",
+      "event": "site_v37_publication_receipt_recorded",
+      "publicReceipt": "data/history/site-deployment-v37.json",
+      "scope": "Retained receipt; canonical v38 integration does not deploy the Site."
+    },
+    {
+      "at": "2026-10-27T07:45:51.523Z",
+      "event": "append41_and_description_saved_reloaded_verified",
+      "publicReceipt": "data/history/map-append41-verified-receipt.json",
+      "receiptSHA256": "973b336ba34739f54a44a8c7b4a3a57957e7bde1d13cfd55c69ef11a25bac196",
+      "rows": 648,
+      "positioned": 641,
+      "unresolved": 7,
+      "appendedRows": 41,
+      "successfulAppendOperations": 1,
+      "pendingAppendRows": 0,
+      "newNativeIdsExposed": false,
+      "categoryWrites": 0,
+      "layerMoves": 0,
+      "sourceAuditColumnsDeleted": 0,
+      "exactOriginalAppendSaveAtUtc": null
+    },
+    {
+      "at": "2026-10-27",
+      "event": "canonical_v38_map_status_prepared",
+      "siteDeployed": false,
+      "placeContentChanges": 0,
+      "sourceChanges": 0,
+      "coordinateChanges": 0,
+      "photoChanges": 0,
+      "categoryPlanStatus": "proposed_not_applied",
+      "mapWritesByIntegration": 0
     }
   ],
   "additionalPreservedSourceChange": [
@@ -186,6 +220,6 @@
     "Private archival receipts/screenshots and raw third-party HTML are not republished here.",
     "The current source audit and research history are in data/places.json and data/research.json; source content states are not upgraded by repository migration."
   ],
-  "currentCanonicalRelease": "v37",
+  "currentCanonicalRelease": "v38",
   "canonicalReleaseStatus": "prepared_not_site_deployed"
 }

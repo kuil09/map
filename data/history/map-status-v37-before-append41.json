@@ -1,0 +1,44 @@
+{
+  "map_id": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "expected_total": 648,
+  "status": "partial_sync_with_unlocated_records",
+  "address_geocoded": 501,
+  "official_camp_coordinates": 69,
+  "official_operator_attraction_coordinates": 30,
+  "community_reference_coordinates": 1,
+  "remaining_map_uploads": 41,
+  "sharing": {
+    "anyone_with_link": true,
+    "search_discoverability": false
+  },
+  "total_verified_rows": 607,
+  "duplicate_names": 0,
+  "error_rows": 6,
+  "checked": "2026-10-27",
+  "site_release": "release_cloud_v37",
+  "synchronization_note": "Last receipt-backed whole map: 607 listings, 601 markers and six unresolved locations; this is not a fresh full-map inventory. Forty-one newer directory listings are pending. The 38-row upload attempt on 2026-10-27 around 06:52 UTC stopped when opening the existing destination data table caused a browser renderer error before any import dialog, file chooser, upload or save; zero writes and zero uncertain writes. Only the destination-layer view was observed, not all map rows. Existing source, address and coordinate corrections remain separate and unapplied. Label/category review and single-purpose layer organization are incomplete. Address-geocoded points are not verified entrances. Reconcile any manual 35- or 38-row upload before using the overlapping 41-row candidate.",
+  "confirmed_data_rows": 607,
+  "positioned_markers": 601,
+  "unlocated_rows": 6,
+  "verified_utc": "2026-10-27T00:33:38.121382+00:00",
+  "verification_scope": "After save and reload, 607 row identities/counts and all 154 fields of the 14 latest appended records were checked, with exactly six activity Category cells normalized to the existing group. All 213 prior destination-layer rows and 2,343 displayed fields, the separate 41-row layer, and prior names/layers/styles were unchanged. No new layer was added. Details of 105 older source records and later source/coordinate corrections remain incompletely reconciled. Address-geocoded points are not verified entrances.",
+  "unlocated_ids": [
+    "activity-zeus-billiards-pyeongtaek",
+    "activity-osan-cc-carom",
+    "activity-carom-billiards-osan",
+    "activity-muzit-darts-pyeongtaek",
+    "activity-humphreys-downtown-lanes",
+    "redbutton-osan-city-hall"
+  ],
+  "pending_data_row_verification": 105,
+  "verified_address_cards": 40,
+  "verified_coordinate_rows_in_latest_import": 28,
+  "legend_reorganization": {
+    "style_and_titles_status": "saved_verified_after_reload",
+    "structure_status": "incomplete",
+    "original_layers_retained": 7,
+    "target_single_purpose_layers": 8,
+    "verified_utc": "2026-10-26T21:57:15Z",
+    "position_or_field_changes": 0
+  }
+}

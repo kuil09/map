@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "historicalImportedMembership": {
+    "path": "data/map/identity-index.json",
+    "field": "receiptBackedImportedPlaceIds",
+    "count": 607,
+    "newNativeJoinsEstablished": 0
+  },
+  "completedAppendOperations": [
+    {
+      "status": "saved_reloaded_verified",
+      "receipt": "data/history/map-append41-verified-receipt.json",
+      "receiptSHA256": "973b336ba34739f54a44a8c7b4a3a57957e7bde1d13cfd55c69ef11a25bac196",
+      "verifiedAtUtc": "2026-10-27T07:35:52Z",
+      "exactAppendSaveAtUtc": null,
+      "rows": 41,
+      "successfulOperations": 1,
+      "duplicateAppends": 0,
+      "placeIds": [
+        "gocamping-3397",
+        "gocamping-2616",
+        "gocamping-3120",
+        "gocamping-7254",
+        "gocamping-3271",
+        "gocamping-1807",
+        "ak-wonju",
+        "starfield-city-bucheon",
+        "lotte-outlet-buyeo",
+        "lotte-ansan",
+        "market-yesan",
+        "market-naeto-jecheon",
+        "catholic-gamgok-maegoe",
+        "catholic-yeonpung",
+        "catholic-gusan-hanam",
+        "temple-sujongsa-namyangju",
+        "temple-taegosa-geumsan",
+        "culture-bucheon-bow-museum",
+        "culture-hongjuseong-history",
+        "culture-jeungpyeong-folk-museum",
+        "dining-indy-techno-daejeon",
+        "dining-dono-marco-cheonan",
+        "dining-cozy-house-suwon-jangan",
+        "dining-no-brand-burger-starfield-anseong",
+        "spa-songhaeon-songdo",
+        "spa-yulam-hwaseong",
+        "spa-have9-forest-resom-jecheon",
+        "spa-lei-seoul",
+        "redbutton-ansan",
+        "redbutton-bucheon-city-hall",
+        "redbutton-gimpo-gurae",
+        "activity-nonsan-national-swimming",
+        "gocamping-2460",
+        "gocamping-337",
+        "gocamping-2226",
+        "market-gwangcheon-hongseong",
+        "dining-leesungdang-gunsan",
+        "dining-binhaewon-gunsan",
+        "catholic-nabawi-iksan",
+        "temple-sutasa-hongcheon",
+        "temple-jeongamsa-jeongseon"
+      ],
+      "nativeIds": [],
+      "nativeIdsExposed": false,
+      "cohorts": [
+        {
+          "cohort": "twelfth_batch",
+          "placeIds": [
+            "gocamping-3397",
+            "gocamping-2616",
+            "gocamping-3120",
+            "gocamping-7254",
+            "gocamping-3271",
+            "gocamping-1807",
+            "ak-wonju",
+            "starfield-city-bucheon",
+            "lotte-outlet-buyeo",
+            "lotte-ansan",
+            "market-yesan",
+            "market-naeto-jecheon"
+          ],
+          "sourceRelease": "release_cloud_v29",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "thirteenth_culture_batch",
+          "placeIds": [
+            "catholic-gamgok-maegoe",
+            "catholic-yeonpung",
+            "catholic-gusan-hanam",
+            "temple-sujongsa-namyangju",
+            "temple-taegosa-geumsan",
+            "culture-bucheon-bow-museum",
+            "culture-hongjuseong-history",
+            "culture-jeungpyeong-folk-museum"
+          ],
+          "sourceRelease": "release_cloud_v31",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "fourteenth_food_points_batch",
+          "placeIds": [
+            "dining-indy-techno-daejeon",
+            "dining-dono-marco-cheonan",
+            "dining-cozy-house-suwon-jangan",
+            "dining-no-brand-burger-starfield-anseong"
+          ],
+          "sourceRelease": "release_cloud_v32",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "fifteenth_spa_batch",
+          "placeIds": [
+            "spa-songhaeon-songdo",
+            "spa-yulam-hwaseong",
+            "spa-have9-forest-resom-jecheon",
+            "spa-lei-seoul"
+          ],
+          "sourceRelease": null,
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "sixteenth_activity_points_batch",
+          "placeIds": [
+            "redbutton-ansan",
+            "redbutton-bucheon-city-hall",
+            "redbutton-gimpo-gurae",
+            "activity-nonsan-national-swimming"
+          ],
+          "sourceRelease": "release_cloud_v34",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "seventeenth_camping_culture_points_batch",
+          "placeIds": [
+            "gocamping-2460",
+            "gocamping-337",
+            "gocamping-2226"
+          ],
+          "sourceRelease": "release_cloud_v35",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json"
+        },
+        {
+          "cohort": "eighteenth_market_food_points_batch",
+          "placeIds": [
+            "market-gwangcheon-hongseong",
+            "dining-leesungdang-gunsan",
+            "dining-binhaewon-gunsan"
+          ],
+          "sourceRelease": "release_cloud_v36",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json",
+          "historicalSourceReleaseStatus": "canonical_prepared_not_site_deployed"
+        },
+        {
+          "cohort": "nineteenth_landmark_camping_batch",
+          "placeIds": [
+            "catholic-nabawi-iksan",
+            "temple-sutasa-hongcheon",
+            "temple-jeongamsa-jeongseon"
+          ],
+          "sourceRelease": "release_cloud_v37",
+          "priorStatus": "not_imported",
+          "status": "imported_saved_reloaded_verified",
+          "verifiedAtUtc": "2026-10-27T07:35:52Z",
+          "receipt": "data/history/map-append41-verified-receipt.json",
+          "historicalSourceReleaseStatus": "canonical_prepared_not_site_deployed"
+        }
+      ],
+      "originalArtifact": {
+        "path": "exports/map-append41-v37.csv",
+        "rows": 41,
+        "sha256": "e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc",
+        "bytes": 151466,
+        "addressBased": true,
+        "coordinateColumns": 0,
+        "sourceAuditColumn": false,
+        "containsGeneralPointReferenceTextFor": [
+          "culture-hongjuseong-history",
+          "culture-jeungpyeong-folk-museum"
+        ],
+        "status": "prepared_not_uploaded",
+        "existingMapRowsReplacement": false
+      },
+      "successfulArtifact": {
+        "path": "exports/map-append41-v37-utf8-no-bom.csv",
+        "transform": "Removed initial UTF-8 BOM only",
+        "bytes": 151463,
+        "sha256": "c15497cc633be24e5449350d39fe4153c32332eec1e9cd16fd99e93c65044aa4",
+        "rows": 41,
+        "columns": 10,
+        "headers": [
+          "Name",
+          "Address",
+          "Category",
+          "Description",
+          "Sources",
+          "Checked",
+          "Location limitations",
+          "Record ID",
+          "Access and booking",
+          "Additional details"
+        ],
+        "all410DataCellsAnd10HeadersEquivalent": true,
+        "status": "historical_successful_import_evidence_not_for_reupload",
+        "notForImport": true
+      }
+    }
+  ],
+  "scope": "Receipt-backed row membership only. New native feature IDs are unknown. Existing source, address, point, category and historical cleanup queues are not cleared by row import."
+}

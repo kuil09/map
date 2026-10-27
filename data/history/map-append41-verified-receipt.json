@@ -1,0 +1,168 @@
+{
+  "mapId": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "canonicalDataCommit": "a1630b40ba030b85e05113f2e04ba960d2404ef9",
+  "append": {
+    "rows": 41,
+    "successfulOperations": 1,
+    "duplicateAppends": 0,
+    "recordIds": [
+      "gocamping-3397",
+      "gocamping-2616",
+      "gocamping-3120",
+      "gocamping-7254",
+      "gocamping-3271",
+      "gocamping-1807",
+      "ak-wonju",
+      "starfield-city-bucheon",
+      "lotte-outlet-buyeo",
+      "lotte-ansan",
+      "market-yesan",
+      "market-naeto-jecheon",
+      "catholic-gamgok-maegoe",
+      "catholic-yeonpung",
+      "catholic-gusan-hanam",
+      "temple-sujongsa-namyangju",
+      "temple-taegosa-geumsan",
+      "culture-bucheon-bow-museum",
+      "culture-hongjuseong-history",
+      "culture-jeungpyeong-folk-museum",
+      "dining-indy-techno-daejeon",
+      "dining-dono-marco-cheonan",
+      "dining-cozy-house-suwon-jangan",
+      "dining-no-brand-burger-starfield-anseong",
+      "spa-songhaeon-songdo",
+      "spa-yulam-hwaseong",
+      "spa-have9-forest-resom-jecheon",
+      "spa-lei-seoul",
+      "redbutton-ansan",
+      "redbutton-bucheon-city-hall",
+      "redbutton-gimpo-gurae",
+      "activity-nonsan-national-swimming",
+      "gocamping-2460",
+      "gocamping-337",
+      "gocamping-2226",
+      "market-gwangcheon-hongseong",
+      "dining-leesungdang-gunsan",
+      "dining-binhaewon-gunsan",
+      "catholic-nabawi-iksan",
+      "temple-sutasa-hongcheon",
+      "temple-jeongamsa-jeongseon"
+    ],
+    "originalCsvRejectedBeforeMapWrite": true,
+    "originalCsvSHA256": "e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc",
+    "compatibilityCsv": {
+      "transform": "Removed initial UTF-8 BOM only",
+      "bytes": 151463,
+      "sha256": "c15497cc633be24e5449350d39fe4153c32332eec1e9cd16fd99e93c65044aa4",
+      "rows": 41,
+      "columns": 10,
+      "headers": [
+        "Name",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Location limitations",
+        "Record ID",
+        "Access and booking",
+        "Additional details"
+      ],
+      "all410DataCellsAnd10HeadersEquivalent": true
+    },
+    "newDisplayTitlesRepaired": 41,
+    "newTenFieldReadbackMatches": 41
+  },
+  "counts": {
+    "rows": 648,
+    "positioned": 641,
+    "unresolved": 7,
+    "newPositioned": 40,
+    "newUnresolved": 1,
+    "layers": 7,
+    "destinationRows": 268,
+    "destinationUnresolved": 2
+  },
+  "unresolved": [
+    {
+      "recordId": "activity-zeus-billiards-pyeongtaek",
+      "name": "Zeus Billiards Pyeongtaek | 제우스당구장"
+    },
+    {
+      "recordId": "activity-osan-cc-carom",
+      "name": "Osan CC Carom Club | 오산CC대대클럽"
+    },
+    {
+      "recordId": "activity-carom-billiards-osan",
+      "name": "Carom Billiards Club Osan | 캐롬당구클럽"
+    },
+    {
+      "recordId": "activity-muzit-darts-pyeongtaek",
+      "name": "MUZIT Darts Pyeongtaek | MUZIT(평택)"
+    },
+    {
+      "recordId": "activity-humphreys-downtown-lanes",
+      "name": "RESTRICTED ACCESS / 출입 제한 — Downtown Lanes Bowling Center · Camp Humphreys | 캠프 험프리스 다운타운 레인즈 볼링장"
+    },
+    {
+      "recordId": "redbutton-osan-city-hall",
+      "name": "Red Button · Osan City Hall | 레드버튼 오산시청점"
+    },
+    {
+      "recordId": "redbutton-ansan",
+      "name": "Red Button · Ansan | 레드버튼 안산점"
+    }
+  ],
+  "preservation": {
+    "existingNamesAndLayersCompared": 607,
+    "existingOriginalFieldValuesCompared": 4674,
+    "originalFieldDifferences": 0,
+    "styleReferencesCompared": 607,
+    "styleDefinitionsCompared": 22,
+    "styleMapsCompared": 11,
+    "styleDifferences": 0,
+    "explicitPointGeometriesCompared": 100,
+    "explicitPointDifferences": 0,
+    "existingAddressLocatorsCompared": 501,
+    "addressLocatorDifferences": 0,
+    "originalSixUnresolvedPreserved": true,
+    "full601NumericalGeometryPreservationVerified": false,
+    "nativeIdsFreshlyVerified": false,
+    "newNativeIds": [],
+    "nativeIdLimitation": "Supported KMZ export and browser accessibility did not expose native IDs."
+  },
+  "schema": {
+    "existingTitleColumn": "U+FEFF + Name",
+    "extraNameColumnRetained": true,
+    "deletedColumns": 0,
+    "sourceAuditDeleted": false
+  },
+  "kmzSHA256": {
+    "beforeAppend": "a43f79bdd93547e0896d41de8acadc8952082587802b36a5e61c3b4deca0eafc",
+    "afterAppendBeforeTitleRepair": "57b4efec8a028fa63cf2bcb0e43634fe31528bc0ffc8115da54cd6b0a710eef8",
+    "afterTitleRepairAndReload": "6bd4ffb90e57f3f8459c4bcf18d94310328875f920eee904271f28d23ee53939",
+    "afterDescriptionCorrectionAndReload": "4ff19108cb4d02932bde6af38495e60ddd29720f3cf9d0214e8cb12b9ad2823d"
+  },
+  "timestamps": {
+    "exactOriginalAppendSaveAtUtc": null,
+    "originalAppendTimeLimitation": "Exact save-click time was not captured; do not infer it.",
+    "savedReloadedAppendExportVerifiedAtUtc": "2026-10-27T07:35:52Z",
+    "descriptionSaveClickAtUtc": "2026-10-27T07:45:30.850Z",
+    "descriptionAllChangesSavedObservedAtUtc": "2026-10-27T07:45:41.366Z",
+    "descriptionReloadRequestedAtUtc": "2026-10-27T07:45:41.366Z",
+    "descriptionReloadVerifiedAtUtc": "2026-10-27T07:45:51.523Z"
+  },
+  "descriptionCorrection": {
+    "status": "saved_and_reloaded",
+    "currentCounts": "648/641/7",
+    "onlyTwoLanguageCountClausesChanged": true,
+    "allOtherDescriptionTextExact": true,
+    "all648PlacemarksEqualToPriorExport": true,
+    "stylesEqualToPriorExport": true
+  },
+  "legendConsolidation": {
+    "status": "read_only_investigation_complete_awaiting_mapping",
+    "categoryWrites": 0,
+    "layerMoves": 0
+  }
+}

@@ -1,154 +1,12 @@
 {
   "asOf": "2026-10-27",
-  "siteRelease": "v37",
+  "siteRelease": "v38",
   "siteTotal": 648,
-  "confirmedNativeRows": 607,
-  "positionedMarkers": 601,
-  "unresolvedRows": 6,
-  "pendingAppendPlaceIds": [
-    "gocamping-3397",
-    "gocamping-2616",
-    "gocamping-3120",
-    "gocamping-7254",
-    "gocamping-3271",
-    "gocamping-1807",
-    "ak-wonju",
-    "starfield-city-bucheon",
-    "lotte-outlet-buyeo",
-    "lotte-ansan",
-    "market-yesan",
-    "market-naeto-jecheon",
-    "catholic-gamgok-maegoe",
-    "catholic-yeonpung",
-    "catholic-gusan-hanam",
-    "temple-sujongsa-namyangju",
-    "temple-taegosa-geumsan",
-    "culture-bucheon-bow-museum",
-    "culture-hongjuseong-history",
-    "culture-jeungpyeong-folk-museum",
-    "dining-indy-techno-daejeon",
-    "dining-dono-marco-cheonan",
-    "dining-cozy-house-suwon-jangan",
-    "dining-no-brand-burger-starfield-anseong",
-    "spa-songhaeon-songdo",
-    "spa-yulam-hwaseong",
-    "spa-have9-forest-resom-jecheon",
-    "spa-lei-seoul",
-    "redbutton-ansan",
-    "redbutton-bucheon-city-hall",
-    "redbutton-gimpo-gurae",
-    "activity-nonsan-national-swimming",
-    "gocamping-2460",
-    "gocamping-337",
-    "gocamping-2226",
-    "market-gwangcheon-hongseong",
-    "dining-leesungdang-gunsan",
-    "dining-binhaewon-gunsan",
-    "catholic-nabawi-iksan",
-    "temple-sutasa-hongcheon",
-    "temple-jeongamsa-jeongseon"
-  ],
-  "pendingCohorts": [
-    {
-      "cohort": "twelfth_batch",
-      "placeIds": [
-        "gocamping-3397",
-        "gocamping-2616",
-        "gocamping-3120",
-        "gocamping-7254",
-        "gocamping-3271",
-        "gocamping-1807",
-        "ak-wonju",
-        "starfield-city-bucheon",
-        "lotte-outlet-buyeo",
-        "lotte-ansan",
-        "market-yesan",
-        "market-naeto-jecheon"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v29"
-    },
-    {
-      "cohort": "thirteenth_culture_batch",
-      "placeIds": [
-        "catholic-gamgok-maegoe",
-        "catholic-yeonpung",
-        "catholic-gusan-hanam",
-        "temple-sujongsa-namyangju",
-        "temple-taegosa-geumsan",
-        "culture-bucheon-bow-museum",
-        "culture-hongjuseong-history",
-        "culture-jeungpyeong-folk-museum"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v31"
-    },
-    {
-      "cohort": "fourteenth_food_points_batch",
-      "placeIds": [
-        "dining-indy-techno-daejeon",
-        "dining-dono-marco-cheonan",
-        "dining-cozy-house-suwon-jangan",
-        "dining-no-brand-burger-starfield-anseong"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v32"
-    },
-    {
-      "cohort": "fifteenth_spa_batch",
-      "placeIds": [
-        "spa-songhaeon-songdo",
-        "spa-yulam-hwaseong",
-        "spa-have9-forest-resom-jecheon",
-        "spa-lei-seoul"
-      ],
-      "status": "not_imported",
-      "sourceRelease": null
-    },
-    {
-      "cohort": "sixteenth_activity_points_batch",
-      "placeIds": [
-        "redbutton-ansan",
-        "redbutton-bucheon-city-hall",
-        "redbutton-gimpo-gurae",
-        "activity-nonsan-national-swimming"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v34"
-    },
-    {
-      "cohort": "seventeenth_camping_culture_points_batch",
-      "placeIds": [
-        "gocamping-2460",
-        "gocamping-337",
-        "gocamping-2226"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v35"
-    },
-    {
-      "cohort": "eighteenth_market_food_points_batch",
-      "placeIds": [
-        "market-gwangcheon-hongseong",
-        "dining-leesungdang-gunsan",
-        "dining-binhaewon-gunsan"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v36",
-      "sourceReleaseStatus": "canonical_prepared_not_site_deployed"
-    },
-    {
-      "cohort": "nineteenth_landmark_camping_batch",
-      "placeIds": [
-        "catholic-nabawi-iksan",
-        "temple-sutasa-hongcheon",
-        "temple-jeongamsa-jeongseon"
-      ],
-      "status": "not_imported",
-      "sourceRelease": "release_cloud_v37",
-      "sourceReleaseStatus": "canonical_prepared_not_site_deployed"
-    }
-  ],
+  "confirmedNativeRows": 648,
+  "positionedMarkers": 641,
+  "unresolvedRows": 7,
+  "pendingAppendPlaceIds": [],
+  "pendingCohorts": [],
   "existingUpdateGroups": [
     {
       "cohort": "third_batch",
@@ -393,18 +251,17 @@
     ]
   },
   "lastAppendAttempt": {
-    "observedAtUtcApproximate": "2026-10-27T06:52:00Z",
-    "attemptedArtifact": "exports/map-append38-v36.csv",
-    "attemptedArtifactSHA256": "b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213",
-    "rows": 38,
-    "status": "failed_before_upload",
-    "reason": "Opening the existing destination data table caused Chrome Aw, Snap renderer error 9. No import dialog, file chooser, upload or save was reached.",
-    "confirmedWrites": 0,
-    "uncertainWrites": 0,
-    "currentFreshInventoryVerified": false,
-    "destinationLayerObservedRows": 227,
-    "destinationLayerObservedUnresolvedRows": 1,
-    "scope": "Destination-layer observation only; whole-map 607/601/6 remains the prior receipt, not a fresh full inventory. No access denial was established."
+    "status": "saved_reloaded_verified",
+    "rows": 41,
+    "successfulOperations": 1,
+    "duplicateAppends": 0,
+    "receipt": "data/history/map-append41-verified-receipt.json",
+    "verifiedAtUtc": "2026-10-27T07:35:52Z",
+    "exactAppendSaveAtUtc": null,
+    "exactAppendSaveTimeKnown": false,
+    "newDisplayTitlesRepaired": 41,
+    "newTenFieldReadbackMatches": 41,
+    "nativeIdsExposed": false
   },
   "guardrails": [
     "Do not reimport historical cohort rows whose old staging statuses are superseded by completion receipts.",
@@ -412,31 +269,33 @@
     "Prior source, status and coordinate updates remain separate from successful row imports.",
     "Do not mark 692 historical proposed field edits executed without exact-ID fresh before-value checks.",
     "Existing Activities / 체험 category is intentionally retained for import compatibility. Display category normalization and purpose-layer consolidation are incomplete.",
-    "The immutable 35- and 38-row files overlap the current 41-row queue. Reconcile any user/manual upload against current native inventory before appending; never upload overlapping files blindly."
+    "All 35/38/41-row append artifacts overlap the verified 41-row successful import and are historical evidence only. The pending append queue is empty: never upload these files again or upload a header-only export.",
+    "The successful BOM-free import exposed a separate Name column because the legacy display-title binding is U+FEFF + Name. All 41 titles were repaired and reloaded; the extra Name column remains. Encoding mitigation alone does not resolve a legacy title binding. Source audit columns deleted: zero."
   ],
-  "lastPublishedSiteRelease": "v36",
+  "lastPublishedSiteRelease": "v37",
   "siteReleaseStatus": "canonical_prepared_not_site_deployed",
-  "currentAppendFile": {
-    "path": "exports/map-append41-v37.csv",
-    "rows": 41,
-    "sha256": "e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc",
-    "bytes": 151466,
-    "addressBased": true,
-    "coordinateColumns": 0,
-    "sourceAuditColumn": false,
-    "containsGeneralPointReferenceTextFor": [
-      "culture-hongjuseong-history",
-      "culture-jeungpyeong-folk-museum"
-    ],
-    "status": "prepared_not_uploaded",
-    "existingMapRowsReplacement": false
-  },
+  "currentAppendFile": null,
   "archivedAppendFiles": [
     {
       "path": "exports/map-append38-v36.csv",
       "rows": 38,
       "sha256": "b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213",
       "bytes": 141285,
+      "addressBased": true,
+      "coordinateColumns": 0,
+      "sourceAuditColumn": false,
+      "containsGeneralPointReferenceTextFor": [
+        "culture-hongjuseong-history",
+        "culture-jeungpyeong-folk-museum"
+      ],
+      "status": "prepared_not_uploaded",
+      "existingMapRowsReplacement": false
+    },
+    {
+      "path": "exports/map-append41-v37.csv",
+      "rows": 41,
+      "sha256": "e5cc66e6d8db9288eff5cb771fc0178aa102b62e67220ef6c902202877fb1dbc",
+      "bytes": 151466,
       "addressBased": true,
       "coordinateColumns": 0,
       "sourceAuditColumn": false,
@@ -455,6 +314,35 @@
       "confirmedWrites": 0,
       "uncertainWrites": 0,
       "currentFreshInventoryVerified": false
+    },
+    {
+      "observedAtUtcApproximate": "2026-10-27T06:52:00Z",
+      "attemptedArtifact": "exports/map-append38-v36.csv",
+      "attemptedArtifactSHA256": "b7a882ae9944c99b548adb39e00c6330be2b728e2892c07c6163d030d3e82213",
+      "rows": 38,
+      "status": "failed_before_upload",
+      "reason": "Opening the existing destination data table caused Chrome Aw, Snap renderer error 9. No import dialog, file chooser, upload or save was reached.",
+      "confirmedWrites": 0,
+      "uncertainWrites": 0,
+      "currentFreshInventoryVerified": false,
+      "destinationLayerObservedRows": 227,
+      "destinationLayerObservedUnresolvedRows": 1,
+      "scope": "Destination-layer observation only; whole-map 607/601/6 remains the prior receipt, not a fresh full inventory. No access denial was established."
     }
-  ]
+  ],
+  "currentAppendStatus": "no_pending_rows_do_not_upload",
+  "verifiedImportHistory": "data/map/verified-import-history.json",
+  "currentUnresolvedFile": "data/map/unresolved7.json",
+  "historicalUnresolvedFiles": [
+    "data/map/unresolved6.json"
+  ],
+  "mapReceipt": "data/history/map-append41-verified-receipt.json",
+  "mapVerifiedAtUtc": "2026-10-27T07:45:51.523Z",
+  "nativeIdentityCoverage": {
+    "historicalNativeIdentities": 607,
+    "explicitHistoricalNativeToPlaceJoins": 296,
+    "historicalUnjoinedNativeIdentities": 311,
+    "newImportedPlacesWithoutNativeIds": 41,
+    "nativeIdsFreshlyVerified": false
+  }
 }
