@@ -2,35 +2,40 @@
   "schemaVersion": "1.0",
   "verifiedAtKst": "2026-10-28",
   "verifiedAtUtc": "2026-10-27T15:00:00Z",
-  "baseCommit": "875f1951c307d916f655d3c25ebea92d41de6816",
+  "baseCommit": "e465efdda42d71000e6d423b85bbd224e3714a16",
   "status": "public_map_count_verified",
-  "scope": "Google My Maps public layer row counts via KML export",
-  "note": "Current verified public map state including the 8 Daegu places from round 1. Earlier unpublished integration commits (26067965, 4a73dada) were abandoned by owner decision.",
-  "totalRows": 654,
+  "scope": "Google My Maps public layer row counts via KML export after round-2 append",
+  "note": "Current verified public map state including 8 Daegu places from round 1 + 17 from round 2. Earlier unpublished integration commits (26067965, 4a73dada) were abandoned by owner decision.",
+  "totalRows": 671,
   "layers": [
     {
       "name": "Shopping",
-      "rows": 75
+      "rows": 78
     },
     {
       "name": "Food & Drink",
-      "rows": 129
+      "rows": 134
     },
     {
       "name": "Nature & Camping",
-      "rows": 142
+      "rows": 145,
+      "note": "Google My Maps auto-created style group 'Campgrounds / 카핑장' after round-2 import"
     },
     {
       "name": "Activities & Wellness",
-      "rows": 187
+      "rows": 189,
+      "unplacedRows": 7,
+      "unplacedNote": "Pre-existing 7 unplaced rows from earlier appends"
     },
     {
       "name": "Culture & Sights",
-      "rows": 121
+      "rows": 125
     }
   ],
-  "daeguPlacesIncluded": 8,
-  "daeguRecordIds": [
+  "daeguPlacesIncluded": 25,
+  "daeguRound1": 8,
+  "daeguRound2": 17,
+  "daeguRecordIdsRound1": [
     "dining-daegu-samsong-main",
     "dining-daegu-gugil-ttarogukbap",
     "scenery-daegu-apsan-park",
@@ -39,6 +44,25 @@
     "activity-daegu-international-shooting-tourist",
     "shopping-daegu-seomun-market",
     "culture-daegu-seongmodang"
+  ],
+  "daeguRecordIdsRound2": [
+    "dining-daegu-nakyoung-jjimgalbi",
+    "dining-daegu-masibul-main",
+    "dining-daegu-dongbong-beomeo",
+    "dining-daegu-beodeul-sikdang",
+    "dining-daegu-nammun-napjakmandu",
+    "camping-daegu-dalseo-starlight-camp",
+    "camping-daegu-geumho-auto-camp",
+    "scenery-daegu-arboretum",
+    "shopping-daegu-kyobo-books",
+    "shopping-daegu-the-hyundai",
+    "shopping-daegu-shinsegae",
+    "temple-daegu-eunjeoksa",
+    "culture-daegu-national-museum",
+    "culture-daegu-art-museum",
+    "temple-daegu-donghwasa",
+    "activity-daegu-eworld-83tower",
+    "family-daegu-national-science-museum"
   ],
   "abandonedCommits": [
     {
@@ -51,6 +75,8 @@
     }
   ],
   "verificationMethod": "Public KML export via Google My Maps API",
+  "uniqueRecordIdsVerified": 671,
+  "round2AppendReceipt": "data/history/walker-daegu-round2-append-20261028-receipt.json",
   "canonicalPlacesJsonCount": 648,
   "canonicalPlacesJsonSha256": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c"
 }

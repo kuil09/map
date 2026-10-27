@@ -1,7 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "status": "draft_not_uploaded",
-  "note": "All rows address-only; coordinate columns omitted per existing compatible-manifest rule. Do not upload before review.",
+  "status": "uploaded",
+  "uploadedAtKst": "2026-10-28T07:40:00+09:00",
+  "note": "All rows address-only; coordinate columns omitted per existing compatible-manifest rule. Uploaded to live map on 2026-10-28 ~07:40 KST.",
   "files": [
     {
       "purpose": "food_drink",
@@ -32,7 +33,7 @@
         "Visit type"
       ],
       "sha256": "9dd5aae3e95b968260a4bc480b653a33f0200f910d5cdf1feceaeda7e6b12cca",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "nature_camping",
@@ -61,7 +62,7 @@
         "Visit type"
       ],
       "sha256": "5a8affe363d1078218deea5af6786521b7bde835442273a12e71a13a6089fa98",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "shopping",
@@ -89,7 +90,7 @@
         "Record ID"
       ],
       "sha256": "2618cdce04e15cd0de02d73add655a2b77da13c2e9410b08b8b12e1522d8ed72",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "culture_sights",
@@ -118,7 +119,7 @@
         "Record ID"
       ],
       "sha256": "8c63b9f7104dd88847ef9558cf29377237b7665a589e118b97de18a37be2b1ae",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "activities_wellness",
@@ -145,7 +146,7 @@
         "Record ID"
       ],
       "sha256": "f6e461e87202dd9d4c0243095bb79aa9903ca81eac7fe5a0fbc5c2639dbc7f57",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     }
   ]
 }

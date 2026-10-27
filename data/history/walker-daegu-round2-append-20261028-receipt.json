@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "operation": "add_more_items_only",
+  "round": 2,
+  "status": "verified_uploaded",
+  "uploadedAtKst": "2026-10-28T07:40:00+09:00",
+  "uploadedAtUtc": "2026-10-27T22:40:00Z",
+  "verifiedAtKst": "2026-10-28",
+  "verifiedAtUtc": "2026-10-27T15:00:00Z",
+  "baseCommit": "e465efdda42d71000e6d423b85bbd224e3714a16",
+  "scope": "17 Camp Walker / Daegu round-2 candidates appended via 'Add more items' per layer",
+  "method": "google_my_maps_add_more_items_per_layer",
+  "verificationMethod": "Public KML export row counts and Record ID enumeration",
+  "rowsAdded": 17,
+  "recordIdsAdded": [
+    "dining-daegu-nakyoung-jjimgalbi",
+    "dining-daegu-masibul-main",
+    "dining-daegu-dongbong-beomeo",
+    "dining-daegu-beodeul-sikdang",
+    "dining-daegu-nammun-napjakmandu",
+    "camping-daegu-dalseo-starlight-camp",
+    "camping-daegu-geumho-auto-camp",
+    "scenery-daegu-arboretum",
+    "shopping-daegu-kyobo-books",
+    "shopping-daegu-the-hyundai",
+    "shopping-daegu-shinsegae",
+    "temple-daegu-eunjeoksa",
+    "culture-daegu-national-museum",
+    "culture-daegu-art-museum",
+    "temple-daegu-donghwasa",
+    "activity-daegu-eworld-83tower",
+    "family-daegu-national-science-museum"
+  ],
+  "oldRowsBeforeAppend": 654,
+  "newRowsAfterAppend": 671,
+  "verifiedLayerCounts": {
+    "Shopping": 78,
+    "Food & Drink": 134,
+    "Nature & Camping": 145,
+    "Activities & Wellness": 189,
+    "Culture & Sights": 125
+  },
+  "totalRowsVerified": 671,
+  "uniqueRecordIdsVerified": 671,
+  "allNewIdsPresent": true,
+  "noDuplicates": true,
+  "unplacedRows": {
+    "Activities & Wellness": 7,
+    "note": "Activities layer shows pre-existing 7 unplaced rows from earlier appends"
+  },
+  "newStyleGroup": {
+    "layer": "Nature & Camping",
+    "name": "Campgrounds / 카핑장",
+    "note": "Google My Maps auto-created this style group after import"
+  },
+  "addressOnlyRows": 17,
+  "coordinateStatus": "All 17 appended rows were address-only. Location placement by Google Maps address geocoding not yet individually verified.",
+  "exportedFilesUsed": [
+    "exports/append-walker-daegu-round2-20261028/food_drink-compatible.csv",
+    "exports/append-walker-daegu-round2-20261028/nature_camping-compatible.csv",
+    "exports/append-walker-daegu-round2-20261028/shopping-compatible.csv",
+    "exports/append-walker-daegu-round2-20261028/culture_sights-compatible.csv",
+    "exports/append-walker-daegu-round2-20261028/activities_wellness-compatible.csv"
+  ],
+  "manifestPath": "exports/append-walker-daegu-round2-20261028/manifest.json",
+  "evidencePath": "data/history/daegu-candidate-evidence-20261028.json",
+  "stagedPath": "data/history/daegu-places-staged-20261028.json"
+}

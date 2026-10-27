@@ -1,0 +1,2165 @@
+{
+  "schemaVersion": "1.0",
+  "status": "research_only_not_uploaded",
+  "checkedAtUtc": "2026-10-27T22:39:23Z",
+  "baseCommit": "875f1951c307d916f655d3c25ebea92d41de6816",
+  "round": 3,
+  "scope": "Camp Walker / Daegu civilian regional candidates (round 3). No military entrance, no distances.",
+  "alreadyOnMapExcluded": [
+    "activity-daegu-international-shooting-tourist",
+    "activity-daegu-second-ice-rink",
+    "culture-daegu-seongmodang",
+    "dining-daegu-gugil-ttarogukbap",
+    "dining-daegu-samsong-main",
+    "scenery-daegu-apsan-park",
+    "scenery-daegu-duryu-park",
+    "shopping-daegu-seomun-market"
+  ],
+  "promotedRound2Holds": [
+    "activity-daegu-spark-bowling",
+    "scenery-daegu-suseongmot"
+  ],
+  "carriedHolds": [
+    "cafe-daegu-mido-dabang",
+    "activity-daegu-dalseo-wood-culture"
+  ],
+  "duplicateCheck": "IDs checked against places.json (648), round-2 file and the 8 excluded IDs: no new-ID collision. Korean-name substring hits in places.json: none.",
+  "verified": [
+    {
+      "id": "camping-daegu-jinbatgol-campground",
+      "name_en": "Jinbatgol Campground (Suseong-gu)",
+      "name_ko": "진밭골 야영장",
+      "area": "Daegu",
+      "category": "camping",
+      "kind": "municipal-campground",
+      "setting": "outdoor",
+      "address": "대구광역시 수성구 진밭길 112",
+      "aliases": [
+        "진밭골 야영장",
+        "Jinbatgol Campground (Suseong-gu)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Year-round booking calendar on official site; check-in 14:00 / check-out 11:00.",
+          "source_ids": [
+            "JB1",
+            "JB2"
+          ]
+        },
+        "reservation": {
+          "status": "official_listed",
+          "value": "Online only via official site; opens 1st of month.",
+          "source_ids": [
+            "JB1",
+            "JB2"
+          ]
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Suseong-gu–run campground with caravan, auto-camping and deck sites in the Jinbatgol valley.",
+        "ko": "수성구가 운영하는 진밭골 계곡의 야영장으로 카라반·오토캠핑·데크 사이트가 있습니다.",
+        "ja": "寿城区が運営する鎮田谷のキャンプ場。キャラバン・オートキャンプ・デッキサイトあり。",
+        "zh": "寿城区运营的镇田谷露营地，设有房车、汽车露营和平台营位。",
+        "es": "Camping municipal de Suseong-gu en el valle de Jinbatgol, con caravanas, parcelas para coche y plataformas."
+      },
+      "notes": {
+        "en": "Official site: 진밭길 112 (Beommul-dong). Online booking only (no phone booking), card payment only; booking opens on the 1st of each month (10:00 Suseong residents' priority zone, 11:00 everyone) for the following month. Check-in 14:00, check-out 11:00 next day; max 2 nights, 1 site per person; max 6 people per site (+2 at 5,000 won each aged 7+). 2026 fees: caravan 100,000/140,000/160,000 won (weekday/weekend/peak Jul–Aug), auto site 30,000/35,000/40,000, deck 20,000/25,000/30,000. Booker's ID checked at the office. Quiet hours 22:00–07:00. Camping trailers and private campervans are not admitted. English booking support unverified.",
+        "ko": "공식 누리집: 진밭길 112(범물동). 온라인 예약만 가능(전화 예약 불가), 카드 결제만 가능. 매월 1일 10시(수성구민 우선구역)·11시(전체)에 다음 달 예약 개시. 입실 14:00, 퇴실 다음날 11:00, 최대 2박, 1인 1사이트, 사이트당 6명(7세 이상 2명까지 1인 5,000원 추가). 2026 요금: 카라반 10만/14만/16만원(주중/주말/성수기 7~8월), 오토 3만/3.5만/4만, 데크 2만/2.5만/3만원. 관리사무소에서 예약자 신분증 확인. 정숙시간 22:00~07:00. 캠핑트레일러·개인 캠핑카 입장 불가. 영어 지원 미확인.",
+        "ja": "公式サイト：鎮田キル112（凡勿洞）。オンライン予約のみ・カード決済のみ。毎月1日10時（寿城区民優先）・11時（全体）に翌月分を受付。IN14:00、OUT翌11:00、最大2泊、1サイト6名。2026年料金：キャラバン10万〜16万ウォン、オート3万〜4万、デッキ2万〜3万。予約者の身分証確認あり。静粛時間22:00〜07:00。トレーラー・個人キャンピングカー不可。英語対応未確認。",
+        "zh": "官网：镇田路112号（凡勿洞）。仅限网上预约、仅限刷卡。每月1日10点（寿城区居民优先区）/11点（全部）开放下月预约。14:00入住，次日11:00退房，最多2晚，每营位6人。2026年价格：房车10万-16万韩元，汽车营位3万-4万，平台2万-3万。入住时核对预约人身份证。22:00-07:00静音。不接受拖挂房车和私人房车。英文支持未核实。",
+        "es": "Web oficial: Jinbat-gil 112 (Beommul-dong). Solo reserva en línea y pago con tarjeta; se abre el día 1 de cada mes (10:00 prioridad residentes de Suseong, 11:00 todos) para el mes siguiente. Entrada 14:00, salida 11:00, máx. 2 noches, 6 personas por parcela. Tarifas 2026: caravana 100.000-160.000 wones, coche 30.000-40.000, plataforma 20.000-30.000. Se verifica el documento del titular. Silencio 22:00-07:00. No se admiten remolques ni autocaravanas propias. Soporte en inglés sin verificar."
+      },
+      "sources": [
+        {
+          "id": "JB1",
+          "url": "https://www.suseong.kr/camping/guide/guidePay.do",
+          "publisher": "Suseong-gu Office – Jinbatgol Campground",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "fees_hours",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "2026 fee table, use hours, capacity rules (search-tool page body).",
+            "checked": "2026-10-27",
+            "reason": "2026 fee table, use hours, capacity rules (search-tool page body)."
+          }
+        },
+        {
+          "id": "JB2",
+          "url": "https://www.suseong.kr/camping/faq/faqList.do",
+          "publisher": "Suseong-gu Office – Jinbatgol Campground",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "address_booking_rules",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Address 진밭길 112 (범물동 951), online-only booking, ID check, max 6.",
+            "checked": "2026-10-27",
+            "reason": "Address 진밭길 112 (범물동 951), online-only booking, ID check, max 6."
+          }
+        },
+        {
+          "id": "JB3",
+          "url": "https://www.suseong.kr/camping/guide/reservationGuide.do",
+          "publisher": "Suseong-gu Office – Jinbatgol Campground",
+          "quality": "official",
+          "role": "municipal_operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "booking_window",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Monthly opening 10:00/11:00, card only, no phone booking.",
+            "checked": "2026-10-27",
+            "reason": "Monthly opening 10:00/11:00, card only, no phone booking."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "진밭골 야영장",
+        "Jinbatgol Campground (Suseong-gu)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Nature & Camping / 자연·캠핑"
+    },
+    {
+      "id": "camping-daegu-palgongsan-dohak-campground",
+      "name_en": "Palgongsan National Park Dohak Campground",
+      "name_ko": "팔공산국립공원 도학야영장",
+      "area": "Daegu",
+      "category": "camping",
+      "kind": "national-park-campground",
+      "setting": "outdoor",
+      "address": "대구광역시 동구 팔공산로237길 47",
+      "aliases": [
+        "팔공산국립공원 도학야영장",
+        "Palgongsan National Park Dohak Campground"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Seasonal (spring–autumn); winter closure.",
+          "source_ids": [
+            "DH1",
+            "DH2",
+            "DH3"
+          ]
+        },
+        "reservation": {
+          "status": "official_listed",
+          "value": "Bimonthly lottery on reservation.knps.or.kr; same-day leftovers until 14:00.",
+          "source_ids": [
+            "DH1",
+            "DH2",
+            "DH3"
+          ]
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [
+        "GoCamping lists 15,000–19,000 won; KNPS official page lists 20,000/30,000 won (KNPS adopted)."
+      ],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Small national-park auto-camping ground (28 deck sites) at Dohak-dong on Palgongsan.",
+        "ko": "팔공산 도학동의 국립공원 자동차야영장(데크 28영지)입니다.",
+        "ja": "八公山道鶴洞の国立公園オートキャンプ場（デッキ28区画）。",
+        "zh": "八公山道鹤洞的国家公园汽车露营地（28个平台营位）。",
+        "es": "Pequeño camping para coches del parque nacional (28 plataformas) en Dohak-dong, Palgongsan."
+      },
+      "notes": {
+        "en": "KNPS official: 팔공산로237길 47; office 053-984-8418. Check-in 14:00, check-out 12:00 next day. Fees: 20,000 won weekday / 30,000 won weekend & peak (peak 1 Jul–31 Aug and 1 Oct–15 Nov); electricity up to 600 W. Booking by bimonthly lottery on reservation.knps.or.kr, leftovers first-come up to 14:00 on the day. No pets. Brazier/charcoal banned in fire-caution periods (1 Feb–15 May, 1 Nov–15 Dec). CLOSED IN WINTER (2026 reopened 1 Mar); a 2026 winter non-operation notice exists, so Nov–Dec 2026 availability is doubtful—check before going. Shower, sinks, toilets; accessible toilet reported by a news article (unverified officially).",
+        "ko": "국립공원공단 공식: 팔공산로237길 47, 관리소 053-984-8418. 입실 14:00, 퇴실 다음날 12:00. 요금 주중 2만원, 주말·성수기 3만원(성수기 7.1~8.31, 10.1~11.15), 전기 최대 600W. 국립공원 예약시스템 2개월 단위 추첨, 잔여분은 당일 14시까지 선착순. 반려동물 불가. 산불조심기간(2.1~5.15, 11.1~12.15) 화로대 금지. 동절기 휴장(2026년 3월 1일 재개장), 2026 동절기 미운영 공지가 있어 11~12월 운영 여부 확인 필요. 샤워장·개수대·화장실.",
+        "ja": "国立公園公団公式：八公山路237キル47、053-984-8418。IN14:00、OUT翌12:00。平日2万ウォン、週末・繁忙期3万ウォン。2か月ごとの抽選予約、残りは当日14時まで先着。ペット不可。山火事注意期間は焚き火台禁止。冬季休業あり（11〜12月の運営は要確認）。",
+        "zh": "国家公园管理公团官方：八公山路237街47号，053-984-8418。14:00入住，次日12:00退房。平日2万韩元，周末及旺季3万韩元。每两个月抽签预约，余位当天14点前先到先得。禁止宠物。防火期禁用火盆。冬季停业（2026年11-12月是否开放需确认）。",
+        "es": "Oficial KNPS: Palgongsan-ro 237-gil 47, tel. 053-984-8418. Entrada 14:00, salida 12:00. 20.000 wones entre semana, 30.000 fines de semana y temporada alta. Reserva por sorteo bimestral; plazas sobrantes hasta las 14:00 del día. Sin mascotas. Prohibidos braseros en temporada de incendios. Cerrado en invierno (confirmar nov-dic 2026)."
+      },
+      "sources": [
+        {
+          "id": "DH1",
+          "url": "https://reservation.knps.or.kr/contents/C/serviceGuide.do?deptId=B251001&parkId=B25&prdDvcd=C",
+          "publisher": "Korea National Park Service – Reservation",
+          "quality": "official",
+          "role": "national_operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "address_fees_rules",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Address, tel, fees, peak periods, facilities, restrictions.",
+            "checked": "2026-10-27",
+            "reason": "Address, tel, fees, peak periods, facilities, restrictions."
+          }
+        },
+        {
+          "id": "DH2",
+          "url": "https://reservation.knps.or.kr/reservation/selectCampLottery.do",
+          "publisher": "Korea National Park Service – Reservation",
+          "quality": "official",
+          "role": "national_operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "booking_lottery",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "2026 6th lottery (Nov–Dec) shows 0 campsites and references winter non-operation notice.",
+            "checked": "2026-10-27",
+            "reason": "2026 6th lottery (Nov–Dec) shows 0 campsites and references winter non-operation notice."
+          }
+        },
+        {
+          "id": "DH3",
+          "url": "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=6973",
+          "publisher": "Korea Tourism Organization – GoCamping",
+          "quality": "official",
+          "role": "national_registry",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "registry",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Spring–autumn operation, 29 sites, pets not allowed (updated 2026-08-05).",
+            "checked": "2026-10-27",
+            "reason": "Spring–autumn operation, 29 sites, pets not allowed (updated 2026-08-05)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "팔공산국립공원 도학야영장",
+        "Palgongsan National Park Dohak Campground"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Nature & Camping / 자연·캠핑"
+    },
+    {
+      "id": "temple-daegu-pagyesa",
+      "name_en": "Pagyesa Temple",
+      "name_ko": "파계사",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "buddhist-temple",
+      "setting": "outdoor",
+      "address": "대구광역시 동구 파계로 741",
+      "aliases": [
+        "파계사",
+        "Pagyesa Temple"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (KTO listing).",
+          "source_ids": [
+            "K1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Palgongsan temple founded in 804, a branch of Donghwasa linked to King Yeongjo.",
+        "ko": "804년 창건된 팔공산의 사찰로 동화사 말사이며 영조와 인연이 깊습니다.",
+        "ja": "804年創建の八公山の寺院。桐華寺の末寺で英祖ゆかり。",
+        "zh": "建于804年的八公山寺庙，桐华寺末寺，与英祖渊源深厚。",
+        "es": "Templo de Palgongsan fundado en 804, filial de Donghwasa y ligado al rey Yeongjo."
+      },
+      "notes": {
+        "en": "KTO: 파계로 741 (Jungdae-dong), tel 053-984-4550, open every day 04:00–17:00. Accessible parking (fee benefit for registered disability grades 1–3), smooth access route and accessible toilet listed. It is an active temple: dress modestly and keep quiet near halls. Entry/parking fees not stated by KTO (unverified). Temple stay not verified.",
+        "ko": "KTO: 파계로 741(중대동), 053-984-4550, 연중무휴 04:00~17:00. 장애인 주차구역(1~3급 요금 혜택), 원활한 출입통로, 장애인 화장실. 수행 사찰이므로 단정한 복장과 정숙 필요. 입장료·주차료는 미확인.",
+        "ja": "KTO：把渓路741、053-984-4550、年中無休04:00〜17:00。障害者用駐車場・トイレあり。修行寺院のため服装・静粛に配慮。拝観料・駐車料金は未確認。",
+        "zh": "KTO：把溪路741号，053-984-4550，全年无休04:00-17:00。设无障碍停车位和卫生间。为修行寺院，请着装得体、保持安静。门票及停车费未核实。",
+        "es": "KTO: Pagye-ro 741, tel. 053-984-4550, abierto todos los días 04:00-17:00. Aparcamiento y aseo accesibles. Templo activo: vestimenta discreta y silencio. Entrada y aparcamiento sin verificar."
+      },
+      "sources": [
+        {
+          "id": "K1",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=2ed99c3e-89d0-4934-a086-f794231fd68f",
+          "publisher": "Korea Tourism Organization – Accessible Travel (열린관광 모두의 여행)",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail page read 2026-10-28 (page updated 2026-10-12).",
+            "checked": "2026-10-27",
+            "reason": "Detail page read 2026-10-28 (page updated 2026-10-12)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "파계사",
+        "Pagyesa Temple"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "culture-daegu-bangjja-yugi-museum",
+      "name_en": "Daegu Bangjja Brassware Museum",
+      "name_ko": "대구방짜유기박물관",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "museum",
+      "setting": "indoor",
+      "address": "대구광역시 동구 도장길 29",
+      "aliases": [
+        "대구방짜유기박물관",
+        "Daegu Bangjja Brassware Museum"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (KTO listing).",
+          "source_ids": [
+            "K1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Korea's only museum dedicated to hand-forged bangjja bronze ware, on Palgongsan.",
+        "ko": "팔공산에 있는 국내 유일의 방짜유기 전문 박물관입니다.",
+        "ja": "八公山にある韓国唯一の方字鍮器（真鍮器）専門博物館。",
+        "zh": "位于八公山、韩国唯一的方字铜器专门博物馆。",
+        "es": "Único museo de Corea dedicado al bronce forjado bangjja, en Palgongsan."
+      },
+      "notes": {
+        "en": "KTO: 도장길 29 (Dohak-dong), tel 053-430-7920, free. 09:00–18:00 (last entry 17:30); closed Mondays (next weekday if Monday is a holiday), 1 Jan, Seollal and Chuseok days. Ramp, elevator, accessible toilet, 1 wheelchair and 1 stroller to borrow. English labels unverified.",
+        "ko": "KTO: 도장길 29(도학동), 053-430-7920, 무료. 09:00~18:00(입장마감 17:30), 월요일(공휴일이면 다음 평일)·1월 1일·설·추석 당일 휴관. 경사로·엘리베이터·장애인 화장실, 휠체어·유모차 각 1대 대여. 영어 안내 미확인.",
+        "ja": "KTO：道場キル29、053-430-7920、無料。09:00〜18:00（入場17:30まで）、月曜・1月1日・旧正月/秋夕当日休館。スロープ・EV・車椅子/ベビーカー貸出。英語案内未確認。",
+        "zh": "KTO：道场街29号，053-430-7920，免费。09:00-18:00（17:30停止入场），周一、1月1日、春节及中秋当天闭馆。有坡道、电梯，可借轮椅和婴儿车。英文说明未核实。",
+        "es": "KTO: Dojang-gil 29, tel. 053-430-7920, gratis. 09:00-18:00 (última entrada 17:30); cerrado lunes, 1 de enero, Seollal y Chuseok. Rampa, ascensor, préstamo de silla de ruedas y cochecito. Rótulos en inglés sin verificar."
+      },
+      "sources": [
+        {
+          "id": "K1",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=a7939d0c-93a4-4730-8379-a9ee022101cf",
+          "publisher": "Korea Tourism Organization – Accessible Travel (열린관광 모두의 여행)",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail page read 2026-10-28 (page updated 2026-09-16).",
+            "checked": "2026-10-27",
+            "reason": "Detail page read 2026-10-28 (page updated 2026-09-16)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "대구방짜유기박물관",
+        "Daegu Bangjja Brassware Museum"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "culture-daegu-modern-history-museum",
+      "name_en": "Daegu Modern History Museum",
+      "name_ko": "대구근대역사관",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "museum",
+      "setting": "indoor",
+      "address": "대구광역시 중구 경상감영길 67",
+      "aliases": [
+        "대구근대역사관",
+        "Daegu Modern History Museum"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (KTO listing).",
+          "source_ids": [
+            "K1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Free museum of modern Daegu in a 1932 Renaissance-style former bank building.",
+        "ko": "1932년 르네상스 양식 옛 은행 건물에 있는 무료 대구 근대 박물관입니다.",
+        "ja": "1932年築のルネサンス様式旧銀行建物にある大邱近代史の無料博物館。",
+        "zh": "位于1932年文艺复兴式旧银行建筑中的免费大邱近代史博物馆。",
+        "es": "Museo gratuito del Daegu moderno en un antiguo banco renacentista de 1932."
+      },
+      "notes": {
+        "en": "KTO: 경상감영길 67 (Pojeong-dong), tel 053-430-7910, free. 09:00–18:00 (last entry 17:30); closed Mondays (next day if Monday is a holiday), Seollal/Chuseok days and 1 Jan. Main door has steps; ramp at the rear side entrance (manual door), lift, 1 manual wheelchair, nursing room.",
+        "ko": "KTO: 경상감영길 67(포정동), 053-430-7910, 무료. 09:00~18:00(입장마감 17:30), 월요일(공휴일이면 다음날)·설·추석 당일·1월 1일 휴관. 정문은 계단, 건물 뒤 보조출입구 경사로(수동문), 엘리베이터, 휠체어 1대, 수유실.",
+        "ja": "KTO：慶尚監営キル67、053-430-7910、無料。09:00〜18:00、月曜・旧正月/秋夕当日・1月1日休館。正面は階段、裏口にスロープ。EV・授乳室あり。",
+        "zh": "KTO：庆尚监营街67号，053-430-7910，免费。09:00-18:00，周一、春节/中秋当天、1月1日闭馆。正门有台阶，后侧入口有坡道。有电梯和哺乳室。",
+        "es": "KTO: Gyeongsanggamyeong-gil 67, tel. 053-430-7910, gratis. 09:00-18:00; cerrado lunes, Seollal/Chuseok y 1 de enero. Escalones en la entrada principal; rampa en la entrada trasera. Ascensor y sala de lactancia."
+      },
+      "sources": [
+        {
+          "id": "K1",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=fcb48ecb-4feb-4a97-be9c-b8335072b2e9",
+          "publisher": "Korea Tourism Organization – Accessible Travel (열린관광 모두의 여행)",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail page read 2026-10-28 (page updated 2026-09-21).",
+            "checked": "2026-10-27",
+            "reason": "Detail page read 2026-10-28 (page updated 2026-09-21)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "대구근대역사관",
+        "Daegu Modern History Museum"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "culture-daegu-yangnyeongsi-herbal-museum",
+      "name_en": "Daegu Yangnyeongsi Museum of Oriental Medicine",
+      "name_ko": "대구 약령시 한의약박물관",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "museum",
+      "setting": "indoor",
+      "address": "대구광역시 중구 달구벌대로415길 49",
+      "aliases": [
+        "대구 약령시 한의약박물관",
+        "Daegu Yangnyeongsi Museum of Oriental Medicine"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (KTO listing).",
+          "source_ids": [
+            "K1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Museum of the 350-year-old Yangnyeongsi herbal-medicine market.",
+        "ko": "350여 년 전통 약령시와 한의약 문화를 소개하는 박물관입니다.",
+        "ja": "350年の歴史を持つ薬令市と韓医薬文化の博物館。",
+        "zh": "介绍350余年历史药令市与韩医药文化的博物馆。",
+        "es": "Museo del mercado de medicina herbal Yangnyeongsi, de 350 años."
+      },
+      "notes": {
+        "en": "KTO: 달구벌대로415길 49 (Namseong-ro), tel 053-253-4729. 09:00–18:00 (last entry 17:30); closed Mondays (open if Monday is a holiday), 1 Jan, Seollal/Chuseok days. Step-free approach, ramp, lift, accessible toilet, audio guide device at 3F desk. Admission fee not stated by KTO (unverified). Note: Daegu booking portal lists 053-253-3359 for programme bookings.",
+        "ko": "KTO: 달구벌대로415길 49(남성로), 053-253-4729. 09:00~18:00(입장마감 17:30), 월요일(공휴일이면 개관)·1월 1일·설·추석 당일 휴관. 무단차 접근, 경사로, 엘리베이터, 장애인 화장실, 3층 음성안내기. 관람료 미확인. 체험 예약 문의는 대구통합예약 053-253-3359.",
+        "ja": "KTO：達句伐大路415キル49、053-253-4729。09:00〜18:00、月曜・1月1日・旧正月/秋夕当日休館（月曜祝日は開館）。段差なし、EV、音声ガイドあり。入館料未確認。",
+        "zh": "KTO：达句伐大路415街49号，053-253-4729。09:00-18:00，周一（逢节假日开馆）、1月1日、春节/中秋当天闭馆。无台阶，有电梯和语音导览。门票未核实。",
+        "es": "KTO: Dalgubeol-daero 415-gil 49, tel. 053-253-4729. 09:00-18:00; cerrado lunes (abre si es festivo), 1 de enero, Seollal y Chuseok. Sin escalones, ascensor, audioguía. Precio sin verificar."
+      },
+      "sources": [
+        {
+          "id": "K1",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=7e957e50-6658-4e18-8eab-a505f2dfac04",
+          "publisher": "Korea Tourism Organization – Accessible Travel (열린관광 모두의 여행)",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail page read 2026-10-28 (page updated 2026-09-10).",
+            "checked": "2026-10-27",
+            "reason": "Detail page read 2026-10-28 (page updated 2026-09-10)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "대구 약령시 한의약박물관",
+        "Daegu Yangnyeongsi Museum of Oriental Medicine"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "culture-daegu-gukchae-bosang-park",
+      "name_en": "National Debt Redemption Movement Memorial Park",
+      "name_ko": "국채보상운동기념공원",
+      "area": "Daegu",
+      "category": "scenery",
+      "kind": "urban-memorial-park",
+      "setting": "outdoor",
+      "address": "대구광역시 중구 국채보상로 670",
+      "aliases": [
+        "국채보상운동기념공원",
+        "National Debt Redemption Movement Memorial Park"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Open all year, 24 h.",
+          "source_ids": [
+            "K1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Downtown memorial park for the 1907 National Debt Redemption Movement.",
+        "ko": "1907년 국채보상운동을 기념하는 도심 공원입니다.",
+        "ja": "1907年の国債報償運動を記念する都心の公園。",
+        "zh": "纪念1907年国债报偿运动的市中心公园。",
+        "es": "Parque conmemorativo céntrico del Movimiento de Redención de la Deuda Nacional de 1907."
+      },
+      "notes": {
+        "en": "KTO: 국채보상로 670, tel 053-254-9401, open all year, any time. Underground parking with accessible bays, 1 wheelchair to borrow, lift and accessible toilet listed. Parking fees unverified.",
+        "ko": "KTO: 국채보상로 670, 053-254-9401, 연중 상시 개방. 지하주차장 장애인 주차구역, 휠체어 1대, 엘리베이터, 장애인 화장실. 주차요금 미확인.",
+        "ja": "KTO：国債報償路670、053-254-9401、通年常時開放。地下駐車場（障害者区画）、車椅子貸出、EV、多目的トイレ。駐車料金未確認。",
+        "zh": "KTO：国债报偿路670号，053-254-9401，全年全天开放。地下停车场设无障碍车位，可借轮椅，有电梯和无障碍卫生间。停车费未核实。",
+        "es": "KTO: Gukchaebosang-ro 670, tel. 053-254-9401, abierto todo el año a cualquier hora. Aparcamiento subterráneo accesible, silla de ruedas, ascensor y aseo accesible. Tarifa de aparcamiento sin verificar."
+      },
+      "sources": [
+        {
+          "id": "K1",
+          "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=afcdb537-e776-4042-82ce-d387ad526847",
+          "publisher": "Korea Tourism Organization – Accessible Travel (열린관광 모두의 여행)",
+          "quality": "official",
+          "role": "national_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_venue",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail page read 2026-10-28 (page updated 2026-03-11).",
+            "checked": "2026-10-27",
+            "reason": "Detail page read 2026-10-28 (page updated 2026-03-11)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "국채보상운동기념공원",
+        "National Debt Redemption Movement Memorial Park"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Nature & Camping / 자연·캠핑"
+    },
+    {
+      "id": "cafe-daegu-gumin-good-morning",
+      "name_en": "Gumin's Good Morning (bakery)",
+      "name_ko": "구민회의 좋은아침",
+      "area": "Daegu",
+      "category": "cafe",
+      "kind": "bakery",
+      "setting": "indoor",
+      "address": "대구광역시 남구 대명로57길 7",
+      "aliases": [
+        "구민회의 좋은아침",
+        "Gumin's Good Morning (bakery)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (Daegu Food listing).",
+          "source_ids": [
+            "OF1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Master-baker's naturally leavened bakery in Daemyeong-dong, Nam-gu; official Daegu signature-bread seller.",
+        "ko": "남구 대명동의 제과기능장 베이커리로 대구대표빵 판매처입니다.",
+        "ja": "南区大明洞の製菓名匠のベーカリー。大邱代表パン販売店。",
+        "zh": "南区大明洞的制面包大师烘焙店，大邱代表面包销售店。",
+        "es": "Panadería de maestro panadero en Daemyeong-dong (Nam-gu), vendedora oficial del pan emblemático de Daegu."
+      },
+      "notes": {
+        "en": "Daegu Food: 대명로57길 7 (Daemyeong-dong), tel 053-623-0001, daily 07:00–23:00, open all year, 12 standing/table seats, no parking; near Yeungnam Univ. Hospital Station exit 1. Takeout and delivery possible. Prices (e.g. 'Namgu bread' 6 pcs 5,500 won) may change. Foreign cards and English unverified.",
+        "ko": "대구푸드: 대명로57길 7(대명동), 053-623-0001, 매일 07:00~23:00, 연중무휴, 12석, 주차 없음. 영대병원역 1번 출구 인근. 포장·배달 가능. 가격 변동 가능. 해외 카드·영어 미확인.",
+        "ja": "大邱フード：大明路57キル7、053-623-0001、毎日07:00〜23:00、年中無休、12席、駐車場なし。持ち帰り・配達可。海外カード・英語未確認。",
+        "zh": "大邱美食网：大明路57街7号，053-623-0001，每天07:00-23:00，全年无休，12个座位，无停车场。可外带外送。境外卡和英文未核实。",
+        "es": "Daegu Food: Daemyeong-ro 57-gil 7, tel. 053-623-0001, 07:00-23:00 todos los días, 12 asientos, sin aparcamiento. Para llevar y a domicilio. Tarjetas extranjeras e inglés sin verificar."
+      },
+      "sources": [
+        {
+          "id": "OF1",
+          "url": "https://www.daegufood.go.kr/kor/food/food.asp?idx=1662&gotoPage=1&snm=9",
+          "publisher": "Daegu Metropolitan City / Daegu Food (대구푸드)",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_listing",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail read 2026-10-28: 대명로57길 7, 053-623-0001, 07:00-23:00, 연중무휴, 12 seats, no parking; listed as 대구대표빵 seller (Nam-gu).",
+            "checked": "2026-10-27",
+            "reason": "Detail read 2026-10-28: 대명로57길 7, 053-623-0001, 07:00-23:00, 연중무휴, 12 seats, no parking; listed as 대구대표빵 seller (Nam-gu)."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "구민회의 좋은아침",
+        "Gumin's Good Morning (bakery)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "cafe-daegu-espace-bakery",
+      "name_en": "Espace Bakery",
+      "name_ko": "에스파스 베이커리",
+      "area": "Daegu",
+      "category": "cafe",
+      "kind": "bakery-cafe",
+      "setting": "indoor",
+      "address": "대구광역시 중구 국채보상로 552",
+      "aliases": [
+        "에스파스 베이커리",
+        "Espace Bakery"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (Daegu Food listing).",
+          "source_ids": [
+            "OF1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "European-style bakery café near Jungangno; official Daegu signature-bread seller.",
+        "ko": "중앙로 인근 유럽풍 베이커리 카페로 대구대표빵 판매처입니다.",
+        "ja": "中央路近くの欧風ベーカリーカフェ。大邱代表パン販売店。",
+        "zh": "中央路附近的欧式烘焙咖啡馆，大邱代表面包销售店。",
+        "es": "Panadería-café de estilo europeo cerca de Jungang-ro; vendedora oficial del pan emblemático de Daegu."
+      },
+      "notes": {
+        "en": "Daegu Food: 국채보상로 552 (Jongno 1-ga), tel 053-267-7788, 08:00–23:00, open all year, about 36 seats, no parking (use paid public lots). ~5 min walk from Jungangno Station exit 1. Takeout/delivery possible. Foreign cards and English unverified.",
+        "ko": "대구푸드: 국채보상로 552(종로1가), 053-267-7788, 08:00~23:00, 연중무휴, 36석, 주차장 없음(인근 유료 공영주차장). 중앙로역 1번 출구 도보 약 5분. 포장·배달 가능.",
+        "ja": "大邱フード：国債報償路552、053-267-7788、08:00〜23:00、年中無休、36席、駐車場なし。中央路駅1番出口徒歩約5分。",
+        "zh": "大邱美食网：国债报偿路552号，053-267-7788，08:00-23:00，全年无休，36座，无停车场。中央路站1号口步行约5分钟。",
+        "es": "Daegu Food: Gukchaebosang-ro 552, tel. 053-267-7788, 08:00-23:00 todo el año, 36 asientos, sin aparcamiento. A 5 min a pie de la salida 1 de Jungangno."
+      },
+      "sources": [
+        {
+          "id": "OF1",
+          "url": "https://www.daegufood.go.kr/kor/food/food.asp?idx=1567&gotoPage=1&snm=9",
+          "publisher": "Daegu Metropolitan City / Daegu Food (대구푸드)",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_listing",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail read 2026-10-28: 국채보상로 552 (종로1가), 053-267-7788, 08:00-23:00, 연중무휴, 36 seats, no parking; 중구맛집 & 대구대표빵.",
+            "checked": "2026-10-27",
+            "reason": "Detail read 2026-10-28: 국채보상로 552 (종로1가), 053-267-7788, 08:00-23:00, 연중무휴, 36 seats, no parking; 중구맛집 & 대구대표빵."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "에스파스 베이커리",
+        "Espace Bakery"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "cafe-daegu-gongjudang-bakery",
+      "name_en": "Gongjudang Bakery",
+      "name_ko": "공주당 베이커리",
+      "area": "Daegu",
+      "category": "cafe",
+      "kind": "old-style-bakery",
+      "setting": "indoor",
+      "address": "대구광역시 중구 국채보상로 625",
+      "aliases": [
+        "공주당 베이커리",
+        "Gongjudang Bakery"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (Daegu Food listing).",
+          "source_ids": [
+            "OF1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Family-run, retro-style bakery in central Dongseong-ro; takeout only.",
+        "ko": "동성로 한가운데의 대를 이은 옛날 빵집으로 포장만 가능합니다.",
+        "ja": "東城路中心の代々続く昔ながらのパン屋。持ち帰りのみ。",
+        "zh": "东城路中心的老式家族面包店，仅限外带。",
+        "es": "Panadería familiar de estilo retro en pleno Dongseong-ro; solo para llevar."
+      },
+      "notes": {
+        "en": "Daegu Food: 국채보상로 625 (Gongpyeong-dong), tel 053-427-7256, 08:00–20:00, closed 2 days at major holidays; no seating, takeout (quick delivery possible), no parking. Inexpensive classics such as red-bean bread. Foreign cards unverified.",
+        "ko": "대구푸드: 국채보상로 625(공평동), 053-427-7256, 08:00~20:00, 명절 2일 휴무, 좌석 없음(포장), 주차 없음. 팥빵 등 저렴한 옛날 빵. 해외 카드 미확인.",
+        "ja": "大邱フード：国債報償路625、053-427-7256、08:00〜20:00、名節2日休み。席なし（持ち帰り）、駐車場なし。",
+        "zh": "大邱美食网：国债报偿路625号，053-427-7256，08:00-20:00，节日休息2天。无座位（外带），无停车场。",
+        "es": "Daegu Food: Gukchaebosang-ro 625, tel. 053-427-7256, 08:00-20:00, cierra 2 días en grandes festivos. Sin asientos (para llevar), sin aparcamiento."
+      },
+      "sources": [
+        {
+          "id": "OF1",
+          "url": "https://www.daegufood.go.kr/kor/food/food.asp?idx=1890&gotoPage=1&snm=9",
+          "publisher": "Daegu Metropolitan City / Daegu Food (대구푸드)",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_listing",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Detail read 2026-10-28: 국채보상로 625 (공평동), 053-427-7256, 08:00-20:00, 휴무 명절 2일, no seats (takeout), no parking.",
+            "checked": "2026-10-27",
+            "reason": "Detail read 2026-10-28: 국채보상로 625 (공평동), 053-427-7256, 08:00-20:00, 휴무 명절 2일, no seats (takeout), no parking."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "공주당 베이커리",
+        "Gongjudang Bakery"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "dining-daegu-jungang-tteokbokki",
+      "name_en": "Jungang Tteokbokki (Dongseong-ro)",
+      "name_ko": "중앙떡볶이",
+      "area": "Daegu",
+      "category": "food",
+      "kind": "tteokbokki-snack",
+      "setting": "indoor",
+      "address": "대구광역시 중구 동성로2길 81",
+      "aliases": [
+        "중앙떡볶이",
+        "Jungang Tteokbokki (Dongseong-ro)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (Daegu Food listing).",
+          "source_ids": [
+            "OF1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "30-plus-year Dongseong-ro snack shop for rice-cake tteokbokki with Daegu flat dumplings.",
+        "ko": "30년 넘게 동성로를 지킨 쌀떡볶이·납작만두 분식집입니다.",
+        "ja": "30年以上続く東城路の米トッポッキと平たい餃子の軽食店。",
+        "zh": "东城路经营30多年的米糕炒年糕和扁饺子小吃店。",
+        "es": "Puesto de tteokbokki de arroz con empanadillas planas, en Dongseong-ro desde hace más de 30 años."
+      },
+      "notes": {
+        "en": "Daegu Food (10-mi flat dumpling list): 동성로2길 81, tel 053-424-7692, closed Sundays and major holidays. Hours, spice level, cards and seating are not stated officially (unverified).",
+        "ko": "대구푸드(10미 납작만두): 동성로2길 81, 053-424-7692, 매주 일요일·명절 휴무. 영업시간·맵기·카드·좌석 미확인.",
+        "ja": "大邱フード：東城路2キル81、053-424-7692、日曜・名節休み。営業時間・辛さ・カード未確認。",
+        "zh": "大邱美食网：东城路2街81号，053-424-7692，周日及节日休息。营业时间、辣度、刷卡未核实。",
+        "es": "Daegu Food: Dongseong-ro 2-gil 81, tel. 053-424-7692, cerrado domingos y festivos. Horario, picante y tarjetas sin verificar."
+      },
+      "sources": [
+        {
+          "id": "OF1",
+          "url": "https://www.daegufood.go.kr/kor/food/food_10mi.asp?snm=27&tmi=M2-121",
+          "publisher": "Daegu Metropolitan City / Daegu Food (대구푸드)",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_listing",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Daegu 10-mi flat-dumpling list read 2026-10-28: 중앙떡볶이, 동성로2길 81, 053-424-7692, 휴일 매주 일요일·명절.",
+            "checked": "2026-10-27",
+            "reason": "Daegu 10-mi flat-dumpling list read 2026-10-28: 중앙떡볶이, 동성로2길 81, 053-424-7692, 휴일 매주 일요일·명절."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "중앙떡볶이",
+        "Jungang Tteokbokki (Dongseong-ro)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "dining-daegu-neorangnarang-makchang",
+      "name_en": "Neorang Narang Makchang",
+      "name_ko": "너랑나랑 막창",
+      "area": "Daegu",
+      "category": "food",
+      "kind": "makchang_grill",
+      "setting": "indoor",
+      "address": "대구광역시 달서구 달구벌대로304길 31",
+      "aliases": [
+        "너랑나랑 막창",
+        "Neorang Narang Makchang"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "See notes (Daegu Food listing).",
+          "source_ids": [
+            "OF1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Makchang grill in Dalseo-gu on the city's official signature-dish list.",
+        "ko": "대구10미 막창구이 업소로 등록된 달서구 막창집입니다.",
+        "ja": "大邱十味マクチャン焼きに登録された達西区の店。",
+        "zh": "列入大邱十味烤肥肠名单的达西区店铺。",
+        "es": "Asador de makchang en Dalseo-gu incluido en la lista oficial de platos emblemáticos."
+      },
+      "notes": {
+        "en": "Daegu Food: 달구벌대로304길 31, tel 053-568-0123, closed Mondays. Hours, reservations, cards and English menu are not stated officially (unverified).",
+        "ko": "대구푸드: 달구벌대로304길 31, 053-568-0123, 매주 월요일 휴무. 영업시간·예약·카드·영어 메뉴 미확인.",
+        "ja": "大邱フード：達句伐大路304キル31、053-568-0123、月曜定休。営業時間等未確認。",
+        "zh": "大邱美食网：达句伐大路304街31号，053-568-0123，周一休息。营业时间等未核实。",
+        "es": "Daegu Food: Dalgubeol-daero 304-gil 31, tel. 053-568-0123, cerrado lunes. Horario y demás sin verificar."
+      },
+      "sources": [
+        {
+          "id": "OF1",
+          "url": "https://www.daegufood.go.kr/kor/food/food_10mi.asp?snm=19&tmi=M2-113",
+          "publisher": "Daegu Metropolitan City / Daegu Food (대구푸드)",
+          "quality": "official",
+          "role": "municipal_food_directory",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "exact_branch_listing",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Daegu 10-mi makchang list read 2026-10-28 (round 3 session): 너랑나랑, 달구벌대로304길 31, 053-568-0123, 휴일 매주 월요일.",
+            "checked": "2026-10-27",
+            "reason": "Daegu 10-mi makchang list read 2026-10-28 (round 3 session): 너랑나랑, 달구벌대로304길 31, 053-568-0123, 휴일 매주 월요일."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "너랑나랑 막창",
+        "Neorang Narang Makchang"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "shopping-daegu-lotte-dept-daegu",
+      "name_en": "Lotte Department Store Daegu (Daegu Station)",
+      "name_ko": "롯데백화점 대구점",
+      "area": "Daegu",
+      "category": "shopping",
+      "kind": "department-store",
+      "setting": "indoor",
+      "address": "대구광역시 북구 태평로 161",
+      "aliases": [
+        "롯데백화점 대구점",
+        "Lotte Department Store Daegu (Daegu Station)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "10:30–20:00 normal; check closure days.",
+          "source_ids": [
+            "LT1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [
+        "Two parking tariffs on the same official page."
+      ],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Department store directly at Daegu Station.",
+        "ko": "대구역에 붙어 있는 백화점입니다.",
+        "ja": "大邱駅直結の百貨店。",
+        "zh": "紧邻大邱站的百货商店。",
+        "es": "Grandes almacenes junto a la estación de Daegu."
+      },
+      "notes": {
+        "en": "Official store page: 태평로 161, rep. tel 1577-0001. Normal hours 10:30–20:00; extended 10:30–20:30 (Fri–Sun & holidays per lounge notice); restaurant floor to 21:00. Monthly closures shown (e.g. 2 Nov 2026, Mon). 1 min from Daegu Station exit 1. ~1,000 parking spaces; the page shows two different parking tariffs (first 30 min free vs. 3,000 won) — fee unverified.",
+        "ko": "공식 점포 페이지: 태평로 161, 대표전화 1577-0001. 정상 10:30~20:00, 연장 10:30~20:30, 식당가 ~21:00. 휴점일 표시(예: 2026.11.2 월). 대구역 1번 출구 도보 1분. 주차 1,000대, 페이지 내 주차요금이 두 가지로 상충(최초 30분 무료 vs 3,000원) — 미확인.",
+        "ja": "公式店舗ページ：太平路161、1577-0001。通常10:30〜20:00、延長〜20:30、レストラン〜21:00。休業日あり（例：2026年11月2日）。大邱駅1番出口徒歩1分。駐車料金は記載が矛盾、未確認。",
+        "zh": "官方门店页：太平路161号，1577-0001。正常10:30-20:00，延长至20:30，餐饮层至21:00。有休店日（如2026年11月2日）。大邱站1号口步行1分钟。停车费页面信息矛盾，未核实。",
+        "es": "Página oficial: Taepyeong-ro 161, tel. 1577-0001. 10:30-20:00 (ampliado hasta 20:30), restaurantes hasta 21:00. Días de cierre (p. ej. 2 nov 2026). A 1 min de la salida 1 de la estación de Daegu. Tarifa de aparcamiento contradictoria, sin verificar."
+      },
+      "sources": [
+        {
+          "id": "LT1",
+          "url": "https://www.lotteshopping.com/store/main?cstrCd=0023",
+          "publisher": "Lotte Shopping",
+          "quality": "official",
+          "role": "operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "hours_address_closures",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Store page read 2026-10-28.",
+            "checked": "2026-10-27",
+            "reason": "Store page read 2026-10-28."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "롯데백화점 대구점",
+        "Lotte Department Store Daegu (Daegu Station)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Shopping / 쇼핑"
+    },
+    {
+      "id": "activity-daegu-sun-sports-plaza-bowling",
+      "name_en": "Sun Sports Plaza Bowling (Beomeo)",
+      "name_ko": "선스포츠프라자 볼링장",
+      "area": "Daegu",
+      "category": "activities",
+      "kind": "bowling",
+      "setting": "indoor",
+      "address": "대구광역시 수성구 범어로 9",
+      "aliases": [
+        "선스포츠프라자 볼링장",
+        "Sun Sports Plaza Bowling (Beomeo)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Daily 10:00–02:00.",
+          "source_ids": [
+            "SB1"
+          ]
+        },
+        "reservation": {
+          "status": "official_listed",
+          "value": "Group bookings by phone (053-751-6688).",
+          "source_ids": [
+            "SB1"
+          ]
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Bowling centre in the basement of Sun Sports Plaza, Beomeo-dong.",
+        "ko": "범어동 선스포츠프라자 지하의 볼링장입니다.",
+        "ja": "泛魚洞サンスポーツプラザ地下のボウリング場。",
+        "zh": "泛鱼洞Sun Sports Plaza地下的保龄球馆。",
+        "es": "Bolera en el sótano de Sun Sports Plaza, Beomeo-dong."
+      },
+      "notes": {
+        "en": "Operator site: 범어로 9, B1–B2; open daily 10:00–02:00. Per game 4,700 won adult / 4,000 won student; weekday 10:00–19:00 2-hour free-game 12,000/11,000 won; event game 2,400 won (weekdays 10–19, weekends 10–16). Direct line 053-751-6688, main 053-751-5500. Group bookings welcome. Shoe rental fee not stated (unverified).",
+        "ko": "운영사 누리집: 범어로 9, 지하 1~2층, 매일 10:00~02:00. 1게임 일반 4,700원/학생 4,000원, 평일 10~19시 2시간 프리게임 12,000/11,000원, 이벤트게임 2,400원. 직통 053-751-6688. 단체예약 가능. 대화료(신발) 일반 요금 미기재.",
+        "ja": "公式：泛魚路9、地下1〜2階、毎日10:00〜02:00。1ゲーム一般4,700ウォン/学生4,000ウォン、平日2時間フリーゲーム12,000ウォン。直通053-751-6688。",
+        "zh": "官网：泛鱼路9号，地下1-2层，每天10:00-02:00。每局成人4,700韩元/学生4,000韩元，工作日2小时畅打12,000韩元。直线053-751-6688。",
+        "es": "Web oficial: Beomeo-ro 9, sótanos 1-2, todos los días 10:00-02:00. Partida 4.700 wones adulto / 4.000 estudiante; 2 h libres entre semana 12.000. Tel. 053-751-6688."
+      },
+      "sources": [
+        {
+          "id": "SB1",
+          "url": "http://www.sunsportsplaza.co.kr/Class/04",
+          "publisher": "Sun Sports Plaza (㈜선영)",
+          "quality": "official",
+          "role": "operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "hours_fees_address",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Page read 2026-10-28.",
+            "checked": "2026-10-27",
+            "reason": "Page read 2026-10-28."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "선스포츠프라자 볼링장",
+        "Sun Sports Plaza Bowling (Beomeo)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Activities & Wellness / 체험·휴식"
+    },
+    {
+      "id": "activity-daegu-spark-bowling",
+      "name_en": "Dongseong-ro Spark Bowling Alley",
+      "name_ko": "동성로 스파크 볼링장",
+      "area": "Daegu",
+      "category": "activities",
+      "kind": "bowling",
+      "setting": "indoor",
+      "address": "대구광역시 중구 동성로6길 61",
+      "aliases": [
+        "동성로 스파크 볼링장",
+        "스페어클럽",
+        "스파크볼링",
+        "Spark Bowling"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Daily, see notes.",
+          "source_ids": [
+            "B1"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Bowling alley inside the Dongseong-ro Spark entertainment building downtown.",
+        "ko": "동성로 스파크 건물 안의 볼링장입니다.",
+        "ja": "東城路スパーク内のボウリング場。",
+        "zh": "东城路Spark大楼内的保龄球馆。",
+        "es": "Bolera en el edificio Spark de Dongseong-ro."
+      },
+      "notes": {
+        "en": "Operator page (Dowon Investment, Dongseong-ro Spark): 동성로6길 61, tel 053-230-2010/2011. Hours: weekdays 11:00–23:00, Sat 11:00–24:00, Sun 11:00–22:00. Per game: adult 4,000 won (weekday 11–18) / 4,500 won (weekday evenings, weekends, holidays); students 3,500/4,000; shoes 2,000 won. Older names 'Spare Club'/'Spark Bowl' appear only in unofficial sources; floor (6F) unverified.",
+        "ko": "운영사 페이지(동성로 스파크): 동성로6길 61, 053-230-2010/2011. 평일 11:00~23:00, 토 11:00~24:00, 일 11:00~22:00. 1게임 일반 4,000원(평일 11~18시)/4,500원(평일 저녁·주말·공휴일), 학생 3,500/4,000원, 신발 2,000원. '스페어클럽/스파크볼' 명칭과 6층 위치는 비공식 자료만.",
+        "ja": "運営ページ：東城路6キル61、053-230-2010。平日11:00〜23:00、土〜24:00、日〜22:00。1ゲーム一般4,000〜4,500ウォン、靴2,000ウォン。",
+        "zh": "运营方页面：东城路6街61号，053-230-2010。工作日11:00-23:00，周六至24:00，周日至22:00。每局4,000-4,500韩元，租鞋2,000韩元。",
+        "es": "Página del operador: Dongseong-ro 6-gil 61, tel. 053-230-2010. Lun-vie 11:00-23:00, sáb hasta 24:00, dom hasta 22:00. Partida 4.000-4.500 wones; zapatos 2.000."
+      },
+      "sources": [
+        {
+          "id": "B1",
+          "url": "https://d-spark.kr/open_content/spareclub/bowling.php",
+          "publisher": "Dowon Investment & Development / Dongseong-ro Spark",
+          "quality": "official",
+          "role": "operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "hours_fees_address",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Re-read 2026-10-28; named by building to avoid brand ambiguity.",
+            "checked": "2026-10-27",
+            "reason": "Re-read 2026-10-28; named by building to avoid brand ambiguity."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "동성로 스파크 볼링장",
+        "Dongseong-ro Spark Bowling Alley"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Activities & Wellness / 체험·휴식",
+      "promoted_from_round2_hold": true
+    },
+    {
+      "id": "scenery-daegu-suseongmot",
+      "name_en": "Suseong Lake (Suseongmot)",
+      "name_ko": "수성못",
+      "area": "Daegu",
+      "category": "scenery",
+      "kind": "lake-park",
+      "setting": "outdoor",
+      "address": "대구광역시 수성구 수성못길 37 (수성못 관광안내소 기준)",
+      "aliases": [
+        "수성못",
+        "Suseong Lake (Suseongmot)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {
+        "open_status": {
+          "status": "official_listed",
+          "value": "Park open; info centre hours in notes.",
+          "source_ids": [
+            "SS2"
+          ]
+        },
+        "reservation": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Not stated officially."
+        },
+        "payment": {
+          "status": "unknown",
+          "value": null,
+          "reason": "Foreign cards unverified."
+        },
+        "language": {
+          "status": "unknown",
+          "value": null,
+          "reason": "English support unverified."
+        }
+      },
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Popular lakeside park and promenade in Suseong-gu.",
+        "ko": "수성구의 대표 호수공원 산책지입니다.",
+        "ja": "寿城区の人気湖畔公園。",
+        "zh": "寿城区著名的湖畔公园。",
+        "es": "Popular parque lacustre de Suseong-gu."
+      },
+      "notes": {
+        "en": "Address anchored to the official Suseongmot Tourist Information Centre (수성못길 37, east entrance of Sanghwa Hill), tel 053-761-0645; centre open Apr–Oct 10:00–19:00, Nov–Mar 09:00–18:00, weekends/holidays 09:00–21:00 (nursing room, souvenirs). Media-art screen runs weekdays 17:00–22:00, weekends 11:00–22:00. About 10 min walk from Suseongmot Station (Line 3). The lake itself is an open park; pin should go to the info centre, not the water.",
+        "ko": "주소는 공식 수성못 관광안내소(수성못길 37, 상화동산 동편 입구, 053-761-0645) 기준. 안내소 4~10월 10:00~19:00, 11~3월 09:00~18:00, 주말·공휴일 09:00~21:00(수유실). 미디어아트 전광판 평일 17~22시, 주말 11~22시. 3호선 수성못역 도보 10분. 핀은 안내소 기준.",
+        "ja": "住所は公式の寿城池観光案内所（寿城池キル37、053-761-0645）基準。案内所は季節により09:00〜21:00。地下鉄3号線寿城池駅徒歩10分。",
+        "zh": "地址以官方寿城池旅游咨询处（寿城池街37号，053-761-0645）为准。咨询处按季节09:00-21:00开放。地铁3号线寿城池站步行10分钟。",
+        "es": "Dirección basada en el centro oficial de información turística (Suseongmot-gil 37, tel. 053-761-0645), abierto 09:00-21:00 según temporada. A 10 min a pie de la estación Suseongmot (línea 3)."
+      },
+      "sources": [
+        {
+          "id": "SS2",
+          "url": "https://www.suseong.kr/tour/index.do?menu_id=00030707",
+          "publisher": "Suseong-gu Culture & Tourism",
+          "quality": "official",
+          "role": "municipal_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "verified",
+            "scope": "info_centre_address",
+            "access_method": "Public cloud web reader; substantive page body reviewed. No login, contact, reservation or payment.",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Page read 2026-10-28: 수성못길 37, hours, tel.",
+            "checked": "2026-10-27",
+            "reason": "Page read 2026-10-28: 수성못길 37, hours, tel."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "수성못",
+        "Suseong Lake (Suseongmot)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "verified",
+      "map_layer_target": "Nature & Camping / 자연·캠핑",
+      "promoted_from_round2_hold": true
+    }
+  ],
+  "held": [
+    {
+      "id": "camping-daegu-pagye-auto-camp",
+      "name_en": "Palgongsan Pagye Auto Campground",
+      "name_ko": "팔공산 파계 오토캠핑장",
+      "area": "Daegu",
+      "category": "camping",
+      "kind": "municipal-campground",
+      "setting": "outdoor",
+      "address": "대구광역시 동구 파계로 (exact number conflicting)",
+      "aliases": [
+        "팔공산 파계 오토캠핑장",
+        "Palgongsan Pagye Auto Campground"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {},
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Palgongsan Pagye Auto Campground",
+        "ko": "팔공산 파계 오토캠핑장",
+        "ja": "팔공산 파계 오토캠핑장",
+        "zh": "팔공산 파계 오토캠핑장",
+        "es": "Palgongsan Pagye Auto Campground"
+      },
+      "notes": {
+        "en": "HELD: Secondary sources conflict: 파계로 707-14 / tel 053-803-7140 (tripinfo) vs 파계로 741 / 053-982-5370 (campcatch). City booking portal (yeyak.daegu.go.kr) lists only 금호강캠핑장 in the camping tab now; operation in 2026 unconfirmed.",
+        "ko": "보류: 2차 자료 간 주소·전화 상충(707-14/053-803-7140 vs 741/053-982-5370). 대구통합예약 캠핑장 탭엔 금호강캠핑장만 표시, 2026 운영 미확인.",
+        "ja": "保留: Secondary sources conflict: 파계로 707-14 / tel 053-803-7140 (tripinfo) vs 파계로 741 / 053-982-5370 (campcatch). City booking portal (yeyak.daegu.go.kr) lists only 금호강캠핑장 in the camping tab now; operation in 2026 unconfirmed.",
+        "zh": "保留: Secondary sources conflict: 파계로 707-14 / tel 053-803-7140 (tripinfo) vs 파계로 741 / 053-982-5370 (campcatch). City booking portal (yeyak.daegu.go.kr) lists only 금호강캠핑장 in the camping tab now; operation in 2026 unconfirmed.",
+        "es": "EN ESPERA: Secondary sources conflict: 파계로 707-14 / tel 053-803-7140 (tripinfo) vs 파계로 741 / 053-982-5370 (campcatch). City booking portal (yeyak.daegu.go.kr) lists only 금호강캠핑장 in the camping tab now; operation in 2026 unconfirmed."
+      },
+      "sources": [
+        {
+          "id": "PG1",
+          "url": "https://yeyak.daegu.go.kr/yeyak/camp/campListView2.do",
+          "publisher": "Daegu Integrated Reservation",
+          "quality": "official",
+          "role": "municipal_booking",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "unverified",
+            "scope": "not_listed",
+            "access_method": "Search-index excerpt only; official page body could not be fetched (timeout/error).",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Camping tab shows 금호강캠핑장 only.",
+            "checked": "2026-10-27",
+            "reason": "Camping tab shows 금호강캠핑장 only."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "팔공산 파계 오토캠핑장",
+        "Palgongsan Pagye Auto Campground"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "held",
+      "map_layer_target": "Nature & Camping / 자연·캠핑"
+    },
+    {
+      "id": "temple-daegu-gatbawi",
+      "name_en": "Gatbawi (Seated Stone Buddha, Gwanbong)",
+      "name_ko": "갓바위 (관봉석조여래좌상)",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "buddhist-rock-statue",
+      "setting": "indoor",
+      "address": "대구광역시 동구 갓바위로 229 (search excerpt)",
+      "aliases": [
+        "갓바위 (관봉석조여래좌상)",
+        "Gatbawi (Seated Stone Buddha, Gwanbong)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {},
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Gatbawi (Seated Stone Buddha, Gwanbong)",
+        "ko": "갓바위 (관봉석조여래좌상)",
+        "ja": "갓바위 (관봉석조여래좌상)",
+        "zh": "갓바위 (관봉석조여래좌상)",
+        "es": "Gatbawi (Seated Stone Buddha, Gwanbong)"
+      },
+      "notes": {
+        "en": "HELD: Only a tour.daegu search excerpt (page returns HTTP 400): always open, ~1,365 stone steps (no wheelchair access), public lot 364 spaces, 400/1,000 won per day. Needs readable official page.",
+        "ko": "보류: 대구관광 검색 발췌만 확보(본문 400 오류): 상시 개방, 돌계단 약 1,365개, 공영주차 364면 1일 400/1,000원. 공식 본문 확인 필요.",
+        "ja": "保留: Only a tour.daegu search excerpt (page returns HTTP 400): always open, ~1,365 stone steps (no wheelchair access), public lot 364 spaces, 400/1,000 won per day. Needs readable official page.",
+        "zh": "保留: Only a tour.daegu search excerpt (page returns HTTP 400): always open, ~1,365 stone steps (no wheelchair access), public lot 364 spaces, 400/1,000 won per day. Needs readable official page.",
+        "es": "EN ESPERA: Only a tour.daegu search excerpt (page returns HTTP 400): always open, ~1,365 stone steps (no wheelchair access), public lot 364 spaces, 400/1,000 won per day. Needs readable official page."
+      },
+      "sources": [
+        {
+          "id": "GB1",
+          "url": "https://tour.daegu.go.kr/",
+          "publisher": "Daegu Tourist Information",
+          "quality": "official",
+          "role": "municipal_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "unverified",
+            "scope": "excerpt_only",
+            "access_method": "Search-index excerpt only; official page body could not be fetched (timeout/error).",
+            "http": null,
+            "page_update_date": null,
+            "notes": "HTTP 400 on detail page.",
+            "checked": "2026-10-27",
+            "reason": "HTTP 400 on detail page."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "갓바위 (관봉석조여래좌상)",
+        "Gatbawi (Seated Stone Buddha, Gwanbong)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "held",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "culture-daegu-gyesan-cathedral",
+      "name_en": "Gyesan Catholic Cathedral",
+      "name_ko": "계산성당",
+      "area": "Daegu",
+      "category": "landmarks",
+      "kind": "church",
+      "setting": "indoor",
+      "address": "대구광역시 중구 서성로 10",
+      "aliases": [
+        "계산성당",
+        "Gyesan Catholic Cathedral"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {},
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Gyesan Catholic Cathedral",
+        "ko": "계산성당",
+        "ja": "계산성당",
+        "zh": "계산성당",
+        "es": "Gyesan Catholic Cathedral"
+      },
+      "notes": {
+        "en": "HELD: Address, tel 053-254-2300, free entry and parking 1,800 won/h come only from a KTO course page, not a venue detail page; mass times/visitor hours not verified.",
+        "ko": "보류: 주소·053-254-2300·무료·주차 1,800원/시간은 KTO 코스 페이지에서만 확인, 관람시간·미사시간 미확인.",
+        "ja": "保留: Address, tel 053-254-2300, free entry and parking 1,800 won/h come only from a KTO course page, not a venue detail page; mass times/visitor hours not verified.",
+        "zh": "保留: Address, tel 053-254-2300, free entry and parking 1,800 won/h come only from a KTO course page, not a venue detail page; mass times/visitor hours not verified.",
+        "es": "EN ESPERA: Address, tel 053-254-2300, free entry and parking 1,800 won/h come only from a KTO course page, not a venue detail page; mass times/visitor hours not verified."
+      },
+      "sources": [
+        {
+          "id": "GS1",
+          "url": "https://gyesancathedral.kr/",
+          "publisher": "Gyesan Cathedral",
+          "quality": "official",
+          "role": "operator",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "unverified",
+            "scope": "not_read",
+            "access_method": "Search-index excerpt only; official page body could not be fetched (timeout/error).",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Not fetched this round.",
+            "checked": "2026-10-27",
+            "reason": "Not fetched this round."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "계산성당",
+        "Gyesan Catholic Cathedral"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "held",
+      "map_layer_target": "Culture & Sights / 문화·관광"
+    },
+    {
+      "id": "cafe-daegu-mido-dabang",
+      "name_en": "Mido Dabang (traditional tea house)",
+      "name_ko": "미도다방",
+      "area": "Daegu",
+      "category": "cafe",
+      "kind": "traditional-tea-house",
+      "setting": "indoor",
+      "address": "대구광역시 중구 진골목길 14",
+      "aliases": [
+        "미도다방",
+        "Mido Dabang (traditional tea house)"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {},
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Mido Dabang (traditional tea house)",
+        "ko": "미도다방",
+        "ja": "미도다방",
+        "zh": "미도다방",
+        "es": "Mido Dabang (traditional tea house)"
+      },
+      "notes": {
+        "en": "HELD: Still no readable official page (tour.daegu 400). Hours conflict 09:00–22:00 (official excerpt) vs 09:30–22:00 (blogs).",
+        "ko": "보류: 공식 본문 여전히 열람 불가, 시간 상충(09:00 vs 09:30).",
+        "ja": "保留: Still no readable official page (tour.daegu 400). Hours conflict 09:00–22:00 (official excerpt) vs 09:30–22:00 (blogs).",
+        "zh": "保留: Still no readable official page (tour.daegu 400). Hours conflict 09:00–22:00 (official excerpt) vs 09:30–22:00 (blogs).",
+        "es": "EN ESPERA: Still no readable official page (tour.daegu 400). Hours conflict 09:00–22:00 (official excerpt) vs 09:30–22:00 (blogs)."
+      },
+      "sources": [
+        {
+          "id": "MD1",
+          "url": "https://tour.daegu.go.kr/index.do?menu_id=00002945&menu_link=%2Ffront%2Ftour%2FtourMapsView.do%3FtourId%3DKOATTR_135",
+          "publisher": "Daegu Tourist Information",
+          "quality": "official",
+          "role": "municipal_tourism",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "unverified",
+            "scope": "exact_venue",
+            "access_method": "Search-index excerpt only; official page body could not be fetched (timeout/error).",
+            "http": null,
+            "page_update_date": null,
+            "notes": "HTTP 400; excerpt only.",
+            "checked": "2026-10-27",
+            "reason": "HTTP 400; excerpt only."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "미도다방",
+        "Mido Dabang (traditional tea house)"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "held",
+      "map_layer_target": "Food & Drink / 음식·카페"
+    },
+    {
+      "id": "activity-daegu-dalseo-wood-culture",
+      "name_en": "Dalseo Wood Culture Center",
+      "name_ko": "달서목재문화관",
+      "area": "Daegu",
+      "category": "activities",
+      "kind": "woodworking-workshop",
+      "setting": "indoor",
+      "address": "대구광역시 달서구 앞산순환로 248",
+      "aliases": [
+        "달서목재문화관",
+        "Dalseo Wood Culture Center"
+      ],
+      "map_type": "search",
+      "coordinates": null,
+      "coordinate_status": "Exact street address source-reviewed; coordinates and entrance not independently verified.",
+      "radial_distance_km": null,
+      "camp_walker_distance_km": null,
+      "regional_orientation": "Camp Walker / Daegu is regional orientation only; no military entrance or on-base access claim.",
+      "humphreys_200km_cap_applied": false,
+      "visitor_fields": {},
+      "english_name_status": "Editorial translation of official Korean name unless an official English name is cited.",
+      "conflicts": [],
+      "name_translation_note": "Display names and translated copy may use editorial translation or romanization; no official multilingual branding implied.",
+      "description": {
+        "en": "Dalseo Wood Culture Center",
+        "ko": "달서목재문화관",
+        "ja": "달서목재문화관",
+        "zh": "달서목재문화관",
+        "es": "Dalseo Wood Culture Center"
+      },
+      "notes": {
+        "en": "HELD: Operator site still unreachable; only aggregator/registry data (Tue–Sun 09:00–18:00, closed Mon, 053-667-3620).",
+        "ko": "보류: 운영 누리집 여전히 불가, 집계·등록 자료만(화~일 09~18시, 월 휴무, 053-667-3620).",
+        "ja": "保留: Operator site still unreachable; only aggregator/registry data (Tue–Sun 09:00–18:00, closed Mon, 053-667-3620).",
+        "zh": "保留: Operator site still unreachable; only aggregator/registry data (Tue–Sun 09:00–18:00, closed Mon, 053-667-3620).",
+        "es": "EN ESPERA: Operator site still unreachable; only aggregator/registry data (Tue–Sun 09:00–18:00, closed Mon, 053-667-3620)."
+      },
+      "sources": [
+        {
+          "id": "W2",
+          "url": "https://www.kawc.or.kr/page/foundation/infra/experience_status.php",
+          "publisher": "Korea Wood Culture Promotion Association",
+          "quality": "official",
+          "role": "national_registry",
+          "audit": {
+            "checked_at": "2026-10-27T22:39:23Z",
+            "checked_timezone": "Etc/UTC",
+            "status": "unverified",
+            "scope": "exact_venue_registry",
+            "access_method": "Search-index excerpt only; official page body could not be fetched (timeout/error).",
+            "http": null,
+            "page_update_date": null,
+            "notes": "Registry listing only.",
+            "checked": "2026-10-27",
+            "reason": "Registry listing only."
+          }
+        }
+      ],
+      "checked": "2026-10-27",
+      "checked_timezone": "Etc/UTC",
+      "distance_reference_id": null,
+      "distance_method": "not_measured",
+      "radius_status": "not_applicable_daegu_regional",
+      "live_availability": "not_checked",
+      "english_support": "unverified",
+      "foreign_card_payment": "unverified",
+      "search_terms": [
+        "달서목재문화관",
+        "Dalseo Wood Culture Center"
+      ],
+      "access": "public",
+      "distance_kind": null,
+      "entrance_verification": "not_verified",
+      "photos": [],
+      "photo_status": "No reuse-licensed photo selected; none included.",
+      "research_status": "held",
+      "map_layer_target": "Activities & Wellness / 체험·휴식"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "dining-daegu-miseongdang-main",
+      "name_ko": "미성당 납작만두 본점",
+      "reason": "Still conflicting: Daegu Food 10-mi page (live 2026-10-28) lists 중구 명덕로 93, 053-255-0742, closed Mondays & holidays; but round-2 licence-register summary reported closure 2025-02-04 (likely the old 남산로 site before the move). Move to 명덕로 93 is consistent across official + secondary sources, but current licence status at 명덕로 93 not confirmed. Kept out; candidate to re-add if licence data for 명덕로 93 confirms 영업.",
+      "sources": [
+        "https://www.daegufood.go.kr/kor/food/food_10mi.asp?snm=27&tmi=M2-121",
+        "https://www.grandculture.net/daegu/toc/GC40003666"
+      ]
+    }
+  ]
+}
