@@ -1,0 +1,2407 @@
+{
+  "explicitNativeJoins": [
+    {
+      "nativeId": "5F8D023985000013",
+      "placeId": "catholic-euni",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000014",
+      "placeId": "catholic-golbaemasil",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000015",
+      "placeId": "catholic-namyang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000016",
+      "placeId": "catholic-yodangri",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000017",
+      "placeId": "catholic-juksan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000018",
+      "placeId": "catholic-dannae",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000019",
+      "placeId": "catholic-eonong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001A",
+      "placeId": "catholic-songol",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001B",
+      "placeId": "catholic-surisan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001C",
+      "placeId": "catholic-suwon-hwaseong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001D",
+      "placeId": "catholic-cheonjinam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001E",
+      "placeId": "catholic-solmoe",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500001F",
+      "placeId": "catholic-sinri",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000020",
+      "placeId": "catholic-gongseri",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000021",
+      "placeId": "catholic-hapdeok",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000022",
+      "placeId": "catholic-haemi",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000023",
+      "placeId": "catholic-yeosaul",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000024",
+      "placeId": "catholic-seonggeosan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000025",
+      "placeId": "catholic-hwangsaebawi",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000026",
+      "placeId": "catholic-baeti",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000027",
+      "placeId": "catholic-darakgol",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000028",
+      "placeId": "catholic-galmaemot",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000029",
+      "placeId": "catholic-baeron",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000001",
+      "placeId": "activity-ds-billiards-paengseong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000002",
+      "placeId": "activity-zeus-billiards-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000003",
+      "placeId": "activity-js-billiards-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000004",
+      "placeId": "activity-osan-cc-carom",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000005",
+      "placeId": "activity-carom-billiards-osan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000006",
+      "placeId": "activity-carombox-cheonan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000007",
+      "placeId": "activity-won-billiards-suwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000008",
+      "placeId": "activity-top-billiards-anseong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000009",
+      "placeId": "activity-bnb-bowling-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000A",
+      "placeId": "activity-seoanseong-bowling",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000B",
+      "placeId": "activity-cheonan-stadium-bowling",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000C",
+      "placeId": "activity-bowltopia-yongin",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000D",
+      "placeId": "activity-hogye-indoor-sports",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000E",
+      "placeId": "activity-sporex-times-square",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D02398500000F",
+      "placeId": "activity-muzit-darts-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000010",
+      "placeId": "activity-western-pub-darts-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000011",
+      "placeId": "activity-humphreys-downtown-lanes",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D023985000012",
+      "placeId": "activity-osan-mig-alleys",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000003",
+      "placeId": "gocamping-7096",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000004",
+      "placeId": "gocamping-7763",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000005",
+      "placeId": "gocamping-100105",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000006",
+      "placeId": "gocamping-8107",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000007",
+      "placeId": "gocamping-100607",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000008",
+      "placeId": "gocamping-2262",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000009",
+      "placeId": "gocamping-619",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000A",
+      "placeId": "gocamping-2969",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000B",
+      "placeId": "gocamping-2263",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000C",
+      "placeId": "gocamping-2751",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000D",
+      "placeId": "gocamping-1272",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000E",
+      "placeId": "gocamping-1820",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500000F",
+      "placeId": "gocamping-101667",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000010",
+      "placeId": "gocamping-1698",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000011",
+      "placeId": "gocamping-101025",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000012",
+      "placeId": "gocamping-100878",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000013",
+      "placeId": "gocamping-101127",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000014",
+      "placeId": "gocamping-100181",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000015",
+      "placeId": "gocamping-800",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000017",
+      "placeId": "attraction-lotte-world-adventure",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000018",
+      "placeId": "attraction-seoul-land",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000019",
+      "placeId": "attraction-daejeon-oworld",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500001A",
+      "placeId": "attraction-daejeon-expo-aquarium",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500001B",
+      "placeId": "attraction-aqua-planet-ilsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000002",
+      "placeId": "culture-osan-art-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B550500001C",
+      "placeId": "temple-gwanchoksa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000016",
+      "placeId": "cgv-cheonan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8D1B5505000001",
+      "placeId": "scenery-siheung-gaetgol",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000013",
+      "placeId": "dining-osiyo-hyangnam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000014",
+      "placeId": "dining-jeongok-eochon-kalguksu",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000015",
+      "placeId": "dining-blue-sapphire-rolling-hills",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000016",
+      "placeId": "dining-seoil-farm-solli",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000017",
+      "placeId": "dining-gogiri-makguksu",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000018",
+      "placeId": "dining-sobok-galbi-yesan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000019",
+      "placeId": "dining-hanil-sikdang-sapgyo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001A",
+      "placeId": "dining-jeonggane-baksok-taean",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001B",
+      "placeId": "dining-wonpung-sikdang-taean",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001C",
+      "placeId": "dining-baekjehyang-buyeo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001D",
+      "placeId": "dining-dure-bakery-cheongju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001E",
+      "placeId": "dining-forecyan-cheongju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300001F",
+      "placeId": "dining-gongwondang-cheongju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000020",
+      "placeId": "dining-saemal-haejangguk-osan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000021",
+      "placeId": "dining-daeheung-sikdang-osan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000022",
+      "placeId": "dining-osaek-ssuk-hotteok",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000023",
+      "placeId": "dining-yeongseonggak-seosan-main",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000024",
+      "placeId": "dining-yeonkkot-iyagi-buyeo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006D",
+      "placeId": "dining-ureongi-baksa-dangjin",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006E",
+      "placeId": "dining-haeeoreum-dangjin",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006F",
+      "placeId": "dining-yeongyeong-boryeong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000070",
+      "placeId": "dining-kimgane-sagol-sujebi-boryeong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000071",
+      "placeId": "dining-namgyeong-garden-seocheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000072",
+      "placeId": "dining-geumgang-hoetjip-seocheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000073",
+      "placeId": "dining-chungju-dam-garden",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000074",
+      "placeId": "dining-cheongpungjip-chungju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000075",
+      "placeId": "dining-yechon-jecheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000076",
+      "placeId": "dining-namhangang-jecheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009C",
+      "placeId": "dining-sanjang-garden-sejong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009D",
+      "placeId": "dining-mihyang-sejong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009E",
+      "placeId": "dining-samarkand-ansan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009F",
+      "placeId": "dining-patthai-ansan-wongok",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A0",
+      "placeId": "dining-yeoju-ssalbapjip",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A1",
+      "placeId": "dining-oepori-kkotgejip-ganghwa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A2",
+      "placeId": "dining-gangnaru-pungcheon-jangeo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A3",
+      "placeId": "dining-okcheon-naengmyeon-hwanghae-main",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A4",
+      "placeId": "dining-gaegun-halmeoni-sundaeguk-main",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BF",
+      "placeId": "dining-masan-agu-icheon-ssalbap",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C0",
+      "placeId": "dining-icheon-ssalbapjip-majang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C1",
+      "placeId": "dining-sanggungjeon-gimpo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C2",
+      "placeId": "dining-burger307-gimpo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C3",
+      "placeId": "dining-pyeongchang-jinbu-makguksu-gimpo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C4",
+      "placeId": "dining-genghis-khan-yetgohyang-namyangju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C5",
+      "placeId": "dining-mudeung-boribap-namyangju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C6",
+      "placeId": "dining-buja-haemul-kalguksu-siheung",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D6",
+      "placeId": "dining-jincheon-sutbul-gogi",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D7",
+      "placeId": "dining-yeonsan-halmeoni-sundae-nonsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D8",
+      "placeId": "dining-bokdubujip-paju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D9",
+      "placeId": "dining-misari-milbit-chogyeguksu-main-hanam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DA",
+      "placeId": "dining-gyereuk-chuncheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DB",
+      "placeId": "dining-hoengseong-hanugukbap",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DC",
+      "placeId": "dining-kim-jeongi-samgyetang-geumsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DD",
+      "placeId": "dining-jeogok-sikdang-geumsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000025",
+      "placeId": "activity-osan-sports-swimming",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000026",
+      "placeId": "activity-wondong-sports-swimming",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000027",
+      "placeId": "activity-segyo-welfare-swimming",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000028",
+      "placeId": "activity-uandi-ice-rink",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000029",
+      "placeId": "activity-gwanggyo-complex-ice-rink",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002A",
+      "placeId": "activity-modunurim-swimming",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002B",
+      "placeId": "activity-vaunce-suwon-yeongtong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002C",
+      "placeId": "activity-vaunce-cheonan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002F",
+      "placeId": "activity-yongin-national-racket-sports",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000030",
+      "placeId": "activity-climb-together-suwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000031",
+      "placeId": "activity-anseong-national-swimming",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000032",
+      "placeId": "activity-anseong-swimming-national-center",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000064",
+      "placeId": "activity-anseong-craft-center",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000065",
+      "placeId": "activity-neriggul-crafts",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000066",
+      "placeId": "activity-asan-onggi-fermentation",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000067",
+      "placeId": "activity-daejeon-wood-culture",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000068",
+      "placeId": "activity-cheongyang-wood-crafts",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000069",
+      "placeId": "activity-jjokbit-anangne",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006A",
+      "placeId": "activity-icheon-wood-culture",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006B",
+      "placeId": "activity-suwon-traditional-food",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300006C",
+      "placeId": "activity-icheon-deulkkot-pottery",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000088",
+      "placeId": "spa-aquafield-anseong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000089",
+      "placeId": "spa-aquafield-hanam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008A",
+      "placeId": "spa-aquafield-goyang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008B",
+      "placeId": "spa-asan-spavis",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008C",
+      "placeId": "spa-paradise-dogo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008D",
+      "placeId": "spa-splas-resom",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008E",
+      "placeId": "spa-cimer-incheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300008F",
+      "placeId": "spa-sinchuntang-onyang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000090",
+      "placeId": "spa-termeden-icheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000091",
+      "placeId": "spa-gangbyeon-spaland",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AE",
+      "placeId": "activity-iksan-public-riding",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AF",
+      "placeId": "activity-daecheon-skybike",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B0",
+      "placeId": "activity-gudeurae-hwangpo-cruise",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B1",
+      "placeId": "activity-janghoe-cruise",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B2",
+      "placeId": "activity-cheongpung-cable-car",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B3",
+      "placeId": "activity-samaksan-lake-cable-car",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B4",
+      "placeId": "activity-seonyu-sky-sun-line",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B5",
+      "placeId": "activity-balwangsan-cable-car",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DE",
+      "placeId": "activity-tancheon-bowling",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000DF",
+      "placeId": "activity-gwacheon-civic-bowling",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000E0",
+      "placeId": "activity-poil-bowling",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000E1",
+      "placeId": "activity-cheongju-indoor-ice-rink",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000E2",
+      "placeId": "activity-anyang-indoor-ice-rink",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000E3",
+      "placeId": "activity-seoul-mountain-culture-climbing",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000033",
+      "placeId": "ikea-gwangmyeong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000034",
+      "placeId": "ikea-giheung",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000035",
+      "placeId": "ikea-goyang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000036",
+      "placeId": "ikea-gangdong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000037",
+      "placeId": "starfield-hanam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000038",
+      "placeId": "starfield-goyang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000039",
+      "placeId": "lotte-outlet-uiwang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003A",
+      "placeId": "lotte-outlet-paju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003B",
+      "placeId": "hyundai-outlet-gimpo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003C",
+      "placeId": "hyundai-outlet-space1",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003D",
+      "placeId": "times-square-seoul",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003E",
+      "placeId": "ifc-mall-seoul",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300003F",
+      "placeId": "lotte-world-mall",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000040",
+      "placeId": "lotte-main-seoul",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000041",
+      "placeId": "lotte-incheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000042",
+      "placeId": "hyundai-chungcheong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000043",
+      "placeId": "traders-cheonan-asan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000044",
+      "placeId": "traders-suwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000092",
+      "placeId": "market-tongbok-pyeongtaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000093",
+      "placeId": "market-onyang-oncheon-asan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000094",
+      "placeId": "market-osaek-osan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000095",
+      "placeId": "market-cheonan-jungang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000096",
+      "placeId": "market-gongju-sanseong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000097",
+      "placeId": "market-seosan-dongbu",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000098",
+      "placeId": "market-cheongju-yukgeori",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000099",
+      "placeId": "market-yongin-jungang",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009A",
+      "placeId": "market-jidong-suwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300009B",
+      "placeId": "market-sejong-jochiwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000006",
+      "placeId": "family-yesan-stork",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000008",
+      "placeId": "family-cheongju-land-children",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000009",
+      "placeId": "family-sejong-national-children",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000A",
+      "placeId": "family-gwacheon-science",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000B",
+      "placeId": "family-daejeon-geological",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000D",
+      "placeId": "family-chilgapsan-starpark",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000010",
+      "placeId": "family-sejong-beartree",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000012",
+      "placeId": "family-boryeong-coal",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002D",
+      "placeId": "activity-vaunce-yongin",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300002E",
+      "placeId": "activity-vaunce-gwanggyo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000046",
+      "placeId": "culture-uiwang-railroad-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000048",
+      "placeId": "culture-samsung-innovation-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004F",
+      "placeId": "culture-currency-museum-daejeon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000051",
+      "placeId": "culture-national-tax-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B6",
+      "placeId": "family-chungju-meteorological",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B7",
+      "placeId": "family-chungnam-meteorological",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B8",
+      "placeId": "family-daejeon-civic-observatory",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000B9",
+      "placeId": "family-jeungpyeong-jwagusan-observatory",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BA",
+      "placeId": "family-yeongwol-byeolmaro-observatory",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BB",
+      "placeId": "family-incheon-children-science",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BC",
+      "placeId": "family-yangpyeong-insect-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BE",
+      "placeId": "family-wonju-climate-change-center",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000045",
+      "placeId": "culture-gyeonggi-modern-art",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000047",
+      "placeId": "culture-hwaseong-history-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000049",
+      "placeId": "culture-gyeonggi-ceramic-gwangju",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004A",
+      "placeId": "culture-cheonan-arts-center",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004B",
+      "placeId": "culture-lee-ungno-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004C",
+      "placeId": "culture-daejeon-arts-center",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004D",
+      "placeId": "culture-cheongju-art-main",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300004E",
+      "placeId": "culture-jincheon-bell-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000050",
+      "placeId": "culture-chungnam-history",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000052",
+      "placeId": "culture-taean-maritime-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000053",
+      "placeId": "culture-leeum-art-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007F",
+      "placeId": "temple-waujeongsa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000080",
+      "placeId": "temple-gakwonsa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000081",
+      "placeId": "temple-guinsa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000082",
+      "placeId": "temple-suguksa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000083",
+      "placeId": "temple-tapsa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000084",
+      "placeId": "temple-bomunsa-ganghwa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000085",
+      "placeId": "temple-jeondeungsa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000086",
+      "placeId": "temple-yongmunsa-yangpyeong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000087",
+      "placeId": "temple-anmyeonam",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000BD",
+      "placeId": "culture-national-aviation-museum",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000077",
+      "placeId": "redbutton-osan-city-hall",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000078",
+      "placeId": "redbutton-dongtan-north-plaza",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000079",
+      "placeId": "redbutton-cheonan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007A",
+      "placeId": "redbutton-suwon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007B",
+      "placeId": "redbutton-yongin-dongbaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007C",
+      "placeId": "redbutton-daejeon-eunhaeng",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007D",
+      "placeId": "redbutton-cheongju-seongan-gil",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300007E",
+      "placeId": "playstation-sejong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D0",
+      "placeId": "forplus-dongtan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D1",
+      "placeId": "forplus-sinnonhyeon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D2",
+      "placeId": "forplus-game-center-guro",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D3",
+      "placeId": "game-shopping-pyeongchon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D4",
+      "placeId": "hanwoori-sindorim",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000D5",
+      "placeId": "warp-bangbae",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000001",
+      "placeId": "scenery-suwon-ilwol",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000002",
+      "placeId": "scenery-suwon-yeongheung",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000003",
+      "placeId": "scenery-hantaek",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000004",
+      "placeId": "scenery-hwaseong-urikkot",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000005",
+      "placeId": "scenery-ansan-reed-wetland",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000007",
+      "placeId": "scenery-sejong-lake",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000C",
+      "placeId": "scenery-sinseong-reeds",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000F",
+      "placeId": "family-asan-world-flower",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000011",
+      "placeId": "scenery-midongsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000C9",
+      "placeId": "scenery-maryang-camellia-seocheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A5",
+      "placeId": "gocamping-100057",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A6",
+      "placeId": "gocamping-2022",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A7",
+      "placeId": "gocamping-6865",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A8",
+      "placeId": "gocamping-100643",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000A9",
+      "placeId": "gocamping-404",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AA",
+      "placeId": "gocamping-31",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AB",
+      "placeId": "gocamping-6968",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AC",
+      "placeId": "gocamping-442",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000AD",
+      "placeId": "gocamping-6972",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000054",
+      "placeId": "megabox-suwon-starfield",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000055",
+      "placeId": "megabox-suwon-ak-plaza",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000056",
+      "placeId": "lotte-cinema-dongtan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000057",
+      "placeId": "lotte-cinema-suji",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000058",
+      "placeId": "cgv-dongtan-lake-park",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000059",
+      "placeId": "cgv-shinsegae-gyeonggi",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005A",
+      "placeId": "megabox-daejeon-hyundai-outlet",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005B",
+      "placeId": "megabox-daejeon-shinsegae",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005C",
+      "placeId": "indieplus-cheonan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300000E",
+      "placeId": "sea-janghang-skywalk",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C7",
+      "placeId": "sea-chunjangdae-seocheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D830000C8",
+      "placeId": "sea-hongwon-port-seocheon",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CA",
+      "placeId": "sea-doksan-boryeong",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CB",
+      "placeId": "sea-unyeo-taean",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CC",
+      "placeId": "sea-okdol-gunsan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CD",
+      "placeId": "sea-baegot-hanul-siheung",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CE",
+      "placeId": "sea-tando-port-ansan",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D840000CF",
+      "placeId": "sea-dongmak-ganghwa",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005D",
+      "placeId": "attraction-seoul-grand-park-zoo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005E",
+      "placeId": "attraction-sea-life-coex",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D8300005F",
+      "placeId": "attraction-agroland-taesin",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000060",
+      "placeId": "attraction-cheongju-zoo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000061",
+      "placeId": "attraction-osan-bird-park",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000062",
+      "placeId": "attraction-seoul-childrens-grand-park-zoo",
+      "basis": "Exact Record ID captured in native table"
+    },
+    {
+      "nativeId": "5F8DD03D83000063",
+      "placeId": "attraction-wolmi-zzang-land",
+      "basis": "Exact Record ID captured in native table"
+    }
+  ],
+  "nativeJoinsNotEstablished": [
+    "5F8B50A2C8000001",
+    "5F8B50A2C8000002",
+    "5F8B50A2C8000003",
+    "5F8B50A2C8000004",
+    "5F8B50A2C8000005",
+    "5F8B50A2C8000006",
+    "5F8B50A2C8000007",
+    "5F8B50A2C8000008",
+    "5F8B50A2C8000009",
+    "5F8B50A2C800000A",
+    "5F8B50A2C800000B",
+    "5F8B50A2C800000C",
+    "5F8B50A2C800000D",
+    "5F8B50A2C800000E",
+    "5F8B50A2C800000F",
+    "5F8B50A2C8000010",
+    "5F8B50A2C8000011",
+    "5F8B50A2C8000012",
+    "5F8B50A2C8000013",
+    "5F8B50A2C8000014",
+    "5F8B50A2C8000015",
+    "5F8B50A2C8000016",
+    "5F8B50A2C8000017",
+    "5F8B50A2C8000018",
+    "5F8B50A2C8000019",
+    "5F8B50A2C800001A",
+    "5F8B50A2C800001B",
+    "5F8B50A2C800001C",
+    "5F8B50A2C800001D",
+    "5F8B50A2C800001E",
+    "5F8B50A2C800001F",
+    "5F8B50A2C8000020",
+    "5F8B50A2C9000021",
+    "5F8B50A2C9000022",
+    "5F8B50A2C9000023",
+    "5F8B50A2C9000024",
+    "5F8B50A2C9000025",
+    "5F8B50A2C9000026",
+    "5F8B50A2C9000027",
+    "5F8B50A2C9000028",
+    "5F8B50A2C9000029",
+    "5F8B50A2C900002A",
+    "5F8B50A2C900002B",
+    "5F8B50A2C900002C",
+    "5F8B50A2C900002D",
+    "5F8B50A2C900002E",
+    "5F8B50A2C900002F",
+    "5F8B50A2C9000030",
+    "5F8B50A2C9000031",
+    "5F8B50A2C9000032",
+    "5F8B97175C000001",
+    "5F8C3C306B000006",
+    "5F8C3C306B00000E",
+    "5F8C3C306B000016",
+    "5F8C3C306B00001E",
+    "5F8C3C306B000026",
+    "5F8C3C306B00002C",
+    "5F8C3C306B000032",
+    "5F8C3C306B000038",
+    "5F8C3C306B000063",
+    "5F8C3C306B000064",
+    "5F8C3C306B000065",
+    "5F8C3C306B000066",
+    "5F8C3C306B000067",
+    "5F8C3C306B000068",
+    "5F8C3C306B000069",
+    "5F8C3C306B00006A",
+    "5F8C3C306B00006B",
+    "5F8C3C306B00006C",
+    "5F8C3C306B00006D",
+    "5F8C3C306B00006E",
+    "5F8C3C306B00006F",
+    "5F8C3C306B000070",
+    "5F8C3C306B000072",
+    "5F8C3C306B000073",
+    "5F8C3C306B000074",
+    "5F8C3C306B000075",
+    "5F8C3C306B000076",
+    "5F8C3C306B000077",
+    "5F8C3C306B000078",
+    "5F8C3C306B000079",
+    "5F8C3C306B00007A",
+    "5F8C3C306B00007B",
+    "5F8C3C306B00007C",
+    "5F8C3C306B00007D",
+    "5F8C3C306B00007E",
+    "5F8C3C306B00007F",
+    "5F8C3C306B000080",
+    "5F8C3C306B000081",
+    "5F8C3C306B000082",
+    "5F8C3C306B000083",
+    "5F8C3C306B000084",
+    "5F8C3C306B000085",
+    "5F8C3C306B000086",
+    "5F8C3C306B000087",
+    "5F8C3C306B000088",
+    "5F8C3C306B000089",
+    "5F8C3C306B00008A",
+    "5F8C3C306B00008B",
+    "5F8C3C306B00008C",
+    "5F8C3C306B00008D",
+    "5F8C3C306B00008E",
+    "5F8C3C306B00008F",
+    "5F8C3C306B000090",
+    "5F8C3C306B000091",
+    "5F8C3C306B000092",
+    "5F8C3C306B000093",
+    "5F8C3C306B000094",
+    "5F8C3C306B000095",
+    "5F8C3C306B000096",
+    "5F8C3C306B000097",
+    "5F8C3C306B000098",
+    "5F8C3C306B000099",
+    "5F8C3C306B00009A",
+    "5F8C3C306B00009B",
+    "5F8C3C306B00009C",
+    "5F8C3C306B0000F0",
+    "5F8C3C306B0000F1",
+    "5F8C3C306B000004",
+    "5F8C3C306B00000B",
+    "5F8C3C306B000013",
+    "5F8C3C306B00001B",
+    "5F8C3C306B000023",
+    "5F8C3C306B000029",
+    "5F8C3C306B00002F",
+    "5F8C3C306B000035",
+    "5F8C3C306B00003B",
+    "5F8C3C306B000043",
+    "5F8C3C306B000047",
+    "5F8C3C306B00004A",
+    "5F8C3C306B00004D",
+    "5F8C3C306B000050",
+    "5F8C3C306B000053",
+    "5F8C3C306B000055",
+    "5F8C3C306B000057",
+    "5F8C3C306B000059",
+    "5F8C3C306B00005B",
+    "5F8C3C306B00005D",
+    "5F8C3C306B00005F",
+    "5F8C3C306B0000C7",
+    "5F8C3C306B0000C8",
+    "5F8C3C306B0000C9",
+    "5F8C3C306B0000CA",
+    "5F8C3C306B0000CB",
+    "5F8C3C306B0000CC",
+    "5F8C3C306B0000CD",
+    "5F8C3C306B0000CE",
+    "5F8C3C306B0000CF",
+    "5F8C3C306B0000D0",
+    "5F8C3C306B0000D2",
+    "5F8C3C306B0000D3",
+    "5F8C3C306B0000D4",
+    "5F8C3C306B0000D6",
+    "5F8C3C306B0000D8",
+    "5F8C3C306B0000D9",
+    "5F8C3C306B0000DB",
+    "5F8C3C306B0000DC",
+    "5F8C3C306B0000DD",
+    "5F8C3C306B0000DE",
+    "5F8C3C306B0000DF",
+    "5F8C3C306B0000E0",
+    "5F8C3C306B0000E1",
+    "5F8C3C306B0000E2",
+    "5F8C3C306B0000E3",
+    "5F8C3C306B0000E4",
+    "5F8C3C306B0000E5",
+    "5F8C3C306B0000E6",
+    "5F8C3C306B0000E7",
+    "5F8C3C306B0000EA",
+    "5F8C3C306B0000EB",
+    "5F8C3C306B0000EC",
+    "5F8C3C306B0000AB",
+    "5F8C3C306B0000AC",
+    "5F8C3C306B0000AD",
+    "5F8C3C306B0000AE",
+    "5F8C3C306B0000AF",
+    "5F8C3C306B0000B0",
+    "5F8C3C306B0000B1",
+    "5F8C3C306B0000B2",
+    "5F8C3C306B0000B3",
+    "5F8C3C306B0000B4",
+    "5F8C3C306B0000B5",
+    "5F8C3C306B0000B6",
+    "5F8C3C306B0000B7",
+    "5F8C3C306B0000B8",
+    "5F8C3C306B0000B9",
+    "5F8C3C306B0000BA",
+    "5F8C3C306B0000BB",
+    "5F8C3C306B0000BC",
+    "5F8C3C306B0000BD",
+    "5F8C3C306B0000BE",
+    "5F8C3C306B0000BF",
+    "5F8C3C306B0000C0",
+    "5F8C3C306B0000C1",
+    "5F8C3C306B0000C2",
+    "5F8C3C306B0000C3",
+    "5F8C3C306B0000C4",
+    "5F8C3C306B0000C5",
+    "5F8C3C306B0000C6",
+    "5F8C3C306B000001",
+    "5F8C3C306B000008",
+    "5F8C3C306B000010",
+    "5F8C3C306B000018",
+    "5F8C3C306B000020",
+    "5F8C3C306B000027",
+    "5F8C3C306B00002D",
+    "5F8C3C306B000033",
+    "5F8C3C306B000039",
+    "5F8C3C306B00003E",
+    "5F8C3C306B000042",
+    "5F8C3C306B000046",
+    "5F8C3C306B000049",
+    "5F8C3C306B00004C",
+    "5F8C3C306B00004F",
+    "5F8C3C306B000052",
+    "5F8C3C306B000054",
+    "5F8C3C306B000056",
+    "5F8C3C306B000058",
+    "5F8C3C306B00005A",
+    "5F8C3C306B00005C",
+    "5F8C3C306B00005E",
+    "5F8C3C306B000060",
+    "5F8C3C306B000061",
+    "5F8C3C306B000062",
+    "5F8C3C306B000003",
+    "5F8C3C306B000007",
+    "5F8C3C306B00000F",
+    "5F8C3C306B000017",
+    "5F8C3C306B00001F",
+    "5F8C3C306B00009D",
+    "5F8C3C306B00009E",
+    "5F8C3C306B00009F",
+    "5F8C3C306B0000A0",
+    "5F8C3C306B0000A1",
+    "5F8C3C306B0000A2",
+    "5F8C3C306B0000A3",
+    "5F8C3C306B0000A4",
+    "5F8C3C306B0000A5",
+    "5F8C3C306B0000A6",
+    "5F8C3C306B0000A7",
+    "5F8C3C306B0000A8",
+    "5F8C3C306B0000A9",
+    "5F8C3C306B0000AA",
+    "5F8C3C306B00001D",
+    "5F8C3C306B000025",
+    "5F8C3C306B00002B",
+    "5F8C3C306B000031",
+    "5F8C3C306B000037",
+    "5F8C3C306B00003D",
+    "5F8C3C306B000041",
+    "5F8C3C306B000045",
+    "5F8C3C306B000048",
+    "5F8C3C306B00004B",
+    "5F8C3C306B00004E",
+    "5F8C3C306B000051",
+    "5F8C3C306B0000E8",
+    "5F8C3C306B0000ED",
+    "5F8C3C306B000005",
+    "5F8C3C306B00000C",
+    "5F8C3C306B000014",
+    "5F8C3C306B00001C",
+    "5F8C3C306B000024",
+    "5F8C3C306B00002A",
+    "5F8C3C306B000030",
+    "5F8C3C306B000036",
+    "5F8C3C306B00003C",
+    "5F8C3C306B000040",
+    "5F8C3C306B000044",
+    "5F8C3C306B0000EF",
+    "5F8C3C306B000009",
+    "5F8C3C306B000011",
+    "5F8C3C306B000019",
+    "5F8C3C306B000021",
+    "5F8C3C306B000028",
+    "5F8C3C306B00002E",
+    "5F8C3C306B000034",
+    "5F8C3C306B00003A",
+    "5F8C3C306B00003F",
+    "5F8C3C306B000002",
+    "5F8C3C306B00000D",
+    "5F8C3C306B000015",
+    "5F8C3C306B0000D5",
+    "5F8C3C306B0000D7",
+    "5F8C3C306B0000DA",
+    "5F8C3C306B0000E9",
+    "5F8C3C306B0000EE",
+    "5F8C3C306B00000A",
+    "5F8C3C306B000012",
+    "5F8C3C306B00001A",
+    "5F8C3C306B000022",
+    "5F8C53C98A000001",
+    "5F8C53C98A000002",
+    "5F8C53C98A000003",
+    "5F8C53C98A000007",
+    "5F8C53C98A00000D",
+    "5F8C53C98A000011",
+    "5F8C53C98A000012",
+    "5F8C53C98A000013",
+    "5F8C53C98A000005",
+    "5F8C53C98A000006",
+    "5F8C53C98A00000A",
+    "5F8C53C98A00000C",
+    "5F8C53C98A000010",
+    "5F8C53C98A000008",
+    "5F8C53C98A000009",
+    "5F8C53C98A00000E",
+    "5F8C53C98A00000F",
+    "5F8C53C98A000004",
+    "5F8C53C98A00000B",
+    "5F8C53C98A000014",
+    "5F8C53C98A000015"
+  ],
+  "receiptBackedImportedPlaceIds": [
+    "costco-pyeongtaek",
+    "everland",
+    "cgv-pyeongtaek",
+    "suwon-hwaseong",
+    "waemok",
+    "baedari",
+    "naeri",
+    "doure",
+    "redbutton-station",
+    "starfield-anseong",
+    "zoolung-dongtan",
+    "cgv-pyeongtaek-sosa",
+    "hwaseong-haenggung",
+    "sapgyoho",
+    "sopung",
+    "osan-miniature",
+    "pyeongyang-naengmyeon",
+    "redbutton-sosabeol",
+    "ak-pyeongtaek",
+    "zoolung-hanam",
+    "cgv-dongtan",
+    "n-seoul-tower",
+    "ganworam",
+    "mulhyanggi",
+    "anseong-machum",
+    "pho-sang",
+    "replay",
+    "costco-cheonan",
+    "zoolung-yeongdeungpo",
+    "cgv-cheonan-terminal",
+    "gyeongbokgung",
+    "sinduri",
+    "sinjeongho",
+    "agro-ecopark",
+    "moti-mahal",
+    "holic",
+    "costco-gongse",
+    "anseong-farmland",
+    "megabox-anseong",
+    "independence-hall",
+    "mallipo",
+    "gwanggyo",
+    "hangout",
+    "costco-daejeon",
+    "cat-station",
+    "gaesimsa",
+    "padori",
+    "chollipo",
+    "louis",
+    "ak-suwon",
+    "samcheung",
+    "haemi",
+    "baeksajang",
+    "anmyeon-forest",
+    "le-pain",
+    "starfield-suwon",
+    "animal-club",
+    "gongsanseong",
+    "kkotji",
+    "gungnamji",
+    "oldays",
+    "starfield-coex",
+    "asan-insects",
+    "busosanseong",
+    "jebudo",
+    "hanbat",
+    "galleria-centercity",
+    "korean-folk-village",
+    "oeam",
+    "gungpyeong",
+    "uirimji",
+    "galleria-gwanggyo",
+    "wolhwawon",
+    "jeongok",
+    "tangeumdae",
+    "shinsegae-cheonanasan",
+    "ami",
+    "jangtaesan",
+    "shinsegae-southcity",
+    "silleuksa",
+    "seolbongsan",
+    "shinsegae-daejeon",
+    "jungangtap",
+    "dodamsambong",
+    "hyundai-pangyo",
+    "magoksa",
+    "dumulmeori",
+    "the-hyundai-seoul",
+    "beopjusa",
+    "lotte-dongtan",
+    "cheongpung",
+    "timevillas-suwon",
+    "national-museum",
+    "lotte-outlet-giheung",
+    "seoul-sky",
+    "lotte-outlet-icheon",
+    "ddp",
+    "simon-yeoju",
+    "hyeonchungsa",
+    "simon-siheung",
+    "yongjusa",
+    "simon-paju",
+    "yunggeolleung",
+    "hyundai-outlet-songdo",
+    "hyundai-outlet-daejeon",
+    "dining-pajuok",
+    "dining-pyeongtaek-haejang-wang",
+    "dining-jangeunok",
+    "dining-yeomong-sogalbi",
+    "dining-yeopo-kkuikkui",
+    "dining-hongeodaega",
+    "dining-seusimyeong",
+    "dining-choinaezip-songtan",
+    "dining-bonsuwon",
+    "dining-kabojung",
+    "dining-yuchi",
+    "dining-jinmi",
+    "dining-jeil-baekam",
+    "dining-anilok",
+    "dining-jangan-myeonok",
+    "dining-yaksuteo",
+    "dining-bukgeukhae",
+    "dining-chilgongju",
+    "dining-jwajeon",
+    "dining-baeknyeon-hwangtae-yongin",
+    "dining-hwaru",
+    "dining-hadongkwan",
+    "dining-yeokjeon",
+    "dining-tosokchon",
+    "dining-osegyehyang",
+    "dining-plant-itaewon",
+    "dining-gonghwachun",
+    "dining-sinpo-dakgangjeong",
+    "dining-myeongwoljip",
+    "dining-braai-pyeongtaek",
+    "dining-chungcheong-01",
+    "dining-chungcheong-02",
+    "dining-chungcheong-03",
+    "dining-chungcheong-04",
+    "dining-chungcheong-05",
+    "dining-chungcheong-06",
+    "dining-chungcheong-07",
+    "dining-chungcheong-08",
+    "dining-chungcheong-09",
+    "dining-chungcheong-10",
+    "dining-chungcheong-11",
+    "dining-chungcheong-12",
+    "dining-chungcheong-13",
+    "dining-chungcheong-14",
+    "dining-chungcheong-15",
+    "dining-chungcheong-16",
+    "dining-chungcheong-17",
+    "dining-chungcheong-18",
+    "dining-chungcheong-19",
+    "dining-chungcheong-20",
+    "dining-chungcheong-21",
+    "dining-chungcheong-22",
+    "dining-chungcheong-23",
+    "dining-chungcheong-24",
+    "dining-chungcheong-25",
+    "dining-chungcheong-26",
+    "dining-chungcheong-27",
+    "dining-chungcheong-28",
+    "jays-hobby-humphreys",
+    "mtg-humphreys-brew-battle",
+    "mtg-osan-tabletop",
+    "orctown-hapjeong",
+    "dicehold-seongnae",
+    "warhammer-gangnam",
+    "playstation-pyeongtaek",
+    "gamers-osan",
+    "dreamplayers-cheonan",
+    "psvill-suwon-yeongtong",
+    "psvill-yongin-yeokbuk",
+    "electromart-daejeon-terminal",
+    "hanwoori-electronics-center",
+    "psvill-pyeongtaek-godeok",
+    "activity-asan-railbike",
+    "activity-uiwang-railpark",
+    "activity-wavepark",
+    "activity-deepstation",
+    "activity-ganghwa-luge",
+    "activity-hoengseong-luge",
+    "activity-cheongpung-land",
+    "activity-mancheonha",
+    "activity-bellefore",
+    "activity-alpaca-world",
+    "activity-king-canoe",
+    "activity-mungyeong-jinnam-railbike",
+    "activity-imsil-cheese",
+    "activity-zipline-yongin",
+    "activity-gapyeong-bridge-zipline",
+    "activity-gangchon-gimyujeong",
+    "activity-gangchon-gyeonggang",
+    "activity-gangchon-gapyeong",
+    "activity-ganghwa-naturefarm",
+    "activity-yeongjong-seaside-railbike",
+    "activity-boeun-solhyang-skybike",
+    "activity-smob-anseong",
+    "activity-mlp-surf",
+    "activity-su-leisure-rafting",
+    "activity-torak-icheon",
+    "activity-icheon-yeomyeongyo",
+    "activity-jeonju-crafts-hall",
+    "activity-wonju-hanji",
+    "activity-jeongseon-railbike",
+    "activity-konjiam-ski",
+    "activity-songdo-east-boathouse",
+    "activity-jangja-canoe",
+    "activity-danyang-paravillage",
+    "activity-yangpyeong-dongdong",
+    "activity-yeongdong-gugak",
+    "gocamping-100873",
+    "gocamping-7830",
+    "gocamping-1736",
+    "gocamping-101102",
+    "gocamping-2031",
+    "gocamping-2032",
+    "gocamping-7944",
+    "gocamping-2422",
+    "gocamping-2394",
+    "gocamping-767",
+    "gocamping-101776",
+    "gocamping-3394",
+    "gocamping-6984",
+    "gocamping-3139",
+    "gocamping-3141",
+    "gocamping-8157",
+    "gocamping-100684",
+    "gocamping-7507",
+    "gocamping-714",
+    "gocamping-100219",
+    "gocamping-100246",
+    "gocamping-100371",
+    "gocamping-101591",
+    "gocamping-1993",
+    "gocamping-100470",
+    "gocamping-2239",
+    "gocamping-822",
+    "gocamping-7271",
+    "gocamping-8214",
+    "gocamping-3252",
+    "gocamping-100900",
+    "gocamping-101341",
+    "gocamping-7566",
+    "gocamping-313",
+    "gocamping-315",
+    "gocamping-101403",
+    "gocamping-233",
+    "gocamping-101956",
+    "gocamping-101183",
+    "gocamping-1264",
+    "gocamping-1570",
+    "gocamping-3013",
+    "gocamping-7292",
+    "gocamping-7558",
+    "gocamping-1139",
+    "gocamping-101195",
+    "gocamping-100812",
+    "gocamping-2999",
+    "gocamping-3002",
+    "gocamping-101989",
+    "culture-paengseong-living-history",
+    "culture-korean-modern-music",
+    "culture-wootdali",
+    "culture-pyeongtaek-port-hall",
+    "culture-doksanseong",
+    "culture-smith-peace-hall",
+    "culture-anseong-machum-museum",
+    "culture-park-dujin",
+    "culture-anseong-march-first",
+    "culture-mirinae",
+    "culture-chiljangsa",
+    "culture-anseong-seoknamsa",
+    "culture-hoam",
+    "culture-nam-june-paik",
+    "culture-gyeonggi-children",
+    "culture-gyeonggi-provincial",
+    "culture-national-agricultural",
+    "culture-suwon-art",
+    "culture-cheonan-museum",
+    "culture-postal-museum",
+    "culture-hong-daeyong",
+    "culture-onyang-folk",
+    "culture-gongju-national",
+    "culture-seokjangni",
+    "culture-muryeong-tombs",
+    "culture-buyeo-national",
+    "culture-jeongnimsa",
+    "culture-baekje-cultural-land",
+    "culture-cheongju-national",
+    "culture-early-printing",
+    "culture-mmca-cheongju",
+    "culture-munui",
+    "culture-sangdangsanseong",
+    "culture-cheongnamdae",
+    "culture-sejong-arboretum",
+    "culture-national-science",
+    "culture-daejeon-art",
+    "culture-sudeoksa",
+    "culture-chusa-house",
+    "culture-yedang-reservoir",
+    "culture-seosan-birdland",
+    "culture-national-ecology",
+    "culture-seaqrium",
+    "culture-muchangpo",
+    "dining-cheongju-suijae",
+    "dining-cheongju-sutbul-galbi",
+    "scenery-cheonan-samgeori",
+    "scenery-cheonan-cheongsu",
+    "activity-paengseong-sports-park",
+    "activity-ds-billiards-paengseong",
+    "activity-zeus-billiards-pyeongtaek",
+    "activity-js-billiards-pyeongtaek",
+    "activity-osan-cc-carom",
+    "activity-carom-billiards-osan",
+    "activity-carombox-cheonan",
+    "activity-won-billiards-suwon",
+    "activity-top-billiards-anseong",
+    "activity-bnb-bowling-pyeongtaek",
+    "activity-seoanseong-bowling",
+    "activity-cheonan-stadium-bowling",
+    "activity-bowltopia-yongin",
+    "activity-hogye-indoor-sports",
+    "activity-sporex-times-square",
+    "activity-muzit-darts-pyeongtaek",
+    "activity-western-pub-darts-pyeongtaek",
+    "activity-humphreys-downtown-lanes",
+    "activity-osan-mig-alleys",
+    "catholic-euni",
+    "catholic-golbaemasil",
+    "catholic-namyang",
+    "catholic-yodangri",
+    "catholic-juksan",
+    "catholic-dannae",
+    "catholic-eonong",
+    "catholic-songol",
+    "catholic-surisan",
+    "catholic-suwon-hwaseong",
+    "catholic-cheonjinam",
+    "catholic-solmoe",
+    "catholic-sinri",
+    "catholic-gongseri",
+    "catholic-hapdeok",
+    "catholic-haemi",
+    "catholic-yeosaul",
+    "catholic-seonggeosan",
+    "catholic-hwangsaebawi",
+    "catholic-baeti",
+    "catholic-darakgol",
+    "catholic-galmaemot",
+    "catholic-baeron",
+    "scenery-suwon-ilwol",
+    "scenery-suwon-yeongheung",
+    "scenery-hantaek",
+    "scenery-hwaseong-urikkot",
+    "scenery-ansan-reed-wetland",
+    "family-yesan-stork",
+    "scenery-sejong-lake",
+    "family-cheongju-land-children",
+    "family-sejong-national-children",
+    "family-gwacheon-science",
+    "family-daejeon-geological",
+    "scenery-sinseong-reeds",
+    "family-chilgapsan-starpark",
+    "sea-janghang-skywalk",
+    "scenery-siheung-gaetgol",
+    "family-asan-world-flower",
+    "family-sejong-beartree",
+    "scenery-midongsan",
+    "family-boryeong-coal",
+    "dining-osiyo-hyangnam",
+    "dining-jeongok-eochon-kalguksu",
+    "dining-blue-sapphire-rolling-hills",
+    "dining-seoil-farm-solli",
+    "dining-gogiri-makguksu",
+    "dining-sobok-galbi-yesan",
+    "dining-hanil-sikdang-sapgyo",
+    "dining-jeonggane-baksok-taean",
+    "dining-wonpung-sikdang-taean",
+    "dining-baekjehyang-buyeo",
+    "dining-dure-bakery-cheongju",
+    "dining-forecyan-cheongju",
+    "dining-gongwondang-cheongju",
+    "dining-saemal-haejangguk-osan",
+    "dining-daeheung-sikdang-osan",
+    "dining-osaek-ssuk-hotteok",
+    "dining-yeongseonggak-seosan-main",
+    "dining-yeonkkot-iyagi-buyeo",
+    "activity-osan-sports-swimming",
+    "activity-wondong-sports-swimming",
+    "activity-segyo-welfare-swimming",
+    "activity-uandi-ice-rink",
+    "activity-gwanggyo-complex-ice-rink",
+    "activity-modunurim-swimming",
+    "activity-vaunce-suwon-yeongtong",
+    "activity-vaunce-cheonan",
+    "activity-vaunce-yongin",
+    "activity-vaunce-gwanggyo",
+    "activity-yongin-national-racket-sports",
+    "activity-climb-together-suwon",
+    "activity-anseong-national-swimming",
+    "activity-anseong-swimming-national-center",
+    "ikea-gwangmyeong",
+    "ikea-giheung",
+    "ikea-goyang",
+    "ikea-gangdong",
+    "starfield-hanam",
+    "starfield-goyang",
+    "lotte-outlet-uiwang",
+    "lotte-outlet-paju",
+    "hyundai-outlet-gimpo",
+    "hyundai-outlet-space1",
+    "times-square-seoul",
+    "ifc-mall-seoul",
+    "lotte-world-mall",
+    "lotte-main-seoul",
+    "lotte-incheon",
+    "hyundai-chungcheong",
+    "traders-cheonan-asan",
+    "traders-suwon",
+    "culture-gyeonggi-modern-art",
+    "culture-uiwang-railroad-museum",
+    "culture-hwaseong-history-museum",
+    "culture-samsung-innovation-museum",
+    "culture-gyeonggi-ceramic-gwangju",
+    "culture-osan-art-museum",
+    "culture-cheonan-arts-center",
+    "culture-lee-ungno-museum",
+    "culture-daejeon-arts-center",
+    "culture-cheongju-art-main",
+    "culture-jincheon-bell-museum",
+    "culture-currency-museum-daejeon",
+    "culture-chungnam-history",
+    "culture-national-tax-museum",
+    "culture-taean-maritime-museum",
+    "culture-leeum-art-museum",
+    "gocamping-7096",
+    "gocamping-7763",
+    "gocamping-100105",
+    "gocamping-8107",
+    "gocamping-100607",
+    "gocamping-2262",
+    "gocamping-619",
+    "gocamping-2969",
+    "gocamping-2263",
+    "gocamping-2751",
+    "gocamping-1272",
+    "gocamping-1820",
+    "gocamping-101667",
+    "gocamping-1698",
+    "gocamping-101025",
+    "gocamping-100878",
+    "gocamping-101127",
+    "gocamping-100181",
+    "gocamping-800",
+    "cgv-cheonan",
+    "megabox-suwon-starfield",
+    "megabox-suwon-ak-plaza",
+    "lotte-cinema-dongtan",
+    "lotte-cinema-suji",
+    "cgv-dongtan-lake-park",
+    "cgv-shinsegae-gyeonggi",
+    "megabox-daejeon-hyundai-outlet",
+    "megabox-daejeon-shinsegae",
+    "indieplus-cheonan",
+    "attraction-lotte-world-adventure",
+    "attraction-seoul-land",
+    "attraction-seoul-grand-park-zoo",
+    "attraction-daejeon-oworld",
+    "attraction-sea-life-coex",
+    "attraction-daejeon-expo-aquarium",
+    "attraction-agroland-taesin",
+    "attraction-cheongju-zoo",
+    "attraction-osan-bird-park",
+    "attraction-seoul-childrens-grand-park-zoo",
+    "attraction-wolmi-zzang-land",
+    "attraction-aqua-planet-ilsan",
+    "activity-anseong-craft-center",
+    "activity-neriggul-crafts",
+    "activity-asan-onggi-fermentation",
+    "activity-daejeon-wood-culture",
+    "activity-cheongyang-wood-crafts",
+    "activity-jjokbit-anangne",
+    "activity-icheon-wood-culture",
+    "activity-suwon-traditional-food",
+    "activity-icheon-deulkkot-pottery",
+    "dining-ureongi-baksa-dangjin",
+    "dining-haeeoreum-dangjin",
+    "dining-yeongyeong-boryeong",
+    "dining-kimgane-sagol-sujebi-boryeong",
+    "dining-namgyeong-garden-seocheon",
+    "dining-geumgang-hoetjip-seocheon",
+    "dining-chungju-dam-garden",
+    "dining-cheongpungjip-chungju",
+    "dining-yechon-jecheon",
+    "dining-namhangang-jecheon",
+    "redbutton-osan-city-hall",
+    "redbutton-dongtan-north-plaza",
+    "redbutton-cheonan",
+    "redbutton-suwon",
+    "redbutton-yongin-dongbaek",
+    "redbutton-daejeon-eunhaeng",
+    "redbutton-cheongju-seongan-gil",
+    "playstation-sejong",
+    "temple-waujeongsa",
+    "temple-gakwonsa",
+    "temple-guinsa",
+    "temple-suguksa",
+    "temple-tapsa",
+    "temple-gwanchoksa",
+    "temple-bomunsa-ganghwa",
+    "temple-jeondeungsa",
+    "temple-yongmunsa-yangpyeong",
+    "temple-anmyeonam",
+    "spa-aquafield-anseong",
+    "spa-aquafield-hanam",
+    "spa-aquafield-goyang",
+    "spa-asan-spavis",
+    "spa-paradise-dogo",
+    "spa-splas-resom",
+    "spa-cimer-incheon",
+    "spa-sinchuntang-onyang",
+    "spa-termeden-icheon",
+    "spa-gangbyeon-spaland",
+    "market-tongbok-pyeongtaek",
+    "market-onyang-oncheon-asan",
+    "market-osaek-osan",
+    "market-cheonan-jungang",
+    "market-gongju-sanseong",
+    "market-seosan-dongbu",
+    "market-cheongju-yukgeori",
+    "market-yongin-jungang",
+    "market-jidong-suwon",
+    "market-sejong-jochiwon",
+    "dining-sanjang-garden-sejong",
+    "dining-mihyang-sejong",
+    "dining-samarkand-ansan",
+    "dining-patthai-ansan-wongok",
+    "dining-yeoju-ssalbapjip",
+    "dining-oepori-kkotgejip-ganghwa",
+    "dining-gangnaru-pungcheon-jangeo",
+    "dining-okcheon-naengmyeon-hwanghae-main",
+    "dining-gaegun-halmeoni-sundaeguk-main",
+    "gocamping-100057",
+    "gocamping-2022",
+    "gocamping-6865",
+    "gocamping-100643",
+    "gocamping-404",
+    "gocamping-31",
+    "gocamping-6968",
+    "gocamping-442",
+    "gocamping-6972",
+    "activity-iksan-public-riding",
+    "activity-daecheon-skybike",
+    "activity-gudeurae-hwangpo-cruise",
+    "activity-janghoe-cruise",
+    "activity-cheongpung-cable-car",
+    "activity-samaksan-lake-cable-car",
+    "activity-seonyu-sky-sun-line",
+    "activity-balwangsan-cable-car",
+    "family-chungju-meteorological",
+    "family-chungnam-meteorological",
+    "family-daejeon-civic-observatory",
+    "family-jeungpyeong-jwagusan-observatory",
+    "family-yeongwol-byeolmaro-observatory",
+    "family-incheon-children-science",
+    "family-yangpyeong-insect-museum",
+    "culture-national-aviation-museum",
+    "family-wonju-climate-change-center",
+    "dining-masan-agu-icheon-ssalbap",
+    "dining-icheon-ssalbapjip-majang",
+    "dining-sanggungjeon-gimpo",
+    "dining-burger307-gimpo",
+    "dining-pyeongchang-jinbu-makguksu-gimpo",
+    "dining-genghis-khan-yetgohyang-namyangju",
+    "dining-mudeung-boribap-namyangju",
+    "dining-buja-haemul-kalguksu-siheung",
+    "sea-chunjangdae-seocheon",
+    "sea-hongwon-port-seocheon",
+    "scenery-maryang-camellia-seocheon",
+    "sea-doksan-boryeong",
+    "sea-unyeo-taean",
+    "sea-okdol-gunsan",
+    "sea-baegot-hanul-siheung",
+    "sea-tando-port-ansan",
+    "sea-dongmak-ganghwa",
+    "forplus-dongtan",
+    "forplus-sinnonhyeon",
+    "forplus-game-center-guro",
+    "game-shopping-pyeongchon",
+    "hanwoori-sindorim",
+    "warp-bangbae",
+    "dining-jincheon-sutbul-gogi",
+    "dining-yeonsan-halmeoni-sundae-nonsan",
+    "dining-bokdubujip-paju",
+    "dining-misari-milbit-chogyeguksu-main-hanam",
+    "dining-gyereuk-chuncheon",
+    "dining-hoengseong-hanugukbap",
+    "dining-kim-jeongi-samgyetang-geumsan",
+    "dining-jeogok-sikdang-geumsan",
+    "activity-tancheon-bowling",
+    "activity-gwacheon-civic-bowling",
+    "activity-poil-bowling",
+    "activity-cheongju-indoor-ice-rink",
+    "activity-anyang-indoor-ice-rink",
+    "activity-seoul-mountain-culture-climbing"
+  ],
+  "receiptBackedImportedIdsScope": "Cohort membership is receipt-backed. It does not supply a per-native-ID join for the 311 unmatched records. Do not join those by row order or fuzzy name."
+}

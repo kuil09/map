@@ -1,0 +1,2210 @@
+{
+  "checked": "2026-10-27",
+  "status": "release_cloud_v35",
+  "places": 642,
+  "baseline": 105,
+  "new_places": 537,
+  "languages": [
+    "English",
+    "한국어",
+    "日本語",
+    "中文",
+    "Español"
+  ],
+  "coverage": {
+    "Anmyeondo": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 2,
+      "scenery": 1,
+      "family": 0,
+      "food": 4,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 0
+    },
+    "Ansan": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 1,
+      "scenery": 1,
+      "family": 0,
+      "food": 2,
+      "hobbies": 1,
+      "camping": 1,
+      "activities": 0
+    },
+    "Anseong": {
+      "shopping": 1,
+      "attractions": 1,
+      "cinema": 1,
+      "landmarks": 7,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 5,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 8
+    },
+    "Anyang": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 1,
+      "camping": 0,
+      "activities": 2
+    },
+    "Asan": {
+      "shopping": 2,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 4,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 5,
+      "hobbies": 0,
+      "camping": 4,
+      "activities": 5
+    },
+    "Boeun": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Boryeong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 2,
+      "scenery": 0,
+      "family": 1,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Bucheon": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 1,
+      "camping": 0,
+      "activities": 0
+    },
+    "Buyeo": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 4,
+      "sea": 0,
+      "scenery": 1,
+      "family": 0,
+      "food": 6,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 1
+    },
+    "Cheonan": {
+      "shopping": 4,
+      "attractions": 0,
+      "cinema": 3,
+      "landmarks": 6,
+      "sea": 0,
+      "scenery": 2,
+      "family": 1,
+      "food": 6,
+      "hobbies": 2,
+      "camping": 6,
+      "activities": 3
+    },
+    "Cheongju": {
+      "shopping": 2,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 7,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 5,
+      "hobbies": 1,
+      "camping": 4,
+      "activities": 1
+    },
+    "Cheongyang": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Cheorwon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Chuncheon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 4
+    },
+    "Chungju": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 1
+    },
+    "Daejeon": {
+      "shopping": 3,
+      "attractions": 2,
+      "cinema": 2,
+      "landmarks": 3,
+      "sea": 0,
+      "scenery": 2,
+      "family": 4,
+      "food": 4,
+      "hobbies": 2,
+      "camping": 1,
+      "activities": 1
+    },
+    "Dangjin": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 4,
+      "sea": 2,
+      "scenery": 0,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 0
+    },
+    "Danyang": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 1,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 3
+    },
+    "Eumseong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 0
+    },
+    "Ganghwa": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 1,
+      "scenery": 0,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 2
+    },
+    "Gapyeong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 2
+    },
+    "Geumsan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Gimpo": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 3,
+      "hobbies": 1,
+      "camping": 0,
+      "activities": 0
+    },
+    "Goesan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 2,
+      "activities": 0
+    },
+    "Gongju": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 7,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 4,
+      "hobbies": 0,
+      "camping": 4,
+      "activities": 0
+    },
+    "Goyang": {
+      "shopping": 2,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Gunsan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 1,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Gwacheon": {
+      "shopping": 0,
+      "attractions": 2,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Gwangju": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Gwangmyeong": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 0
+    },
+    "Hanam": {
+      "shopping": 1,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Hoengseong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Hongcheon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Hongseong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Hwaseong": {
+      "shopping": 1,
+      "attractions": 1,
+      "cinema": 3,
+      "landmarks": 5,
+      "sea": 3,
+      "scenery": 1,
+      "family": 0,
+      "food": 3,
+      "hobbies": 2,
+      "camping": 1,
+      "activities": 3
+    },
+    "Icheon": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 0,
+      "scenery": 1,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 2,
+      "activities": 5
+    },
+    "Iksan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Imsil": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Incheon": {
+      "shopping": 2,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 3,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 4
+    },
+    "Jecheon": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 0,
+      "scenery": 1,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 3
+    },
+    "Jeongseon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Jeonju": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Jeungpyeong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Jinan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 0
+    },
+    "Jincheon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 4,
+      "activities": 0
+    },
+    "Mungyeong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Namyangju": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 0
+    },
+    "Nonsan": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Ongjin": {
+      "shopping": 0,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 0
+    },
+    "Osan": {
+      "shopping": 1,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 3,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 5,
+      "hobbies": 2,
+      "camping": 0,
+      "activities": 5
+    },
+    "Paengseong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 9,
+      "hobbies": 2,
+      "camping": 2,
+      "activities": 1
+    },
+    "Paju": {
+      "shopping": 2,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Pocheon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Pyeongchang": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Pyeongtaek": {
+      "shopping": 3,
+      "attractions": 2,
+      "cinema": 2,
+      "landmarks": 3,
+      "sea": 0,
+      "scenery": 2,
+      "family": 1,
+      "food": 8,
+      "hobbies": 7,
+      "camping": 2,
+      "activities": 8
+    },
+    "Sejong": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 2,
+      "family": 3,
+      "food": 2,
+      "hobbies": 1,
+      "camping": 1,
+      "activities": 0
+    },
+    "Seocheon": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 3,
+      "scenery": 2,
+      "family": 2,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Seongnam": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Seosan": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 3,
+      "sea": 1,
+      "scenery": 0,
+      "family": 1,
+      "food": 4,
+      "hobbies": 0,
+      "camping": 3,
+      "activities": 0
+    },
+    "Seoul": {
+      "shopping": 7,
+      "attractions": 4,
+      "cinema": 0,
+      "landmarks": 8,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 5,
+      "hobbies": 8,
+      "camping": 1,
+      "activities": 4
+    },
+    "Siheung": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 1,
+      "scenery": 1,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 0,
+      "activities": 1
+    },
+    "Suwon": {
+      "shopping": 6,
+      "attractions": 0,
+      "cinema": 2,
+      "landmarks": 5,
+      "sea": 0,
+      "scenery": 3,
+      "family": 2,
+      "food": 5,
+      "hobbies": 2,
+      "camping": 1,
+      "activities": 6
+    },
+    "Taean": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 2,
+      "sea": 4,
+      "scenery": 1,
+      "family": 0,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 6,
+      "activities": 1
+    },
+    "Uiwang": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 2
+    },
+    "Wonju": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Yangpyeong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Yeoju": {
+      "shopping": 1,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 1,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 1,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Yeongdong": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 0,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 1
+    },
+    "Yeongwol": {
+      "shopping": 0,
+      "attractions": 0,
+      "cinema": 0,
+      "landmarks": 0,
+      "sea": 0,
+      "scenery": 0,
+      "family": 1,
+      "food": 0,
+      "hobbies": 0,
+      "camping": 1,
+      "activities": 0
+    },
+    "Yesan": {
+      "shopping": 1,
+      "attractions": 1,
+      "cinema": 0,
+      "landmarks": 3,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 2,
+      "hobbies": 0,
+      "camping": 2,
+      "activities": 1
+    },
+    "Yongin": {
+      "shopping": 5,
+      "attractions": 2,
+      "cinema": 2,
+      "landmarks": 7,
+      "sea": 0,
+      "scenery": 1,
+      "family": 1,
+      "food": 5,
+      "hobbies": 2,
+      "camping": 4,
+      "activities": 5
+    }
+  },
+  "source_audit": {
+    "checked": "2026-10-27",
+    "places": 642,
+    "source_reference_statuses": {
+      "verified": 897,
+      "unconfirmed": 55,
+      "blocked": 4
+    },
+    "method": "Each current source assigned a semantic scope or explicitly unconfirmed/blocked status after title/body/route review. HTTP 200 alone never means venue verified. Maps links reviewed as generated name/address searches, not fetched pins. Booking-route checks inherited from the documented research and do not test inventory. V5 replaces eight weak active references with read official alternatives, adds two specific supporting pages and corrects the Pyeongtaek CGV branch route while retaining uncertainty. Historical source replacements are retained in the editorial audit. V6 replaces four uncertain official references with specific KTO pages and adds two KTO restaurant records plus two clearly labeled community coordinate sources. Direct HTML requests for four English KTO pages returned 403 and were not retried; already available public web-page readings supplied their title/body evidence. V7 reads three named provincial restaurant records and replaces two uncertain Cheonan Museum references with one current KTO identity/address page. Museum opening-day conflict remains explicit. Six named official/operator map points are extracted from their published destination-marker definitions; default map centers and runtime geocoding are excluded. V8 resolves six previously uncertain named Chungnam restaurant pages through substantive name/address/menu readings. Gongju Hanwoo closure conflict within the source is explicitly retained; no current opening claim. V9 adds three explicit KTO attraction-coordinate sources for existing Danyang and Seocheon venues. Same marker/directions pair matched against exact venue/address; no runtime geocoding or nearby-venue substitution. Existing unresolved sources were not rechecked. V10 verifies five local KTO attraction points, including one new Paengseong sports park and current Naeri locator. Existing Sopung/Oeam URLs reused rather than duplicated. No denied targets or recent closure conflicts revisited. V11 reconciles Agricultural Ecology Park street locator versus the Technology Center group-programme address with separate official records; broken Seoul reference retired. Two KTO general points added. Historical 2021/2022 accessibility text is not treated as current closure evidence. V12: two existing KTO sources now support explicit general venue points; Jinnam candidate held due to a 1.1 km branch/location discrepancy. Gyeonggang branch directions distinguished from Gimyujeong footer. V13: current rendered operator guidance replaces obsolete individual-reservation advice for Osan; group entry verified read-only. Asan Rail Bike point sourced from existing KTO URL. No prior blocked targets or recently disputed closures revisited. V14: two existing Anseong KTO references now support explicit general points. Temple dirt/stone and step qualifications and restaurant meat-stock/pork details preserved in all five languages. No prior blocked target or recent conflict rechecked. Cloud v15: seven existing records remediated and 41 researched additions; indexed/redirect-limited sources explicitly unconfirmed. Cloud v20: 31 strict additions after 32-candidate semantic/dedup review; Gwanggyo held because street-address evidence is index-only. Six exact multilingual/content corrections applied, all new-source statuses preserved (54 verified-body and4 unconfirmed references). Seoil farm program separately scoped within the existing restaurant record, with no restaurant identity/admission overwrite. No live-opening, ticket, booking-access or English-service verification. Cloud v21: independent QA accepted 18 distinct places (10 restaurants and8 hobby venues) after13 official-source page reads;30 exact metadata/translation corrections and7 brand-FAQ ordering notes applied. All25 new references preserve verified status and unknown live operation;8 branch-directory scopes use brand display labels with original directory_exact_entry retained as raw_scope. Eight existing general-venue coordinates use exact saved official-source destination pairs, including4 appended KTO sources; no prior source status was changed. No fabricated coordinates, opening, stock, English service, prices or booking availability. Cloud v22: independent QA accepted10 distinctive Buddhist temples and10 separately identified Korean spa/bath/pool facilities after strict direct official address review. Venue policy claims remain branch/chain scoped; temple photography advice is general etiquette, not a venue-specific ban. Nine existing temples/hermitages receive additive source-supported taxonomy only. One new exact named KTO destination point (Gwanchoksa,86.3km) added; other19 new distances are explicitly unknown. Existing evidence statuses, descriptions, addresses and coordinates are unchanged. No live-operation, entry, booking, English-service or foreign-card promise. Cloud v24: independent QA accepted10 whole traditional markets and9 exact restaurants across five previously empty food regions. Market permanent shops and periodic trading/events are distinguished; directory/related scopes retain their semantic labels, historical source ages and source-specific schedule limits. Existing8 references across4 records reviewed:5 promoted,2 remain unconfirmed and1 blocked403 without retry. Downtown Lanes gains an independently confirmed official BLDG5722 link point, not a gate/entrance or permission to enter. No current opening, stock, dietary suitability, foreign-card, booking, English-service or access promise. Cloud v25: independent QA accepted 9 registered campsites and 8 exact outdoor-activity venues. Registry identity, facilities and published map points do not establish current operation, inventory, booking eligibility or site entrances. Exact-before existing source refresh preserves every complete address and all unspecified fields; prior blocked sources remain blocked. No new coordinates or distances are asserted: campsite map anchors/derived marker offsets and activity source addresses are not promoted to verified venue points. Cloud v26: independent QA approved9 museums/observatories and8 restaurants after12 exact-before corrections. Two December2023 official food references carry older-official badges and five-language historical limits; Baegunjae is held because only2020 historical evidence is established. Five reservation/dated partial-room restrictions are visible alerts, not whole-facility closure claims. Source verification is not current operation, booking inventory, dietary certification or English service. Saved source code supports a GoCamping map-anchor interpretation for69 adopted points;15m is a display offset, not location error. Nine more camping anchors remain unadopted/null. Every numeric point, distance and complete address is unchanged. The latest additions comprise 9 coastal/nature destinations and 6 specialist hobby venues, with 28 source references. Coastal tides, uncertain closures and entrance steps remain explicit; the Tando guide is dated June 2024. Guro game-center entry retains the Korean school-grade guardian requirement, card authentication and late-session reservation limits. The online-only Wev/Gamemol address is not treated as a verified visitor destination. An existing-source review covered the structure of all 578 earlier records and 816 references, with 9 official URLs selected for further reading: 8 substantive bodies were read and 1 remained unavailable. No confirmed link/scope error was found; unchanged historical evidence is not a new live-operation check. The latest additions comprise eight exact restaurants and six public sports venues, supported by 22 directly read official references. Bowling, ice-skating and climbing rules are facility-specific; school-grade recommendations are not converted to mandatory numerical ages. Day use does not establish current session availability or booking eligibility. Three existing entries receive additive evidence and five-language clarifications: KTO corroborates Midongsan’s published address; a March 2023 municipal article supports Cheongju children’s-center identity/address, not current booking; a June 2021 interview supports Gogiri identity and perilla-oil noodles, not its numbered address or present operation. All 844 earlier source objects and their statuses are retained unchanged. The Gogiri 119-versus-157 address discrepancy remains unresolved; no stored address, coordinate or distance is changed. Twelve additions comprise six registered campgrounds and six shopping destinations, supported by 24 official references. Published campsite types, vehicle admission and seasonal dates remain source-specific rather than live availability guarantees. Yesan Market retains the alternate official address and Naeto Market retains its wheelchair-access warning. Two additional KTO exact named-venue pages support general destination points for the Chungju meteorological museum and National Aviation Museum; neither establishes an entrance, parking or accessible route. All 869 earlier source objects and statuses, and all 607 earlier addresses, are unchanged. Eight cultural additions are supported by twelve independently read source references: three Catholic pilgrimage sites, two Buddhist temples and three museums. Taegosa retains the county’s vicinity address with 일원 and an explicit warning that the entrance, parking and arrival point are not verified. Gusan’s visiting access, interiors, Mass and English-language services remain unconfirmed. All eight have unknown coordinates and straight-line distances. All 619 earlier place objects and 895 earlier source references, including their statuses, are unchanged. Four restaurant additions use eight tourism and operator references to distinguish exact branches, addresses and cuisine: Indy on Techno Jungang-ro, Dono Marco in Cheonan, Cozy House Suwon Jangan and the separate No Brand Burger tenant on Starfield Anseong’s first floor. All 907 earlier source objects and statuses are unchanged. Eight existing KTO references support named general destination points; they do not establish surveyed entrances, parking or accessible routes. Current opening, dish availability, dietary suitability and English service remain unverified. Four spa additions use thirteen directly reviewed operator/tourism references: Songhaeon Songdo, Yulam Hot Springs, Forest Resom Have9/Onmidang and women-only Spa Lei. Three existing spas receive exact scoped five-language visitor guidance; Asan Spavis gains two append-only official references. All 915 earlier source objects and statuses, all earlier names, addresses and coordinates remain unchanged. Pool swimwear, bath/sauna zones, jjimjil outfits and ticket products are distinguished only where the specific source supports them; unknown towels, toiletries, foreign visitor support and current availability remain explicit. Historical closure notices are not current closure evidence, and no health efficacy is asserted. Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified. Three registered public campground additions use eleven directly read official references: Ungpo (Gomgaenaru) in Iksan, Goegang in Goesan and Yeongwol Donggang. Advance internet reservation and named-booker restrictions remain source-specific; Goegang and Donggang booking-route uncertainty is visibly flagged. Own-trailer listing is not unrestricted campervan or rental-caravan permission. All three coordinates and distances remain null. Three appended KTO references support general venue destination points for Solmoe, Waujeongsa and Gongseri; these do not verify entrances, parking or accessible routes. All 942 earlier source objects/statuses, names and addresses remain exact. Current operation, booking availability, foreign-ID/phone/payment support and English assistance are unverified.",
+    "source_references": 956
+  },
+  "instagram_audit": {
+    "records": 21,
+    "unique_urls": 20,
+    "source_hrefs_found_now": 15,
+    "not_reconfirmed_in_current_source": 6,
+    "direct_instagram_content_verified": 0
+  },
+  "photos_local": 16,
+  "photos_curated_awaiting_transfer": 0,
+  "map": {
+    "map_id": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+    "expected_total": 642,
+    "status": "partial_sync_with_unlocated_records",
+    "address_geocoded": 501,
+    "official_camp_coordinates": 69,
+    "official_operator_attraction_coordinates": 30,
+    "community_reference_coordinates": 1,
+    "remaining_map_uploads": 35,
+    "sharing": {
+      "anyone_with_link": true,
+      "search_discoverability": false
+    },
+    "total_verified_rows": 607,
+    "duplicate_names": 0,
+    "error_rows": 6,
+    "checked": "2026-10-27",
+    "site_release": "release_cloud_v35",
+    "synchronization_note": "Last checked shared map: 607 listings, 601 markers and six unresolved locations. Thirty-five newer directory listings are not yet on the map. Source, status and coordinate updates may lag behind the directory. Label and category review is incomplete, as is single-purpose layer organization. Address-geocoded points are not verified entrances.",
+    "confirmed_data_rows": 607,
+    "positioned_markers": 601,
+    "unlocated_rows": 6,
+    "verified_utc": "2026-10-27T00:33:38.121382+00:00",
+    "verification_scope": "After save and reload, 607 row identities/counts and all 154 fields of the 14 latest appended records were checked, with exactly six activity Category cells normalized to the existing group. All 213 prior destination-layer rows and 2,343 displayed fields, the separate 41-row layer, and prior names/layers/styles were unchanged. No new layer was added. Details of 105 older source records and later source/coordinate corrections remain incompletely reconciled. Address-geocoded points are not verified entrances.",
+    "unlocated_ids": [
+      "activity-zeus-billiards-pyeongtaek",
+      "activity-osan-cc-carom",
+      "activity-carom-billiards-osan",
+      "activity-muzit-darts-pyeongtaek",
+      "activity-humphreys-downtown-lanes",
+      "redbutton-osan-city-hall"
+    ],
+    "pending_data_row_verification": 105,
+    "verified_address_cards": 40,
+    "verified_coordinate_rows_in_latest_import": 28,
+    "legend_reorganization": {
+      "style_and_titles_status": "saved_verified_after_reload",
+      "structure_status": "incomplete",
+      "original_layers_retained": 7,
+      "target_single_purpose_layers": 8,
+      "verified_utc": "2026-10-26T21:57:15Z",
+      "position_or_field_changes": 0
+    }
+  },
+  "held_candidates": [
+    {
+      "id": "activity-hwalok-kayak",
+      "reason": "Indefinite temporary closure from 2026-09-07; reopening not established.",
+      "source": "https://www.yna.co.kr/view/AKR20260906037600064"
+    },
+    {
+      "id": "hold-incheon-grand-park-childrens-zoo",
+      "name_en": "Incheon Grand Park Children’s Zoo",
+      "reason": "Operator notice closes zoo from 2026-09-21 until the foot-and-mouth disease situation ends. No reopening evidence found; surrounding park is not evidence of zoo operation.",
+      "disposition": "hold_closed_do_not_add_as_open"
+    },
+    {
+      "id": "hold-daejeon-aquarium-bomunsan",
+      "name_en": "Daejeon Aquarium · Bomunsan",
+      "reason": "Operator returned 403 Forbidden. The current source body could not be read. Earlier independent municipal search result supports identity/address but direct retrieval had timed out. Distinct from accepted Expo Aquarium.",
+      "disposition": "hold_denied_operator_and_incomplete_direct_primary_verification"
+    },
+    {
+      "id": "hold-lotte-world-aquarium",
+      "name_en": "Lotte World Aquarium",
+      "reason": "Distinct venue missing from baseline, but operator search result exposed WAF denial and was not pursued. Recent VisitSeoul page failed retrieval. An older Songpa municipal mall page has an explicit aquarium section and supports identity only; insufficient current exact-venue verification for this batch.",
+      "disposition": "hold_conservative_recent_exact_page_unavailable"
+    },
+    {
+      "id": "attraction-aqua-planet-gwanggyo",
+      "name_en": "Aqua Planet Gwanggyo",
+      "reason": "Strict release acceptance requires directly read official street-address support. KTO directly confirms identity only; location and suspended-program notices are official search-index evidence, with unreadable direct operator bodies. No promotion or retry.",
+      "disposition": "hold_index_only_address_not_public"
+    },
+    {
+      "name": "유정식당",
+      "action": "Public web open",
+      "target": "https://seocheon.go.kr/prog/foodData/tour/sub02_01/view.do?cntNo=198&pageIndex=9",
+      "outcome": "denied",
+      "reason": "Returned Request Blocked..; exact restaurant excluded, no retry and no further seocheon.go.kr domain reads.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "강호반점",
+      "action": "Public web open",
+      "target": "https://www.seocheon.go.kr/prog/foodData/tour/sub01_03_07/F05/view.do?cntNo=200&pageIndex=1",
+      "outcome": "uncertain",
+      "reason": "Error fetching; no substantive body. Excluded; no retry.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "비원한정식",
+      "action": "Public web open",
+      "target": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&searchMainSe=FOOD&tourNo=1836",
+      "outcome": "denied",
+      "http": 403,
+      "reason": "Forbidden; exact restaurant excluded and domain stopped, no retry or alternate route.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "제천시락국",
+      "action": "Public web open",
+      "target": "https://access.visitkorea.or.kr/ms/detail.do?cotId=935a24d6-18a9-4d00-85b8-0c62e3f73985",
+      "outcome": "unavailable_via_tool",
+      "reason": "Tool said URL not accessible. Korean KTO page supplied dish details but no visible street address. Candidate held; no further access.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "서산회관",
+      "action": "Search-result review only",
+      "target": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191433",
+      "outcome": "address_conflict_held",
+      "reason": "Search result gave English 318 Seoin-ro versus Korean 서인로 320. Did not add or resolve by guessing.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Game Shopping / 게임쇼핑 (Anyang)",
+      "decision": "not needed for final eight",
+      "reason": "Sony directory gives exact street and unit/building wording 평촌주공공이 1층, but the unusual building label was not independently resolved. Not admitted or silently corrected.",
+      "urls": [
+        "https://www.playstation.com/ko-kr/local/retailers-list/"
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Onyang Oncheon Land",
+      "reason": "Operator Unicode-domain homepage returned 502. Asan tourism directory returned explicit web-firewall refusal, so current operator details remain unverified. No sufficiently specific readable alternative established the current venue details.",
+      "urls": [
+        "https://온양온천랜드.kr/",
+        "https://tour.asan.go.kr/tour/develop/m_spa/"
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Venue G Aqua 24",
+      "reason": "Exact Seoul Tourism body and address read, but not selected to prioritize stronger facility-zone information; operator linked page timed out. No closure inferred.",
+      "urls": [
+        "https://english.visitseoul.net/entertainment/venue-G-aqua24/ENPi88tyg",
+        "https://www.venueg.com/sub02/page07.php"
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "hold-supsok-hanbang-land",
+      "name": "Supsok Hanbang Land",
+      "reason": "Discovery only; direct current branch-specific dress/ticket review remains incomplete. Songhaeon is now a separately supported directory listing, not evidence for Supsok.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Dragon Hill Spa",
+      "reason": "Not added. Current Seoul Tourism article explicitly marks it Closed.",
+      "urls": [
+        "https://english.visitseoul.net/hallyu/A-Winter-Full-of-Sweetness-and-Warmth_/20541"
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "고바우설렁탕",
+      "reason": "County directory gives 은고갯길5, older KTO article gives3; no attempt to resolve by guessing. Not included despite readable county directory/menu source.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "천서리막국수 본점",
+      "reason": "KTO2021 and municipal indexed listings give 여양로1974, older KTO2018 gives1976; operator tool inaccessible. Not included pending exact current branch/address resolution.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "홍원막국수",
+      "reason": "Municipal nearby listings contain 천서리길12 and 여양1로14 for samephone; not resolved, not included.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "순이냉면",
+      "reason": "Municipal search-index identity/address available but direct read timed out; no need to add a weaker tenth record.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "당진전통시장",
+      "status": "held_not_added",
+      "reason": "Discovery found a June 2026 reconstruction report with planned February 2027 completion and municipal department assignment for market demolition/reorganization. Current visitor location/access not established. Do not infer the whole market is closed or recommend the old address as currently ready.",
+      "sources": [
+        {
+          "url": "https://mobile.newsis.com/view/NISX20260609_0003661912",
+          "scope": "search_index_only",
+          "status": "unconfirmed"
+        },
+        {
+          "url": "https://www.dangjin.go.kr/kor/sub04_05_03_06.do",
+          "scope": "department_directory_search_index",
+          "status": "unconfirmed"
+        }
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "안성맞춤시장",
+      "status": "discovery_not_selected",
+      "reason": "Search found multiple street/office locators. Education directory identifies a market office, not a verified visitor entrance; no address substituted and no candidate admitted.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "예산시장",
+      "status": "discovery_not_selected",
+      "reason": "Two different official indexed locators (tourism market vs festival venue) were not reconciled or opened; no candidate admitted.",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "gocamping-7927",
+      "name_ko": "보령 1313캠핑장",
+      "reason": "Exact registry operating field says 현재 휴업 중.",
+      "source_updated": "2026-08-14",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "gocamping-7767",
+      "name_ko": "대천용두야영장",
+      "reason": "Exact registry operating field says 현재 휴업 중.",
+      "source_updated": "2025-07-22",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "gocamping-774",
+      "name_ko": "상양관광농원",
+      "reason": "Exact registry operating field says 현재 휴업 중; narrative also uses different name 대천오토캠핑장.",
+      "source_updated": "2026-10-06",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "gocamping-320",
+      "name_ko": "광교호수공원 가족캠핑장",
+      "reason": "Not selected: existing 광교호수공원 same-address record; preferred a wholly new Suwon camping property to avoid new-place inflation.",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "gocamping-7005",
+      "name_ko": "성주산 자연휴양림",
+      "reason": "Verified alternative but not selected: nine suitable new records already cover nine empty camping areas; avoid unnecessary expansion and stale2022 seasonal operation claims.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Yeoju Hwangpo sailboat",
+      "status": "held-address-ambiguous",
+      "source": "https://access.visitkorea.or.kr/ms/detail.do?cotId=e05e25d4-71c6-4fc9-9fbc-07feee1800e5",
+      "reason": "Body names two operators but address 강변유원지길105 is also park/camp frontage. Exact operator-to-boarding-point link unestablished. Do not publish.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Anheung cruise",
+      "status": "held-boarding-point-uncertain",
+      "source": "https://www.badaon.or.kr/seantour_map/travel/destination/detail.do?destId=FCID001384",
+      "reason": "Government marine-tourism body lists 신진부두길109 but address function as actual boarding dock versus company listing unresolved. Operator target inaccessible; stopped.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Mungyeong Dansan Monorail",
+      "status": "excluded-closure-indication",
+      "source": "https://www.gbmg.go.kr/tour/contents.do?mId=0502120000",
+      "reason": "Municipal search body reported closure through2027-08-08 and no bookings. Independent direct open timed out. Not treating search body as publication evidence; excluded conservatively.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Ara/Gimpo cruise",
+      "status": "held-source-failure",
+      "reason": "Operator main and FAQ fetch502; name/operation and dock evidence incomplete. Not published.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Daecheon cruise",
+      "status": "held-source-failure",
+      "reason": "Operator timeout; exact boarding address available only from non-primary result. Not published.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Jeonju riding center",
+      "status": "not-selected",
+      "reason": "Operator timeout; mostly indoor lesson focus and incomplete exact-address primary body. No row.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Eland Yeouido cruise",
+      "status": "held-address-conflict",
+      "reason": "KTO Korean/English showed280 versus290 and operator freshness unresolved. No row.",
+      "disposition": "held_not_added"
+    },
+    {
+      "name": "Samgilpo cruise",
+      "status": "held-boarding-point-uncertain",
+      "reason": "Generic port description did not establish a named operator-specific boarding location. No row.",
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "dining-baegunjae-uiwang",
+      "name_ko": "자연담은밥상 백운재",
+      "status": "held_historical_evidence_only",
+      "reason": "Only August 2020 official historical identity/address/menu evidence was established; present-day venue/address continuity and operation remain unverified. It is not included in the public directory. This is not evidence of closure.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=03b65a6f-091b-420f-8f43-542f1fe0a45a"
+      ],
+      "disposition": "held_not_added"
+    },
+    {
+      "id": "wev-gamemol-yongsan",
+      "name_en": "Wev / Gamemol · Yongsan",
+      "reason": "The Sony listing identifies an online retailer, while the operator address and outdated directions do not establish a current visitor-facing shop at the exact street/unit.",
+      "evidence_urls": [
+        "https://www.playstation.com/ko-kr/local/retailers-list/",
+        "https://m.gamemol.co.kr/service/company.php"
+      ],
+      "disposition": "held_offline_visitor_venue_unproven"
+    },
+    {
+      "id": "hold-seokmodo-mineral-spa",
+      "name_en": "Seokmodo Mineral Spa",
+      "disposition": "held_not_added",
+      "reason": "Municipal direct body establishes exact name, baths and address, but linked operator returned an explicit Web firewall policy block. Current dress/ticket details and operational context remain insufficient for this bounded batch. No current closure or legal-status conclusion inferred.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/open_content/tour/trip/ex_spa.jsp",
+        "https://www.ghss.or.kr/user/facilities/tour/sukmo.do"
+      ]
+    },
+    {
+      "id": "hold-park-habio-waterkingdom",
+      "name_en": "Park Habio Water Kingdom & Spa",
+      "disposition": "held_not_added",
+      "reason": "Linked operator homepage timed out; discovery record was a tourism-data mirror, not a directly read official primary body. No additional official-source verification completed after four stronger new records were established. No closure inferred.",
+      "source_urls": [
+        "http://waterkingdom.habio.co.kr/"
+      ]
+    },
+    {
+      "name_en": "Byeollae Clean Center Ice Rink · Namyangju",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct official facility/address body Present-day public skating and rules. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.ncuc.or.kr/bn/1671",
+        "https://www.ncuc.or.kr/main/1669",
+        "https://www.ncuc.or.kr/jj_line/2268"
+      ]
+    },
+    {
+      "name_en": "Hanwha Resort Daecheon · Bowling, Billiards & Table Tennis",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct branch/floor/address evidence Current nonresident entry and facility operation. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.hanwharesort.co.kr/irsweb/resort3/resort/rs_addition.do?af_tp=AKAKTI&bp_cd=0901&schMenuTp=",
+        "https://www.hanwharesort.co.kr/irsweb/resort3/resort/rs_contact.do?bp_cd=0901",
+        "https://m2.hanwharesort.co.kr/resort/resort_place/view.do?locCd=0901"
+      ]
+    },
+    {
+      "name_en": "Hongseong National Sports Center Bowling",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Readable primary municipal/operator address and access guidance. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.welfarehello.com/community/hometownNews/%ED%99%8D%EC%84%B1%EA%B5%AD%EB%AF%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0-%EB%B3%BC%EB%A7%81%EC%9E%A5-%EC%9A%B4%EC%98%81-%EC%95%88%EB%82%B4--b1f13ec6-ee2a-4ea6-bbc0-a33924594ca9",
+        "https://blog.naver.com/hsgstory/223958124590"
+      ]
+    },
+    {
+      "name_en": "Oak Valley · Bowling, Wonju",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct exact bowling location and non-guest access Current resort branch/address evidence. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://oakvalley.co.kr/activities/golf",
+        "https://oakvalley.co.kr/assets/OakValley_Guide_Map_2026-9e16daf9.pdf"
+      ]
+    },
+    {
+      "name_en": "Boryeong Comprehensive Gymnasium Bowling",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct official venue/address body Public individual-use instructions. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.brsisul.or.kr/kor/bbs/BBSMSTR_000000000030/lst.do",
+        "https://www.brsisul.or.kr/kor/sub02_04_01.do"
+      ]
+    },
+    {
+      "name_en": "Buyeo National Sports Center · Bowling",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct current exact-address operator body Individual public bowling access. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGym/index.do?rsrc_no=CD01N0638392",
+        "https://www.buyeofmc.or.kr/"
+      ]
+    },
+    {
+      "name_en": "Gongju National Sports Center · Swimming",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct operator identity/address and daily-use guidance. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://pf.kakao.com/_WxhtvG"
+      ]
+    },
+    {
+      "name_en": "Welli Hilli Park · Bowling, Hoengseong",
+      "disposition": "held_not_added",
+      "reason": "Direct current primary evidence remains insufficient for visitor listing. Direct current exact facility/address Public bowling access rules. No closure or relocation inferred from unavailable source material.",
+      "source_urls": [
+        "https://www.wellihillipark.com/home/guide/pay/facility",
+        "https://ishop.wellihillipark.com/activity"
+      ]
+    },
+    {
+      "name_ko": "청암산 오토캠핑장",
+      "area": "Gunsan",
+      "disposition": "held_not_added",
+      "reason": "Older official operator/municipal listing and Eshare discovery conflict with 2026 news-index claims of operation stopping. Current authoritative resumption/operator route not established; no definite closure claim published.",
+      "source_urls": [
+        "https://www.eshare.go.kr/UserPortal/Upv/UprResrcCamp/index.do?rsrc_no=FF26H5717921",
+        "https://arts.gunsan.go.kr/_cms/board/eFileDownload/398/1819416/486c972afd2ff73843c5017ca10781cf",
+        "https://v.daum.net/v/20260622085115573"
+      ]
+    },
+    {
+      "name_ko": "문경 단산 숲속 캠핑장",
+      "area": "Mungyeong",
+      "disposition": "held_not_added",
+      "reason": "Direct operator introduction still displays safety/ground-subsidence suspension dated 2023-08-09 through2025-08-08. Expired notice alone is not resumption evidence. Exact facility guide timed out and registry body inaccessible.",
+      "source_urls": [
+        "https://www.mgtpcr.or.kr/web/page.do?menuIdx=573"
+      ]
+    },
+    {
+      "name_ko": "팔봉산관광지 야영장",
+      "area": "Hongcheon",
+      "disposition": "held_not_added",
+      "reason": "Registry3206 readable, but municipal homepage, campground rules and2026 opening announcement did not produce direct bodies. Registry itself has a contradictory generic own-caravan price row versus explicit deck-only/no-car camping/no-caravan wording. Do not use generic price row as vehicle permission.",
+      "source_urls": [
+        "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=3206&viewType=read02"
+      ]
+    },
+    {
+      "name_ko": "한탄강관광지오토캠핑장",
+      "area": "Yeoncheon",
+      "disposition": "held_not_added",
+      "reason": "Official operator homepage readable but exact facility-link click returned an unexplained error. Search-level registry identity and booking information not promoted. No new region label or record created.",
+      "source_urls": [
+        "https://www.yccs.or.kr/",
+        "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=3423"
+      ]
+    },
+    {
+      "name_ko": "평창 바위공원 캠핑장",
+      "area": "Pyeongchang",
+      "disposition": "held_not_added",
+      "reason": "Readable municipal attraction record gives only village-level address and 2021 update field. It warns of rainy-season/high-water closures.2022 indexed response says decks are visitor conveniences rather than a registered campground, but direct response body was empty. Exact campsite address, current registration and use rules not established.",
+      "source_urls": [
+        "https://tour.pc.go.kr/Home/H20000/H20200/placeDetail?place_no=226",
+        "https://tour.pc.go.kr/Home/H60000/H60300/boardView?board_key=310"
+      ]
+    },
+    {
+      "name_ko": "운일암반일암 국민여가캠핑장",
+      "area": "Jinan",
+      "disposition": "held_not_added",
+      "reason": "Discovered historical municipal-video and budget references, not a directly read exact current operator/address/booking guide. Research stopped rather than filling an arbitrary fourth slot.",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=dRUOwtEuodg"
+      ]
+    }
+  ],
+  "changes": [
+    "Photo-led editorial layout; region browsing; compact search; map below directory.",
+    "Category-specific filters for dining, camping, activities and gaming.",
+    "50 official GoCamping coordinate records; 19 research-verified booking entry routes, 31 unknown.",
+    "58 specific restaurant records with five-language dish descriptions; 2 explicitly source-described vegetarian/vegan venues.",
+    "14 gaming venues/retailers with retail/play distinctions.",
+    "Belle Foret products merged into one property; Anseong Farmland enriched.",
+    "44 culture/scenery records with current closure and reservation caveats.",
+    "Corrected Dodamsambong market mislink, failed Haemi/Osan links, Daejeon Shinsegae TLS hostname, Starfield Suwon wrong-branch link; removed denied redundant Tiffany link.",
+    "V5 maintenance: eight unresolved references remediated; current CGV Pyeongtaek branch route retained as unconfirmed.",
+    "V5 address corrections: Sopung Garden to Gung-ri 476-20; Sinjeongho to Bangchuk-dong 459 and surrounding parcels. Legacy locators retained.",
+    "V5: 50 sourced campground points calculate to approximately 1.4–90.1 km from the documented Desiderio airfield reference. Other 256 places remain unmeasured. No new places added.",
+    "V6: four unresolved references replaced by specific read KTO pages; 25 unconfirmed and 3 blocked references remain.",
+    "V6: two Cheongju restaurants fill an empty food cell. All 306 prior places retained.",
+    "V6: two community-published site/station coordinates extend radius checks to 52 places, up to 162.3 km; 256 remain unmeasured.",
+    "V7: five uncertain references resolved across three local restaurants and Cheonan Museum; museum opening-day conflict remains explicit.",
+    "V7: six named official/operator map points, including Jeongseon upgrade from community source, Imsil and Hongcheon; 57 points measured, 253 unmeasured.",
+    "V7: Cheonan scenery coverage 0 to 2 with Samgeori and Cheongsu Lake parks.",
+    "V8: six uncertain provincial restaurant references resolved across Asan, Cheonan and Gongju; all 310 places and 57 radius points retained. Exact restaurant units and advance reservation guidance clarified; conflicting Hanwoo closure information surfaced.",
+    "V9: KTO destination coordinates added for existing Mancheonha Skywalk, Ecorium and SeaQrium; 60 sourced radius checks and 250 unmeasured venues. All 310 places retained; no category filler.",
+    "V10: one KTO-listed Paengseong sports park fills the local activity gap; five local official points extend radius checks to 65, with 246 unmeasured. Naeri current KTO address preferred and historical locator retained.",
+    "V11: Agricultural Ecology Park uses its own Cheongo-ro 33-34 locator; Technology Center/exhibition locator 33-58 preserved as context, broken Seoul reference retired. Two existing KTO points extend checks to 67; 244 remain unmeasured. Mulhyanggi 2021/2022 route comments explicitly historical.",
+    "V12: Hoengseong Luge and King Canoe KTO points extend checks to 69; 242 remain unmeasured. Jinnam coordinate held after 1.1 km discrepancy; Gyeonggang branch address distinguished from headquarters footer. All 311 destinations retained.",
+    "V13: Osan Miniature current guidance corrected to individual on-site tickets and separate group 20+ booking, with all five translations. Asan Rail Bike KTO point extends radius checks to 70; 241 remain unmeasured. 311 destinations retained.",
+    "V14: Chiljangsa and Jangan Myeonok official Anseong points extend checks to 72, with 239 unmeasured. All five languages include temple surface/step qualifications and restaurant meat-stock/pork details. All 311 places retained.",
+    "Cloud v15: task-first four-view directory inspired by Local Finds and editorial Dribbble references, no copied assets. Adds23Catholic sites and18indoor leisure venues including2restricted base facilities; original311retained. Sevenexistingrecords corrected andMirinaeenriched. No on-device model download is included.",
+    "Cloud v18: parallel research adds51 destinations (19 family/nature,18 restaurants,14 indoor sports), plus six source/visitor-policy corrections and eight multilingual content/address-language fixes. Shared-map upload outcome remains separately pending.",
+    "Cloud v19:53 additions (18shopping,16arts/culture,19registered camps),10 existing official-coordinate patches,32 content/provenance corrections and14 new-batch text qualifications. Six indexed-only references downgraded to unconfirmed. IKEA separated into furniture/home; Costco policy links no longer shown for Traders. Added honest loading state and preserved user input during load.",
+    "Cloud v20: 31 additions (10cinemas,12theme-park/animal venues,9craft/food workshops); Gwanggyo held for index-only address evidence. Six independent content corrections, visible partial-closure/date/booking cautions and separate Seoil farm-program enrichment. Updated multilingual search preserves names, languages and venue distinctions; no map update or model download.",
+    "Cloud v21: 18 additions (10 restaurants filling five previously empty regional food cells;7 board-game cafés and1 console retailer),30 exact independent QA corrections,7 five-language brand-FAQ ordering notes and3 localized label keys. Eight exact official destination points added to existing records;109 measured/396 unmeasured. All487 prior records and13 licensed photographs retained. Map still last confirmed311; later additions are not confirmed on the map.",
+    "Cloud v22:20 source-reviewed additions (10 Buddhist temples,10 Korean spa/bath/pool facilities),9 additive existing temple classifications, five-language subtype/region labels and compact temple/spa filters. Ganworam stays Sea and also browses under Landmarks; archaeological/reconstructed sites excluded from active-temple subtype.525 places,110 sourced points,415 unmeasured; all505 prior records and13 licensed photos retained. Map last confirmed311; original41 fixed352 and original311 correction/reconciliation remain pending.",
+    "Cloud v23: shared-map first41 import confirmed;352 rows,347 positioned,5 unresolved. Fourteen original metadata updates read back after reload. Site now distinguishes map rows from positioned markers and retains173-listing lag. Fresh asset/data cache version avoids stale prior release files.",
+    "Cloud v24:19 source-reviewed additions (10 traditional markets,9 restaurants),4 existing evidence refreshes and1 independently approved general building point for restricted Downtown Lanes.544 places,111 sourced points,433 unmeasured; all525 prior records and13 licensed photos retained. Five-language market filter supports initial/reloaded deep links. Existing map receipt fields remain unchanged; latest19 additions and source/point corrections are staged separately pending map verification.",
+    "Cloud v24 map status:173 additional entries imported as28 explicit-coordinate and145 full-address rows. Counts525/519/6 persist after reload; exact145-row field verification remains incomplete and is publicly distinguished from count confirmation.",
+    "Cloud v25: 17 source-reviewed additions (9 registered campsites and 8 outdoor activities), plus 8 exact-before existing source reviews. 561 places, 111 sourced general points and 450 unmeasured; all544 prior records, complete addresses and13 licensed photos retained. Five-language activity subtype labels and deep links checked. Map remains525 rows/519 positioned/6 unlocated with145 address-row details pending reconciliation; these additions and source corrections staged only.",
+    "Cloud v26:17 approved additions (9 museums/observatories and8 restaurants); Baegunjae held.578 places; all561 previous IDs retained.78 camping provenance explanations clarified without altering69 existing point/distance pairs or9 null pairs, and one repeated name alias removed with exact-before tracking. All13 licensed photos retained. Map remains525 rows/519 positioned/6 unlocated,105 address-row details pending and53 site listings not added. Purpose styling/titles saved; original7 layers remain and8-purpose-layer consolidation is incomplete. The newest additions are not yet on the shared map.",
+    "Shared map now holds561 entries, including36 new entries in an existing layer.555 positions and6 unresolved locations are recorded; purpose colors and7 layers are preserved.",
+    "15 additions: 9 coastal/nature destinations and 6 specialist hobby venues. All 578 earlier entries are retained unchanged. The directory now has 593 places; 111 sourced general points and 482 unmeasured locations. One source-attributed monochrome Dumulmeori photograph by jia yi is included under the Unsplash License; 14 photos across 13 regions. Its publication date is 2023-11-21 and capture date is unknown. The shared map remains at 561 entries, 555 positioned and 6 unresolved; 32 directory entries are not yet added. The existing 7-layer structure and incomplete 8-purpose-layer reorganization are unchanged.",
+    "14 additions: eight restaurants and six public bowling, ice-skating and climbing venues. Three earlier entries gain supporting sources and clearer limitations; all 844 earlier source references retain their original statuses and all 593 earlier addresses and coordinates are unchanged. The directory now has 607 places, 869 source references, 111 sourced general points and 496 unmeasured locations. All 14 licensed photographs and 28 display files are unchanged. The shared map has 593 entries, 587 positioned and six unresolved after 32 additions; 14 newer directory entries still await synchronization. Details of 105 older address records and later source/coordinate corrections remain incompletely reconciled. Seven original layers remain; consolidation into eight single-purpose layers is incomplete.",
+    "12 additions: six registered campgrounds and six shopping destinations fill 12 previously empty category-region cells. All new coordinates and distances remain unknown. Two existing museums gain source-published general venue points, not entrance or parking positions. The directory now has 619 places, 895 source references, 113 measured general points and 506 unmeasured locations. All 869 earlier source references retain their original statuses; all earlier addresses, all 14 licensed photo records and all 28 image files are unchanged. Yesan’s alternate address, Naeto’s wheelchair access and campsite access limitations remain visible. The shared map has 607 entries, 601 positioned and six unresolved; 12 directory listings await addition. Details of 105 older source records and source/coordinate corrections remain incompletely reconciled. Seven original layers remain; consolidation into eight single-purpose layers is incomplete.",
+    "Two regional photographs are added: a source-attributed Pyeongtaek skyline by Na Inho and KOREATECH Campus 1 in Cheonan by Sunghoon Kim, under the Unsplash License. Their 2024 and 2022 dates are publication dates; capture dates are unknown. Photography now covers 16 images across 15 regions. All 619 directory records, 895 source references, 113 measured general points and 506 unmeasured locations are unchanged. The last checked shared map contains 607 listings, 601 markers and six unresolved locations; 12 newer listings are not yet added. Visitor map guidance is shorter; no new map verification or completed reorganization is claimed.",
+    "Eight cultural additions: three Catholic pilgrimage sites, two Buddhist temples and three museums, supported by twelve independently reviewed source references. The directory now has 627 places and 907 source references, with 113 measured general points and 514 unmeasured locations. All 619 earlier records and 895 earlier source objects are unchanged. Taegosa is listed with an official vicinity address, not a verified entrance or arrival point; Gusan visiting access and Mass remain unconfirmed. All 16 licensed photo records and 32 display images are unchanged. Last checked shared map: 607 listings, 601 markers and six unresolved locations; 20 newer directory listings are not yet added. Source and status changes may lag, and map label/category review is still ongoing.",
+    "Four restaurant additions bring Indian, Italian, Western and burger options to Daejeon, Cheonan, Suwon and Anseong. The directory now has 631 places, 915 source references and 125 food records. Eight existing venues gain KTO-published general destination points, not surveyed entrances or parking positions: 121 places have straight-line estimates and 510 remain unmeasured. All 907 earlier source objects, every existing name and address, and all 16 photo records / 32 display assets are unchanged. Last checked shared map: 607 listings, 601 markers and six unresolved locations; 24 newer directory listings are not yet added. Source, status and coordinate changes may lag; map review and single-purpose layer organization remain incomplete.",
+    "Four spa additions: Songhaeon Songdo seawater baths/jjimjil rooms, Yulam Hot Springs, Forest Resom Have9/Onmidang and women-only Spa Lei. Three existing spas gain more precise ticket, clothing and towel guidance. The directory now has 635 places, 930 source references and 14 spa/bath listings; 121 sourced general points and 514 unmeasured locations. All 915 earlier source objects/statuses, every existing name/address/coordinate and 628 of 631 earlier complete records are unchanged. All 16 photo records and 32 display assets remain unchanged. Last checked shared map: 607 listings, 601 markers and six unresolved locations; 28 newer directory listings are not yet added. Source, status and coordinate updates may lag; cleanup and single-purpose layer organization remain incomplete. Songhaeon alone is resolved from the combined discovery hold; Supsok remains held.",
+    "Cloud v34: Four additions fill previously empty regional hobby/activity categories: exact Red Button Ansan, Bucheon City Hall and Gimpo Gurae branches, and Nonsan National Sports Center swimming pool. Nine new official references distinguish directory branch identity from brand-wide timed charges and mandatory drink-or-snack ordering, and municipal daily-swim conditions from class registration. Three appended KTO references support general venue destination points for Daejeon Wood Culture Experience Center, Cheongpung Lake Cable Car and Chuncheon Samaksan Lake Cable Car. All 930 earlier source objects/statuses remain exact; all existing names and addresses remain unchanged. Published venue points do not establish an entrance, boarding platform, parking or accessible route. Live opening, session capacity, English assistance, foreign-ID and payment acceptance remain unverified.",
+    "Cloud v35: three public campground additions in Iksan, Goesan and Yeongwol add eleven official references; three existing cultural places gain source-published general points and one append-only reference each. 642 places, 956 references, 127 sourced points and 515 unmeasured. All 636 unaffected prior records, 942 prior source objects, original 311 records/correction ledger and 16 photos/32 assets are retained. Six further camping candidates remain held. The map remains last confirmed at 607 rows / 601 markers / 6 unresolved; 35 additions are pending and cleanup is incomplete. No new map verification or update."
+  ],
+  "open_questions": [
+    "English staff service, foreign-ID/Korean-phone booking eligibility, stock, live opening and vacancy not verified.",
+    "Six existing Instagram references not found in current provenance HTML; retained as historical source-linked references with a visible warning.",
+    "Sopung Garden and Sinjeongho now use current official parcel locators; entrances and parking remain unverified.",
+    "New Cheongju listings establish menu/address evidence only; current availability, dietary suitability and foreign-language service unverified.",
+    "Cheonan Museum opening-day conflict remains unresolved; current museum calendar returned 403 and was not retried.",
+    "Albame Banhan Hanwoo: same official page narrative says Monday closure, basic table says year-round. Current closure schedule unknown.",
+    "Su Leisure directions page returned 403; no retry. Coordinate remains unknown. This additional directions candidate is not an active directory source.",
+    "Paengseong sports park: September 2025 KTO listing establishes venue/facility evidence; current municipal booking route, access and equipment unverified.",
+    "Agricultural Ecology Park: venue locator reconciled, but exact entrance, parking and group-programme meeting point remain unknown.",
+    "Mulhyanggi indoor access: 2021 construction note is historical; present facility status not established.",
+    "Mungyeong Jinnam: KTO point is about 1.1 km from existing address marker and page covers several stations. Candidate held; confirmed departure coordinate and exact radius remain unknown.",
+    "Gyeonggang: explicit branch coordinates not retrieved. Use Seobaek-gil 57, not the Gimyujeong headquarters footer.",
+    "Osan Miniature Village: current individual ticketing is on-site and groups 20+ reserve; same page retains legacy individual-cancellation language. Follow explicit audience rules and current notices; exact entrance, group inventory and checkout remain unverified.",
+    "Chiljangsa: current on-site step-free routing and entrance/parking remain unverified despite general KTO access descriptions. Jangan Myeonok current ingredient substitutions, allergies and opening remain unverified.",
+    "New source indexing and direct-read limits remain disclosed; restricted military facilities excluded from ordinary results by default.",
+    "Gwanggyo aquarium held from the public guide: direct official street-address evidence unavailable; indexed suspended-program notices remain unconfirmed. No denied/failed target retried.",
+    "Suwon snack workshop evidence ends2026-11-14; later dates and remaining seats are unconfirmed. Zoo restriction end dates do not prove reopening.",
+    "Seoil traditional-food sessions require advance inquiry/reservation separately from the restaurant. Session dates, minimum party, foreign-ID booking and English support remain unknown.",
+    "These restaurant listings establish tourism-source identity, menu and address only; current operation and dietary recipes are unverified. Ambiguous hours, phone conflicts and unsourced ingredients were not imported.",
+    "Red Button FAQ gives chain-wide timed fees and a per-person drink/snack order rule; branch rates, games, opening and English support require confirmation. Sejong PlayStation is retail only; playable demos and stock are unverified.",
+    "Wolmi Zzang Land raw source returned502 without retry; Cheongju Zoo article has no explicit destination pair. Both coordinates remain null.",
+    "Temple ordinary sightseeing differs from Templestay enrollment. Current hall entry, prayer/activity schedules, tide-dependent access and step-free routes require venue checks; general etiquette does not establish a site-specific photography ban.",
+    "Spa admission products, pool swimwear, bath/sauna separation, clothing/towel rental, child rules and tattoo restrictions are venue-specific. No universal Korean spa policy is inferred; current prices/opening, foreign-ID/overseas-card acceptance and English support remain unverified.",
+    "Jeondeungsa source coordinate was rejected as potentially displaced; its distance remains unknown. Termeden operator policies remain unverified after unreadable pages, despite accepted KTO identity/address.",
+    "Market-day cycles are published source context, not a live calendar; individual shops, permanent markets and outdoor periodic trading may differ. Night-market reopening, stock, stalls and accessibility are not guaranteed.",
+    "New food records use exact tourism/municipal identity-address evidence, with current operation and dietary recipes unverified. Okcheon uses a2018 KTO source plus indexed county corroboration; Gaegun detail retrieval remains unconfirmed. Address-conflict candidates remain held.",
+    "Downtown Lanes coordinate is the operator-published BLDG5722 destination only. Restricted installation/patron access remains mandatory; a coordinate does not authorize entry. Osan visitor-pass source returned403 and remains blocked without retry.",
+    "New campsite registry status and equipment/site-type listings are source context, not date-specific operation, booking availability, foreign-ID eligibility or guarantees that own RVs/trailers can enter. Seasonal outdoor activity sessions, equipment, age/height/health rules and weather cancellations require operator confirmation.",
+    "Museum admission/planetarium ages, advance reservations, weather-dependent observation and temporary room-level closures require current venue confirmation. Two2023 official food sources are historical; Baegunjae is held rather than presented as a current2020-derived listing. No current dining operation, dietary certification, English service or booking availability is promised.",
+    "Coastal tides, access controls, seasonal conditions and current facilities require local confirmation. Hobby-store stock, foreign-card entry support and English service are unverified. The Guro game-center guardian rule refers to students about to enter Korean high school or younger, not a converted numerical age cutoff.",
+    "Gogiri Makguksu’s 119-versus-157 numbered-address discrepancy remains unresolved. The stored 157 address is retained as indexed-profile evidence, not confirmed by the 2021 interview. That interview verifies historical identity and dish only. Cheongju’s March 2023 article establishes historical facility identity/address, not current booking or session availability.",
+    "Public sports day tickets do not guarantee an available lane, skating session or climbing slot. Bowling shoes, alcohol exclusions, skating protection, beginner instruction/companions and guardian consent are venue-specific. Check current rules, equipment, foreign-ID/payment acceptance and language support before travel.",
+    "515 places remain unmeasured; 127 published general points are not surveyed entrances, parking, floors or accessible routes. 69 historical camping points remain source-listing map anchors; 15 m is a source-code display offset, not a verified correction or accuracy range. All three latest campgrounds retain unknown coordinates and distances.",
+    "Photography covers 16 licensed photographs across 15 regions, not every one of the 642 venues. Dumulmeori, Pyeongtaek and Cheonan locations are source-reported rather than independently geolocated; their publication dates are not known capture dates. Original source appearance is retained. Regional images do not establish venue access or current conditions.",
+    "Shared map: Last checked shared map: 607 listings, 601 markers and six unresolved locations. Thirty-five newer directory listings are not yet on the map. Source, status and coordinate updates may lag behind the directory. Label and category review is incomplete, as is single-purpose layer organization. Address-geocoded points are not verified entrances.",
+    "Yesan Market’s retained address is 형제고개로 967; another official page gives 관양산길 16. Confirm the intended market area or entrance before travel. Naeto Market’s tourism listing warns that wheelchair access is not possible; current stall-level routes require direct confirmation.",
+    "Campground overnight products differ from barbecue/day-use zones. Reservation eligibility, own-trailer access, vehicle size, pet rules, weather and seasonal openings require current operator checks. A casino-linked Chuncheon campground remains excluded from the public directory.",
+    "Taegosa’s county address denotes a vicinity, not an exact entrance, parking or arrival point. Gusan shrine visiting access, interior entry, Mass and English-language services are unconfirmed. Confirm before travel; six of the eight latest cultural additions still have unknown coordinates and radius; the Hongjuseong and Jeungpyeong museums have only source-published general destination points.",
+    "Indy is the Techno Jungang-ro restaurant in unit 202, not a Dunsan branch. No Brand Burger is a first-floor Starfield Anseong restaurant tenant, not the entire mall or No Brand supermarket. Restaurant source menus do not guarantee current branch inventory, dietary certification, allergen safety or English service. All four new restaurant coordinates and distances remain unknown.",
+    "Bath/sauna, swimming-pool and jjimjil products are not interchangeable. Verify the exact ticket, clothing, towels/toiletries, age/sex restrictions, maintenance and foreign-ID/payment requirements before travel; English service and current admission are not guaranteed. Spa Lei is women-only. No new spa has a verified coordinate, entrance or straight-line distance. Supsok, Seokmodo, Park Habio Water Kingdom, Onyang Oncheon Land, Venue G Aqua 24 and Dragon Hill remain excluded pending adequate evidence; unreadable sources are not closure evidence.",
+    "The three new Red Button branch listings support on-site board-game play, not retail or English-language games; branch fees and live operation require confirmation. Nonsan daily swim is limited to one visit per day and up to two hours, with close-fitting indoor swimwear and a cap required; the exact current session timetable remains unverified. General cable-car venue points are not boarding platforms. None of the four additions has verified coordinates or a measured distance.",
+    "Ungpo requires advance internet-only booking, the named booker attending with matching ID, and no same-day/telephone/walk-in reservations or date/pitch changes. Goegang requires advance online booking but its linked route is unreadable; Donggang has no verified current booking route. Foreign-ID, Korean identity/phone, payment and English support remain unknown. Own-trailer listings do not promise rental caravans or all RV sizes. All three campground coordinates and distances remain unknown. Solmoe, Waujeongsa and Gongseri points are general destinations, not entrances, parking or accessible routes."
+  ],
+  "coverage_gaps": {
+    "Anmyeondo": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "family",
+      "hobbies",
+      "camping",
+      "activities"
+    ],
+    "Ansan": [
+      "attractions",
+      "cinema",
+      "family",
+      "activities"
+    ],
+    "Anseong": [
+      "sea",
+      "scenery",
+      "hobbies"
+    ],
+    "Anyang": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "camping"
+    ],
+    "Asan": [
+      "cinema",
+      "sea",
+      "hobbies"
+    ],
+    "Boeun": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Boryeong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "scenery",
+      "hobbies"
+    ],
+    "Bucheon": [
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "camping",
+      "activities"
+    ],
+    "Buyeo": [
+      "attractions",
+      "cinema",
+      "sea",
+      "family",
+      "hobbies"
+    ],
+    "Cheonan": [
+      "attractions",
+      "sea"
+    ],
+    "Cheongju": [
+      "cinema",
+      "sea"
+    ],
+    "Cheongyang": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies"
+    ],
+    "Cheorwon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Chuncheon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "camping"
+    ],
+    "Chungju": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "hobbies"
+    ],
+    "Daejeon": [
+      "sea"
+    ],
+    "Dangjin": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Danyang": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Eumseong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "activities"
+    ],
+    "Ganghwa": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "scenery",
+      "family",
+      "hobbies",
+      "camping"
+    ],
+    "Gapyeong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Geumsan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Gimpo": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "camping",
+      "activities"
+    ],
+    "Goesan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "activities"
+    ],
+    "Gongju": [
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Goyang": [
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Gunsan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Gwacheon": [
+      "shopping",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Gwangju": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Gwangmyeong": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping",
+      "activities"
+    ],
+    "Hanam": [
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "camping"
+    ],
+    "Hoengseong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "camping"
+    ],
+    "Hongcheon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Hongseong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies",
+      "activities"
+    ],
+    "Hwaseong": [
+      "family"
+    ],
+    "Icheon": [
+      "attractions",
+      "cinema",
+      "sea",
+      "family",
+      "hobbies"
+    ],
+    "Iksan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Imsil": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Incheon": [
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "hobbies",
+      "camping"
+    ],
+    "Jecheon": [
+      "attractions",
+      "cinema",
+      "sea",
+      "family",
+      "hobbies"
+    ],
+    "Jeongseon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Jeonju": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Jeungpyeong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies"
+    ],
+    "Jinan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping",
+      "activities"
+    ],
+    "Jincheon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Mungyeong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Namyangju": [
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "camping",
+      "activities"
+    ],
+    "Nonsan": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies"
+    ],
+    "Ongjin": [
+      "shopping",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping",
+      "activities"
+    ],
+    "Osan": [
+      "cinema",
+      "sea",
+      "camping"
+    ],
+    "Paengseong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery"
+    ],
+    "Paju": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Pocheon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "activities"
+    ],
+    "Pyeongchang": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Pyeongtaek": [
+      "sea"
+    ],
+    "Sejong": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "activities"
+    ],
+    "Seocheon": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "hobbies"
+    ],
+    "Seongnam": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies",
+      "camping"
+    ],
+    "Seosan": [
+      "attractions",
+      "cinema",
+      "scenery",
+      "hobbies",
+      "activities"
+    ],
+    "Seoul": [
+      "cinema",
+      "sea",
+      "scenery",
+      "family"
+    ],
+    "Siheung": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "family",
+      "hobbies",
+      "camping"
+    ],
+    "Suwon": [
+      "attractions",
+      "sea"
+    ],
+    "Taean": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "family",
+      "hobbies"
+    ],
+    "Uiwang": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies"
+    ],
+    "Wonju": [
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies"
+    ],
+    "Yangpyeong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "sea",
+      "hobbies"
+    ],
+    "Yeoju": [
+      "attractions",
+      "cinema",
+      "sea",
+      "scenery",
+      "family",
+      "hobbies",
+      "activities"
+    ],
+    "Yeongdong": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "family",
+      "food",
+      "hobbies"
+    ],
+    "Yeongwol": [
+      "shopping",
+      "attractions",
+      "cinema",
+      "landmarks",
+      "sea",
+      "scenery",
+      "food",
+      "hobbies",
+      "activities"
+    ],
+    "Yesan": [
+      "cinema",
+      "sea",
+      "hobbies"
+    ],
+    "Yongin": [
+      "sea"
+    ]
+  },
+  "category_counts": {
+    "shopping": 59,
+    "attractions": 22,
+    "cinema": 15,
+    "landmarks": 111,
+    "sea": 21,
+    "scenery": 29,
+    "family": 32,
+    "food": 125,
+    "hobbies": 35,
+    "activities": 106,
+    "camping": 87
+  },
+  "activity_browsing_count": 107,
+  "coverage_note": "Primary-category matrix. The UI additionally includes Anseong Farmland in activity browsing and Ganworam Hermitage in landmark/temple browsing as existing places, not duplicate records.",
+  "photo_regions": 15,
+  "photo_note": "16 licensed photos across 15 regional tiles, with author/source/license/date and five-language subject captions. Regional photographs do not depict every listed venue; publication dates are not capture dates and photos do not establish current conditions.",
+  "distance_audit": {
+    "reference": {
+      "id": "desiderio-rksg-ourairports-20260515",
+      "name": "Desiderio Army Airfield (RKSG), public airport reference",
+      "coordinates": {
+        "lat": 36.962363,
+        "lng": 127.031126
+      },
+      "coordinate_source": "https://ourairports.com/airports/RKSG/",
+      "source_updated": "2026-05-15",
+      "context_source": "https://home.army.mil/humphreys/about/garrison/DPTMS/desiderio-army-airfield",
+      "quality": "Public community-maintained airport dataset; Army source confirms airfield context, not these coordinates.",
+      "scope": "Representative Camp Humphreys planning point; not a gate, base centroid, surveyed entrance or navigation instruction.",
+      "problem_report_review": "The one open OurAirports report concerns a missing IATA code, not coordinates.",
+      "checked": "2026-10-26"
+    },
+    "method": "Haversine spherical straight-line distance with mean Earth radius 6371.0088 km; no driving calculation. Values are planning estimates from sourced points, not surveyed precision.",
+    "checked_records": 127,
+    "unchecked_records": 515,
+    "minimum_km": 1.4,
+    "maximum_km": 162.3,
+    "within_200": 127,
+    "outside_200": 0,
+    "rejected_reference": {
+      "url": "https://army.dodlodging.net/propertys/camp-humphreys",
+      "reason": "Published coordinate pair is geographically inconsistent with Pyeongtaek; not used."
+    },
+    "quality_groups": {
+      "official_tourism_published": 53,
+      "official_operator_published": 3,
+      "community_reference": 1,
+      "operator_published": 1,
+      "official_gocamping": 69
+    },
+    "checked": "2026-10-27",
+    "camping_anchor_review": {
+      "records_reviewed": 78,
+      "adopted_map_anchors_unchanged": 69,
+      "available_but_unadopted_null_anchors": 9,
+      "coordinate_value_changes": 0,
+      "distance_value_changes": 0,
+      "display_offset_m": 15,
+      "display_offset_bearing_degrees": 90,
+      "offset_meaning": "Source-code marker display displacement, not a verified correction or positional accuracy bound.",
+      "limits": "Listing map anchors do not verify entrances, parking or access routes; absence of a distance does not establish outside-radius status."
+    },
+    "latest_camping_additions": {
+      "new_records": 3,
+      "adopted_coordinate_pairs": 0,
+      "null_coordinate_distance_pairs": 3,
+      "limits": "No listing map center, display-offset anchor, address-geocoding result or guessed entrance was adopted."
+    }
+  },
+  "cloud_baseline_places": 311,
+  "cloud_added_places": 331,
+  "release_added_places": 3,
+  "temple_browsing_count": 21,
+  "spa_browsing_count": 14,
+  "landmark_browsing_count": 112,
+  "traditional_market_browsing_count": 12,
+  "catholic_browsing_count": 27
+}

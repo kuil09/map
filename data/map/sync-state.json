@@ -1,0 +1,348 @@
+{
+  "asOf": "2026-10-27",
+  "siteRelease": "v35",
+  "siteTotal": 642,
+  "confirmedNativeRows": 607,
+  "positionedMarkers": 601,
+  "unresolvedRows": 6,
+  "pendingAppendPlaceIds": [
+    "gocamping-3397",
+    "gocamping-2616",
+    "gocamping-3120",
+    "gocamping-7254",
+    "gocamping-3271",
+    "gocamping-1807",
+    "ak-wonju",
+    "starfield-city-bucheon",
+    "lotte-outlet-buyeo",
+    "lotte-ansan",
+    "market-yesan",
+    "market-naeto-jecheon",
+    "catholic-gamgok-maegoe",
+    "catholic-yeonpung",
+    "catholic-gusan-hanam",
+    "temple-sujongsa-namyangju",
+    "temple-taegosa-geumsan",
+    "culture-bucheon-bow-museum",
+    "culture-hongjuseong-history",
+    "culture-jeungpyeong-folk-museum",
+    "dining-indy-techno-daejeon",
+    "dining-dono-marco-cheonan",
+    "dining-cozy-house-suwon-jangan",
+    "dining-no-brand-burger-starfield-anseong",
+    "spa-songhaeon-songdo",
+    "spa-yulam-hwaseong",
+    "spa-have9-forest-resom-jecheon",
+    "spa-lei-seoul",
+    "redbutton-ansan",
+    "redbutton-bucheon-city-hall",
+    "redbutton-gimpo-gurae",
+    "activity-nonsan-national-swimming",
+    "gocamping-2460",
+    "gocamping-337",
+    "gocamping-2226"
+  ],
+  "pendingCohorts": [
+    {
+      "cohort": "twelfth_batch",
+      "placeIds": [
+        "gocamping-3397",
+        "gocamping-2616",
+        "gocamping-3120",
+        "gocamping-7254",
+        "gocamping-3271",
+        "gocamping-1807",
+        "ak-wonju",
+        "starfield-city-bucheon",
+        "lotte-outlet-buyeo",
+        "lotte-ansan",
+        "market-yesan",
+        "market-naeto-jecheon"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v29"
+    },
+    {
+      "cohort": "thirteenth_culture_batch",
+      "placeIds": [
+        "catholic-gamgok-maegoe",
+        "catholic-yeonpung",
+        "catholic-gusan-hanam",
+        "temple-sujongsa-namyangju",
+        "temple-taegosa-geumsan",
+        "culture-bucheon-bow-museum",
+        "culture-hongjuseong-history",
+        "culture-jeungpyeong-folk-museum"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v31"
+    },
+    {
+      "cohort": "fourteenth_food_points_batch",
+      "placeIds": [
+        "dining-indy-techno-daejeon",
+        "dining-dono-marco-cheonan",
+        "dining-cozy-house-suwon-jangan",
+        "dining-no-brand-burger-starfield-anseong"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v32"
+    },
+    {
+      "cohort": "fifteenth_spa_batch",
+      "placeIds": [
+        "spa-songhaeon-songdo",
+        "spa-yulam-hwaseong",
+        "spa-have9-forest-resom-jecheon",
+        "spa-lei-seoul"
+      ],
+      "status": "not_imported",
+      "sourceRelease": null
+    },
+    {
+      "cohort": "sixteenth_activity_points_batch",
+      "placeIds": [
+        "redbutton-ansan",
+        "redbutton-bucheon-city-hall",
+        "redbutton-gimpo-gurae",
+        "activity-nonsan-national-swimming"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v34"
+    },
+    {
+      "cohort": "seventeenth_camping_culture_points_batch",
+      "placeIds": [
+        "gocamping-2460",
+        "gocamping-337",
+        "gocamping-2226"
+      ],
+      "status": "not_imported",
+      "sourceRelease": "release_cloud_v35"
+    }
+  ],
+  "existingUpdateGroups": [
+    {
+      "cohort": "third_batch",
+      "recordedUpdateCounts": {
+        "existing_coordinate_updates": 10
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "fifth_batch",
+      "recordedUpdateCounts": {
+        "existing_coordinate_updates": 8
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "sixth_batch",
+      "recordedUpdateCounts": {
+        "existing_taxonomy_updates": 9
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "seventh_batch",
+      "recordedUpdateCounts": {
+        "existing_source_updates": 4,
+        "existing_coordinate_updates": 1
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "eighth_batch",
+      "recordedUpdateCounts": {
+        "existing_source_updates": 8
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "ninth_batch",
+      "recordedUpdateCounts": {
+        "existing_provenance_updates": 78,
+        "existing_alias_updates": 1
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "tenth_batch",
+      "recordedUpdateCounts": {
+        "existing_record_updates": 0
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "eleventh_batch",
+      "recordedUpdateCounts": {
+        "existing_source_updates": 3
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "twelfth_batch",
+      "recordedUpdateCounts": {
+        "existing_source_updates": 2,
+        "existing_coordinate_updates": 2
+      },
+      "explicitPlaceIds": [
+        "family-chungju-meteorological",
+        "culture-national-aviation-museum"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "thirteenth_culture_batch",
+      "recordedUpdateCounts": {
+        "existing_place_updates": 0,
+        "existing_source_updates": 0
+      },
+      "explicitPlaceIds": [],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "fourteenth_food_points_batch",
+      "recordedUpdateCounts": {
+        "existing_coordinate_updates": 8,
+        "existing_source_updates": 0
+      },
+      "explicitPlaceIds": [
+        "market-osaek-osan",
+        "market-seosan-dongbu",
+        "market-jidong-suwon",
+        "family-jeungpyeong-jwagusan-observatory",
+        "family-yangpyeong-insect-museum",
+        "family-wonju-climate-change-center",
+        "culture-hongjuseong-history",
+        "culture-jeungpyeong-folk-museum"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": "staged_not_applied_to_live_map",
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "fifteenth_spa_batch",
+      "recordedUpdateCounts": {
+        "existing_record_updates": 3,
+        "existing_source_updates": 1
+      },
+      "explicitPlaceIds": [
+        "spa-asan-spavis",
+        "spa-splas-resom",
+        "spa-gangbyeon-spaland"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": null,
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "sixteenth_activity_points_batch",
+      "recordedUpdateCounts": {
+        "existing_record_updates": 3,
+        "existing_source_updates": 3,
+        "existing_coordinate_updates": 3
+      },
+      "explicitPlaceIds": [
+        "activity-daejeon-wood-culture",
+        "activity-cheongpung-cable-car",
+        "activity-samaksan-lake-cable-car"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": "staged_not_applied_to_live_map",
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    },
+    {
+      "cohort": "seventeenth_camping_culture_points_batch",
+      "recordedUpdateCounts": {
+        "existing_record_updates": 3,
+        "existing_source_updates": 3,
+        "existing_coordinate_updates": 3
+      },
+      "explicitPlaceIds": [
+        "catholic-solmoe",
+        "temple-waujeongsa",
+        "catholic-gongseri"
+      ],
+      "status": "not_cleared_by_row_import",
+      "coordinateUpdateStatus": "staged_not_applied_to_live_map",
+      "scope": "Historical group counts can overlap across cohorts and are not a deduplicated count of pending places. Current desired values and source evidence are in data/places.json. No new native-ID joins are inferred."
+    }
+  ],
+  "olderSourceDetailRowsReconciliationIncomplete": 105,
+  "pendingCivilianAddressNormalizationIds": [
+    "activity-zeus-billiards-pyeongtaek",
+    "activity-osan-cc-carom",
+    "activity-carom-billiards-osan",
+    "activity-muzit-darts-pyeongtaek"
+  ],
+  "civilianAddressNormalizationStatus": "requires_explicit_authorization_and_identity_review",
+  "cleanup": {
+    "source_audit_values_cleared": 115,
+    "readable_metadata_places": 46,
+    "readable_metadata_fields": 92,
+    "category_edits_applied": 5,
+    "description_edits_applied": 1,
+    "source_audit_columns_deleted": 0,
+    "physical_purpose_layer_consolidation": "not_performed"
+  },
+  "pendingFieldEditCount": 692,
+  "appliedFieldChangeCount": 213,
+  "physicalLayers": 7,
+  "layerStructureStatus": "incomplete",
+  "appendFile": {
+    "path": "exports/map-append35-v35.csv",
+    "rows": 35,
+    "sha256": "33371ddb3efb701bae199a6486d2d7b71c5a3a06c823f631bec2e47358b2c2c4",
+    "bytes": 132698,
+    "addressBased": true,
+    "coordinateColumns": 0,
+    "sourceAuditColumn": false,
+    "containsGeneralPointReferenceTextFor": [
+      "culture-hongjuseong-history",
+      "culture-jeungpyeong-folk-museum"
+    ]
+  },
+  "lastAppendAttempt": {
+    "status": "failed_before_upload",
+    "reason": "Browser renderer error 9 before file chooser; no file selected and no upload submitted.",
+    "confirmedWrites": 0,
+    "uncertainWrites": 0,
+    "currentFreshInventoryVerified": false
+  },
+  "guardrails": [
+    "Do not reimport historical cohort rows whose old staging statuses are superseded by completion receipts.",
+    "Append only after fresh native inventory and destination schema validation; do not replace or match existing rows.",
+    "Prior source, status and coordinate updates remain separate from successful row imports.",
+    "Do not mark 692 historical proposed field edits executed without exact-ID fresh before-value checks.",
+    "Existing Activities / 체험 category is intentionally retained for import compatibility. Display category normalization and purpose-layer consolidation are incomplete."
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "nativeId": "5F8D023985000002",
+    "siteRecordId": "activity-zeus-billiards-pyeongtaek",
+    "name": "Zeus Billiards Pyeongtaek | 제우스당구장",
+    "layer": "ly4",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact Record ID in original table"
+  },
+  {
+    "nativeId": "5F8D023985000004",
+    "siteRecordId": "activity-osan-cc-carom",
+    "name": "Osan CC Carom Club | 오산CC대대클럽",
+    "layer": "ly4",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact Record ID in original table"
+  },
+  {
+    "nativeId": "5F8D023985000005",
+    "siteRecordId": "activity-carom-billiards-osan",
+    "name": "Carom Billiards Club Osan | 캐롬당구클럽",
+    "layer": "ly4",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact Record ID in original table"
+  },
+  {
+    "nativeId": "5F8D02398500000F",
+    "siteRecordId": "activity-muzit-darts-pyeongtaek",
+    "name": "MUZIT Darts Pyeongtaek | MUZIT(평택)",
+    "layer": "ly4",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact Record ID in original table"
+  },
+  {
+    "nativeId": "5F8D023985000011",
+    "siteRecordId": "activity-humphreys-downtown-lanes",
+    "name": "RESTRICTED ACCESS / 출입 제한 — Downtown Lanes Bowling Center · Camp Humphreys | 캠프 험프리스 다운타운 레인즈 볼링장",
+    "layer": "ly4",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact Record ID in original table"
+  },
+  {
+    "nativeId": "5F8DD03D83000077",
+    "siteRecordId": "redbutton-osan-city-hall",
+    "name": "Red Button · Osan City Hall | 레드버튼 오산시청점",
+    "layer": "ly6",
+    "status": "unlocated_at_pre_resume_checkpoint",
+    "identityJoin": "exact full name in receipt plus exact Record ID in table"
+  }
+]

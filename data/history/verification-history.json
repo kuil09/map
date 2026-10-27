@@ -1,0 +1,141 @@
+{
+  "snapshotDate": "2026-10-27",
+  "currentSiteRelease": "v35",
+  "sourceSiteCommit": "bacf5a334a7850977ff0673925c6305191e221a6",
+  "evidenceArtifacts": [
+    {
+      "logicalId": "site-places-v35",
+      "sha256": "8c3610ebaa812141ec2f40ae89a0e3289c2200f69cd2974aea2fd03088248ee6",
+      "bytes": 2919873,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "site-photos-v35",
+      "sha256": "43fbae7d08a8e48ce33fa4a89d72657eeb692c2f23fa7cac4b2d1e3149228475",
+      "bytes": 31510,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "site-research-v35",
+      "sha256": "dfa26a5594c36b9dd56f4d9befc63991ab0896f50b3d084427048c4a268dc523",
+      "bytes": 94355,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "captured-native-baseline",
+      "sha256": "3ce4ec71375049ff4f3909ab2654f77bd151c58fcf4d2f8738aa5e215b12f633",
+      "bytes": 2487952,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "original-source-audit296",
+      "sha256": "7efe7ad5891d8b6fc208d31e6724ea5685b7f86e60979b50d1ab8416bcafb33d",
+      "bytes": 504570,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "applied-fields213",
+      "sha256": "a09d5f0c479ae618f3c48d01303a7089ebc818cbbb57c830cf1f2c9ec190fb34",
+      "bytes": 273883,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "pending-fields692",
+      "sha256": "277c08dd4e3c260f44d247e408d1c8bbc471fa7c6f17590216d31f0aa5a51653",
+      "bytes": 981991,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "cohort-imported-607",
+      "sha256": "4aa22e89386123765640933e8c117f0b2ff8857b73e3c07054959ead9777d8ff",
+      "bytes": 2670253,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    },
+    {
+      "logicalId": "append35-csv",
+      "sha256": "33371ddb3efb701bae199a6486d2d7b71c5a3a06c823f631bec2e47358b2c2c4",
+      "bytes": 132698,
+      "scope": "Local project artifact examined; not a fresh source-site or map read."
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-10-27T00:33:38.121382+00:00",
+      "event": "append14_reloaded",
+      "nativeRows": 607,
+      "positioned": 601,
+      "unresolved": 6,
+      "newFieldsReadBack": 154,
+      "priorDestinationFieldsCompared": 2343,
+      "limit": "Row/field evidence is not a complete geometry backup."
+    },
+    {
+      "at": "2026-10-27T03:01:37.174653+00:00",
+      "event": "preservation_pre_resume_checkpoint",
+      "siteRelease": "v32",
+      "siteRecords": 631,
+      "appliedFieldChanges": 213,
+      "pendingFieldChanges": 692,
+      "nonemptyOriginalAudits": 296,
+      "clearedAudits": 115,
+      "remainingAudits": 181,
+      "deletedAuditColumns": 0
+    },
+    {
+      "at": "2026-10-27",
+      "event": "site_v35_canonical_snapshot",
+      "places": 642,
+      "sourceReferences": 956,
+      "publishedGeneralPoints": 127,
+      "unmeasured": 515
+    },
+    {
+      "at": "2026-10-27",
+      "event": "append35_file_prepared_upload_failed",
+      "status": "failed_before_upload",
+      "reason": "Browser renderer error 9 before chooser; no upload submitted.",
+      "writes": 0,
+      "uncertainWrites": 0
+    }
+  ],
+  "additionalPreservedSourceChange": [
+    {
+      "nativeId": "5F8DD03D83000010",
+      "field": "Sources",
+      "before": "https://www.beartreepark.com/",
+      "after": "https://www.beartreepark.com/\nhttps://beartreepark.co.kr/",
+      "status": "saved_snapshot_verified_not_fresh_live_read"
+    }
+  ],
+  "excludedFailedEdits": [
+    {
+      "nativeId": "5F8C3C306B000005",
+      "nameAsLogged": "Waemok Beach | 왜목해수욕장",
+      "fields": [
+        "Category"
+      ],
+      "status": "excluded_failed_not_confirmed_saved"
+    },
+    {
+      "nativeId": "5F8C3C306B000005",
+      "nameAsLogged": "CGV Pyeongtaek Sosa | CGV 평택소사",
+      "fields": [
+        "Category"
+      ],
+      "status": "excluded_failed_not_confirmed_saved"
+    },
+    {
+      "nativeId": "5F8C3C306B000005",
+      "nameAsLogged": "Waemok Beach | 왜목해수욕장",
+      "fields": [
+        "Category"
+      ],
+      "status": "excluded_failed_not_confirmed_saved"
+    }
+  ],
+  "historyLimits": [
+    "The 213/692 field histories are the pre-resume checkpoint, not a new full readback.",
+    "Private archival receipts/screenshots and raw third-party HTML are not republished here.",
+    "The current source audit and research history are in data/places.json and data/research.json; source content states are not upgraded by repository migration."
+  ]
+}

@@ -1,0 +1,741 @@
+[
+  {
+    "id": "anseong-seoil",
+    "area": "Anseong",
+    "title": "안성 서일농원 (2).jpg",
+    "subject": "Seoil Farm fermentation jars",
+    "author": "Jocelyndurrey",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%EC%95%88%EC%84%B1_%EC%84%9C%EC%9D%BC%EB%86%8D%EC%9B%90_%282%29.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%EC%95%88%EC%84%B1_%EC%84%9C%EC%9D%BC%EB%86%8D%EC%9B%90_%282%29.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2014-10-26",
+    "width": 4160,
+    "height": 2340,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/anseong-seoil-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 42521,
+        "sha256": "d9582565f69ff9c2ceb0b50b53f1d239818314224e93215e73a27f4a03362b3e"
+      },
+      {
+        "path": "photos/anseong-seoil-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 155834,
+        "sha256": "b42fbb8b311a4f70e03bddc14a9c5295a3dfc5024da1996448bb2fa2208faa2c"
+      }
+    ],
+    "caption": {
+      "en": "Fermentation jars at Seoil Farm, Anseong",
+      "ko": "안성 서일농원의 장독",
+      "ja": "安城・ソイル農園の発酵甕",
+      "zh": "安城瑞逸农园的酱缸",
+      "es": "Tinajas de fermentación en Seoil Farm, Anseong"
+    },
+    "place_ids": []
+  },
+  {
+    "id": "suwon-hwaseong",
+    "area": "Suwon",
+    "title": "수원화성 방화수류정 파노라마.jpg",
+    "subject": "Banghwasuryujeong and Yongyeon pond, Hwaseong Fortress",
+    "author": "Kimnamhyun",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1_%EB%B0%A9%ED%99%94%EC%88%98%EB%A5%98%EC%A0%95_%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1_%EB%B0%A9%ED%99%94%EC%88%98%EB%A5%98%EC%A0%95_%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2016-06-25",
+    "width": 960,
+    "height": 456,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/suwon-hwaseong-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 228,
+        "bytes": 32827,
+        "sha256": "f87b40bdde96f9b8feb6bfc1e33192f771b2573336ff2880775859059597c458"
+      },
+      {
+        "path": "photos/suwon-hwaseong-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 456,
+        "bytes": 145542,
+        "sha256": "a65733fc6e67e29cba48db8c3060423dcd0fcee9b9df36e344033444d8f47e18"
+      }
+    ],
+    "caption": {
+      "en": "Banghwasuryujeong and Yongyeon Pond, Suwon Hwaseong",
+      "ko": "수원화성 방화수류정과 용연",
+      "ja": "水原華城・訪花随柳亭と龍淵",
+      "zh": "水原华城访花随柳亭与龙渊",
+      "es": "Banghwasuryujeong y estanque Yongyeon, Hwaseong de Suwon"
+    },
+    "place_ids": []
+  },
+  {
+    "id": "yongin-folk-village",
+    "area": "Yongin",
+    "title": "Traditional Pavilion2.jpg",
+    "subject": "Traditional pavilion at Korean Folk Village",
+    "author": "AnbyG",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Pavilion2.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Traditional_Pavilion2.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2019-04-26",
+    "width": 960,
+    "height": 640,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/yongin-folk-village-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 55415,
+        "sha256": "d78f8c2af646a9bf24efdb754785f3fb0401eb7c4ff0277d22952be9b260dea3"
+      },
+      {
+        "path": "photos/yongin-folk-village-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 245103,
+        "sha256": "b98473ded6f04965311b14bdae8bd77f8a375b851aedc0b3a7b29d8be0623aea"
+      }
+    ],
+    "caption": {
+      "en": "Pavilion at Korean Folk Village, Yongin",
+      "ko": "용인 한국민속촌의 정자",
+      "ja": "龍仁・韓国民俗村の亭",
+      "zh": "龙仁韩国民俗村的亭阁",
+      "es": "Pabellón de Korean Folk Village, Yongin"
+    },
+    "place_ids": [
+      "korean-folk-village"
+    ]
+  },
+  {
+    "id": "seoul-gyeonghoeru",
+    "area": "Seoul",
+    "title": "Gyeonghoeru (Royal Banquet Hall) at Gyeongbokgung Palace, Seoul.jpg",
+    "subject": "Gyeonghoeru pavilion reflected in its pond at Gyeongbokgung",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2018-11-05",
+    "width": 960,
+    "height": 640,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/seoul-gyeonghoeru-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 32401,
+        "sha256": "d3509553f9ea7dd01b2bb22d296462bb6b2ed24df43aa21dd0f55ad7c9f32699"
+      },
+      {
+        "path": "photos/seoul-gyeonghoeru-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 141079,
+        "sha256": "9d4b30ed23edc4846336bed24c840ab0bab630048461a871bad4e1a89c9a9b34"
+      }
+    ],
+    "caption": {
+      "en": "Gyeonghoeru Pavilion at Gyeongbokgung, Seoul",
+      "ko": "서울 경복궁 경회루",
+      "ja": "ソウル・景福宮の慶会楼",
+      "zh": "首尔景福宫庆会楼",
+      "es": "Pabellón Gyeonghoeru de Gyeongbokgung, Seúl"
+    },
+    "place_ids": [
+      "gyeongbokgung"
+    ]
+  },
+  {
+    "id": "incheon-sorae",
+    "area": "Incheon",
+    "title": "Windmills In The Sunrise (191852353).jpeg",
+    "subject": "Sunrise over windmills at Sorae Wetland Ecology Park",
+    "author": "Mathew Schwartz",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Windmills_In_The_Sunrise_%28191852353%29.jpeg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Windmills_In_The_Sunrise_%28191852353%29.jpeg",
+    "source_credit": "500px archive import",
+    "date_taken": "2017-01-06",
+    "width": 960,
+    "height": 480,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/incheon-sorae-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 240,
+        "bytes": 20460,
+        "sha256": "3ecd2c6b93f777facc69f6dbb00f19cc5f58c77302bc6aff10d6c9e280726bee"
+      },
+      {
+        "path": "photos/incheon-sorae-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 480,
+        "bytes": 73689,
+        "sha256": "95457d8122ea7488a79333f8860be6c9edd539c7c6c4bfa88055f806b497b791"
+      }
+    ],
+    "caption": {
+      "en": "Windmills at Sorae Wetland Ecology Park, Incheon",
+      "ko": "인천 소래습지생태공원의 풍차",
+      "ja": "仁川・蘇莱湿地生態公園の風車",
+      "zh": "仁川苏莱湿地生态公园的风车",
+      "es": "Molinos del parque ecológico de Sorae, Incheon"
+    },
+    "place_ids": []
+  },
+  {
+    "id": "asan-ginkgo",
+    "area": "Asan",
+    "title": "Asan Gingko Tree Road.jpg",
+    "subject": "Autumn ginkgo avenue in Asan",
+    "author": "travel oriented",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Asan_Gingko_Tree_Road.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Asan_Gingko_Tree_Road.jpg",
+    "source_credit": "Flickr; Commons license review passed",
+    "date_taken": "2013-11-09",
+    "width": 4592,
+    "height": 3064,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/asan-ginkgo-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 54687,
+        "sha256": "44e15db7c5dae1f6ae53764e6e453044226a6a0198b16e4f22b6895705b61a25"
+      },
+      {
+        "path": "photos/asan-ginkgo-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 641,
+        "bytes": 168108,
+        "sha256": "89f6c27e6c56751bd3c61b2e966be5977a2134338e9d5b2f9d7061f1bf35b4e4"
+      }
+    ],
+    "caption": {
+      "en": "Autumn ginkgo avenue in Asan",
+      "ko": "아산의 가을 은행나무길",
+      "ja": "牙山の秋のイチョウ並木",
+      "zh": "牙山秋日银杏大道",
+      "es": "Avenida de ginkgos en otoño, Asan"
+    },
+    "place_ids": []
+  },
+  {
+    "id": "daejeon-daecheong",
+    "area": "Daejeon",
+    "title": "Daecheong Dam.jpg",
+    "subject": "Daecheong Dam and reservoir viewed near Hyunam Temple",
+    "author": "Yoo Chung",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Daecheong_Dam.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Daecheong_Dam.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2007-07-01",
+    "width": 3888,
+    "height": 2600,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/daejeon-daecheong-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 321,
+        "bytes": 36557,
+        "sha256": "1a74d0af12921b27c69b8aadaab9b5de8c251def55f83a4cf23b451c34a4dfd4"
+      },
+      {
+        "path": "photos/daejeon-daecheong-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 642,
+        "bytes": 135058,
+        "sha256": "67c85e7960b992e74ee6abca6d00b9bb4f4bab0f9482023d8aee625d5bf8ec91"
+      }
+    ],
+    "caption": {
+      "en": "Daecheong Dam and reservoir, Daejeon–Cheongju boundary",
+      "ko": "대전·청주 경계의 대청댐과 대청호",
+      "ja": "大田・清州境界の大清ダムと貯水池",
+      "zh": "大田与清州交界的大清坝与水库",
+      "es": "Presa y embalse Daecheong, límite Daejeon–Cheongju"
+    },
+    "place_ids": []
+  },
+  {
+    "id": "taean-kkotji",
+    "area": "Anmyeondo",
+    "title": "꽃지의석양.jpg",
+    "subject": "Sunset at Kkotji Beach, Anmyeon-eup, Taean",
+    "author": "HiHoHo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%EA%BD%83%EC%A7%80%EC%9D%98%EC%84%9D%EC%96%91.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/%EA%BD%83%EC%A7%80%EC%9D%98%EC%84%9D%EC%96%91.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2017-03-12",
+    "width": 1852,
+    "height": 1235,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/taean-kkotji-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 24083,
+        "sha256": "1528f9e6a3f6a5af33097aca7c8568be9548a2da03ec9bb731fc0f763e11cf7d"
+      },
+      {
+        "path": "photos/taean-kkotji-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 102247,
+        "sha256": "0e6f36d51327c7331bdb033d8ca7976453895b03628f102b41d3084821aebff2"
+      }
+    ],
+    "caption": {
+      "en": "Sunset at Kkotji Beach, Anmyeondo",
+      "ko": "안면도 꽃지해수욕장의 일몰",
+      "ja": "安眠島・コッチ海水浴場の夕日",
+      "zh": "安眠岛花地海水浴场日落",
+      "es": "Atardecer en la playa Kkotji, Anmyeondo"
+    },
+    "place_ids": [
+      "kkotji"
+    ]
+  },
+  {
+    "id": "seosan-haemi",
+    "area": "Seosan",
+    "title": "Path inside Haemieupseong Fortress.jpg",
+    "subject": "Flower-lined path inside Haemieupseong Fortress",
+    "author": "Lauman.P.1992",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Path_inside_Haemieupseong_Fortress.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Path_inside_Haemieupseong_Fortress.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2015-09-06",
+    "width": 960,
+    "height": 540,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/seosan-haemi-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 29851,
+        "sha256": "43528a3bc9ce5ab6e3cb2b14a23a87a90f348815c447bd8f627dd8ea352e0eb5"
+      },
+      {
+        "path": "photos/seosan-haemi-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 131336,
+        "sha256": "5b58c65799fb9c442cd4cee75c270db6ce6ba111edaf5296b2cb3c2f7423ab53"
+      }
+    ],
+    "caption": {
+      "en": "Flower-lined path inside Haemieupseong, Seosan",
+      "ko": "서산 해미읍성 안의 꽃길",
+      "ja": "瑞山・海美邑城内の花道",
+      "zh": "瑞山海美邑城内的花间小径",
+      "es": "Sendero con flores en Haemieupseong, Seosan"
+    },
+    "place_ids": [
+      "haemi"
+    ]
+  },
+  {
+    "id": "gongju-gongsanseong",
+    "area": "Gongju",
+    "title": "공주 공산성과 금강 야경.jpg",
+    "subject": "Gongsanseong Fortress and Geum River at night",
+    "author": "Paulsbgo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%EA%B3%B5%EC%A3%BC_%EA%B3%B5%EC%82%B0%EC%84%B1%EA%B3%BC_%EA%B8%88%EA%B0%95_%EC%95%BC%EA%B2%BD.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%EA%B3%B5%EC%A3%BC_%EA%B3%B5%EC%82%B0%EC%84%B1%EA%B3%BC_%EA%B8%88%EA%B0%95_%EC%95%BC%EA%B2%BD.jpg",
+    "source_credit": "Own work",
+    "date_taken": "2015-10-10",
+    "width": 5472,
+    "height": 3648,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/gongju-gongsanseong-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 18747,
+        "sha256": "9153ae0ba17b987948c08a7e40407be7612ea561e1f24912a3a3e8759dddb787"
+      },
+      {
+        "path": "photos/gongju-gongsanseong-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 57517,
+        "sha256": "942447d61199a43b3c1d9240152301abd6b124869201a9e5e095d41da46caad5"
+      }
+    ],
+    "caption": {
+      "en": "Gongsanseong and the Geum River at night, Gongju",
+      "ko": "공주 공산성과 금강의 야경",
+      "ja": "公州・公山城と錦江の夜景",
+      "zh": "公州公山城与锦江夜景",
+      "es": "Gongsanseong y río Geum de noche, Gongju"
+    },
+    "place_ids": [
+      "gongsanseong"
+    ]
+  },
+  {
+    "id": "buyeo-gungnamji",
+    "area": "Buyeo",
+    "title": "Gungnamji 011.jpg",
+    "subject": "Gungnamji pond pavilion and bridge",
+    "author": "travel oriented",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gungnamji_011.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gungnamji_011.jpg",
+    "source_credit": "Flickr; Commons license review passed",
+    "date_taken": "2013-09-08",
+    "width": 960,
+    "height": 641,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes. Adapted image retains its listed license.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/buyeo-gungnamji-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 321,
+        "bytes": 44961,
+        "sha256": "a82904e300ca90f585854720e8d9de9d1b4307628b8e80888bd9e4a02b9dbbe1"
+      },
+      {
+        "path": "photos/buyeo-gungnamji-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 641,
+        "bytes": 187396,
+        "sha256": "2c9b58d2917a09fdd7994330e46ced7153222e5548ad70f46d8cf58e237ea927"
+      }
+    ],
+    "caption": {
+      "en": "Pavilion and bridge at Gungnamji Pond, Buyeo",
+      "ko": "부여 궁남지의 정자와 다리",
+      "ja": "扶余・宮南池の亭と橋",
+      "zh": "扶余宫南池的亭阁与桥",
+      "es": "Pabellón y puente del estanque Gungnamji, Buyeo"
+    },
+    "place_ids": [
+      "gungnamji"
+    ]
+  },
+  {
+    "id": "boeun",
+    "area": "Boeun",
+    "title": "Beopjusapagoda",
+    "subject": "Palsang Hall, Pagoda of Beopju Temple (Beopjusa), South Korea.",
+    "author": "Carl MiKoy (https://www.flickr.com/photos/carlmikoy/)",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beopjusapagoda.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Beopjusapagoda.jpg",
+    "source_credit": "https://www.flickr.com/photos/carlmikoy/3042034537/sizes/o/",
+    "date_taken": "11/9/2008",
+    "width": 2048,
+    "height": 1536,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/boeun-480.jpg",
+        "max_edge": 480,
+        "bytes": 71531,
+        "sha256": "d150cf332b4940ccd10497704211dfddbf5b705765ee947aa42c904cabf6aaf2"
+      },
+      {
+        "path": "photos/boeun-960.jpg",
+        "max_edge": 960,
+        "bytes": 247729,
+        "sha256": "b061d1fa29f3c3682ed42c8620ff764026053c3317b8f745d8f50c38965504e6"
+      }
+    ],
+    "caption": {
+      "en": "Palsang Hall at Beopjusa, Boeun",
+      "ko": "보은 법주사 팔상전",
+      "ja": "報恩・法住寺の捌相殿",
+      "zh": "报恩法住寺八相殿",
+      "es": "Pabellón Palsang de Beopjusa, Boeun"
+    },
+    "place_ids": [
+      "beopjusa"
+    ]
+  },
+  {
+    "id": "buyeo",
+    "area": "Buyeo",
+    "title": "Busosanseong Fortress",
+    "subject": "Chungcheongnam-do, Buyeo-gun, Buyeo-eup",
+    "author": "Korea Tourism Organization, Kim Jiho",
+    "license": "KOGL Type 1",
+    "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Busosanseong_Fortress.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Busosanseong_Fortress.jpg",
+    "source_credit": "phoko.visitkorea.or.kr",
+    "date_taken": "2021/ 06",
+    "width": 5464,
+    "height": 3640,
+    "modifications": "Resized and JPEG-compressed; display crops use object-fit. No semantic changes.",
+    "checked": "2026-10-26 KST",
+    "assets": [
+      {
+        "path": "photos/buyeo-480.jpg",
+        "max_edge": 480,
+        "bytes": 50277,
+        "sha256": "da77830a7bb3a011be37891fd0892b6cbeec6d3cdd99cf05a928ecb3fbebb969"
+      },
+      {
+        "path": "photos/buyeo-960.jpg",
+        "max_edge": 960,
+        "bytes": 191589,
+        "sha256": "f9aeddf33a21121e9350f6e1d72ff397f136ec6fb50715f3a49866013818af09"
+      }
+    ],
+    "caption": {
+      "en": "Busosanseong Fortress landscape, Buyeo",
+      "ko": "부여 부소산성 풍경",
+      "ja": "扶余・扶蘇山城の風景",
+      "zh": "扶余扶苏山城景观",
+      "es": "Paisaje de Busosanseong, Buyeo"
+    },
+    "place_ids": [
+      "busosanseong"
+    ]
+  },
+  {
+    "id": "yangpyeong-dumulmeori-stock",
+    "area": "Yangpyeong",
+    "title": "배경에 산이 있는 큰 수역",
+    "subject": "Monochrome river-and-mountain view at Dumulmeori, Yangpyeong, as located by the photographer on Unsplash",
+    "author": "jia yi",
+    "author_url": "https://unsplash.com/ko/@flowersforpete",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/ko/%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4",
+    "source_url": "https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%B0%B0%EA%B2%BD%EC%97%90-%EC%82%B0%EC%9D%B4-%EC%9E%88%EB%8A%94-%ED%81%B0-%EC%88%98%EC%97%AD-S-iUE5socBk",
+    "original_url": "https://unsplash.com/photos/S-iUE5socBk/download?force=true",
+    "source_credit": "Photo by jia yi on Unsplash (S-iUE5socBk)",
+    "date_taken": "Unknown; source publication date 2023-11-21",
+    "date_published": "2023-11-21",
+    "width": 5965,
+    "height": 3956,
+    "modifications": "Resized proportionally and JPEG-compressed for display. Original monochrome appearance preserved; no recoloring, generative edits, scene changes or file crops. Display crops may use object-fit.",
+    "checked": "2026-10-27",
+    "assets": [
+      {
+        "path": "photos/yangpyeong-dumulmeori-stock-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 318,
+        "bytes": 28465,
+        "sha256": "2ad6f83ccf7428552f2382df614c163cf52b314b9d1bc580cdc34add34f5b202"
+      },
+      {
+        "path": "photos/yangpyeong-dumulmeori-stock-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 637,
+        "bytes": 155707,
+        "sha256": "16c7d4694e38cf020497e2c05a13552b8ee19cb6497573eefa41e7ae1ac44bec"
+      }
+    ],
+    "caption": {
+      "en": "River and mountains at Dumulmeori, Yangpyeong (published 2023; capture date unknown)",
+      "ko": "양평 두물머리의 강과 산 (2023년 게시·촬영일 미상)",
+      "ja": "楊平・トゥムルモリの川と山（2023年公開・撮影日不明）",
+      "zh": "杨平两水头的江河与山峦（2023年发布，拍摄日期不详）",
+      "es": "Río y montañas en Dumulmeori, Yangpyeong (publicada en 2023; fecha de captura desconocida)"
+    },
+    "place_ids": [
+      "dumulmeori"
+    ],
+    "rights_notes": [
+      "The exact item says free to use under the Unsplash License; it exposes a free download control, not an Unsplash+ acquisition control.",
+      "Official license allows free commercial and non-commercial use, copying, modification and distribution. Attribution is appreciated, and retained here regardless.",
+      "Unmodified image resale and compiling a competing image service are not permitted. This photo is an illustrative regional photograph in a travel guide.",
+      "No recognizable persons, prominent trademarks, legible private data or standalone artwork are visible in the reviewed photograph. No release is asserted."
+    ],
+    "location_evidence": "Item explicitly states: Dumulmeori, Dumulmeori-gil, Yangseo-myeon, Yangpyeong-gun, Gyeonggi-do, South Korea. Visual landscape is consistent; exact viewpoint not independently geolocated.",
+    "uncertainties": [
+      "Capture date is unknown; the visible November 21, 2023 date is publication, not capture. Original JPEG has no EXIF.",
+      "Location is source-reported. The broad river and mountain scene does not independently distinguish an exact viewpoint.",
+      "Monochrome/grainy film-like appearance is already present in the supplied original. Small light marks are retained; no cleanup or semantic edit.",
+      "Original site photo camera information: Minolta AF Tele, ISO 400. No AI-generated label was observed; metadata and appearance support a real photograph but are not forensic proof."
+    ]
+  },
+  {
+    "id": "pyeongtaek-skyline-stock",
+    "area": "Pyeongtaek",
+    "title": "Sekelompok gedung tinggi duduk bersebelahan",
+    "subject": "Apartment skyline and clouds, located by the photographer in Pyeongtaek",
+    "author": "Na Inho",
+    "author_url": "https://unsplash.com/id/@innona",
+    "source_url": "https://unsplash.com/id/foto/sekelompok-gedung-tinggi-duduk-bersebelahan-U7y5Xn89E84",
+    "original_url": "https://unsplash.com/photos/U7y5Xn89E84/download",
+    "source_credit": "Photo by Na Inho on Unsplash (U7y5Xn89E84)",
+    "work_id": "U7y5Xn89E84",
+    "date_published": "2024-08-30",
+    "location_evidence": "The exact item names Pyeongtaek, 경기도 대한민국. Location is source-reported; no precise building complex or viewpoint was independently geolocated.",
+    "caption": {
+      "en": "Apartment skyline in Pyeongtaek (published 2024; capture date unknown)",
+      "ko": "평택의 아파트 스카이라인 (2024년 게시·촬영일 미상)",
+      "ja": "平沢の集合住宅のスカイライン（2024年公開・撮影日不明）",
+      "zh": "平泽的公寓楼天际线（2024年发布，拍摄日期不详）",
+      "es": "Edificios de apartamentos en Pyeongtaek (publicada en 2024; fecha de captura desconocida)"
+    },
+    "uncertainties": [
+      "Capture date unknown; 2024-08-30 is the source publication date, not the capture date.",
+      "Location is photographer-reported; the apartment complex and exact viewpoint have not been independently established. This is a regional illustration, not a photograph of Camp Humphreys or a specific guide venue."
+    ],
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "date_taken": "Unknown; source publication date 2024-08-30",
+    "width": 4480,
+    "height": 2519,
+    "modifications": "Proportional resizing and JPEG compression only. Source colors and composition retained; no generative edits, retouching, semantic changes or file crops. Display may be cropped.",
+    "checked": "2026-10-27",
+    "place_ids": [],
+    "assets": [
+      {
+        "path": "photos/pyeongtaek-skyline-stock-480.jpg",
+        "max_edge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 20628,
+        "sha256": "259b3b1654e0fc4e608f42bff9f87b8be94f7590f09e61728a28769546faf25e"
+      },
+      {
+        "path": "photos/pyeongtaek-skyline-stock-960.jpg",
+        "max_edge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 70475,
+        "sha256": "a4823c8c39c1e1fd053d9c0b5adf382b676d24c7ec755630c19996c0c3c9e9f1"
+      }
+    ],
+    "rights_notes": [
+      "Reuse is under the Unsplash License; photographer and source credits are retained. Standalone resale without significant modification and a competing image service are excluded.",
+      "The license does not grant rights in depicted brands, recognizable people or works of art. No trademark, model or property release is asserted.",
+      "Incidental apartment branding remains contextual; no affiliation or endorsement is implied."
+    ]
+  },
+  {
+    "id": "cheonan-koreatech-stock",
+    "area": "Cheonan",
+    "title": "Un parque con árboles y edificios",
+    "subject": "Autumn trees, roads and buildings on KOREATECH Campus 1 in Cheonan, as located by the photographer",
+    "author": "Sunghoon Kim",
+    "author_url": "https://unsplash.com/es/@c2gno",
+    "source_url": "https://unsplash.com/es/fotos/un-parque-con-arboles-y-edificios-A85aen9n0P4",
+    "original_url": "https://unsplash.com/photos/A85aen9n0P4/download",
+    "source_credit": "Photo by Sunghoon Kim on Unsplash (A85aen9n0P4)",
+    "work_id": "A85aen9n0P4",
+    "date_published": "2022-10-19",
+    "location_evidence": "The exact item names Korea University of Technology & Education (KOREATECH), Campus 1, Chungjeol-ro, Byeongcheon-myeon, Dongnam-gu, Cheonan-si, Chungcheongnam-do, South Korea. Campus landscape and building signage are consistent, but exact viewpoint was not independently geolocated.",
+    "caption": {
+      "en": "Autumn at KOREATECH Campus 1, Cheonan (published 2022; capture date unknown)",
+      "ko": "천안 한국기술교육대학교 제1캠퍼스의 가을 (2022년 게시·촬영일 미상)",
+      "ja": "天安・韓国技術教育大学校第1キャンパスの秋（2022年公開・撮影日不明）",
+      "zh": "天安韩国技术教育大学第一校区的秋色（2022年发布，拍摄日期不详）",
+      "es": "Otoño en el campus 1 de KOREATECH, Cheonan (publicada en 2022; fecha de captura desconocida)"
+    },
+    "uncertainties": [
+      "Capture date unknown; 2022-10-19 is the source publication date, not the capture date.",
+      "Campus location is photographer-reported; the exact viewpoint has not been independently established. This is a regional illustration, not a claim that KOREATECH is a listed visitor attraction or is currently open to visitors."
+    ],
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "date_taken": "Unknown; source publication date 2022-10-19",
+    "width": 3456,
+    "height": 5184,
+    "modifications": "Proportional resizing and JPEG compression only. Source colors and composition retained; no generative edits, retouching, semantic changes or file crops. Display may be cropped.",
+    "checked": "2026-10-27",
+    "place_ids": [],
+    "assets": [
+      {
+        "path": "photos/cheonan-koreatech-stock-480.jpg",
+        "max_edge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 50781,
+        "sha256": "83cdcb78dac413cfb7b1344f4a36e982106d59c528038a80e8c4b717a7c0df08"
+      },
+      {
+        "path": "photos/cheonan-koreatech-stock-960.jpg",
+        "max_edge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 190808,
+        "sha256": "e76edff1296d9528dd69c069762ec1cc78c6a5dcdaacfabb3c45755f4bc52e71"
+      }
+    ],
+    "rights_notes": [
+      "Reuse is under the Unsplash License; photographer and source credits are retained. Standalone resale without significant modification and a competing image service are excluded.",
+      "The license does not grant rights in depicted brands, recognizable people or works of art. No trademark, model or property release is asserted.",
+      "Incidental campus lettering and artwork remain contextual; no affiliation, endorsement or visitor-access permission is implied."
+    ]
+  }
+]

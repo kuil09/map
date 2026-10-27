@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "canonicalRepository": "https://github.com/kuil09/map",
+  "snapshotDate": "2026-10-27",
+  "snapshotRelease": "v35",
+  "sourceSiteCommit": "bacf5a334a7850977ff0673925c6305191e221a6",
+  "siteUrl": "https://humphreys-field-guide.kuil09.chatgpt.site",
+  "mapUrl": "https://www.google.com/maps/d/u/0/viewer?mid=1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "languages": [
+    "en",
+    "ko",
+    "ja",
+    "zh",
+    "es"
+  ],
+  "counts": {
+    "places": 642,
+    "sourceReferences": 956,
+    "sourceStatuses": {
+      "verified": 897,
+      "unconfirmed": 55,
+      "blocked": 4
+    },
+    "coordinatePoints": 127,
+    "unmeasured": 515,
+    "photos": 16,
+    "photoAssets": 32,
+    "photoAssetBytes": 3013409
+  },
+  "siteInputs": [
+    "data/places.json",
+    "data/photos.json",
+    "data/research.json"
+  ],
+  "photoStorage": {
+    "binariesIncluded": false,
+    "currentAssetBaseUrl": "https://humphreys-field-guide.kuil09.chatgpt.site/",
+    "reason": "Preserve the existing licensed site assets. This data repository carries credits, rights and content hashes, not a redistributable photo archive. No generated photos.",
+    "integration": "Copy canonical JSON into a site build only after checking all 32 existing licensed asset hashes."
+  },
+  "datasetLicense": "No new blanket license is granted by this preservation migration; see docs/RIGHTS.md.",
+  "status": "Canonical data snapshot and integration contract; this commit alone does not upload Google My Maps or redeploy the existing Site."
+}

@@ -1,0 +1,945 @@
+{
+  "completeNativeGeometryBackup": false,
+  "nativeMarkerCountIsReceiptBased": true,
+  "reportedPositioned": 601,
+  "importedCoordinateText": [
+    {
+      "nativeId": "5F8B50A2C8000001",
+      "latitudeText": "36.9332113",
+      "longitudeText": "126.8963786",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000002",
+      "latitudeText": "36.9752549538789",
+      "longitudeText": "127.032559225259",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000003",
+      "latitudeText": "37.0167678",
+      "longitudeText": "127.0206434",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000004",
+      "latitudeText": "36.9413171769658",
+      "longitudeText": "126.991546702427",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000005",
+      "latitudeText": "37.0343735",
+      "longitudeText": "127.3088548",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000006",
+      "latitudeText": "37.088803",
+      "longitudeText": "127.4071687",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000007",
+      "latitudeText": "36.9737004",
+      "longitudeText": "127.3897496",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000008",
+      "latitudeText": "37.2076471",
+      "longitudeText": "127.309936",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000009",
+      "latitudeText": "37.3148737194702",
+      "longitudeText": "127.267844163237",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000A",
+      "latitudeText": "37.1204520183506",
+      "longitudeText": "127.340319770934",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000B",
+      "latitudeText": "37.2803879157021",
+      "longitudeText": "127.206022146424",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000C",
+      "latitudeText": "36.8979948831707",
+      "longitudeText": "126.207264666745",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000D",
+      "latitudeText": "36.6702272173478",
+      "longitudeText": "126.288448199746",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000E",
+      "latitudeText": "36.9316110146866",
+      "longitudeText": "126.294158190462",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800000F",
+      "latitudeText": "36.7463585",
+      "longitudeText": "126.1838497",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000010",
+      "latitudeText": "36.6070675",
+      "longitudeText": "126.2911585",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000011",
+      "latitudeText": "36.8346313",
+      "longitudeText": "126.1826531",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000012",
+      "latitudeText": "37.0445491",
+      "longitudeText": "126.4248087",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000013",
+      "latitudeText": "36.8953511",
+      "longitudeText": "126.8188355",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000014",
+      "latitudeText": "36.9595438727264",
+      "longitudeText": "126.550646296066",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000015",
+      "latitudeText": "36.8411777",
+      "longitudeText": "126.3284546",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000016",
+      "latitudeText": "36.9701571",
+      "longitudeText": "126.335676",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000017",
+      "latitudeText": "36.6238531265773",
+      "longitudeText": "126.373973197642",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000018",
+      "latitudeText": "36.8063004",
+      "longitudeText": "127.0009999",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000019",
+      "latitudeText": "36.8556847",
+      "longitudeText": "126.9807073",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001A",
+      "latitudeText": "36.8405946",
+      "longitudeText": "126.9500195",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001B",
+      "latitudeText": "36.76604",
+      "longitudeText": "126.8800202",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001C",
+      "latitudeText": "36.8016541169806",
+      "longitudeText": "127.226784891668",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001D",
+      "latitudeText": "36.8599935",
+      "longitudeText": "127.1999627",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001E",
+      "latitudeText": "36.8476556",
+      "longitudeText": "127.1950008",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C800001F",
+      "latitudeText": "36.8352926",
+      "longitudeText": "127.23885",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C8000020",
+      "latitudeText": "36.6965799",
+      "longitudeText": "127.0936171",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000021",
+      "latitudeText": "36.781872",
+      "longitudeText": "127.2303981",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000022",
+      "latitudeText": "36.557951",
+      "longitudeText": "127.019957",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000023",
+      "latitudeText": "36.4235175034587",
+      "longitudeText": "127.118768521238",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000024",
+      "latitudeText": "36.3729373",
+      "longitudeText": "127.1781203",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000025",
+      "latitudeText": "36.3583238",
+      "longitudeText": "127.2410248",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000026",
+      "latitudeText": "36.1720754022474",
+      "longitudeText": "126.893159881984",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000027",
+      "latitudeText": "36.1853984",
+      "longitudeText": "126.9456531",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000028",
+      "latitudeText": "36.302196",
+      "longitudeText": "126.9159298",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000029",
+      "latitudeText": "36.2373729",
+      "longitudeText": "127.4690661",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002A",
+      "latitudeText": "36.4315905",
+      "longitudeText": "126.8438241",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002B",
+      "latitudeText": "36.4594872",
+      "longitudeText": "127.405689",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002C",
+      "latitudeText": "36.7318247",
+      "longitudeText": "127.4044612",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002D",
+      "latitudeText": "36.6744104",
+      "longitudeText": "127.4477438",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002E",
+      "latitudeText": "36.6174267",
+      "longitudeText": "127.7045373",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C900002F",
+      "latitudeText": "37.0744803140535",
+      "longitudeText": "127.879733353485",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000030",
+      "latitudeText": "36.9758361790207",
+      "longitudeText": "128.020916889977",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000031",
+      "latitudeText": "37.0272913",
+      "longitudeText": "128.0418349",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B50A2C9000032",
+      "latitudeText": "36.7821510231578",
+      "longitudeText": "127.952017534771",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8B97175C000001",
+      "latitudeText": "37.21222",
+      "longitudeText": "126.99056",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000001",
+      "latitudeText": "37.8276496442",
+      "longitudeText": "127.8837361238",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000002",
+      "latitudeText": "35.6331302276197",
+      "longitudeText": "127.301248923544",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000003",
+      "latitudeText": "37.51633803084724",
+      "longitudeText": "128.72732228886346",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000004",
+      "latitudeText": "36.7866956013648",
+      "longitudeText": "127.163290209934",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000005",
+      "latitudeText": "36.783999754063636",
+      "longitudeText": "127.16817993666425",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000006",
+      "latitudeText": "36.787867853328876",
+      "longitudeText": "127.14958775313194",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000007",
+      "latitudeText": "36.9776052803288",
+      "longitudeText": "128.337097105685",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000008",
+      "latitudeText": "36.0174521809808",
+      "longitudeText": "126.669364142177",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000009",
+      "latitudeText": "36.0296644507077",
+      "longitudeText": "126.72465462784",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000A",
+      "latitudeText": "37.011685050532996",
+      "longitudeText": "127.01968471635863",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000B",
+      "latitudeText": "36.7309920299126",
+      "longitudeText": "127.014430234036",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000C",
+      "latitudeText": "36.999461",
+      "longitudeText": "127.119998",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000D",
+      "latitudeText": "36.9690849883479",
+      "longitudeText": "127.065893673113",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000E",
+      "latitudeText": "36.97523404504005",
+      "longitudeText": "127.02798072991841",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A00000F",
+      "latitudeText": "37.01261695778012",
+      "longitudeText": "126.98353783242547",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000010",
+      "latitudeText": "37.167372126738016",
+      "longitudeText": "127.0621968340827",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000011",
+      "latitudeText": "37.428358070173495",
+      "longitudeText": "128.10870304358662",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000012",
+      "latitudeText": "37.856",
+      "longitudeText": "127.6854",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000013",
+      "latitudeText": "36.7609621964652",
+      "longitudeText": "126.86729915877",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000014",
+      "latitudeText": "37.026453",
+      "longitudeText": "127.397885",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8C53C98A000015",
+      "latitudeText": "37.0099114861546",
+      "longitudeText": "127.269467290701",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000001",
+      "latitudeText": "37.389771146858344",
+      "longitudeText": "126.78124058551218",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000002",
+      "latitudeText": "37.16033860710959",
+      "longitudeText": "127.07704102516597",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000003",
+      "latitudeText": "37.138245",
+      "longitudeText": "126.928181",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000004",
+      "latitudeText": "37.1797667548719",
+      "longitudeText": "127.445101151815",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000005",
+      "latitudeText": "37.1723396",
+      "longitudeText": "127.4706034",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000006",
+      "latitudeText": "36.8943396",
+      "longitudeText": "127.5982097",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000007",
+      "latitudeText": "36.5284795",
+      "longitudeText": "126.4899021",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000008",
+      "latitudeText": "36.5966729",
+      "longitudeText": "126.90978",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000009",
+      "latitudeText": "36.1751734",
+      "longitudeText": "127.1537943",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000A",
+      "latitudeText": "36.8163803",
+      "longitudeText": "127.495401",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000B",
+      "latitudeText": "36.6366941948496",
+      "longitudeText": "126.798068670494",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000C",
+      "latitudeText": "36.7139424",
+      "longitudeText": "127.6499702",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000D",
+      "latitudeText": "36.9563721",
+      "longitudeText": "127.6086301",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000E",
+      "latitudeText": "37.0393686",
+      "longitudeText": "127.6526551",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500000F",
+      "latitudeText": "36.81863426048",
+      "longitudeText": "127.476548463983",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000010",
+      "latitudeText": "36.5174763515632",
+      "longitudeText": "127.337182917433",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000011",
+      "latitudeText": "36.48962",
+      "longitudeText": "127.7557935",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000012",
+      "latitudeText": "36.9240998",
+      "longitudeText": "127.3901695",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000013",
+      "latitudeText": "36.8744595",
+      "longitudeText": "127.3667318",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000014",
+      "latitudeText": "37.3571279",
+      "longitudeText": "127.7102973",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000015",
+      "latitudeText": "37.1974759021668",
+      "longitudeText": "127.983276995673",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000016",
+      "latitudeText": "36.8076801",
+      "longitudeText": "127.1483676",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000017",
+      "latitudeText": "37.5112974856134",
+      "longitudeText": "127.097883607669",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000018",
+      "latitudeText": "37.435508818173126",
+      "longitudeText": "127.02382167828021",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B5505000019",
+      "latitudeText": "36.2872648472553",
+      "longitudeText": "127.400110860362",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500001A",
+      "latitudeText": "36.3751095285499",
+      "longitudeText": "127.382029633925",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500001B",
+      "latitudeText": "37.6637643766661",
+      "longitudeText": "126.755562682182",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    },
+    {
+      "nativeId": "5F8D1B550500001C",
+      "latitudeText": "36.1887882484825",
+      "longitudeText": "127.113668716594",
+      "kind": "imported metadata text; not independently exported marker geometry"
+    }
+  ],
+  "displayCoordinateComparisons": [
+    {
+      "nativeId": "5F8C3C306B000002",
+      "beforeDisplayCoordinate": "37.28991, 127.21662",
+      "afterDisplayCoordinate": "37.28991, 127.21662",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000002",
+      "beforeDisplayCoordinate": "37.25106, 127.06536",
+      "afterDisplayCoordinate": "37.25106, 127.06536",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000003",
+      "beforeDisplayCoordinate": "37.09452, 127.40643",
+      "afterDisplayCoordinate": "37.09452, 127.40643",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000004",
+      "beforeDisplayCoordinate": "37.11584, 126.88367",
+      "afterDisplayCoordinate": "37.11584, 126.88367",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000005",
+      "beforeDisplayCoordinate": "37.2772, 126.83969",
+      "afterDisplayCoordinate": "37.2772, 126.83969",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000006",
+      "beforeDisplayCoordinate": "36.54282, 126.79961",
+      "afterDisplayCoordinate": "36.54282, 126.79961",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000007",
+      "beforeDisplayCoordinate": "36.49768, 127.27331",
+      "afterDisplayCoordinate": "36.49768, 127.27331",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000008",
+      "beforeDisplayCoordinate": "36.6511, 127.51652",
+      "afterDisplayCoordinate": "36.6511, 127.51652",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000009",
+      "beforeDisplayCoordinate": "36.48956, 127.27015",
+      "afterDisplayCoordinate": "36.48956, 127.27015",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300000A",
+      "beforeDisplayCoordinate": "37.43897, 127.00576",
+      "afterDisplayCoordinate": "37.43897, 127.00576",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300000B",
+      "beforeDisplayCoordinate": "36.37905, 127.36072",
+      "afterDisplayCoordinate": "36.37905, 127.36072",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300000C",
+      "beforeDisplayCoordinate": "36.06701, 126.86262",
+      "afterDisplayCoordinate": "36.06701, 126.86262",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300000D",
+      "beforeDisplayCoordinate": "36.43362, 126.88985",
+      "afterDisplayCoordinate": "36.43362, 126.88985",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300000F",
+      "beforeDisplayCoordinate": "36.75038, 126.85913",
+      "afterDisplayCoordinate": "36.75038, 126.85913",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000010",
+      "beforeDisplayCoordinate": "36.67218, 127.20858",
+      "afterDisplayCoordinate": "36.67218, 127.20858",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000011",
+      "beforeDisplayCoordinate": "36.62596, 127.66652",
+      "afterDisplayCoordinate": "36.62596, 127.66652",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000013",
+      "beforeDisplayCoordinate": "37.13202, 126.90956",
+      "afterDisplayCoordinate": "37.13202, 126.90956",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000015",
+      "beforeDisplayCoordinate": "37.19019, 126.83871",
+      "afterDisplayCoordinate": "37.19019, 126.83871",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000016",
+      "beforeDisplayCoordinate": "37.08122, 127.47602",
+      "afterDisplayCoordinate": "37.08122, 127.47602",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000017",
+      "beforeDisplayCoordinate": "37.35986, 127.04005",
+      "afterDisplayCoordinate": "37.35986, 127.04005",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000018",
+      "beforeDisplayCoordinate": "36.67957, 126.85022",
+      "afterDisplayCoordinate": "36.67957, 126.85022",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000019",
+      "beforeDisplayCoordinate": "36.68467, 126.74916",
+      "afterDisplayCoordinate": "36.68467, 126.74916",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300001C",
+      "beforeDisplayCoordinate": "36.27536, 126.91243",
+      "afterDisplayCoordinate": "36.27536, 126.91243",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300001D",
+      "beforeDisplayCoordinate": "36.63857, 127.51137",
+      "afterDisplayCoordinate": "36.63857, 127.51137",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300001E",
+      "beforeDisplayCoordinate": "36.65382, 127.54645",
+      "afterDisplayCoordinate": "36.65382, 127.54645",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300001F",
+      "beforeDisplayCoordinate": "36.63308, 127.4886",
+      "afterDisplayCoordinate": "36.63308, 127.4886",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000020",
+      "beforeDisplayCoordinate": "37.16088, 127.07754",
+      "afterDisplayCoordinate": "37.16088, 127.07754",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000021",
+      "beforeDisplayCoordinate": "37.15223, 127.06987",
+      "afterDisplayCoordinate": "37.15223, 127.06987",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000022",
+      "beforeDisplayCoordinate": "37.15244, 127.07044",
+      "afterDisplayCoordinate": "37.15244, 127.07044",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000024",
+      "beforeDisplayCoordinate": "36.2686, 126.90649",
+      "afterDisplayCoordinate": "36.2686, 126.90649",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000025",
+      "beforeDisplayCoordinate": "37.15882, 127.07577",
+      "afterDisplayCoordinate": "37.15882, 127.07577",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000026",
+      "beforeDisplayCoordinate": "37.13523, 127.06975",
+      "afterDisplayCoordinate": "37.13523, 127.06975",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000027",
+      "beforeDisplayCoordinate": "37.17765, 127.045",
+      "afterDisplayCoordinate": "37.17765, 127.045",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000028",
+      "beforeDisplayCoordinate": "37.20299, 127.03314",
+      "afterDisplayCoordinate": "37.20299, 127.03314",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000029",
+      "beforeDisplayCoordinate": "37.28252, 127.07274",
+      "afterDisplayCoordinate": "37.28252, 127.07274",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002A",
+      "beforeDisplayCoordinate": "37.19907, 126.82842",
+      "afterDisplayCoordinate": "37.19907, 126.82842",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002B",
+      "beforeDisplayCoordinate": "37.24506, 127.06181",
+      "afterDisplayCoordinate": "37.24506, 127.06181",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002C",
+      "beforeDisplayCoordinate": "36.84401, 127.13464",
+      "afterDisplayCoordinate": "36.84401, 127.13464",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002D",
+      "beforeDisplayCoordinate": "37.29213, 127.12251",
+      "afterDisplayCoordinate": "37.29213, 127.12251",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002E",
+      "beforeDisplayCoordinate": "37.28632, 127.05629",
+      "afterDisplayCoordinate": "37.28632, 127.05629",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D8300002F",
+      "beforeDisplayCoordinate": "37.32917, 127.06658",
+      "afterDisplayCoordinate": "37.32917, 127.06658",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000030",
+      "beforeDisplayCoordinate": "37.24506, 127.06181",
+      "afterDisplayCoordinate": "37.24506, 127.06181",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000031",
+      "beforeDisplayCoordinate": "37.01155, 127.32759",
+      "afterDisplayCoordinate": "37.01155, 127.32759",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000032",
+      "beforeDisplayCoordinate": "37.01276, 127.32797",
+      "afterDisplayCoordinate": "37.01276, 127.32797",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000033",
+      "beforeDisplayCoordinate": "37.42416, 126.88345",
+      "afterDisplayCoordinate": "37.42416, 126.88345",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8DD03D83000034",
+      "beforeDisplayCoordinate": "37.22226, 127.11625",
+      "afterDisplayCoordinate": "37.22226, 127.11625",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    },
+    {
+      "nativeId": "5F8C3C306B000003",
+      "beforeDisplayCoordinate": "36.99089, 127.08591",
+      "afterDisplayCoordinate": "36.99089, 127.08591",
+      "match": true,
+      "kind": "UI display text, not full native geometry"
+    }
+  ],
+  "historicalKml": {
+    "historicalKmlPlacemarks": 61,
+    "historicalKmlCoordinateElements": 0,
+    "historicalKmlReceiptClaimsPlacemarks": 256,
+    "historicalKmlBytesMatchReceipt": false
+  },
+  "limits": "Imported coordinate fields and rounded display comparisons are not a full native marker geometry export. The historical KML has 61 Placemarks and zero coordinate elements; a receipt claims a different 256-feature file. No full restorable 601-marker KMZ is available."
+}
