@@ -1,0 +1,31 @@
+{
+  "siteUrl": "https://humphreys-field-guide.kuil09.chatgpt.site",
+  "siteRelease": "v37",
+  "publishedAtUtc": "2026-10-27T07:17:01.209236Z",
+  "canonicalDataCommit": "a1630b40ba030b85e05113f2e04ba960d2404ef9",
+  "siteSourceCommit": "db0558700dc17bf84bc7c8a63bd5742780674c07",
+  "places": 648,
+  "sources": 970,
+  "generalPoints": 130,
+  "unmeasuredPlaces": 518,
+  "verification": {
+    "cardLanguageChecksPassed": 25,
+    "layoutWidthsCssPx": [
+      388,
+      1165
+    ],
+    "horizontalOverflow": "none in tested cards",
+    "filtersAndDeepLink": "passed",
+    "publicCanonicalManifest": "verified",
+    "physicalMobileDevice": "not tested"
+  },
+  "googleMap": {
+    "updatedByThisRelease": false,
+    "lastReceiptRows": 607,
+    "positioned": 601,
+    "unresolved": 6,
+    "pendingAdditions": 41,
+    "cleanupComplete": false
+  },
+  "note": "Site publication is separate from Google My Maps synchronization; input manifest deployed:false is a staging flag."
+}
