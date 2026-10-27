@@ -21,7 +21,51 @@
     "Narrow viewport QA used browser zoom, not an actual mobile device."
   ],
   "qa": {
-    "desktop": [
+    "narrow": [
+      {
+        "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
+        "language": "en",
+        "results": "646 of 646 places",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
+        "language": "ko",
+        "results": "전체 646곳 중 646곳",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
+        "language": "ja",
+        "results": "全646か所中646か所",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
+        "language": "zh",
+        "results": "共646处，匹配646处",
+        "scrollWidth": 388,
+        "width": 393
+      },
+      {
+        "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
+        "language": "es",
+        "results": "646 de 646 lugares",
+        "scrollWidth": 388,
+        "width": 393
+      }
+    ],
+    "viewportMethod": "Cloud Chrome narrow viewport measured at393 CSS px and devicePixelRatio3; not a physical mobile-device test. Initial viewport width was not recorded, so no separate desktop-width claim is made.",
+    "excludedSearches": {
+      "Downtown Lanes": "0 of 646 places",
+      "MiG Alleys": "0 of 646 places"
+    },
+    "applicationConsoleErrorAudit": "Latest20 errors belonged to browser extension; not a full console-history assertion",
+    "verifiedAtUtc": "2026-10-27T19:58:42Z",
+    "initialViewport": [
       {
         "language": "en",
         "rows": [
@@ -173,49 +217,6 @@
         ]
       }
     ],
-    "narrow": [
-      {
-        "buttons": "All places\n646\nFood & Drink\n127\nNature & Camping\n140\nActivities & Wellness\n185\nShopping\n74\nCulture & Sights\n120",
-        "language": "en",
-        "results": "646 of 646 places",
-        "scrollWidth": 388,
-        "width": 393
-      },
-      {
-        "buttons": "전체 장소\n646\n음식·카페\n127\n자연·캠핑\n140\n체험·휴식\n185\n쇼핑\n74\n문화·관광\n120",
-        "language": "ko",
-        "results": "전체 646곳 중 646곳",
-        "scrollWidth": 388,
-        "width": 393
-      },
-      {
-        "buttons": "すべて\n646\n食事・カフェ\n127\n自然・キャンプ\n140\n体験・リラクゼーション\n185\nショッピング\n74\n文化・観光\n120",
-        "language": "ja",
-        "results": "全646か所中646か所",
-        "scrollWidth": 388,
-        "width": 393
-      },
-      {
-        "buttons": "全部地点\n646\n餐饮与咖啡\n127\n自然与露营\n140\n体验与休闲\n185\n购物\n74\n文化与观光\n120",
-        "language": "zh",
-        "results": "共646处，匹配646处",
-        "scrollWidth": 388,
-        "width": 393
-      },
-      {
-        "buttons": "Todos\n646\nComida y bebida\n127\nNaturaleza y camping\n140\nActividades y bienestar\n185\nCompras\n74\nCultura y lugares de interés\n120",
-        "language": "es",
-        "results": "646 de 646 lugares",
-        "scrollWidth": 388,
-        "width": 393
-      }
-    ],
-    "viewportMethod": "Cloud Chrome browser zoom to CSS width393; not physical iOS device test",
-    "excludedSearches": {
-      "Downtown Lanes": "0 of 646 places",
-      "MiG Alleys": "0 of 646 places"
-    },
-    "applicationConsoleErrorAudit": "Latest20 errors belonged to browser extension; not a full console-history assertion",
-    "verifiedAtUtc": "2026-10-27T19:58:42Z"
+    "initialViewportWidthRecorded": false
   }
 }
