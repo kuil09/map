@@ -1,40 +1,50 @@
 {
   "schemaVersion": "1.0",
   "verifiedAtKst": "2026-10-28",
-  "verifiedAtUtc": "2026-10-27T15:00:00Z",
-  "baseCommit": "e465efdda42d71000e6d423b85bbd224e3714a16",
+  "verifiedAtUtc": "2026-10-27T23:00:00Z",
+  "baseCommit": "9f6e9caa1c0d731deee6449a314ac39a9454ab71",
   "status": "public_map_count_verified",
-  "scope": "Google My Maps public layer row counts via KML export after round-2 append",
-  "note": "Current verified public map state including 8 Daegu places from round 1 + 17 from round 2. Earlier unpublished integration commits (26067965, 4a73dada) were abandoned by owner decision.",
-  "totalRows": 671,
+  "scope": "Google My Maps public layer row counts via KML export after round-3 append",
+  "note": "Current verified public map state including 8 Daegu places from round 1 + 17 from round 2 + 16 from round 3. Earlier unpublished integration commits (26067965, 4a73dada) were abandoned by owner decision.",
+  "totalRows": 687,
   "layers": [
     {
       "name": "Shopping",
-      "rows": 78
+      "rows": 79
     },
     {
       "name": "Food & Drink",
-      "rows": 134
+      "rows": 139
     },
     {
       "name": "Nature & Camping",
-      "rows": 145,
-      "note": "Google My Maps auto-created style group 'Campgrounds / 카핑장' after round-2 import"
+      "rows": 149,
+      "note": "Google My Maps auto-created style group 'Campgrounds / 캠핑장' after round-2 import"
     },
     {
       "name": "Activities & Wellness",
-      "rows": 189,
+      "rows": 191,
       "unplacedRows": 7,
-      "unplacedNote": "Pre-existing 7 unplaced rows from earlier appends"
+      "unplacedIds": [
+        "activity-ds-billiards-paengseong",
+        "activity-zeus-billiards-pyeongtaek",
+        "activity-osan-cc-carom",
+        "activity-carom-billiards-osan",
+        "activity-muzit-darts-pyeongtaek",
+        "redbutton-osan-city-hall",
+        "redbutton-ansan"
+      ],
+      "unplacedNote": "Pre-existing 7 unplaced rows from earlier appends (not Daegu). Additional 17 older Activities rows show empty location cell but have addresses present (pre-existing, not Daegu)."
     },
     {
       "name": "Culture & Sights",
-      "rows": 125
+      "rows": 129
     }
   ],
-  "daeguPlacesIncluded": 25,
+  "daeguPlacesIncluded": 41,
   "daeguRound1": 8,
   "daeguRound2": 17,
+  "daeguRound3": 16,
   "daeguRecordIdsRound1": [
     "dining-daegu-samsong-main",
     "dining-daegu-gugil-ttarogukbap",
@@ -64,6 +74,29 @@
     "activity-daegu-eworld-83tower",
     "family-daegu-national-science-museum"
   ],
+  "daeguRound2AddressResolution": "Edit-view verified: all 17 round-2 rows have Daegu addresses successfully resolved (no location-not-found errors)",
+  "daeguRecordIdsRound3": [
+    "cafe-daegu-gumin-good-morning",
+    "cafe-daegu-espace-bakery",
+    "cafe-daegu-gongjudang-bakery",
+    "dining-daegu-jungang-tteokbokki",
+    "dining-daegu-neorangnarang-makchang",
+    "camping-daegu-jinbatgol-campground",
+    "camping-daegu-palgongsan-dohak-campground",
+    "culture-daegu-gukchae-bosang-park",
+    "scenery-daegu-suseongmot",
+    "shopping-daegu-lotte-dept-daegu",
+    "temple-daegu-pagyesa",
+    "culture-daegu-bangjja-yugi-museum",
+    "culture-daegu-modern-history-museum",
+    "culture-daegu-yangnyeongsi-herbal-museum",
+    "activity-daegu-sun-sports-plaza-bowling",
+    "activity-daegu-spark-bowling"
+  ],
+  "daeguRound3PromotedHolds": [
+    "activity-daegu-spark-bowling",
+    "scenery-daegu-suseongmot"
+  ],
   "abandonedCommits": [
     {
       "sha": "26067965",
@@ -74,9 +107,11 @@
       "note": "Unpublished integration attempt, abandoned by owner decision"
     }
   ],
-  "verificationMethod": "Public KML export via Google My Maps API",
-  "uniqueRecordIdsVerified": 671,
+  "verificationMethod": "Public KML export via Google My Maps API and edit-view location placement check",
+  "uniqueRecordIdsVerified": 687,
   "round2AppendReceipt": "data/history/walker-daegu-round2-append-20261028-receipt.json",
+  "round3AppendReceipt": "data/history/walker-daegu-round3-append-20261028-receipt.json",
+  "editOperationsNote": "Shopping 'Games & hobbies' style icon accidentally changed then immediately undone during round-3 append; no lasting changes.",
   "canonicalPlacesJsonCount": 648,
   "canonicalPlacesJsonSha256": "a599f6e6cbe8bb59e2f545664b56a6a57dea29983b05b9dbeb6dc42004de347c"
 }

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0",
+  "operation": "add_more_items_only",
+  "round": 3,
+  "status": "verified_uploaded",
+  "uploadedAtKst": "2026-10-28T08:00:00+09:00",
+  "uploadedAtUtc": "2026-10-27T23:00:00Z",
+  "verifiedAtKst": "2026-10-28",
+  "verifiedAtUtc": "2026-10-27T23:00:00Z",
+  "baseCommit": "9f6e9caa1c0d731deee6449a314ac39a9454ab71",
+  "scope": "16 Camp Walker / Daegu round-3 candidates appended via 'Add more items' per layer. Includes 2 promoted holds from round 2 keeping their round-2 IDs.",
+  "method": "google_my_maps_add_more_items_per_layer",
+  "verificationMethod": "Public KML export row counts, Record ID enumeration, and edit-view location placement check",
+  "rowsAdded": 16,
+  "promotedHoldsFromRound2": [
+    "activity-daegu-spark-bowling",
+    "scenery-daegu-suseongmot"
+  ],
+  "recordIdsAdded": [
+    "cafe-daegu-gumin-good-morning",
+    "cafe-daegu-espace-bakery",
+    "cafe-daegu-gongjudang-bakery",
+    "dining-daegu-jungang-tteokbokki",
+    "dining-daegu-neorangnarang-makchang",
+    "camping-daegu-jinbatgol-campground",
+    "camping-daegu-palgongsan-dohak-campground",
+    "culture-daegu-gukchae-bosang-park",
+    "scenery-daegu-suseongmot",
+    "shopping-daegu-lotte-dept-daegu",
+    "temple-daegu-pagyesa",
+    "culture-daegu-bangjja-yugi-museum",
+    "culture-daegu-modern-history-museum",
+    "culture-daegu-yangnyeongsi-herbal-museum",
+    "activity-daegu-sun-sports-plaza-bowling",
+    "activity-daegu-spark-bowling"
+  ],
+  "oldRowsBeforeAppend": 671,
+  "newRowsAfterAppend": 687,
+  "verifiedLayerCounts": {
+    "Shopping": 79,
+    "Food & Drink": 139,
+    "Nature & Camping": 149,
+    "Activities & Wellness": 191,
+    "Culture & Sights": 129
+  },
+  "totalRowsVerified": 687,
+  "uniqueRecordIdsVerified": 687,
+  "allNewIdsPresent": true,
+  "noDuplicates": true,
+  "round2AddressResolution": {
+    "verified": true,
+    "note": "Edit-view check: all 17 round-2 rows have Daegu addresses successfully resolved (no location-not-found errors)",
+    "round2RowsChecked": 17,
+    "allResolved": 17
+  },
+  "unplacedRows": {
+    "Activities & Wellness": 7,
+    "preExistingIds": [
+      "activity-ds-billiards-paengseong",
+      "activity-zeus-billiards-pyeongtaek",
+      "activity-osan-cc-carom",
+      "activity-carom-billiards-osan",
+      "activity-muzit-darts-pyeongtaek",
+      "redbutton-osan-city-hall",
+      "redbutton-ansan"
+    ],
+    "note": "These 7 unplaced rows are pre-existing from earlier appends, not from Daegu rounds. An additional 17 older Activities rows show empty location cell but have addresses present (pre-existing, not Daegu)."
+  },
+  "editOperations": {
+    "accidentalIconChange": {
+      "layer": "Shopping",
+      "styleGroup": "Games & hobbies",
+      "action": "Icon accidentally changed, immediately undone",
+      "impact": "No lasting changes; style restored to original"
+    }
+  },
+  "addressOnlyRows": 16,
+  "coordinateStatus": "All 16 appended rows were address-only. Location placement by Google Maps address geocoding verified via edit view for round-2 rows.",
+  "exportedFilesUsed": [
+    "exports/append-walker-daegu-round3-20261028/food_drink-compatible.csv",
+    "exports/append-walker-daegu-round3-20261028/nature_camping-compatible.csv",
+    "exports/append-walker-daegu-round3-20261028/shopping-compatible.csv",
+    "exports/append-walker-daegu-round3-20261028/culture_sights-compatible.csv",
+    "exports/append-walker-daegu-round3-20261028/activities_wellness-compatible.csv"
+  ],
+  "manifestPath": "exports/append-walker-daegu-round3-20261028/manifest.json",
+  "evidencePath": "data/history/daegu-candidate-evidence-round3-20261028.json",
+  "stagedPath": "data/history/daegu-places-staged-round3-20261028.json"
+}

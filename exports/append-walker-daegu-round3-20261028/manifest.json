@@ -1,7 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "status": "draft_not_uploaded",
-  "note": "Round 3. All rows address-only; coordinate columns omitted. Promoted rows (activity-daegu-spark-bowling, scenery-daegu-suseongmot) replace round-2 held records. Do not upload before review.",
+  "status": "uploaded",
+  "uploadedAtKst": "2026-10-28T08:00:00+09:00",
+  "note": "Round 3. All rows address-only; coordinate columns omitted. Promoted rows (activity-daegu-spark-bowling, scenery-daegu-suseongmot) replace round-2 held records. Uploaded to live map on 2026-10-28 ~08:00 KST.",
   "files": [
     {
       "purpose": "food_drink",
@@ -32,7 +33,7 @@
         "Visit type"
       ],
       "sha256": "c285662fddf46e663509c7b516b2a02b286cab41464140d83501bd01b1213ea3",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "nature_camping",
@@ -62,7 +63,7 @@
         "Visit type"
       ],
       "sha256": "44873a2baee9db5e149c23642a85115251cda3c7290f7a9d162c81a86d41467d",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "shopping",
@@ -88,7 +89,7 @@
         "Record ID"
       ],
       "sha256": "597d4d82c76b9547205530f8ade1d2e3d55256e787254be745fba6a9621c8b1e",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "culture_sights",
@@ -117,7 +118,7 @@
         "Record ID"
       ],
       "sha256": "bb4d15d1ef80677e846049b318976657c858f8ce0bdc8e408c7a807f0fdf9f45",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     },
     {
       "purpose": "activities_wellness",
@@ -144,7 +145,7 @@
         "Record ID"
       ],
       "sha256": "a230d876ab2a4a7de19fe150ba5fdca8f27f498a2e21b2d1d84591403e826c29",
-      "status": "draft_not_uploaded"
+      "status": "uploaded"
     }
   ]
 }
