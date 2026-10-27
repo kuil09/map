@@ -2,8 +2,8 @@
   "asOf": "2026-10-27",
   "siteRelease": "v38",
   "siteTotal": 648,
-  "confirmedNativeRows": 648,
-  "positionedMarkers": 641,
+  "confirmedNativeRows": 646,
+  "positionedMarkers": 639,
   "unresolvedRows": 7,
   "pendingAppendPlaceIds": [],
   "pendingCohorts": [],
@@ -235,8 +235,8 @@
   },
   "pendingFieldEditCount": 692,
   "appliedFieldChangeCount": 213,
-  "physicalLayers": 7,
-  "layerStructureStatus": "incomplete",
+  "physicalLayers": 5,
+  "layerStructureStatus": "five_public_purpose_layers_visual_verified_full_sync_partial",
   "appendFile": {
     "path": "exports/map-append35-v35.csv",
     "rows": 35,
@@ -268,9 +268,11 @@
     "Append only after fresh native inventory and destination schema validation; do not replace or match existing rows.",
     "Prior source, status and coordinate updates remain separate from successful row imports.",
     "Do not mark 692 historical proposed field edits executed without exact-ID fresh before-value checks.",
-    "Existing Activities / 체험 category is intentionally retained for import compatibility. Display category normalization and purpose-layer consolidation are incomplete.",
     "All 35/38/41-row append artifacts overlap the verified 41-row successful import and are historical evidence only. The pending append queue is empty: never upload these files again or upload a header-only export.",
-    "The successful BOM-free import exposed a separate Name column because the legacy display-title binding is U+FEFF + Name. All 41 titles were repaired and reloaded; the extra Name column remains. Encoding mitigation alone does not resolve a legacy title binding. Source audit columns deleted: zero."
+    "The successful BOM-free import exposed a separate Name column because the legacy display-title binding is U+FEFF + Name. All 41 titles were repaired and reloaded; the extra Name column remains. Encoding mitigation alone does not resolve a legacy title binding. Source audit columns deleted: zero.",
+    "Current map has five public purpose layers and 16 styled subtype groups, with seven unresolved rows. Do not equate visual completion with full-field or geometry verification.",
+    "The two public exclusions remain part of the 648-record canonical archive and historical imported-ID set; do not requeue or reimport them.",
+    "Prior cleanup and append guardrails describe preserved historical operations; current restore verification is limited by the selected map receipt."
   ],
   "lastPublishedSiteRelease": "v37",
   "siteReleaseStatus": "canonical_prepared_not_site_deployed",
@@ -332,17 +334,37 @@
   ],
   "currentAppendStatus": "no_pending_rows_do_not_upload",
   "verifiedImportHistory": "data/map/verified-import-history.json",
-  "currentUnresolvedFile": "data/map/unresolved7.json",
+  "currentUnresolvedFile": "data/map/unresolved-after-restore.json",
   "historicalUnresolvedFiles": [
-    "data/map/unresolved6.json"
+    "data/map/unresolved6.json",
+    "data/map/unresolved7.json"
   ],
-  "mapReceipt": "data/history/map-append41-verified-receipt.json",
-  "mapVerifiedAtUtc": "2026-10-27T07:45:51.523Z",
+  "mapReceipt": "data/history/map-restore-current-receipt.json",
+  "mapVerifiedAtUtc": "2026-10-27T19:45:23Z",
   "nativeIdentityCoverage": {
     "historicalNativeIdentities": 607,
     "explicitHistoricalNativeToPlaceJoins": 296,
     "historicalUnjoinedNativeIdentities": 311,
     "newImportedPlacesWithoutNativeIds": 41,
-    "nativeIdsFreshlyVerified": false
+    "nativeIdsFreshlyVerified": false,
+    "scope": "Historical pre-restoration coverage only. Old native IDs were not preserved. Current 646 native UI identifiers are observed in final DOM but not a fresh complete Record-ID/native-ID audit."
+  },
+  "mapReceiptSHA256": "b321f5d1723bb12abd974b3a749ac379fdb20a80c10f02e2cf18a7ba2440553f",
+  "currentMapStatus": "partial",
+  "mapVisualComplete": true,
+  "currentMapVerificationScope": "Saved/reloaded five physical purpose layers, 646 displayed names/native UI IDs and 16 styled subtype groups. Seven unresolved remain. No fresh all-row Record ID, full-field or numerical-geometry audit.",
+  "historicalSyncStateBeforeRestore": "data/history/map-sync-v38-before-restore.json",
+  "cleanupScope": "Historical pre-restoration cleanup ledger retained unchanged; not a fresh proof that those field edits or old columns match the restored map.",
+  "existingUpdateGroupsScope": "Historical correction proposals retained; not automatically applied or cleared by restoration or visual styling.",
+  "currentNativeIdentityCoverage": {
+    "allCurrentRecordIdsFreshlyVerified": false,
+    "verifiedPlaceIds": [],
+    "nativeIdsPreserved": false,
+    "currentDisplayNamesFreshlyVerified": 646,
+    "currentNativeUiIdentifiersObserved": 646,
+    "currentNativeUiIdentifiersUnique": 646,
+    "exactDisplayNameMatchesToPreparedCsv": 646,
+    "allCurrentCanonicalToNativeJoinsFreshlyVerified": false,
+    "scope": "Fresh map list names and UI identifiers only. No old native-ID preservation or full map Record ID-column audit."
   }
 }

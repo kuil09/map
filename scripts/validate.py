@@ -83,6 +83,34 @@ def privacy_scan(root=ROOT):
         checked += 1
     return checked
 
+def current_map_membership(root, sync, receipt, imported):
+    """Expected current logical cohort; a row count is not a fresh native-ID audit."""
+    if receipt.get('operation') != 'restore_after_layer_deletion':
+        return set(imported)
+    policy = load('data/map/public-exclusions.json', root)
+    ensure(policy['status'] == 'authorized_public_exclusion', 'Public exclusion is not authorized')
+    ensure(digest(root / 'data/places.json') == policy['sourcePlacesSha256'], 'Public exclusion source hash drift')
+    excluded = policy['excludedPlaceIds']
+    ensure(len(excluded) == len(set(excluded)) == 2 and set(excluded) <= set(imported), 'Public exclusion identity drift')
+    ensure(receipt['excludedPlaceIds'] == excluded, 'Restore exclusions differ from explicit policy')
+    ensure(receipt['canonicalArchiveCount'] == policy['canonicalArchiveCount'] == len(imported) == 648, 'Restore changed logical archive')
+    ensure(receipt['publicExclusionPolicySHA256'] == digest(root / 'data/map/public-exclusions.json'), 'Restore exclusion evidence hash drift')
+    ensure(sync['mapReceiptSHA256'] == digest(root / sync['mapReceipt']), 'Current map receipt hash drift')
+    ensure(receipt['status'] in ('partial', 'verified') and receipt['savedReloadedCountsVerified'] is True and receipt['verifiedAtUtc'], 'Restore counts lack saved/reloaded evidence')
+    ensure(sync['mapVerifiedAtUtc'] == receipt['verifiedAtUtc'], 'Restore verification timestamp drift')
+    expected = set(imported) - set(excluded)
+    ensure(len(expected) == policy['publicCount'] == receipt['counts']['rows'] == 646, 'Restore public membership count drift')
+    # An optional complete fresh Record-ID readback is checked, never inferred from totals.
+    identity = receipt['identityCoverage']
+    if identity['allCurrentRecordIdsFreshlyVerified']:
+        observed = identity['verifiedPlaceIds']
+        ensure(len(observed) == len(set(observed)) and set(observed) == expected, 'Restore fresh Record-ID membership drift')
+    else:
+        ensure(identity['verifiedPlaceIds'] == [], 'Unverified current IDs must not be advertised as observed')
+    ensure(identity['nativeIdsPreserved'] is False, 'Restore must not claim old native IDs preserved')
+    ensure(receipt['preservation']['fullNumericalGeometryPreservationVerified'] is False, 'Restore must not claim exact numerical geometry preservation')
+    return expected
+
 def validate(root=ROOT, asset_root=None):
     places = load('data/places.json', root)
     photos = load('data/photos.json', root)
@@ -220,18 +248,27 @@ def validate(root=ROOT, asset_root=None):
         imported.extend(new_ids)
     ensure(len(operations) == 1 and len(imported) == 648, 'Verified import history coverage')
     receipt = load(sync['mapReceipt'], root)
+    current_membership = current_map_membership(root, sync, receipt, imported)
     current_unresolved = load(sync['currentUnresolvedFile'], root)
     ensure(len(current_unresolved) == 7 and [x['siteRecordId'] for x in current_unresolved] == [x['recordId'] for x in receipt['unresolved']], 'Current unresolved identity drift')
     ensure([x['name'] for x in current_unresolved] == [x['name'] for x in receipt['unresolved']], 'Current unresolved name drift')
     ensure(all(x['nativeId'] is None for x in current_unresolved), 'Unverified fresh unresolved native ID')
-    ensure([x['siteRecordId'] for x in current_unresolved[:6]] == [x['siteRecordId'] for x in unresolved], 'Original six unresolved not preserved')
+    if receipt.get('operation') == 'restore_after_layer_deletion':
+        historical_unresolved = load('data/map/unresolved7.json', root)
+        retained = {x['siteRecordId'] for x in historical_unresolved} & current_membership
+        expected_unresolved = retained | {'activity-ds-billiards-paengseong'}
+        ensure({x['siteRecordId'] for x in current_unresolved} == expected_unresolved and len(expected_unresolved) == 7, 'Restore unresolved public membership drift')
+        ensure(sync['currentUnresolvedFile'] not in ('data/map/unresolved6.json', 'data/map/unresolved7.json'), 'Restore must not overwrite historical unresolved evidence')
+        ensure(set(('data/map/unresolved6.json', 'data/map/unresolved7.json')) <= set(sync['historicalUnresolvedFiles']), 'Restore historical unresolved references missing')
+    else:
+        ensure([x['siteRecordId'] for x in current_unresolved[:6]] == [x['siteRecordId'] for x in unresolved], 'Original six unresolved not preserved')
     queue = sync['pendingAppendPlaceIds']
     ensure(len(imported) == len(set(imported)) == 648, 'Imported cohort IDs')
     ensure(len(queue) == len(set(queue)) and not set(queue) & set(imported), 'Pending IDs duplicate imported cohort')
     ensure(set(imported) | set(queue) == set(ids), 'Imported + pending does not cover canonical places')
     ensure(sync['siteTotal'] == len(places), 'Sync site count drift')
     ensure(research['map']['expected_total'] == len(places) and research['map']['remaining_map_uploads'] == len(queue), 'Research pending-map count drift')
-    ensure(sync['confirmedNativeRows'] == receipt['counts']['rows'] == len(imported) and sync['positionedMarkers'] == receipt['counts']['positioned'] == 641 and sync['unresolvedRows'] == receipt['counts']['unresolved'] == 7, 'Receipt-backed map counts')
+    ensure(sync['confirmedNativeRows'] == receipt['counts']['rows'] == len(current_membership) and sync['positionedMarkers'] == receipt['counts']['positioned'] == len(current_membership) - 7 and sync['unresolvedRows'] == receipt['counts']['unresolved'] == 7, 'Receipt-backed map counts')
     ensure(sync['positionedMarkers'] + sync['unresolvedRows'] == sync['confirmedNativeRows'], 'Positioned/unresolved count sum')
     ensure(research['map']['confirmed_data_rows'] == research['map']['total_verified_rows'] == sync['confirmedNativeRows'] and research['map']['positioned_markers'] == sync['positionedMarkers'] and research['map']['unlocated_rows'] == research['map']['error_rows'] == sync['unresolvedRows'], 'Research verified map counts drift')
     ensure(sync['pendingCohorts'] == [] and queue == [], 'Completed 41 rows must not be queued for repeated upload')
@@ -293,7 +330,7 @@ def validate(root=ROOT, asset_root=None):
         ensure(planned['sourceRecordSha256'] == canonical_hash, 'Category proposal source record drift')
     for item in plan['sourceFiles']:
         ensure(digest(root / item['path']) == item['sha256'], 'Category proposal source hash drift')
-    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-point_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'confirmedMapRows':len(imported), 'positionedMapRows':sync['positionedMarkers'], 'unresolvedMapRows':len(current_unresolved), 'verifiedImportedRows':sum(x['rows'] for x in operations), 'proposedCategoryGroups':len(plan_counts), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
+    return {'status': 'passed', 'places': len(places), 'sourceReferences': sum(statuses.values()), 'sourceStatuses': dict(statuses), 'coordinatePoints': point_count, 'unmeasured': len(places)-point_count, 'nativeBaseline':len(baseline),'originalAuditValues': len(original), 'pendingAppend':len(queue), 'historicallyImportedLogicalRows':len(imported), 'expectedCurrentLogicalRows':len(current_membership), 'confirmedMapRows':sync['confirmedNativeRows'], 'positionedMapRows':sync['positionedMarkers'], 'unresolvedMapRows':len(current_unresolved), 'verifiedImportedRows':sum(x['rows'] for x in operations), 'proposedCategoryGroups':len(plan_counts), 'photoAssets':len(assets), 'photoAssetBytesVerified': asset_root is not None, 'privacyFilesScanned': privacy_scan(root), 'networkRequests':0}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

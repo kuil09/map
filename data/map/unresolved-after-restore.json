@@ -1,0 +1,58 @@
+[
+  {
+    "siteRecordId": "activity-ds-billiards-paengseong",
+    "name": "DS Billiards Paengseong | DS Billiards 팽성점",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "activity-zeus-billiards-pyeongtaek",
+    "name": "Zeus Billiards Pyeongtaek | 제우스당구장",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "activity-osan-cc-carom",
+    "name": "Osan CC Carom Club | 오산CC대대클럽",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "activity-carom-billiards-osan",
+    "name": "Carom Billiards Club Osan | 캐롬당구클럽",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "activity-muzit-darts-pyeongtaek",
+    "name": "MUZIT Darts Pyeongtaek | MUZIT(평택)",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "redbutton-osan-city-hall",
+    "name": "Red Button · Osan City Hall | 레드버튼 오산시청점",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  },
+  {
+    "siteRecordId": "redbutton-ansan",
+    "name": "Red Button · Ansan | 레드버튼 안산점",
+    "nativeId": null,
+    "verifiedAtUtc": "2026-10-27T19:47:25Z",
+    "verificationScope": "Fresh display-name presence matched to the prior restored-map unresolved record; unresolved membership retained from earlier receipt and current aggregate seven-row error banner, not a fresh per-row error or map Record ID audit.",
+    "identitySource": "data/history/map-restore-partial-20261027.json"
+  }
+]

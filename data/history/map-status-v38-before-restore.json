@@ -1,0 +1,63 @@
+{
+  "map_id": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "expected_total": 648,
+  "status": "rows_synchronized_with_unlocated_records_and_pending_corrections",
+  "address_geocoded": 541,
+  "official_camp_coordinates": 69,
+  "official_operator_attraction_coordinates": 30,
+  "community_reference_coordinates": 1,
+  "remaining_map_uploads": 0,
+  "sharing": {
+    "anyone_with_link": true,
+    "search_discoverability": false
+  },
+  "total_verified_rows": 648,
+  "error_rows": 7,
+  "checked": "2026-10-27",
+  "site_release": "release_cloud_v38",
+  "synchronization_note": "Verified after save and reload: 648 listings, 641 positioned and seven unresolved; 41 listings were appended once (40 positioned, Red Button Ansan unresolved), with no duplicate append. All 41 display titles were repaired after a legacy title-column mismatch and all ten fields per new row matched. No listings remain to append: historical 35/38/41-row files must not be uploaded again. Existing source, address and point corrections and 692 historical cleanup proposals remain unapplied. No source-audit columns were deleted; seven physical layers remain. Category consolidation is proposed only. Address-geocoded positions are not verified entrances.",
+  "confirmed_data_rows": 648,
+  "positioned_markers": 641,
+  "unlocated_rows": 7,
+  "verified_utc": "2026-10-27T07:45:51.523Z",
+  "verification_scope": "The receipt checks all 648 row counts and 41 appended Record IDs/ten-field values after save and reload. The 607 earlier names/layers, 4,674 original field values, 607 style references, 22 style definitions and 11 style maps were unchanged. All 100 explicit point geometries and 501 address locators were unchanged; numerical coordinates for the 501 address-geocoded pins were not exposed, so full 601-marker numerical preservation is not established. New native IDs were not exposed and no native-ID joins were inferred. Map description count clauses were verified as 648/641/7 after reload at 2026-10-27T07:45:51.523Z; all other description text, all 648 Placemarks and styles matched the prior export. Exact original append save-click time is unknown.",
+  "unlocated_ids": [
+    "activity-zeus-billiards-pyeongtaek",
+    "activity-osan-cc-carom",
+    "activity-carom-billiards-osan",
+    "activity-muzit-darts-pyeongtaek",
+    "activity-humphreys-downtown-lanes",
+    "redbutton-osan-city-hall",
+    "redbutton-ansan"
+  ],
+  "pending_data_row_verification": 105,
+  "legend_reorganization": {
+    "style_and_titles_status": "existing_styles_and_repaired_new_titles_verified_after_reload",
+    "structure_status": "incomplete",
+    "original_layers_retained": 7,
+    "target_single_purpose_layers": 6,
+    "target_status": "proposed_not_applied",
+    "target_plan": "data/map/coarse-category-plan.json",
+    "verified_utc": "2026-10-27T07:45:51.523Z",
+    "classification_writes": 0,
+    "layer_moves": 0,
+    "historical_target_scope": "The earlier eight-layer target and prior style receipt remain unchanged in data/history/map-status-v37-before-append41.json; the six-group target is a proposal, not an applied reorganization."
+  },
+  "receipt": "data/history/map-append41-verified-receipt.json",
+  "historical_checkpoint": "data/history/map-status-v37-before-append41.json",
+  "new_address_geocoded_rows": 40,
+  "new_native_ids_exposed": false,
+  "category_consolidation": {
+    "status": "proposed_not_applied",
+    "plan": "data/map/coarse-category-plan.json",
+    "category_writes": 0,
+    "layer_moves": 0
+  },
+  "historical_metrics": {
+    "duplicate_names": 0,
+    "verified_address_cards": 40,
+    "verified_coordinate_rows_in_latest_import": 28
+  },
+  "historical_metrics_scope": "Retained pre-append41 checkpoint metrics, not repeated by the latest receipt. See historical_checkpoint for the complete prior map status.",
+  "address_geocoded_scope": "Derived count: 501 historical address-based positions plus 40 positioned rows from the address-only append. This is not a numerical-geometry or entrance survey."
+}

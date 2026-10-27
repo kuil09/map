@@ -75,14 +75,29 @@ def public_research(root, public):
     """Minimal public consumer, not a rewrite of canonical research/history metadata."""
     root = Path(root)
     source = read(root/'data/research.json')
-    # Preserve only factual readback totals. Never infer new map counts from directory exclusions.
-    keys = ('map_id','confirmed_data_rows','positioned_markers','unlocated_rows','verified_utc','checked')
-    map_snapshot = {k: source.get('map', {})[k] for k in keys if k in source.get('map', {})}
+    # Read factual totals from the selected receipt, never from directory size or stale scalars.
+    sync = read(root/'data/map/sync-state.json')
+    receipt_path = root/sync['mapReceipt']
+    receipt = read(receipt_path)
+    receipt_sha = sha(receipt_path.read_bytes())
+    if receipt.get('operation') == 'restore_after_layer_deletion':
+        assert receipt_sha == sync['mapReceiptSHA256'], 'Current map receipt hash drift'
+        assert receipt['savedReloadedCountsVerified'] is True, 'Restore counts not verified'
+        verified_at = receipt['verifiedAtUtc']
+    else:
+        verified_at = sync['mapVerifiedAtUtc']
+    counts = receipt['counts']
+    map_snapshot = {'map_id':receipt['mapId'], 'confirmed_data_rows':counts['rows'],
+                    'positioned_markers':counts['positioned'], 'unlocated_rows':counts['unresolved'],
+                    'verified_utc':verified_at, 'checked':verified_at[:10]}
+    if receipt.get('operation') == 'restore_after_layer_deletion':
+        map_snapshot['restoration_status'] = receipt['status']
+        map_snapshot['all_current_record_ids_freshly_verified'] = receipt['identityCoverage']['allCurrentRecordIdsFreshlyVerified']
     coverage = {}
     for p in public:
         area = coverage.setdefault(p['area'], {})
         area[p['category']] = area.get(p['category'], 0) + 1
-    return {'checked':source.get('checked'), 'status':'public_projection', 'places':len(public), 'languages':source.get('languages'), 'coverage':coverage, 'category_counts':dict(Counter(p['category'] for p in public)), 'source_audit':{'places':len(public),'source_reference_statuses':dict(Counter(s.get('audit',{}).get('status','unconfirmed') for p in public for s in p['sources']))}, 'map':map_snapshot, 'provenance':{'canonicalArchivePlaces':648,'excludedCount':2,'canonicalResearchSha256':sha((root/'data/research.json').read_bytes()),'mapCounts':'Last verified canonical map receipt; not inferred from public directory count. Canonical research and all historical evidence remain unchanged in the archive.'}}
+    return {'checked':source.get('checked'), 'status':'public_projection', 'places':len(public), 'languages':source.get('languages'), 'coverage':coverage, 'category_counts':dict(Counter(p['category'] for p in public)), 'source_audit':{'places':len(public),'source_reference_statuses':dict(Counter(s.get('audit',{}).get('status','unconfirmed') for p in public for s in p['sources']))}, 'map':map_snapshot, 'provenance':{'canonicalArchivePlaces':648,'excludedCount':2,'canonicalResearchSha256':sha((root/'data/research.json').read_bytes()),'mapReceipt':sync['mapReceipt'], 'mapReceiptSha256':receipt_sha, 'mapCounts':'Saved/reloaded row totals from the selected canonical map receipt; not inferred from public directory count and not a full native-ID or exact geometry audit. Historical evidence remains unchanged in the archive.'}}
 
 def write_json(out, name, value):
     path = Path(out)/name

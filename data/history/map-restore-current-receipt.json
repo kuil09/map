@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.0",
+  "operation": "restore_after_layer_deletion",
+  "status": "partial",
+  "mapVisualComplete": true,
+  "mapId": "1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk",
+  "verifiedAtUtc": "2026-10-27T19:45:23Z",
+  "savedReloadedCountsVerified": true,
+  "canonicalArchiveCount": 648,
+  "publicExclusionPolicySHA256": "cd0d16e964518e43d8a8a343a93c1468dd0252712962a85f973eaf176474dadc",
+  "excludedPlaceIds": [
+    "activity-humphreys-downtown-lanes",
+    "activity-osan-mig-alleys"
+  ],
+  "counts": {
+    "rows": 646,
+    "positioned": 639,
+    "unresolved": 7,
+    "layers": 5,
+    "internalIconGroups": 16,
+    "layerRows": {
+      "Activities & Wellness / 체험·휴식": 185,
+      "Shopping / 쇼핑": 74,
+      "Culture & Sights / 문화·관광": 120,
+      "Food & Drink / 음식·카페": 127,
+      "Nature & Camping / 자연·캠핑": 140
+    },
+    "basis": "Saved/reloaded parent observation; final DOM has 646 unique displayed names/native UI IDs across five layers and a seven-row error banner. Positioned 639 is row total minus unresolved count, not a numerical-geometry inventory."
+  },
+  "unresolved": [
+    {
+      "recordId": "activity-ds-billiards-paengseong",
+      "name": "DS Billiards Paengseong | DS Billiards 팽성점"
+    },
+    {
+      "recordId": "activity-zeus-billiards-pyeongtaek",
+      "name": "Zeus Billiards Pyeongtaek | 제우스당구장"
+    },
+    {
+      "recordId": "activity-osan-cc-carom",
+      "name": "Osan CC Carom Club | 오산CC대대클럽"
+    },
+    {
+      "recordId": "activity-carom-billiards-osan",
+      "name": "Carom Billiards Club Osan | 캐롬당구클럽"
+    },
+    {
+      "recordId": "activity-muzit-darts-pyeongtaek",
+      "name": "MUZIT Darts Pyeongtaek | MUZIT(평택)"
+    },
+    {
+      "recordId": "redbutton-osan-city-hall",
+      "name": "Red Button · Osan City Hall | 레드버튼 오산시청점"
+    },
+    {
+      "recordId": "redbutton-ansan",
+      "name": "Red Button · Ansan | 레드버튼 안산점"
+    }
+  ],
+  "unresolvedVerificationScope": {
+    "identitySource": "data/history/map-restore-partial-20261027.json",
+    "allNamesPresentInFinalDom": true,
+    "freshPerRowErrorFlagAudit": false,
+    "logicalIdsAreCanonicalNameMatchesNotFreshRecordIdReadback": true
+  },
+  "identityCoverage": {
+    "allCurrentRecordIdsFreshlyVerified": false,
+    "verifiedPlaceIds": [],
+    "nativeIdsPreserved": false,
+    "currentDisplayNamesFreshlyVerified": 646,
+    "currentNativeUiIdentifiersObserved": 646,
+    "currentNativeUiIdentifiersUnique": 646,
+    "exactDisplayNameMatchesToPreparedCsv": 646,
+    "allCurrentCanonicalToNativeJoinsFreshlyVerified": false,
+    "scope": "Fresh map list names and UI identifiers only. No old native-ID preservation or full map Record ID-column audit."
+  },
+  "preservation": {
+    "fullNumericalGeometryPreservationVerified": false,
+    "allCurrentFieldValuesFreshlyVerified": false,
+    "originalNumericDataColumnsPreservedAtFirstExport": true,
+    "priorNumericCoordinateComparison": {
+      "pointsCompared": 100,
+      "unchanged": 6,
+      "roundedByKmzImport": 94,
+      "maxDistanceMeters": 0.07129499040481967,
+      "meanDistanceMetersAcross100": 0.03434951625798117,
+      "method": "Haversine comparison of original and first post-import exported longitude/latitude; Earth mean radius 6371008.8 m.",
+      "originalNumericDataColumnsPreservedAtFirstExport": true,
+      "additionalGeometryWritesAfterRoundingAccepted": false,
+      "comparisonRepeatedAfterFinalEdits": false
+    },
+    "numericComparisonEvidenceScope": "Earlier first-post-import export only; preserved without promoting it to final verification.",
+    "finishingPass": {
+      "scope": "Parent final visual finishing pass only, not the earlier restoration/import process.",
+      "styleEditsOnly": true,
+      "imports": 0,
+      "rowDeletions": 0,
+      "recordFieldEdits": 0,
+      "geometryWrites": 0
+    }
+  },
+  "styleVerification": {
+    "mapVisualComplete": true,
+    "savedReloaded": true,
+    "verifiedAtUtc": "2026-10-27T19:45:23Z",
+    "domCapturedAtUtc": "2026-10-27T19:47:25Z",
+    "iconRows": 646,
+    "physicalPurposeLayers": 5,
+    "internalIconGroups": 16,
+    "uniformSingleIconPerLayer": false,
+    "mode": "Food/Nature use Visit type; Activities/Shopping/Culture use existing Detailed category, shared purpose color per physical layer.",
+    "groupLabelsUseNormalAmpersands": true,
+    "finalDisplayedNamesMatchPreparedCsv": true,
+    "mapTitle": "Korea Local Guide / 외국인을 위한 한국 생활·여행 가이드",
+    "titleAndDescriptionSavedReloaded": true,
+    "titleDescriptionScope": "Final DOM captures bilingual title/description; parent verified saved/reloaded visual state.",
+    "layers": [
+      {
+        "purpose": "activities_wellness",
+        "layerLabel": "Activities & Wellness / 체험·휴식",
+        "rows": 185,
+        "domContainerId": "ly0-layer-items-container",
+        "groups": [
+          {
+            "label": "Activities / 체험",
+            "rows": 102,
+            "iconId": "1712",
+            "colorHex": "#0288D1"
+          },
+          {
+            "label": "Family & play / 가족·놀이",
+            "rows": 27,
+            "iconId": "1652",
+            "colorHex": "#0288D1"
+          },
+          {
+            "label": "Games & hobbies / 게임·취미",
+            "rows": 22,
+            "iconId": "1540",
+            "colorHex": "#0288D1"
+          },
+          {
+            "label": "Theme parks & animals / 테마파크·동물",
+            "rows": 20,
+            "iconId": "1568",
+            "colorHex": "#0288D1"
+          },
+          {
+            "label": "Cinemas / 영화관",
+            "rows": 14,
+            "iconId": "1635",
+            "colorHex": "#0288D1"
+          }
+        ]
+      },
+      {
+        "purpose": "shopping",
+        "layerLabel": "Shopping / 쇼핑",
+        "rows": 74,
+        "domContainerId": "ly1-layer-items-container",
+        "groups": [
+          {
+            "label": "Shopping / 쇼핑",
+            "rows": 60,
+            "iconId": "1684",
+            "colorHex": "#673AB7"
+          },
+          {
+            "label": "Games & hobbies / 게임·취미",
+            "rows": 14,
+            "iconId": "1584",
+            "colorHex": "#673AB7"
+          }
+        ]
+      },
+      {
+        "purpose": "culture_sights",
+        "layerLabel": "Culture & Sights / 문화·관광",
+        "rows": 120,
+        "domContainerId": "ly2-layer-items-container",
+        "groups": [
+          {
+            "label": "Landmarks & culture / 랜드마크·문화",
+            "rows": 113,
+            "iconId": "1598",
+            "colorHex": "#4E342E"
+          },
+          {
+            "label": "Family & play / 가족·놀이",
+            "rows": 5,
+            "iconId": "1636",
+            "colorHex": "#4E342E"
+          },
+          {
+            "label": "Sea & coast / 바다·해안",
+            "rows": 1,
+            "iconId": "1706",
+            "colorHex": "#4E342E"
+          },
+          {
+            "label": "Theme parks & animals / 테마파크·동물",
+            "rows": 1,
+            "iconId": "1598",
+            "colorHex": "#4E342E"
+          }
+        ]
+      },
+      {
+        "purpose": "food_drink",
+        "layerLabel": "Food & Drink / 음식·카페",
+        "rows": 127,
+        "domContainerId": "ly3-layer-items-container",
+        "groups": [
+          {
+            "label": "Restaurants / 식당",
+            "rows": 119,
+            "iconId": "1577",
+            "colorHex": "#F9A825"
+          },
+          {
+            "label": "Cafés and bakeries / 카페·베이커리",
+            "rows": 8,
+            "iconId": "1534",
+            "colorHex": "#F9A825"
+          }
+        ]
+      },
+      {
+        "purpose": "nature_camping",
+        "layerLabel": "Nature & Camping / 자연·캠핑",
+        "rows": 140,
+        "domContainerId": "ly4-layer-items-container",
+        "groups": [
+          {
+            "label": "Camping / 캠핑",
+            "rows": 87,
+            "iconId": "1765",
+            "colorHex": "#006064"
+          },
+          {
+            "label": "Parks and gardens / 공원·정원",
+            "rows": 32,
+            "iconId": "1886",
+            "colorHex": "#006064"
+          },
+          {
+            "label": "Coast and beaches / 해안·해변",
+            "rows": 21,
+            "iconId": "1521",
+            "colorHex": "#006064"
+          }
+        ]
+      }
+    ]
+  },
+  "finalExport": {
+    "attempts": 2,
+    "accessibleArtifactProduced": false,
+    "outcome": "download_timeout_no_accessible_artifact",
+    "fullFieldComparisonCompleted": false,
+    "currentNumericCoordinateComparisonCompleted": false
+  },
+  "evidence": {
+    "finalDom": {
+      "path": "data/history/map-restore-final-dom-20261027.json",
+      "sha256": "e8d1c146663925c585140db066e3b5a41a0cd36904fd2d33e85caf1e11b814a9",
+      "capturedAtUtc": "2026-10-27T19:47:25Z"
+    },
+    "priorPartialReceipt": {
+      "path": "data/history/map-restore-partial-20261027.json",
+      "sha256": "72ea4ccb254404453cc92624d3b3b45d0a30747424c3d710c48ef2596bbf6420"
+    },
+    "preparedCsvComparisons": [
+      {
+        "path": "exports/replacement-20261027/csv/activities_wellness.csv",
+        "sha256": "07ebbf5a023d88f7c0eacd4a910064e60667dc0f0a775bce5ecd2778434b7ac4",
+        "rows": 185,
+        "displayNamesMatchedExactly": 185,
+        "scope": "Prepared CSV names compared with fresh displayed names; CSV Record ID values were not freshly read from the map."
+      },
+      {
+        "path": "exports/replacement-20261027/csv/shopping.csv",
+        "sha256": "5e7ee3827fa3a9ed107374a04a370ef02798abc433ceedaca22a2a21360068bd",
+        "rows": 74,
+        "displayNamesMatchedExactly": 74,
+        "scope": "Prepared CSV names compared with fresh displayed names; CSV Record ID values were not freshly read from the map."
+      },
+      {
+        "path": "exports/replacement-20261027/csv/culture_sights.csv",
+        "sha256": "50d03016180d7bc42e88e42fc61fd06efe7e2c8ae8de7b6e2fbf45b36e294a60",
+        "rows": 120,
+        "displayNamesMatchedExactly": 120,
+        "scope": "Prepared CSV names compared with fresh displayed names; CSV Record ID values were not freshly read from the map."
+      },
+      {
+        "path": "exports/replacement-20261027/csv/food_drink.csv",
+        "sha256": "64895d71a5821d9f7ca0c344b8ac8f97170cdc19447ab56eabc993425301b585",
+        "rows": 127,
+        "displayNamesMatchedExactly": 127,
+        "scope": "Prepared CSV names compared with fresh displayed names; CSV Record ID values were not freshly read from the map."
+      },
+      {
+        "path": "exports/replacement-20261027/csv/nature_camping.csv",
+        "sha256": "151c48fa48622867ea6dddd1ad24dd41bad195759dde445ce433d2910d905189",
+        "rows": 140,
+        "displayNamesMatchedExactly": 140,
+        "scope": "Prepared CSV names compared with fresh displayed names; CSV Record ID values were not freshly read from the map."
+      }
+    ],
+    "parentObservedReloadAtUtc": "2026-10-27T19:45:23Z",
+    "observationAuthority": "Trusted parent cloud-browser saved/reloaded observation; this activation script only checks supplied artifacts offline."
+  },
+  "limitations": [
+    "Overall synchronization remains partial. Saved/reloaded visual completion is not a complete field, Record-ID, native-identity-preservation or numerical-geometry audit.",
+    "All 646 current displayed names and 646 unique native UI identifiers were read after reload and names matched the five prepared CSV cohorts. The map Record ID column was not freshly audited for all rows; no complete canonical-ID/native-ID join is claimed.",
+    "Seven unresolved logical identities are carried from the earlier restoration receipt and their display names are present in the final DOM. The final error banner confirms seven unresolved rows, but per-row unresolved flags were not freshly exported or audited.",
+    "Two final export-download attempts yielded no accessible downloaded artifact and timed out. No final full-field or current numerical-coordinate export comparison was completed.",
+    "Earlier first-post-import geometry evidence compared 100 explicit points: 6 exact, 94 rounded to six decimals, maximum shift 0.07129499040481967 metres. Original numeric data columns were preserved in that earlier export. This comparison was not repeated after final styling; full numerical geometry preservation is not established.",
+    "Earlier text/source repairs and source URL reachability were not fully rechecked against a final export. Source URLs, addresses, notes and descriptions must not be represented as wholly reverified by this visual pass.",
+    "The 648-record canonical archive and immutable import/history artifacts remain unchanged. The current public map and generated Site projection intentionally exclude two military-access venues."
+  ]
+}
