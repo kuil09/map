@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "status": "prepared_not_uploaded",
+  "reason": "Observed My Maps Add more infers numeric Latitude/Longitude as separate columns from existing text columns. Use explicit source-coordinate fields for remaining sourced points; omit unused coordinate fields for address-only rows. Preserve original uploaded Shopping artifact and do not reupload it.",
+  "alreadyUploadedOnce": [
+    "shopping.csv"
+  ],
+  "files": [
+    {
+      "purpose": "food_drink",
+      "path": "exports/append-walker-daegu-20261027/food_drink-compatible.csv",
+      "rows": 2,
+      "recordIds": [
+        "dining-daegu-samsong-main",
+        "dining-daegu-gugil-ttarogukbap"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Visit type"
+      ],
+      "sha256": "bf833f0eb51bd7ead3c3587e8d0cc5318ebec374283715cbf0b0da98f67a5d0e",
+      "originalPath": "exports/append-walker-daegu-20261027/food_drink.csv",
+      "status": "not_uploaded"
+    },
+    {
+      "purpose": "nature_camping",
+      "path": "exports/append-walker-daegu-20261027/nature_camping-compatible.csv",
+      "rows": 2,
+      "recordIds": [
+        "scenery-daegu-apsan-park",
+        "scenery-daegu-duryu-park"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID",
+        "Visit type",
+        "Source latitude",
+        "Source longitude"
+      ],
+      "sha256": "83fd8ef6401f29146f5b63e211565c2cc85972cd160d5199ac2d94393ebe25dd",
+      "originalPath": "exports/append-walker-daegu-20261027/nature_camping.csv",
+      "status": "not_uploaded"
+    },
+    {
+      "purpose": "activities_wellness",
+      "path": "exports/append-walker-daegu-20261027/activities_wellness-compatible.csv",
+      "rows": 2,
+      "recordIds": [
+        "activity-daegu-second-ice-rink",
+        "activity-daegu-international-shooting-tourist"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID"
+      ],
+      "sha256": "cc27d1a3a5ec57bd5f7f46939a787faf0761b94619ba2f32d0419cadb66635ed",
+      "originalPath": "exports/append-walker-daegu-20261027/activities_wellness.csv",
+      "status": "not_uploaded"
+    },
+    {
+      "purpose": "culture_sights",
+      "path": "exports/append-walker-daegu-20261027/culture_sights-compatible.csv",
+      "rows": 1,
+      "recordIds": [
+        "culture-daegu-seongmodang"
+      ],
+      "headers": [
+        "이름",
+        "설명",
+        "주소",
+        "Address",
+        "Category",
+        "Description",
+        "Sources",
+        "Checked",
+        "Access and booking",
+        "Access class",
+        "Visitor notes",
+        "Additional details",
+        "Detailed category",
+        "Record ID"
+      ],
+      "sha256": "e556a6754cc631222abb8ef87ea7e3f9fd03b90800bd81c91e4dd39806cb20c9",
+      "originalPath": "exports/append-walker-daegu-20261027/culture_sights.csv",
+      "status": "not_uploaded"
+    }
+  ]
+}
