@@ -2,32 +2,31 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 1,414  
+**Total Places**: 1,565  
 **Unplaced**: 0 known  
 
-## Latest Update: Jeju Addition (2026-10-28)
+## Latest Update: Seoul/Incheon Addition (2026-10-28)
 
-Added 150 new places from Jeju (제주특별자치도), bringing the total from 1,264 to 1,414.
+Added 151 new places from Seoul (서울특별시) and Incheon (인천광역시), bringing the total from 1,414 to 1,565.
 
 ### Update Details
-- **New places**: 150 (Shopping 6, Culture 38, Food 35, Nature 51, Activities 20)
-- **Total added**: 150 places from Jeju
-- **Note**: Jeju official videos are pending due to YouTube API quota exhaustion during data collection
+- **New places**: 151 (Shopping 15, Culture 55, Food 39, Nature 30, Activities 12)
+- **Total added**: 151 places from Seoul and Incheon
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 151 | +6 | shopping.csv |
-| Culture & Sights (문화·관광) | 315 | +38 | culture_sights.csv |
-| Food & Drink (음식·카페) | 304 | +35 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 342 | +51 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 302 | +20 | activities_wellness.csv |
-| **Total** | **1,414** | **+150** | |
+| Shopping (쇼핑) | 166 | +15 | shopping.csv |
+| Culture & Sights (문화·관광) | 370 | +55 | culture_sights.csv |
+| Food & Drink (음식·카페) | 343 | +39 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 372 | +30 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 314 | +12 | activities_wellness.csv |
+| **Total** | **1,565** | **+151** | |
 
 ## Data Quality
 
-- ✓ 1,414 unique Record IDs
+- ✓ 1,565 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns match specification: 이름, 주소, Latitude, Longitude, Type, Region, Guide, Practical, Video, Sources, Record ID
@@ -42,15 +41,20 @@ Added 150 new places from Jeju (제주특별자치도), bringing the total from 
 - **Gangwon (2026-10-28)**: +147 places (강원도)
 - **Jeolla (2026-10-28)**: +150 places (광주광역시, 전라남도, 전북특별자치도)
 - **Jeju (2026-10-28)**: +150 places (제주특별자치도)
+- **Seoul/Incheon (2026-10-28)**: +151 places (서울특별시, 인천광역시)
 
 ## Cell Budget & Capacity
 
-- **Current**: 15,554 / 20,000 cells (77.8% utilization)
-- **Row usage**: 1,414 / 1,800 (78.6% of recommended threshold)
+- **Current**: 17,215 / 20,000 cells (86.1% utilization)
+- **Row usage**: 1,565 / 1,800 (86.9% of recommended threshold)
 - **Maximum capacity**: 1,818 rows (with 11 columns)
-- **Remaining capacity**: 404 rows available for expansion
+- **Remaining capacity**: 253 rows available for expansion (235 rows to 1,800-row threshold)
 
 ## Key Changes Summary
+
+**Seoul/Incheon Integration (2026-10-28):**
+1. Added 151 places from Seoul and Incheon metropolitan areas
+2. All new places use v2 format with 5-language descriptions
 
 **Jeju Integration (2026-10-28):**
 1. Added 150 places from Jeju region
@@ -95,6 +99,7 @@ See `data/v2/exports/manifest.json` for detailed file metadata.
 
 ## Documentation
 
+- **Seoul/Incheon report**: docs/seoul-incheon-2026-10/REPORT.md
 - **Jeju report**: docs/jeju-2026-10/REPORT.md
 - **Jeolla report**: docs/jeolla-2026-10/REPORT.md
 - **Gangwon report**: docs/gangwon-2026-10/REPORT.md
