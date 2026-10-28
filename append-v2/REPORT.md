@@ -1,173 +1,130 @@
-# Chungcheong append v2 (Daejeon, Sejong, Chungbuk, Chungnam) — 2026-10-28
+# Daegu · Ulsan · Gyeonggi append v2 (2026-10-28 KST)
 
-Files (8 columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID):
+Not applied to live map or repo. 8 columns, existing types only, Record ID `<layer>-dug-<daegu|ulsan|gg>-<slug>`.
 
-| Layer | File | Rows | Base | New total |
-|---|---|---|---|---|
-| Culture & Sights | culture-chungcheong-append-v2.csv | 49 | 370 | 419 |
-| Nature & Camping | nature-chungcheong-append-v2.csv | 34 | 372 | 406 |
-| Food & Drink | food-chungcheong-append-v2.csv | 45 | 343 | 388 |
-| Activities & Wellness | activities-chungcheong-append-v2.csv | 13 | 314 | 327 |
-| Shopping | shopping-chungcheong-append-v2.csv | 9 | 166 | 175 |
-| **Total** | | **150** | 1,565 | **1,715** |
+| Layer | New | Base | New total |
+|---|---|---|---|
+| culture | 68 | 419 | 487 |
+| nature | 35 | 406 | 441 |
+| food | 22 | 388 | 410 |
+| activities | 14 | 327 | 341 |
+| shopping | 9 | 175 | 184 |
+| total | 148 | 1715 | 1863 |
 
-- **Source:** VisitKorea English (KTO). All addresses are KTO road addresses, cleaned to remove floor, unit and building suffixes, and use the full province name. Changes are logged in build-log.json.
-- **Dedupe:** checked against the 1,565 live rows. There are 0 address or name hits and 0 shared addresses.
-- **Types:** only existing TYPE-MAP types are used.
-- **Not added:** 천안 무지개 캠핑장 is already live (gocamping-3252).
+## Checks
+- Dedupe vs 1,715 live rows (names + addresses): 0 hits. Shared addresses within batch: 0. Round-1 Daegu 8 excluded.
+- Restaurant spot-check (web, 2026-10-28): 10 confirmed operating — 미성당 납작만두, 오뎅식당, 대동강식당, 산호찜갈비, 연포갈비, 처가집부대찌개, 대백손칼국수, 구공탄막창, 거송갈비찜, 언양기와집불고기. Other 14 food rows marked not live-checked. Several spot-check sources are aggregators (koreacharts/ktriptips) mirroring TourAPI, plus 2026 blog visits.
+- Videos: 48 rows, official channels only (울산시청TV, 대구TV, 비짓대구, 경기도청, 연천군), matched from upload playlists (search.list intermittently 429). 102 rows pending/no official video (count now 100):
 
-## Open-status spot checks (10 restaurants, all operating on 2026-10-28)
-Sungsimdang, Sindo Kalguksu, Sariwon Myeonok, Sootgolwon Naengmyeon, Kyunghee Sikdang (Songnisan), Hanbat Sikdang, Daebakjip (Okcheon), Mokhwa Banjeom (Asan), Jeokdeok Sikdang and Sonamujip.
-- The hours and closures for these 10 come from the sources listed in each row.
-- The other rows carry the standard "not live-checked" disclaimer.
+  - Ulsan Eonyang Bulgogi | 울산언양불고기
+  - Eonyang Giwajip Bulgogi | 언양기와집불고기
+  - Wonjojip | 원조집
+  - Dodong Sanbang | 도동산방
+  - Badabaragi | 바다바라기
+  - Greetvi Coffee | 카페그릿비
+  - Gosong Galbijjim Main Branch | 거송갈비찜 본점
+  - Miseongdang Napjak Mandu | 미성당 납작만두
+  - Sanho Jjimgalbi | [백년가게]산호찜갈비
+  - Gugongtan Makchang | 구공탄막창 본점
+  - Wonjo Hyeonpung Park Soseon Halmaejip Gomtang | 원조현풍박소선할매집곰탕
+  - Donbaksa Gopchang Makchang | 돈박사곱창막창
+  - Yongjibong | 용지봉
+  - Daebaek Sonkalguksu | 대백손칼국수
+  - Daedonggang Sikdang | 대동강식당
+  - Park Jiyun's Gachang Jinbang | 박지연의 가창옛날찐빵본점
+  - Geumgang Station Rail Café (Banyawol Lotus Village Cooperative) | 금강역 레일 카페(반야월 연꽃마을 협동조합)
+  - Odeng Sikdang Uijeongbu Main Branch | 오뎅식당
+  - Cheogajip Budaejjigae | 처가집부대찌개
+  - Yeonpo Galbi | 연포갈비
+  - Gapyeong Naengmyeon Buson Seorak Main Branch | 가평냉면 부손 설악본점
+  - Gillimseong | 길림성
+  - Ganwolsan Mountain | 간월산
+  - Paraesopokpo Falls | 파래소폭포
+  - Sunmot Ecological Park | 숯못 생태공원
+  - Ulsan Ilsan Beach | 일산해수욕장 (울산)
+  - Sinbulsan Falls National Recreational Forest | 국립 신불산폭포자연휴양림
+  - Ulsan Grand Park | 울산대공원
+  - Dalseong Marsh | 대구 달성습지
+  - Biseulsan Recreational Forest | 비슬산자연휴양림
+  - Gunwi Janggok Recreational Forest | 군위 장곡자연휴양림
+  - Hwawon Park | 화원동산
+  - Gwangmyeong Cave | 광명 동굴
+  - Pocheon Sanjeonghosu Lake | 포천 산정호수
+  - Namhansanseong Provincial Park [UNESCO World Heritage] | 남한산성도립공원 [유네스코 세계문화유산]
+  - Bucheon Botanical Garden | 부천식물원
+  - Gimpo Daemyeong Port | 김포 대명항
+  - Hwaseong Fossilized Dinosaur Egg Site | 화성 공룡알 화석지
+  - Yuldong Park | 율동공원
+  - Jungmisan Recreational Forest | 중미산자연휴양림
+  - Yangpyeong Wild Flower Arboretum | 양평 들꽃수목원
+  - Ulsan Lotte Grand Wheel | 울산 롯데 그랜드 휠
+  - Oegosan Onggi Village | 외고산옹기마을
+  - Onggigol Ceramics | 옹기골도예
+  - Myeongpum Otgol 1616 Cooperative Society | 명품옻골 1616 협동조합
+  - Hwaseong Fortress Tourist Trolley | 화성어차
+  - Yeoju Hwangpo Sailboat | 여주 황포돛배
+  - Pocheon Art Valley [Hantangang UNESCO Global Geopark] | 포천아트밸리 (한탄강 유네스코 세계지질공원)
+  - Herb Island | 허브아일랜드
+  - Pocheon Sansawon | 포천 산사원
+  - Chisanseowon Confucian Academy | 치산서원
+  - Petroglyphs of Bangudae Terrace in Daegok-ri [UNESCO World Heritage] | 울주 대곡리 반구대 암각화 [유네스코 세계유산]
+  - Daegu Concert House (Formerly Daegu Citizens' Hall) | 대구콘서트하우스 (구.대구시민회관)
+  - Nokdongseowon Confucian Academy | 녹동서원
+  - Daegu Opera House | 대구오페라하우스
+  - Dongsan Cheongna Hill | 동산청라언덕
+  - Village of the Nampyeong Mun Clan in Bon-ri | 남평문씨본리세거지
+  - Daegu Dalseong Park | 대구 달성공원
+  - Museum of Natural Dye Arts | 자연염색박물관
+  - Daegu Gyesan Cathedral | 대구 계산동성당
+  - Yongyeonsa Temple (Daegu) | 용연사(대구)
+  - Daegyeonsa Temple | 대견사
+  - Buinsa Temple (Daegu) | 부인사(대구)
+  - Gunwi Buddha Triad Grotto (2nd Seokguram) | 군위 아미타여래삼존 석굴
+  - Yuksinsa Shrine | 육신사
+  - Ancient Tombs in Bullo-dong | 대구 불로동 고분군
+  - Nakdong River Victory Memorial Hall | 낙동강승전기념관
+  - Daegu Textile Museum | 대구섬유박물관
+  - Sammaksa Temple | 삼막사
+  - Woljeon Museum of Art Icheon | 이천시립월전미술관
+  - Yeoju Museum | 여주박물관
+  - Anyang Art Park | 안양예술공원
+  - Seongnam Arts Center | 성남아트센터
+  - Anseong Namsadang Performance Hall | 안성 남사당 공연장
+  - Odusan Unification Observatory | 오두산 통일전망대
+  - Imjingak Resort (Pyeonghwa Nuri Park) | 파주 임진각(평화누리공원)
+  - Yangju Olleung Royal Tomb [UNESCO World Heritage] | 양주 온릉(단경왕후) [유네스코 세계문화유산]
+  - Paju Jangneung Royal Tomb [UNESCO World Heritage] | 파주 장릉(인조, 인열왕후) [유네스코 세계문화유산]
+  - Goyang West Five Royal Tombs [UNESCO World Heritage] | 고양 서오릉 [유네스코 세계문화유산]
+  - Hongneung and Yureung Royal Tombs [UNESCO World Heritage] | 남양주 홍릉(고종과 명성황후)과 유릉(순종과 순명,순정 황후) [유네스코 세계문화유산]
+  - Janganmun Gate | 장안문
+  - Banghwasuryujeong Pavilion | 방화수류정(동북각루)
+  - Suwonhyanggyo Confucian School | 수원향교
+  - Simgokseowon Confucian Academy | 심곡서원
+  - Osan Dolmen Park | 오산 고인돌역사공원
+  - Yeoju Godalsa Temple Site | 여주 고달사지
+  - Goyang Heungguksa Temple | 흥국사(고양)
+  - Paju Bogwangsa Temple | 보광사(파주)
+  - Suwon Hwaseong Museum | 수원화성박물관
+  - Gwacheon Chusa Museum | 추사박물관(과천)
+  - Haewoojae Museum (Mr. Toilet House) | 해우재
+  - Paju Book City | 파주 출판도시
+  - Petite France | 쁘띠프랑스
+  - Eonyang Market | 언양알프스시장
+  - Ulsan Jungang Traditional Market | 울산 중앙전통시장
+  - Ulsan Keunaegi Night Market | 울산큰애기청년야시장
+  - Bangeojin Live Fish Center | 방어진 활어센터
+  - Daegu Medicinal Herb Wholesale Market | 대구 한약재 도매시장
+  - Suwon Nammun Market | 수원 남문시장
+  - Uijeongbu Jeil Market | 의정부 제일시장
 
-## Videos: 22 official
-- **Channels:** 대전관광공사, 세종특별자치시, 충남관광, 태안군, 논산시, 옥천군.
-- **How they were found:** YouTube search.list returned HTTP 429 (quota exhausted), so the videos were matched from these channels' upload playlists.
-- **No channel found:** I could not find official channels for 대전광역시 or 충청북도.
-
-Video pending (128):
-- activities: Invention Education Center | 발명교육센터 창의발명체험관 (activities-cc-daejeon-invention-education-center)
-- activities: Daejeon Hanhwa Life Ballpark | 대전 한화생명 볼파크 (activities-cc-daejeon-daejeon-hanhwa-life-ballpark)
-- activities: Ziptrek Korea | 대천 짚트랙 (activities-cc-cn-ziptrek-korea)
-- activities: Anmyeondo Maze Park | 안면도 미로공원 (activities-cc-cn-anmyeondo-maze-park)
-- activities: Seocheon Dalgogae Mosi Village | 서천 달고개모시마을 (activities-cc-cn-seocheon-dalgogae-mosi-village)
-- activities: Yeongdong Wine Tunnel | 영동 와인터널 (activities-cc-cb-yeongdong-wine-tunnel)
-- activities: Chungju Ecology Experience Museum | 충주자연생태체험관 (activities-cc-cb-chungju-ecology-experience-museum)
-- activities: Jecheon Oksunbong Suspension Bridge | 제천 옥순봉 출렁다리 (activities-cc-cb-jecheon-oksunbong-suspension-bridge)
-- activities: Jecheon Oriental Medicine Expo Park | 제천한방엑스포공원 (activities-cc-cb-jecheon-oriental-medicine-expo-park)
-- activities: Sanmagi Old Trail | 산막이옛길 (activities-cc-cb-sanmagi-old-trail)
-- culture: Daejeon Hoedeok Dongchundang Park | 대전 회덕 동춘당 공원 (culture-cc-daejeon-daejeon-hoedeok-dongchundang-park)
-- culture: Hanbat Museum of Education | 한밭교육박물관 (culture-cc-daejeon-hanbat-museum-of-education)
-- culture: Daejeon Natural Heritage Center | 천연기념물센터 (대전) (culture-cc-daejeon-daejeon-natural-heritage-center)
-- culture: Solomon Law Park | 솔로몬로파크 (culture-cc-daejeon-solomon-law-park)
-- culture: Daejeon Jagwangsa Temple | 자광사(대전) (culture-cc-daejeon-daejeon-jagwangsa-temple)
-- culture: Daejeon Modern History Exhibition Hall | 대전근현대사전시관(옛 충남도청사 본관) (culture-cc-daejeon-daejeon-modern-history-exhibition-hall)
-- culture: Haposeowon Confucian Academy | 합호서원 (culture-cc-sejong-haposeowon-confucian-academy)
-- culture: Sejong Traditional Paste Museum | 세종전통장류박물관 (culture-cc-sejong-sejong-traditional-paste-museum)
-- culture: Sejong Culture & Arts Center | 세종문화예술회관 (culture-cc-sejong-sejong-culture-arts-center)
-- culture: Gyeryong Musangsa Temple | 무상사(계룡) (culture-cc-cn-gyeryong-musangsa-temple)
-- culture: Gongju Donghaksa Temple | 동학사(공주) (culture-cc-cn-gongju-donghaksa-temple)
-- culture: Gongju Jungdong Catholic Church | 공주 중동성당 (culture-cc-cn-gongju-jungdong-catholic-church)
-- culture: Former Gongju-eup Office | 옛 공주읍사무소 (culture-cc-cn-former-gongju-eup-office)
-- culture: Gongju Folk Drama Museum | 공주민속극박물관 (culture-cc-cn-gongju-folk-drama-museum)
-- culture: Gongju Hanok Village | 공주한옥마을 (culture-cc-cn-gongju-hanok-village)
-- culture: Tomb of Seven Hundred Patriotic Martyrs (Geumsan) | 금산 칠백의총 (culture-cc-cn-tomb-of-seven-hundred-patriotic-martyrs-geumsan)
-- culture: Geumsan Boseoksa Temple | 보석사 (금산) (culture-cc-cn-geumsan-boseoksa-temple)
-- culture: Boryeong Mud Museum | 보령머드박물관 (culture-cc-cn-boryeong-mud-museum)
-- culture: Buyeo Muryangsa Temple | 무량사(부여) (culture-cc-cn-buyeo-muryangsa-temple)
-- culture: Buyeo Naseong Fortress [UNESCO World Heritage] | 부여 나성 [유네스코 세계문화유산] (culture-cc-cn-buyeo-naseong-fortress-unesco-world-heritage)
-- culture: Buyeo Neungsan-ri Ancient Tombs [UNESCO World Heritage] | 부여 능산리 고분군 [유네스코 세계문화유산] (culture-cc-cn-buyeo-neungsan-ri-ancient-tombs-unesco-world-herit)
-- culture: Daejosa Temple (Buyeo) | 대조사 (부여) (culture-cc-cn-daejosa-temple-buyeo)
-- culture: Seosan Buseoksa Temple | 부석사(서산) (culture-cc-cn-seosan-buseoksa-temple)
-- culture: Rock-carved Buddha Triad in Yonghyeon-ri, Seosan | 서산 용현리 마애여래삼존상 (culture-cc-cn-rock-carved-buddha-triad-in-yonghyeon-ri-seosan)
-- culture: Seocheon Hansan Mosi Museum | 서천한산모시관 (culture-cc-cn-seocheon-hansan-mosi-museum)
-- culture: Asan Maengssi Haengdan House - Maeng Sa-seong House | 아산 맹씨행단(맹사성 고택 (culture-cc-cn-asan-maengssi-haengdan-house-maeng-sa-seong-house)
-- culture: Chunguisa Shrine - Historic Site Related to Yun Bong-Gil, Yesan | 충의사 (예산 윤봉길 의사 유적) (culture-cc-cn-chunguisa-shrine-historic-site-related-to-yun-bong)
-- culture: Yesan Hwaamsa Temple | 화암사 (예산 (culture-cc-cn-yesan-hwaamsa-temple)
-- culture: Cheonan Gwangdeoksa Temple | 광덕사(천안) (culture-cc-cn-cheonan-gwangdeoksa-temple)
-- culture: Taean Taeeulam Hermitage | 태을암(태안) (culture-cc-cn-taean-taeeulam-hermitage)
-- culture: Goesan Historic House of Song Byeong-il | 괴산 송병일 고택 (culture-cc-cb-goesan-historic-house-of-song-byeong-il)
-- culture: Boeun Samnyeonsanseong Fortress | 보은 삼년산성 (culture-cc-cb-boeun-samnyeonsanseong-fortress)
-- culture: Nangye Korean Classical Music Museum | 난계국악박물관 (culture-cc-cb-nangye-korean-classical-music-museum)
-- culture: Yeongdong Yeongguksa Temple | 영국사 (영동) (culture-cc-cb-yeongdong-yeongguksa-temple)
-- culture: Okcheon Yongamsa Temple | 용암사(옥천) (culture-cc-cb-okcheon-yongamsa-temple)
-- culture: Jecheon Deokjusa Temple | 덕주사(제천) (culture-cc-cb-jecheon-deokjusa-temple)
-- culture: Cheongjuhyanggyo Confucian School | 청주향교 (culture-cc-cb-cheongjuhyanggyo-confucian-school)
-- culture: Cheongju Arts Center | 청주예술의전당 (culture-cc-cb-cheongju-arts-center)
-- culture: Exhibition Hall of Chungju Goguryeo Monument | 충주고구려비전시관 (culture-cc-cb-exhibition-hall-of-chungju-goguryeo-monument)
-- culture: Chungju Museum | 충주박물관 (culture-cc-cb-chungju-museum)
-- culture: Chungju Jungangtap Park | 중앙탑공원 (충주) (culture-cc-cb-chungju-jungangtap-park)
-- food: Sindo Kalguksu Main Store | 신도칼국수 본점 (food-cc-daejeon-sindo-kalguksu-main-store)
-- food: Samdaejjae Jeontong Kalguksu | 삼대째전통칼국수 (food-cc-daejeon-samdaejjae-jeontong-kalguksu)
-- food: Sintan Myounog | 신탄면옥 (food-cc-daejeon-sintan-myounog)
-- food: Pungnyeon Samgyetang | 풍년삼계탕 (food-cc-daejeon-pungnyeon-samgyetang)
-- food: Gugu Jeonbok Samgyetang | 구구전복삼계탕 (food-cc-daejeon-gugu-jeonbok-samgyetang)
-- food: Gaecheon Sikdang | 개천식당 (food-cc-daejeon-gaecheon-sikdang)
-- food: Baekcheonjip Sikdang | 백천집식당 (food-cc-daejeon-baekcheonjip-sikdang)
-- food: Hanbat Sikdang | 한밭식당 (food-cc-daejeon-hanbat-sikdang)
-- food: Myongrang Sikdang | 명랑식당 (food-cc-daejeon-myongrang-sikdang)
-- food: Jeokdeok Sikdang (Main Store) | 적덕식당(본점) (food-cc-daejeon-jeokdeok-sikdang-main-store)
-- food: Galbat Sikdang | 갈밭식당 (food-cc-daejeon-galbat-sikdang)
-- food: Yahojeong | 야호정 (food-cc-daejeon-yahojeong)
-- food: Eunhye Sikdang | 은혜식당 (food-cc-daejeon-eunhye-sikdang)
-- food: Kintoto Daejeon Main Store | 킨토토 대전점 (food-cc-daejeon-kintoto-daejeon-main-store)
-- food: Gangnam Myeonok Dunsan Branch | 강남면옥 둔산점 (food-cc-daejeon-gangnam-myeonok-dunsan-branch)
-- food: Sariwon | 사리원면옥 (food-cc-daejeon-sariwon)
-- food: Guibin Dolsotbap | 귀빈돌솥밥 (food-cc-daejeon-guibin-dolsotbap)
-- food: Hanmaeum Myeonok Doma Main Store | 한마음면옥 도마점 (food-cc-daejeon-hanmaeum-myeonok-doma-main-store)
-- food: Kkeomppeok Millaengmyeon | 껌뻑밀냉면 (food-cc-daejeon-kkeomppeok-millaengmyeon)
-- food: Jeongjanamu Garden | 정자나무가든 (food-cc-daejeon-jeongjanamu-garden)
-- food: Baengmagang Chamsut Minmul Jangeo | 백마강참숯민물장어 (food-cc-daejeon-baengmagang-chamsut-minmul-jangeo)
-- food: Nogwon Ganjang Gejang | 녹원간장게장 (food-cc-daejeon-nogwon-ganjang-gejang)
-- food: Ganamji | 가남지 (food-cc-daejeon-ganamji)
-- food: Imjingang Jangeo | 임진강장어 (food-cc-daejeon-imjingang-jangeo)
-- food: Taepyeong Sogukbap | 태평소국밥 (food-cc-daejeon-taepyeong-sogukbap)
-- food: Seowon Hanjeongsik | 서원 한정식 (food-cc-daejeon-seowon-hanjeongsik)
-- food: Sootgolwon Naengmyeon | 숯골원냉면 (food-cc-daejeon-sootgolwon-naengmyeon)
-- food: Bongnoksu | 복록수 (food-cc-daejeon-bongnoksu)
-- food: Daejeon galbijip | 대전갈비집 (food-cc-daejeon-daejeon-galbijip)
-- food: Hakseon Sikdang | 학선식당 (food-cc-daejeon-hakseon-sikdang)
-- food: Mokpo Patkalguksu | 목포팥칼국수 (food-cc-daejeon-mokpo-patkalguksu)
-- food: Sonamujip | 소나무집 (food-cc-daejeon-sonamujip)
-- food: Jeongsikdang | 정식당 (food-cc-daejeon-jeongsikdang)
-- food: Cheongsong Hanu Town | 청송한우타운 (food-cc-daejeon-cheongsong-hanu-town)
-- food: Chungnam Sundae | 충남순대 (food-cc-daejeon-chungnam-sundae)
-- food: Mokhwa Banjeom (Asan) [목화반점(아산)] | Mokhwa Banjeom (Asan) [목화반점(아산)] (food-cc-cn-mokhwa-banjeom-asan)
-- food: Kyunghee Sikdang | 경희식당 (food-cc-cb-kyunghee-sikdang)
-- food: Haeseong | 해성 (food-cc-cb-haeseong)
-- food: OHJI | 오지 (food-cc-cb-ohji)
-- food: Seokhwachon (Boryeong) | 석화촌(보령) (food-cc-cn-seokhwachon-boryeong)
-- food: Sindo-ri Hanuchon | 신도리한우촌 (food-cc-cn-sindo-ri-hanuchon)
-- food: Seosan Hoegwan | 서산회관 (food-cc-cn-seosan-hoegwan)
-- food: Oesik | 외식 (food-cc-daejeon-oesik)
-- nature: Daecheong Dam | 대청댐 (nature-cc-daejeon-daecheong-dam)
-- nature: Maninsan Recreational Forest | 만인산 자연휴양림 (nature-cc-daejeon-maninsan-recreational-forest)
-- nature: Gyeryongsan Sutonggol Valley | 계룡산 수통골 (nature-cc-daejeon-gyeryongsan-sutonggol-valley)
-- nature: Seodaejeon Park | 서대전공원 (nature-cc-daejeon-seodaejeon-park)
-- nature: Gapsagyegok Valley | 갑사계곡 (nature-cc-cn-gapsagyegok-valley)
-- nature: Gyeryongsan National Park | 계룡산국립공원 (nature-cc-cn-gyeryongsan-national-park)
-- nature: Nami Recreational Forest | 남이자연휴양림 (nature-cc-cn-nami-recreational-forest)
-- nature: Daedunsan Provincial Park (Geumsan Section) | 대둔산도립공원 (금산) (nature-cc-cn-daedunsan-provincial-park-geumsan-section)
-- nature: Nanjiseom Beach | 난지섬해수욕장 (nature-cc-cn-nanjiseom-beach)
-- nature: Ongmasan Mountain | 옥마산 (nature-cc-cn-ongmasan-mountain)
-- nature: Seongjusan Recreational Forest | 성주산자연휴양림 (nature-cc-cn-seongjusan-recreational-forest)
-- nature: Chilgapsan Provincial Park | 칠갑산도립공원 (nature-cc-cn-chilgapsan-provincial-park)
-- nature: Mongsanpo Beach | 몽산포해수욕장 (nature-cc-cn-mongsanpo-beach)
-- nature: Bangpo Beach | 방포해수욕장 (nature-cc-cn-bangpo-beach)
-- nature: Saetbyeol Beach | 샛별해수욕장 (nature-cc-cn-saetbyeol-beach)
-- nature: Farm Kamille, Taean | 팜카밀레 (nature-cc-cn-farm-kamille-taean)
-- nature: Gosudonggul Cave | 단양 고수동굴 (nature-cc-cb-gosudonggul-cave)
-- nature: Seongmun - Stone Gate | 석문 (nature-cc-cb-seongmun-stone-gate)
-- nature: Danyang Ondaldonggul Cave | 단양 온달동굴 (nature-cc-cb-danyang-ondaldonggul-cave)
-- nature: Jeongipum Pine Tree | 보은 속리 정이품송 (nature-cc-cb-jeongipum-pine-tree)
-- nature: Jwagusan Recreational Forest | 좌구산 자연휴양림 (nature-cc-cb-jwagusan-recreational-forest)
-- nature: Breeding Ground of Grey Herons | 진천 노원리 왜가리 번식지 (nature-cc-cb-breeding-ground-of-grey-herons)
-- nature: Sangsoo Herb Land | 상수허브랜드 (nature-cc-cb-sangsoo-herb-land)
-- nature: Cheongseokgul Cave | 옥화1경 청석굴 (nature-cc-cb-cheongseokgul-cave)
-- nature: Woraksan National Park | 월악산국립공원 (nature-cc-cb-woraksan-national-park)
-- shopping: Daejeon Jungang Market | 대전 중앙시장 (shopping-cc-daejeon-daejeon-jungang-market)
-- shopping: Geumsan Ginseng Market | 금산인삼약령시장 (shopping-cc-cn-geumsan-ginseng-market)
-- shopping: Buyeo Market & Baengmagang Moonlight Night Market | 부여장 (5, 10일) / 백마강달밤야시장 (shopping-cc-cn-buyeo-market-baengmagang-moonlight-night-market)
-- shopping: Yesan Market & Yesan Fifth-day Market (5th & 10th) | 예산시장 / 예산오일장(5, 10일) (shopping-cc-cn-yesan-market-yesan-fifth-day-market-5th-10th)
-- shopping: Danyang Gugyeong Traditional Market (open on dates ending in 1 and 6) | 단양장 / 단양구경시장 (1, 6일) (shopping-cc-cb-danyang-gugyeong-traditional-market-open-on-dates-)
-- shopping: Chungju Muhak Market | 충주 무학시장 (shopping-cc-cb-chungju-muhak-market)
-- shopping: Seomun Pungmul Night Market & Seomun Market Samgyeopsal (Pork Belly) Street | 서문풍물야시장&서문시장삼겹살거리 (shopping-cc-cb-seomun-pungmul-night-market-seomun-market-samgyeop)
-- shopping: Cheongju Seongan-gil Fashion Street | 청주 성안길 (shopping-cc-cb-cheongju-seongan-gil-fashion-street)
-- shopping: Galleria Department Store - Timeworld Branch | 갤러리아 백화점 (타임월드점) (shopping-cc-daejeon-galleria-department-store-timeworld-branch)
+## Uncertain / review
+- 오두산 통일전망대, 임진각 평화누리: public sites (no military pass) but near DMZ — included; confirm policy.
+- 화성 공룡알 화석지: KTO address has new 2026 gu 만세구; FIX to `경기도 화성시 송산면 공룡로 659`.
+- Lot/approx addresses kept (sourced): 천전리·반구대 암각화, 서생포왜성, 슬도, 숯못, 강동 주상절리, 처용암, 울산중앙시장(옥교동 98-8), 원조집, 불로동 고분군, 달성습지, 고달사지, 비둘기낭폭포. 큰애기야시장 `울산광역시 중구 젊음의거리 90` confirmed by KTO accessible-tourism page (access.visitkorea.or.kr) and tripinfo/koreacharts; 중구 tourism site gives the strip as 시계탑거리 23 ~ 젊음의거리 101. Sources added to the row. Note: sources list Mon–Tue closures.
+- 울산대공원: KTO text mentions a pool; included as park, guide omits it.
+- Fix-up pass 2026-10-28: both Starbucks rows (184332 대구종로고택, 184336 더양평DTR) dropped.
+- KTO 218045 dropped: listing is titled 'Korean Traditional Culture Center (한국전통문화체험관)', 대구 수성구 달구벌대로525길 14-23, but its whole description is about Momyeongjae (모명재), the Dureung Doo clan shrine to Ming general Doo Sa-chung. Name/address and description describe different things, so the row cannot be sourced consistently. Replaced by 수창청춘맨숀 (177459).
+- Guides written from KTO descriptions only; no distances added. All 49 Ulsan rows re-checked line by line; corrected 10: 간절곶 ("earliest on east coast", not mainland), 반구대 (removed unsupported 'whale/hunting scenes'), 석남사 (south of Gajisan; nuns' temple), 슬도 (removed 'off Bangeojin'), 강동몽돌 (removed 'Buk-gu'), 화암 주상절리 (removed 'fan-shaped'), 태화강 국가정원 (removed 'themed gardens'), 롯데 그랜드휠 ('rooftop'→7th floor), 중앙시장 (vendor types per KTO), 옹기골도예 (named craftsman; reservations).
 
 ## Exclusions
-- **Duplicates of live rows:** Seokjangni Museum, Muryeong royal tombs, Gongsanseong, Cheongju Museum of Art, MMCA Cheongju, Early Printing Museum, Chungju Lake cruise (장회나루).
-- **Conflicting sources:** Daeheung Sikdang. The KTO text places it at Sudeoksa, but the address given belongs to a different branch.
-- **Missing descriptions:** Daejeon Pet Park.
-- **Trimmed to reach 150:** 9 minor temples and shrines and 4 restaurants.
-- **Other rules applied:** no military-access sites, no generic spa or jjimjilbang rows, and no unsourced distances added to guides.
-
-## Uncertain
-- **Maninsan Recreational Forest (산내로 106):** this is a road address. The APPROX flag is a false positive.
-- **Sunshine Land (논산 연무읍):** it is near the Army Training Center but is a public attraction. It does include a military-experience hall.
-- **Nanjiseom Beach:** this is an island beach. Check access and ferry or bridge details before visiting.
-- **Taean Tulip Park (Korea Flower Park):** the KTO listing has no description. The guide is based on the listing name and festival only.
-- **Maze Park (Anmyeondo):** this is a farm with a cafe.
-- **Daecheon Beach:** this is the beach itself. Its live neighbours are a campground and a sky bike, which are different entries.
-- **Record IDs:** they use the format <layer>-cc-<daejeon|sejong|cb|cn>-<slug>. This is a new pattern; rename if needed.
+Military-access DMZ sites (3rd Tunnel, Dora, 승전OP, 통일촌, 캠프그리브스, 애기봉, 평화곤돌라); spa/water-park/pool rows; village-only addresses (명선도, 나사해변, 신불산, 3·1로, 북한산성, 고대산); shared-address rows (대왕암 출렁다리, 고래바다여행선, 고래문화마을 판타지움, 블레어하우스); live duplicates (수원화성, 화성행궁, 민속촌, 동화사 등).
