@@ -2,45 +2,40 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 1,863  
+**Total Places**: 2,013  
 **Unplaced**: 0 known  
-**Video Coverage**: 381 places (20.5%) with official videos
+**Video Coverage**: 381 places (18.9%) with official videos
 
-## Latest Update: Content Audit (2026-10-28)
+## Latest Update: Batch Next (2026-10-28)
 
-Synced audited layers from live map. Removed unsourced claims, fixed superlatives, repaired links, and restored 693 truncated lines. Total places unchanged at 1,863 with 0 unplaced.
+Added 150 places from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, and Busan. Total places now at 2,013 with 0 unplaced.
 
 ### Update Details
-- **Content audit**: 526 places updated
-  - Removed unsourced distances and times (including all Desiderio straight-line notes)
-  - Rewrote 13 superlatives to neutral language
-  - Fixed broken source links
-  - Restored 693 truncated lines (migration script fixed)
-- **Guide changes**: 78 places
-- **Details changes**: 455 places (practical notes)
-- **Sources changes**: 25 places
-- **Migration fix**: Removed ellipsis truncation from `migrate_v2.py` + added test
+- **New places**: 150 from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, Busan
+- **Layer changes**: Culture +71, Nature +32, Food +29, Activities +10, Shopping +8
+- **Total places**: 2,013 (Culture 558, Nature 473, Food 439, Activities 351, Shopping 192)
+- **Cell utilization**: 16,104 / 20,000 (80.5%)
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 184 | +9 | shopping.csv |
-| Culture & Sights (문화·관광) | 487 | +68 | culture_sights.csv |
-| Food & Drink (음식·카페) | 410 | +22 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 441 | +35 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 341 | +14 | activities_wellness.csv |
-| **Total** | **1,863** | **+148** | |
+| Shopping (쇼핑) | 192 | +8 | shopping.csv |
+| Culture & Sights (문화·관광) | 558 | +71 | culture_sights.csv |
+| Food & Drink (음식·카페) | 439 | +29 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 473 | +32 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 351 | +10 | activities_wellness.csv |
+| **Total** | **2,013** | **+150** | |
 
 ## Data Quality
 
-- ✓ 1,863 unique Record IDs
+- ✓ 2,013 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
 - ✓ All CSVs are consistent with places.v2.json
 - ✓ Details column preserves Region, coordinates (100 places), and Practical information
-- ✓ Video coverage: 381 places (20.5%) with official videos
+- ✓ Video coverage: 381 places (18.9%) with official videos
 
 ## Regional Coverage
 
@@ -54,16 +49,21 @@ Synced audited layers from live map. Removed unsourced claims, fixed superlative
 - **Seoul/Incheon (2026-10-28)**: +151 places (서울특별시, 인천광역시)
 - **Chungcheong (2026-10-28)**: +150 places (대전광역시, 세종특별자치시, 충청북도, 충청남도)
 - **Daegu/Ulsan/Gyeonggi (2026-10-28)**: +148 places (대구광역시, 울산광역시, 경기도 추가)
+- **Batch Next (2026-10-28)**: +150 places (광주광역시, 전북특별자치도, 경상남도, 경기도, 부산광역시 추가)
 
 ## Cell Budget & Capacity
 
-- **Current**: 14,904 / 20,000 cells (74.5% utilization)
+- **Current**: 16,104 / 20,000 cells (80.5% utilization)
 - **Row capacity**: 2,500 rows maximum (with 8 columns)
-- **Current usage**: 1,863 rows (74.5% of capacity)
-- **Remaining capacity**: 637 rows available for expansion
+- **Current usage**: 2,013 rows (80.5% of capacity)
+- **Remaining capacity**: 487 rows available for expansion
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Batch Next (2026-10-28):**
+1. Added 150 places from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, and Busan
+2. All new places use v2 format with 5-language descriptions
 
 **Content Audit (2026-10-28):**
 1. Synced audited layers from live map
@@ -145,6 +145,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Batch Next report**: docs/batch-next-2026-10/REPORT.md
 - **Content audit**: docs/audit-2026-10/AUDIT.md
 - **Video additions**: docs/videos-2026-10/CHANGES.md
 - **Daegu/Ulsan/Gyeonggi report**: docs/daegu-ulsan-gyeonggi-2026-10/REPORT.md
