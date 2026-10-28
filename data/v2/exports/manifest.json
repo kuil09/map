@@ -16,30 +16,25 @@
  "layers": {
   "activities_wellness": {
    "title": "Activities & Wellness",
-   "rows": 215,
-   "cells": 2365
+   "rows": 242
   },
   "culture_sights": {
    "title": "Culture & Sights",
-   "rows": 161,
-   "cells": 1771
+   "rows": 198
   },
   "food_drink": {
    "title": "Food & Drink",
-   "rows": 164,
-   "cells": 1804
+   "rows": 197
   },
   "nature_camping": {
    "title": "Nature & Camping",
-   "rows": 173,
-   "cells": 1903
+   "rows": 211
   },
   "shopping": {
    "title": "Shopping",
-   "rows": 100,
-   "cells": 1100
+   "rows": 119
   }
  },
- "total_rows": 813,
- "total_cells": 8943
+ "total_rows": 967,
+ "total_cells": 10637
 }
