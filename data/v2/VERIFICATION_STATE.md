@@ -2,32 +2,31 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 967  
+**Total Places**: 1,114  
 **Unplaced**: 0 known  
 
-## Latest Update: Busan & Gyeongnam Addition (2026-10-28)
+## Latest Update: Gangwon Addition (2026-10-28)
 
-Added 154 new places from Busan (부산광역시) and Gyeongnam (경상남도), plus 4 previously-held Gyeongbuk recreational forests now confirmed to have campsites, bringing the total from 813 to 967.
+Added 147 new places from Gangwon (강원도), bringing the total from 967 to 1,114.
 
 ### Update Details
-- **New places**: 150 (Shopping 19, Culture 37, Food 33, Nature 34, Activities 27)
-- **Previously held, now confirmed**: 4 Gyeongbuk recreational forests (Tohamsan, Geommasan, Unmunsan, Cheongoksan) typed as camping
-- **Total added**: 154 places
+- **New places**: 147 (Shopping 13, Culture 38, Food 36, Nature 40, Activities 20)
+- **Total added**: 147 places
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 119 | +19 | shopping.csv |
-| Culture & Sights (문화·관광) | 198 | +37 | culture_sights.csv |
-| Food & Drink (음식·카페) | 197 | +33 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 211 | +38 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 242 | +27 | activities_wellness.csv |
-| **Total** | **967** | **+154** | |
+| Shopping (쇼핑) | 132 | +13 | shopping.csv |
+| Culture & Sights (문화·관광) | 236 | +38 | culture_sights.csv |
+| Food & Drink (음식·카페) | 233 | +36 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 251 | +40 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 262 | +20 | activities_wellness.csv |
+| **Total** | **1,114** | **+147** | |
 
 ## Data Quality
 
-- ✓ 967 unique Record IDs
+- ✓ 1,114 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns match specification: 이름, 주소, Latitude, Longitude, Type, Region, Guide, Practical, Video, Sources, Record ID
@@ -39,14 +38,19 @@ Added 154 new places from Busan (부산광역시) and Gyeongnam (경상남도), 
 - **Gyeongbuk (2026-10-28)**: +126 places (경상북도)
 - **Busan & Gyeongnam (2026-10-28)**: +150 places (부산광역시, 경상남도)
 - **Gyeongbuk forests confirmed (2026-10-28)**: +4 recreational forests with campsites
+- **Gangwon (2026-10-28)**: +147 places (강원도)
 
 ## Cell Budget & Capacity
 
-- **Current**: 10,637 / 20,000 cells (53.2% utilization)
+- **Current**: 12,254 / 20,000 cells (61.3% utilization)
 - **Maximum capacity**: 1,818 rows (with 11 columns)
-- **Remaining capacity**: 851 rows available for expansion
+- **Remaining capacity**: 704 rows available for expansion
 
 ## Key Changes Summary
+
+**Gangwon Integration (2026-10-28):**
+1. Added 147 places from Gangwon region
+2. All new places use v2 format with 5-language descriptions
 
 **Busan & Gyeongnam Integration (2026-10-28):**
 1. Added 150 places from Busan and Gyeongnam regions
@@ -77,6 +81,7 @@ See `data/v2/exports/manifest.json` for detailed file metadata.
 
 ## Documentation
 
+- **Gangwon report**: docs/gangwon-2026-10/REPORT.md
 - **Busan & Gyeongnam report**: docs/busan-gyeongnam-2026-10/REPORT.md
 - **Gyeongbuk addition report**: docs/gyeongbuk-2026-10/REPORT.md
 - **Gyeongbuk pin corrections**: docs/gyeongbuk-2026-10/FIX.md
