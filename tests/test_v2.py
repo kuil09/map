@@ -15,8 +15,8 @@ class TestV2DataStructure(unittest.TestCase):
         cls.places = json.loads(cls.places_path.read_text(encoding='utf-8'))
     
     def test_total_places_count(self):
-        """1,264 places total (1,114 + 150 Jeolla)."""
-        self.assertEqual(len(self.places), 1264)
+        """1,414 places total (1,264 + 150 Jeju)."""
+        self.assertEqual(len(self.places), 1414)
     
     def test_unique_ids(self):
         """All Record IDs are unique."""
@@ -49,11 +49,11 @@ class TestV2DataStructure(unittest.TestCase):
     def test_layer_distribution(self):
         """Layer distribution matches expected counts (updated 2026-10-28)."""
         expected = {
-            'food_drink': 269,
-            'nature_camping': 291,
-            'activities_wellness': 282,
-            'shopping': 145,
-            'culture_sights': 277,
+            'food_drink': 304,
+            'nature_camping': 342,
+            'activities_wellness': 302,
+            'shopping': 151,
+            'culture_sights': 315,
         }
         actual = {}
         for place in self.places:
