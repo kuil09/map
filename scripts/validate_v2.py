@@ -47,7 +47,7 @@ def validate_places_json(path):
     warnings = []
     
     # Updated 2026-10-28: 2,116 places live = 2,116
-    expected_count = 2116
+    expected_count = 2328
     
     if not path.exists():
         return [f"places.v2.json not found at {path}"], []
@@ -61,7 +61,7 @@ def validate_places_json(path):
         return ["places.v2.json must be a list"], []
     
     # Check count (updated 2026-10-28: 2,013 + 103 Daegu / Camp Walker = 2,116)
-    expected_count = 2116
+    expected_count = 2328
     if len(data) != expected_count:
         errors.append(f"Expected {expected_count} places, found {len(data)}")
     
