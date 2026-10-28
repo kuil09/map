@@ -48,6 +48,9 @@ def validate_places_json(path):
     errors = []
     warnings = []
     
+    # Updated 2026-10-28: 687 + 126 Gyeongbuk = 813
+    expected_count = 813
+    
     if not path.exists():
         return [f"places.v2.json not found at {path}"], []
     
@@ -59,17 +62,18 @@ def validate_places_json(path):
     if not isinstance(data, list):
         return ["places.v2.json must be a list"], []
     
-    # Check count
-    if len(data) != 687:
-        errors.append(f"Expected 687 places, found {len(data)}")
+    # Check count (updated 2026-10-28: 687 + 126 Gyeongbuk = 813)
+    expected_count = 813
+    if len(data) != expected_count:
+        errors.append(f"Expected {expected_count} places, found {len(data)}")
     
     # Check unique IDs
     ids = [p.get('id') for p in data]
     if len(ids) != len(set(ids)):
         duplicates = [id for id in ids if ids.count(id) > 1]
         errors.append(f"Duplicate IDs found: {set(duplicates)}")
-    elif len(set(ids)) == 687:
-        print("✓ 687 unique Record IDs")
+    elif len(set(ids)) == expected_count:
+        print(f"✓ {expected_count} unique Record IDs")
     
     # Validate each place
     missing_guide = []
@@ -288,7 +292,7 @@ def main():
         return 1
     
     print("\n✓ All validation checks passed!")
-    print(f"✓ Verification state: 687 places live, 0 unplaced, as of 2026-10-28")
+    print(f"✓ Verification state: 813 places live (687 + 126 Gyeongbuk), 0 known unplaced, as of 2026-10-28")
     return 0
 
 
