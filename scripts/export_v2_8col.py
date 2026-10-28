@@ -22,18 +22,10 @@ def format_row(p):
     desc = p['description']
     guide = '\n'.join(f"{l.upper()}: {desc[l]}" for l in LANGS if desc.get(l))
     
-    # Details: Region + coordinates + Practical
+    # Details: Only user-facing notes and practical info
+    # Internal notes (region lines, reference coordinates, check dates, 
+    # process notes, source notes) should stay in JSON metadata, not popups
     parts = []
-    reg = p['region']
-    region_str = f"{reg.get('sido','')} {reg.get('sigungu','')}".strip()
-    if region_str:
-        parts.append('Region: ' + region_str)
-    
-    loc = p['location']
-    if loc.get('lat') or loc.get('lng'):
-        lat = f"{loc['lat']:.6f}" if loc.get('lat') else ''
-        lng = f"{loc['lng']:.6f}" if loc.get('lng') else ''
-        parts.append(f"Coordinates (reference only, from source): {lat}, {lng}")
     
     # Practical info
     pr = p['practical']
@@ -43,6 +35,7 @@ def format_row(p):
     if flags:
         parts.append(flags)
     
+    # User-facing notes only (no internal metadata)
     notes = p['notes']
     if notes.get('en'):
         parts.append(f"EN: {notes['en']}")
@@ -55,10 +48,8 @@ def format_row(p):
     videos = '\n'.join(f"{'★Official' if v.get('official') else 'Video'} · {v.get('channel','')}: {v.get('url','')}" 
                        for v in p.get('videos', []) if v.get('url'))
     
-    # Sources
+    # Sources (URLs only, no check dates in popup)
     sources = '\n'.join([s.get('url','') for s in p.get('sources',[])[:3] if isinstance(s, dict) and s.get('url')])
-    if p.get('status',{}).get('last_verified'):
-        sources += f"\nChecked {p['status']['last_verified']}"
     
     return {
         '이름': name,
