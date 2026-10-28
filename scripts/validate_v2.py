@@ -7,7 +7,7 @@ Usage:
 
 Validates:
 - places.v2.json schema compliance
-- 1,565 unique Record IDs
+- 1,715 unique Record IDs
 - Every place has a Guide (description in at least one language)
 - CSV columns match 8-column specification
 - Type values are lowercase snake_case
@@ -46,8 +46,8 @@ def validate_places_json(path):
     errors = []
     warnings = []
     
-    # Updated 2026-10-28: 1,565 places live = 1,565
-    expected_count = 1565
+    # Updated 2026-10-28: 1,715 places live = 1,715
+    expected_count = 1715
     
     if not path.exists():
         return [f"places.v2.json not found at {path}"], []
@@ -60,8 +60,8 @@ def validate_places_json(path):
     if not isinstance(data, list):
         return ["places.v2.json must be a list"], []
     
-    # Check count (updated 2026-10-28: 1,414 + 151 Seoul/Incheon = 1,565)
-    expected_count = 1565
+    # Check count (updated 2026-10-28: 1,565 + 150 Chungcheong = 1,715)
+    expected_count = 1715
     if len(data) != expected_count:
         errors.append(f"Expected {expected_count} places, found {len(data)}")
     
@@ -290,7 +290,7 @@ def main():
         return 1
     
     print("\n✓ All validation checks passed!")
-    print(f"✓ Verification state: 1,565 places live (1,565 places live), 0 known unplaced, as of 2026-10-28")
+    print(f"✓ Verification state: 1,715 places live (1,715 places live), 0 known unplaced, as of 2026-10-28")
     return 0
 
 
