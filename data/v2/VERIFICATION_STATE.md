@@ -2,40 +2,40 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 2,013  
+**Total Places**: 2,116  
 **Unplaced**: 0 known  
-**Video Coverage**: 381 places (18.9%) with official videos
+**Video Coverage**: 430 places (20.3%) with official videos
 
-## Latest Update: Batch Next (2026-10-28)
+## Latest Update: Daegu / Camp Walker (2026-10-28)
 
-Added 150 places from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, and Busan. Total places now at 2,013 with 0 unplaced.
+Added 103 places from Daegu metropolitan area, including Camp Walker. Total places now at 2,116 with 0 unplaced.
 
 ### Update Details
-- **New places**: 150 from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, Busan
-- **Layer changes**: Culture +71, Nature +32, Food +29, Activities +10, Shopping +8
-- **Total places**: 2,013 (Culture 558, Nature 473, Food 439, Activities 351, Shopping 192)
-- **Cell utilization**: 16,104 / 20,000 (80.5%)
+- **New places**: 103 from Daegu (Camp Walker area)
+- **Layer changes**: Culture +26, Nature +7, Food +46, Activities +10, Shopping +14
+- **Total places**: 2,116 (Culture 584, Nature 480, Food 485, Activities 361, Shopping 206)
+- **Cell utilization**: 16,928 / 20,000 (84.6%)
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 192 | +8 | shopping.csv |
-| Culture & Sights (문화·관광) | 558 | +71 | culture_sights.csv |
-| Food & Drink (음식·카페) | 439 | +29 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 473 | +32 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 351 | +10 | activities_wellness.csv |
-| **Total** | **2,013** | **+150** | |
+| Shopping (쇼핑) | 206 | +14 | shopping.csv |
+| Culture & Sights (문화·관광) | 584 | +26 | culture_sights.csv |
+| Food & Drink (음식·카페) | 485 | +46 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 480 | +7 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 361 | +10 | activities_wellness.csv |
+| **Total** | **2,116** | **+103** | |
 
 ## Data Quality
 
-- ✓ 2,013 unique Record IDs
+- ✓ 2,116 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
 - ✓ All CSVs are consistent with places.v2.json
 - ✓ Details column preserves Region, coordinates (100 places), and Practical information
-- ✓ Video coverage: 381 places (18.9%) with official videos
+- ✓ Video coverage: 430 places (20.3%) with official videos
 
 ## Regional Coverage
 
@@ -50,16 +50,21 @@ Added 150 places from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, and Busan. Total pl
 - **Chungcheong (2026-10-28)**: +150 places (대전광역시, 세종특별자치시, 충청북도, 충청남도)
 - **Daegu/Ulsan/Gyeonggi (2026-10-28)**: +148 places (대구광역시, 울산광역시, 경기도 추가)
 - **Batch Next (2026-10-28)**: +150 places (광주광역시, 전북특별자치도, 경상남도, 경기도, 부산광역시 추가)
+- **Daegu / Camp Walker (2026-10-28)**: +103 places (대구광역시, including Camp Walker area)
 
 ## Cell Budget & Capacity
 
-- **Current**: 16,104 / 20,000 cells (80.5% utilization)
+- **Current**: 16,928 / 20,000 cells (84.6% utilization)
 - **Row capacity**: 2,500 rows maximum (with 8 columns)
-- **Current usage**: 2,013 rows (80.5% of capacity)
-- **Remaining capacity**: 487 rows available for expansion
+- **Current usage**: 2,116 rows (84.6% of capacity)
+- **Remaining capacity**: 384 rows available for expansion
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Daegu / Camp Walker (2026-10-28):**
+1. Added 103 places from Daegu metropolitan area, including Camp Walker
+2. All new places use v2 format with 5-language descriptions
 
 **Batch Next (2026-10-28):**
 1. Added 150 places from Gwangju, Jeonbuk, Gyeongnam, Gyeonggi, and Busan
@@ -145,6 +150,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Daegu / Camp Walker report**: docs/daegu-walker-2026-10/REPORT.md
 - **Batch Next report**: docs/batch-next-2026-10/REPORT.md
 - **Content audit**: docs/audit-2026-10/AUDIT.md
 - **Video additions**: docs/videos-2026-10/CHANGES.md
