@@ -13,26 +13,26 @@
  "layers": {
   "activities_wellness": {
    "title": "Activities & Wellness",
-   "rows": 361
+   "rows": 374
   },
   "culture_sights": {
    "title": "Culture & Sights",
-   "rows": 584
+   "rows": 604
   },
   "food_drink": {
    "title": "Food & Drink",
-   "rows": 485
+   "rows": 532
   },
   "nature_camping": {
    "title": "Nature & Camping",
-   "rows": 480
+   "rows": 491
   },
   "shopping": {
    "title": "Shopping",
-   "rows": 206
+   "rows": 221
   }
  },
- "total_rows": 2116,
- "total_cells": 16928,
+ "total_rows": 2222,
+ "total_cells": 17776,
  "notes": "Migrated to 8-column format on 2026-10-28. Details column combines Region, reference coordinates, and Practical information."
 }
