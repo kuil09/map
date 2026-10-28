@@ -1,0 +1,6043 @@
+[
+ [
+  "activities_wellness-FULL.csv",
+  "osan-miniature",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "osan-miniature",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "anseong-farmland",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "anseong-farmland",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "animal-club",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "mtg-humphreys-brew-battle",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "mtg-osan-tabletop",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "orctown-hapjeong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "dicehold-seongnae",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wavepark",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wavepark",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-deepstation",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongpung-land",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bellefore",
+  "Guide",
+  "ja",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bellefore",
+  "Guide",
+  "zh",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bellefore",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bellefore",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-zipline-yongin",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-zipline-yongin",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gapyeong-bridge-zipline",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gangchon-gimyujeong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gangchon-gyeonggang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gangchon-gyeonggang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gangchon-gapyeong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-ganghwa-naturefarm",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongjong-seaside-railbike",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-boeun-solhyang-skybike",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-boeun-solhyang-skybike",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-smob-anseong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-smob-anseong",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mlp-surf",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mlp-surf",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-su-leisure-rafting",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-torak-icheon",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-torak-icheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-icheon-yeomyeongyo",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-icheon-yeomyeongyo",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeonju-crafts-hall",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeonju-crafts-hall",
+  "Guide",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeonju-crafts-hall",
+  "Guide",
+  "es",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeonju-crafts-hall",
+  "Guide",
+  "es",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wonju-hanji",
+  "Guide",
+  "es",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wonju-hanji",
+  "Guide",
+  "es",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-konjiam-ski",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-konjiam-ski",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-konjiam-ski",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-songdo-east-boathouse",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jangja-canoe",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-danyang-paravillage",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yangpyeong-dongdong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yangpyeong-dongdong",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Guide",
+  "es",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yeongdong-gugak",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-gyeonggi-children",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-gyeonggi-children",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-national-agricultural",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-national-agricultural",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-hong-daeyong",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-hong-daeyong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-national-science",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "culture-seosan-birdland",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-ds-billiards-paengseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-ds-billiards-paengseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-zeus-billiards-pyeongtaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-zeus-billiards-pyeongtaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-js-billiards-pyeongtaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-js-billiards-pyeongtaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-osan-cc-carom",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-osan-cc-carom",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-carom-billiards-osan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-carom-billiards-osan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-carombox-cheonan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-carombox-cheonan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-won-billiards-suwon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-won-billiards-suwon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-top-billiards-anseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-top-billiards-anseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bnb-bowling-pyeongtaek",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bnb-bowling-pyeongtaek",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bnb-bowling-pyeongtaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-bnb-bowling-pyeongtaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoanseong-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoanseong-bowling",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheonan-stadium-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheonan-stadium-bowling",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-hogye-indoor-sports",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-hogye-indoor-sports",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-western-pub-darts-pyeongtaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-western-pub-darts-pyeongtaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-yesan-stork",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-cheongju-land-children",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-cheongju-land-children",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-gwacheon-science",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-osan-sports-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-osan-sports-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wondong-sports-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wondong-sports-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-segyo-welfare-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-segyo-welfare-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-uandi-ice-rink",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-uandi-ice-rink",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gwanggyo-complex-ice-rink",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gwanggyo-complex-ice-rink",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-modunurim-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-modunurim-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-suwon-yeongtong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-cheonan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-yongin",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-yongin",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-gwanggyo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-vaunce-gwanggyo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-yongin-national-racket-sports",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-climb-together-suwon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-climb-together-suwon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anseong-national-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anseong-national-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anseong-swimming-national-center",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anseong-swimming-national-center",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-seoul-grand-park-zoo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-seoul-grand-park-zoo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-sea-life-coex",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-agroland-taesin",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-cheongju-zoo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-osan-bird-park",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-seoul-childrens-grand-park-zoo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-wolmi-zzang-land",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anseong-craft-center",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-neriggul-crafts",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-asan-onggi-fermentation",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daejeon-wood-culture",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daejeon-wood-culture",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daejeon-wood-culture",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daejeon-wood-culture",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongyang-wood-crafts",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jjokbit-anangne",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-icheon-wood-culture",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-suwon-traditional-food",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-suwon-traditional-food",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-icheon-deulkkot-pottery",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-osan-city-hall",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-osan-city-hall",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-dongtan-north-plaza",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-dongtan-north-plaza",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-cheonan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-cheonan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-suwon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-suwon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-yongin-dongbaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-yongin-dongbaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-daejeon-eunhaeng",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-daejeon-eunhaeng",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-cheongju-seongan-gil",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-cheongju-seongan-gil",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-anseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-anseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-hanam",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-hanam",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-goyang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-aquafield-goyang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-asan-spavis",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-asan-spavis",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-paradise-dogo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-paradise-dogo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-splas-resom",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-splas-resom",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-cimer-incheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-cimer-incheon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-sinchuntang-onyang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-sinchuntang-onyang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-termeden-icheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-termeden-icheon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-gangbyeon-spaland",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-gangbyeon-spaland",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-iksan-public-riding",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongpung-cable-car",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongpung-cable-car",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-samaksan-lake-cable-car",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-samaksan-lake-cable-car",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-chungnam-meteorological",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-daejeon-civic-observatory",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-daejeon-civic-observatory",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-jeungpyeong-jwagusan-observatory",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-yeongwol-byeolmaro-observatory",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-incheon-children-science",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-incheon-children-science",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-yangpyeong-insect-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-wonju-climate-change-center",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "forplus-dongtan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "forplus-sinnonhyeon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "forplus-game-center-guro",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "forplus-game-center-guro",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-tancheon-bowling",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-tancheon-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-gwacheon-civic-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-poil-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-poil-bowling",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongju-indoor-ice-rink",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-cheongju-indoor-ice-rink",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anyang-indoor-ice-rink",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anyang-indoor-ice-rink",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-anyang-indoor-ice-rink",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoul-mountain-culture-climbing",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoul-mountain-culture-climbing",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoul-mountain-culture-climbing",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-seoul-mountain-culture-climbing",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-songhaeon-songdo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-songhaeon-songdo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-yulam-hwaseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-yulam-hwaseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-have9-forest-resom-jecheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-have9-forest-resom-jecheon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-lei-seoul",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "spa-lei-seoul",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-ansan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-ansan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-bucheon-city-hall",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-bucheon-city-hall",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-gimpo-gurae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "redbutton-gimpo-gurae",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-nonsan-national-swimming",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-nonsan-national-swimming",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-second-ice-rink",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-second-ice-rink",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-second-ice-rink",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-second-ice-rink",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-international-shooting-tourist",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-international-shooting-tourist",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-international-shooting-tourist",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-international-shooting-tourist",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-eworld-83tower",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-eworld-83tower",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-daegu-national-science-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "family-daegu-national-science-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-sun-sports-plaza-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-sun-sports-plaza-bowling",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-spark-bowling",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-daegu-spark-bowling",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "agro-ecopark",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "agro-ecopark",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-asan-railbike",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-asan-railbike",
+  "Guide",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-hoengseong-luge",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-hoengseong-luge",
+  "Guide",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mancheonha",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mancheonha",
+  "Guide",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-alpaca-world",
+  "Guide",
+  "es",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-alpaca-world",
+  "Guide",
+  "es",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-alpaca-world",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeongseon-railbike",
+  "Guide",
+  "es",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeongseon-railbike",
+  "Guide",
+  "es",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeongseon-railbike",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-paengseong-sports-park",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-paengseong-sports-park",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "cgv-cheonan",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-lotte-world-adventure",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-lotte-world-adventure",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-seoul-land",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-seoul-land",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-daejeon-oworld",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-daejeon-oworld",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-daejeon-expo-aquarium",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-daejeon-expo-aquarium",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-aqua-planet-ilsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "attraction-aqua-planet-ilsan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "busosanseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-paengseong-living-history",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-korean-modern-music",
+  "Guide",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-korean-modern-music",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-korean-modern-music",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-doksanseong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-smith-peace-hall",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-mirinae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-mirinae",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-hoam",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-gyeonggi-provincial",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-postal-museum",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-muryeong-tombs",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-jeongnimsa",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-cheongju-national",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-early-printing",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-mmca-cheongju",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-mmca-cheongju",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-cheongnamdae",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-euni",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-euni",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-golbaemasil",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-golbaemasil",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-namyang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-yodangri",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-juksan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-dannae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-dannae",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-eonong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-songol",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-surisan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-suwon-hwaseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-cheonjinam",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-solmoe",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-solmoe",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-solmoe",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-sinri",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-gongseri",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-gongseri",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-gongseri",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-gongseri",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-hapdeok",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-hapdeok",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-haemi",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-yeosaul",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-seonggeosan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-hwangsaebawi",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeti",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeti",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeti",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeti",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-darakgol",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-darakgol",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-galmaemot",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeron",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-baeron",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-waujeongsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-waujeongsa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-gakwonsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-guinsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-suguksa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-tapsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-tapsa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-bomunsa-ganghwa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-bomunsa-ganghwa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-jeondeungsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-yongmunsa-yangpyeong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-anmyeonam",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-anmyeonam",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-national-aviation-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-national-aviation-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-sujongsa-namyangju",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-taegosa-geumsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-bucheon-bow-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-jeungpyeong-folk-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-nabawi-iksan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "catholic-nabawi-iksan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-sutasa-hongcheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-sutasa-hongcheon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-jeongamsa-jeongseon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-jeongamsa-jeongseon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-seongmodang",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-seongmodang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-seongmodang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-eunjeoksa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-eunjeoksa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-national-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-national-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-art-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-art-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-donghwasa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-donghwasa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-donghwasa",
+  "Details",
+  "*",
+  "cell 1756 chars > 1675, trimmed at sentence boundary to 1672"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-pagyesa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-daegu-pagyesa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-bangjja-yugi-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-bangjja-yugi-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-modern-history-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-modern-history-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-yangnyeongsi-herbal-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-daegu-yangnyeongsi-herbal-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-chiljangsa",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-chiljangsa",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-cheonan-museum",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-cheonan-museum",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-cheonan-museum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "temple-gwanchoksa",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-bukgeukhae",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-bukgeukhae",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-hadongkwan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-tosokchon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-tosokchon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gonghwachun",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gonghwachun",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-01",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-01",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-02",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-02",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-03",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-03",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-04",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-04",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-05",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-05",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-09",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-09",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-10",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-10",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-14",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-14",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-16",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-16",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-17",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-17",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-24",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-24",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-25",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-25",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-chungcheong-26",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-cheongju-suijae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-cheongju-sutbul-galbi",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-blue-sapphire-rolling-hills",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-blue-sapphire-rolling-hills",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-seoil-farm-solli",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-seoil-farm-solli",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gogiri-makguksu",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gogiri-makguksu",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-sobok-galbi-yesan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-sobok-galbi-yesan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-dure-bakery-cheongju",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-dure-bakery-cheongju",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gongwondang-cheongju",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gongwondang-cheongju",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-saemal-haejangguk-osan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-saemal-haejangguk-osan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-osaek-ssuk-hotteok",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-osaek-ssuk-hotteok",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-yeonkkot-iyagi-buyeo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-yeonkkot-iyagi-buyeo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-gangnaru-pungcheon-jangeo",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-icheon-ssalbapjip-majang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-pyeongchang-jinbu-makguksu-gimpo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-mudeung-boribap-namyangju",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-buja-haemul-kalguksu-siheung",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-kim-jeongi-samgyetang-geumsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-indy-techno-daejeon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-indy-techno-daejeon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-dono-marco-cheonan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-dono-marco-cheonan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-cozy-house-suwon-jangan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-cozy-house-suwon-jangan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-no-brand-burger-starfield-anseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-no-brand-burger-starfield-anseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-leesungdang-gunsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-leesungdang-gunsan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-binhaewon-gunsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-binhaewon-gunsan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-samsong-main",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-samsong-main",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-samsong-main",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-gugil-ttarogukbap",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-gugil-ttarogukbap",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-gugil-ttarogukbap",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-nakyoung-jjimgalbi",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-nakyoung-jjimgalbi",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-masibul-main",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-masibul-main",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-dongbong-beomeo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-dongbong-beomeo",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-beodeul-sikdang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-beodeul-sikdang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-nammun-napjakmandu",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-daegu-nammun-napjakmandu",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "cafe-daegu-gumin-good-morning",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "cafe-daegu-espace-bakery",
+  "Details",
+  "en",
+  "NO FULL TEXT, left"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "cafe-daegu-gongjudang-bakery",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-jangan-myeonok",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-jangan-myeonok",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "anseong-machum",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "anseong-machum",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "anseong-machum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gwanggyo",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "kkotji",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "hanbat",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "culture-yedang-reservoir",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "culture-muchangpo",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-midongsan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100057",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100057",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100057",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100057",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2022",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2022",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2022",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2022",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6865",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6865",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6865",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6865",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100643",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100643",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100643",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100643",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-404",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-404",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-404",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-404",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-31",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-31",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-31",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-31",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6968",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6968",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6968",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6968",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-442",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-442",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-442",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-442",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6972",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6972",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6972",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6972",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "sea-tando-port-ansan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3397",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3397",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2616",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2616",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3120",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3120",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7254",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7254",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3271",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3271",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1807",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1807",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2460",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2460",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-337",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-337",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2226",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2226",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-apsan-park",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-apsan-park",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-apsan-park",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-apsan-park",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-duryu-park",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-duryu-park",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-dalseo-starlight-camp",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-dalseo-starlight-camp",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-dalseo-starlight-camp",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-geumho-auto-camp",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-geumho-auto-camp",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-arboretum",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-arboretum",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-jinbatgol-campground",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-jinbatgol-campground",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-palgongsan-dohak-campground",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "camping-daegu-palgongsan-dohak-campground",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-suseongmot",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-suseongmot",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "naeri",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "naeri",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "sopung",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "sopung",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "mulhyanggi",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "mulhyanggi",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100873",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100873",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7830",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7830",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1736",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1736",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1736",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1736",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101102",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101102",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2031",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2031",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2031",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2031",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2032",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2032",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7944",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7944",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7944",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7944",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2422",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2422",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2394",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2394",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2394",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2394",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-767",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-767",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-767",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-767",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101776",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101776",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3394",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3394",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3394",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3394",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6984",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6984",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3139",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3139",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3141",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3141",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3141",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3141",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8157",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8157",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100684",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100684",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100684",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100684",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7507",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7507",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7507",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7507",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-714",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-714",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-714",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-714",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100219",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100219",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100246",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100246",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100246",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100246",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100371",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100371",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100371",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100371",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101591",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101591",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101591",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101591",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1993",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1993",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1993",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1993",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100470",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100470",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100470",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100470",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2239",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2239",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2239",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2239",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-822",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-822",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-822",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-822",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7271",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7271",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7271",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7271",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8214",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8214",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8214",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8214",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3252",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3252",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3252",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3252",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100900",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100900",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101341",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101341",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7566",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7566",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7566",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7566",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-313",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-313",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-313",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-313",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-315",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-315",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101403",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101403",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101403",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101403",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-233",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-233",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-233",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-233",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101956",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101956",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101956",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101956",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101183",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101183",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101183",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101183",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1264",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1264",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1264",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1264",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1570",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1570",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1570",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1570",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3013",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3013",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3013",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3013",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7292",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7292",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7292",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7292",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7558",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7558",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7558",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7558",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1139",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1139",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1139",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1139",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101195",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101195",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100812",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100812",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100812",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100812",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2999",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2999",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2999",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2999",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3002",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3002",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3002",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3002",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101989",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101989",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101989",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101989",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-cheonan-samgeori",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-cheonan-samgeori",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-cheonan-cheongsu",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-cheonan-cheongsu",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "jays-hobby-humphreys",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "warhammer-gangnam",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "warhammer-gangnam",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "playstation-pyeongtaek",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "psvill-suwon-yeongtong",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "psvill-suwon-yeongtong",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "psvill-yongin-yeokbuk",
+  "Guide",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "psvill-yongin-yeokbuk",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-tongbok-pyeongtaek",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-tongbok-pyeongtaek",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-onyang-oncheon-asan",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-onyang-oncheon-asan",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-onyang-oncheon-asan",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-onyang-oncheon-asan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-osaek-osan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-osaek-osan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheonan-jungang",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheonan-jungang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-gongju-sanseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-gongju-sanseong",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-seosan-dongbu",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-seosan-dongbu",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheongju-yukgeori",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheongju-yukgeori",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheongju-yukgeori",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-cheongju-yukgeori",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yongin-jungang",
+  "Details",
+  "en",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yongin-jungang",
+  "Details",
+  "en",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yongin-jungang",
+  "Details",
+  "ko",
+  "2 candidates, took longest; others are prefixes: True"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yongin-jungang",
+  "Details",
+  "ko",
+  "restored from repo/workspace data (Desiderio note re-removed)"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-jidong-suwon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-jidong-suwon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-sejong-jochiwon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-sejong-jochiwon",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "game-shopping-pyeongchon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "hanwoori-sindorim",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "warp-bangbae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yesan",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-yesan",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-naeto-jecheon",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "market-gwangcheon-hongseong",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-seomun-market",
+  "Guide",
+  "es",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-seomun-market",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-seomun-market",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-kyobo-books",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-kyobo-books",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-the-hyundai",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-the-hyundai",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-shinsegae",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-shinsegae",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-lotte-dept-daegu",
+  "Details",
+  "en",
+  "restored from repo/workspace data"
+ ],
+ [
+  "shopping-FULL.csv",
+  "shopping-daegu-lotte-dept-daegu",
+  "Details",
+  "ko",
+  "restored from repo/workspace data"
+ ]
+]

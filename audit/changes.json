@@ -1,0 +1,538 @@
+[
+ [
+  "activities_wellness",
+  "cgv-dongtan",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "asan-insects",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-jeonju-crafts-hall",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-wonju-hanji",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-asan-railbike",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-hoengseong-luge",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-mancheonha",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-alpaca-world",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-king-canoe",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-imsil-cheese",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activity-jeongseon-railbike",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "culture-national-ecology",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "culture-seaqrium",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "cgv-cheonan",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "activities_wellness",
+  "activities-si-incheon-wolmi-sea-train",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194596 https://www.ictr.or.kr/a> Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194596 https://www.ictr.or.kr/ Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "hwaseong-haenggung",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "culture_sights",
+  "culture-daegu-bangjja-yugi-museum",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Korea's only museum dedicated to hand-forged bangjja bronze ware, on Palgongsan.",
+  "EN: Museum dedicated to hand-forged bangjja bronze ware, on Palgongsan."
+ ],
+ [
+  "culture_sights",
+  "oeam",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "culture_sights",
+  "yunggeolleung",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "culture_sights",
+  "culture-osan-art-museum",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "culture_sights",
+  "culture-gb-gyeongju-cheomseongdae-observatory",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: 7th-century stone observatory from Queen Seondeok's reign, among the oldest in East Asia.",
+  "EN: 7th-century stone observatory from Queen Seondeok's reign, about 9 m tall."
+ ],
+ [
+  "culture_sights",
+  "culture-gb-andong-woryeonggyo-bridge",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Korea's longest wooden footbridge, over the river near Andong Dam; lit up at night.",
+  "EN: Wooden footbridge over the river near Andong Dam; lit up at night."
+ ],
+ [
+  "culture_sights",
+  "culture-gb-goryeong-jisandong-ancient-tombs",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=81842 https://tour.goryeong.go.krwww.cha.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=81842 https://tour.goryeong.go.kr https://www.cha.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-gb-uljin-uljin-bulyeongsa-temple",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94557 https://bulyoungsa.krwww.uljin.go.kr/tour Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94557 https://bulyoungsa.kr https://www.uljin.go.kr/tour Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-gb-gyeongju-bunhwangsa-temple",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Temple founded in 634 with Silla's oldest surviving stone-brick pagoda, next to the Hwangnyongsa site. Dress modestly.",
+  "EN: Temple founded in 634 with a National Treasure stone-brick pagoda, next to the Hwangnyongsa site. Dress modestly."
+ ],
+ [
+  "culture_sights",
+  "culture-jl-gwangju-buk-gwangju-biennale-exhibition-hall",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Main venue of the Gwangju Biennale, Asia's first contemporary art biennale, with exhibitions between editions.",
+  "EN: Main venue of the Gwangju Biennale contemporary art exhibition since 1994, with exhibitions between editions."
+ ],
+ [
+  "culture_sights",
+  "culture-jl-naju-naju-geumseonggwan-hall",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Joseon-era guesthouse for royal envoys in central Naju, one of the largest surviving examples.",
+  "EN: Joseon-era guesthouse for royal envoys in central Naju, built in the 1470s."
+ ],
+ [
+  "culture_sights",
+  "culture-jl-naju-naju-geumseonggwan-hall",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62860 https://www.cha.go.krwww.naju.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=62860 https://www.cha.go.kr https://www.naju.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-jl-jeonju-jeonju-pungnammun-gate",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: South gate of old Jeonju fortress, rebuilt in 1734 and the only gate still standing.",
+  "EN: South gate of old Jeonju fortress, built in 1734 and designated a Treasure."
+ ],
+ [
+  "culture_sights",
+  "culture-jj-seogwipo-daejeonghyanggyo-confucian-school",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=76956 https://www.visitjeju.netwww.cha.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=76956 https://www.visitjeju.net https://www.cha.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-si-seoul-myeongdong-cathedral",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Korea's first Gothic Catholic cathedral, built in 1898 in Myeongdong; visitors should keep quiet during Mass.",
+  "EN: Gothic Catholic cathedral of the Archdiocese of Seoul, built in 1898 in Myeongdong; visitors should keep quiet during Mass."
+ ],
+ [
+  "culture_sights",
+  "culture-si-seoul-munmyo-confucian-shrine-and-seonggyungwan-national",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85542 https://www.skk.or.krwww.cha.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85542 https://www.skk.or.kr https://www.cha.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-si-incheon-gwangseongbo-fortress",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84079 https://www.ghss.or.krwww.cha.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84079 https://www.ghss.or.kr https://www.cha.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-si-incheon-incheon-chinatown",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Korea's oldest Chinatown, with red gates, jjajangmyeon restaurants and open-port-era streets.",
+  "EN: Chinatown dating from the 1883 opening of Incheon Port, with red gates, jjajangmyeon restaurants and open-port-era streets."
+ ],
+ [
+  "culture_sights",
+  "culture-cc-cn-buyeo-neungsan-ri-ancient-tombs-unesco-world-herit",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94929 https://www.buyeo.go.krwww.cha.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94929 https://www.buyeo.go.kr https://www.cha.go.kr Checked 2026-10-28"
+ ],
+ [
+  "culture_sights",
+  "culture-dug-gg-jeongok-ri-prehistoric-site-hantangang-river-geopa",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=93801 https://www.yeoncheon.go.krwww.cha.go.krwww.hantangeopark.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=93801 https://www.yeoncheon.go.kr https://www.cha.go.kr https://www.hantangeopark.kr Checked 2026-10-28"
+ ],
+ [
+  "food_drink",
+  "cafe-daegu-espace-bakery",
+  "Details",
+  "walking time not found in Sources; removed EN/KO",
+  "",
+  ""
+ ],
+ [
+  "food_drink",
+  "food-jl-mokpo-clb-bakery",
+  "Details",
+  "walking time not found in Sources; removed EN/KO",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "waemok",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "dodamsambong",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "baedari",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-100873",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-7830",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-101102",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-2032",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-2422",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-101776",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-6984",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-3139",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-8157",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-100219",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-100900",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-101341",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-315",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "gocamping-101195",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "scenery-siheung-gaetgol",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "nature_camping",
+  "camping-gb-gyeongju-tohamsan-national-recreational-forest",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=97418 https://www.foresttrip.go.krwww.gyeongju.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=97418 https://www.foresttrip.go.kr https://www.gyeongju.go.kr Checked 2026-10-28"
+ ],
+ [
+  "nature_camping",
+  "nature-gw-gangneung-gangneung-gyeongpo-beach",
+  "Guide",
+  "\"best-known/most famous\" not in Source; replaced with KTO-sourced 1.8 km length",
+  "EN: Gangneung's best-known beach, a long sand bar between Gyeongpoho Lake and the sea.",
+  "EN: Popular Gangneung beach, a 1.8 km sand bar between Gyeongpoho Lake and the sea."
+ ],
+ [
+  "nature_camping",
+  "nature-gw-inje-wondae-ri-birch-forest-whispering-birch-forest",
+  "Guide",
+  "2.7 km forest-road distance not in Sources (KTO gives only trail times); removed in 5 languages",
+  "EN: Planted forest of white birch near Inje reached by a 2.7 km uphill forest road; seasonal closures apply.",
+  "EN: Planted forest of white birch near Inje reached by an uphill forest road; seasonal closures apply."
+ ],
+ [
+  "nature_camping",
+  "nature-jj-jeju-hallasan-mountain-trekking",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=90434 https://www.visitjeju.netwww.jeju.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=90434 https://www.visitjeju.net https://www.jeju.go.kr Checked 2026-10-28"
+ ],
+ [
+  "nature_camping",
+  "nature-si-seoul-yangjaecheon-ecological-park",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75574 https://www.seocho.go.kr(Korean, Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75574 https://www.seocho.go.kr Checked 2026-10-28"
+ ],
+ [
+  "nature_camping",
+  "nature-cc-cn-seongjusan-recreational-forest",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=95009 https://www.brcn.go.krwww.foresttrip.go.kr Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=95009 https://www.brcn.go.kr https://www.foresttrip.go.kr Checked 2026-10-28"
+ ],
+ [
+  "nature_camping",
+  "nature-dug-gg-yangpyeong-wild-flower-arboretum",
+  "Sources",
+  "malformed URL repaired",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=81506 https://www.nemunimo.co.kr(Korean Checked 2026-10-28",
+  "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=81506 https://www.nemunimo.co.kr Checked 2026-10-28"
+ ],
+ [
+  "shopping",
+  "starfield-anseong",
+  "Details",
+  "internal straight-line distance from Desiderio airfield reference point (not visitor info, unsourced as a travel distance); removed EN/KO (row has no JA/ZH/ES Details)",
+  "",
+  ""
+ ],
+ [
+  "shopping",
+  "shopping-gb-gyeongju-gyeongju-jungang-market",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Gyeongju's largest traditional market, with a night market and 5-day market days.",
+  "EN: Gyeongju's main local marketplace, with a night market and 5-day market days."
+ ],
+ [
+  "shopping",
+  "shopping-jl-gwangju-seo-gwangju-yangdong-market",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Gwangju's largest traditional market, known for seafood and fried chicken.",
+  "EN: Long-running Gwangju traditional market, known for seafood and fried chicken."
+ ],
+ [
+  "shopping",
+  "shopping-si-seoul-seoul-yangnyeongsi-market",
+  "Guide",
+  "superlative not in Sources; softened/replaced with sourced fact",
+  "EN: Korea's largest herbal medicine market, with ginseng and medicinal herbs.",
+  "EN: Herbal medicine market with ginseng and medicinal herbs."
+ ]
+]
