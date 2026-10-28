@@ -9,7 +9,7 @@ Validates:
 - places.v2.json schema compliance
 - 1,565 unique Record IDs
 - Every place has a Guide (description in at least one language)
-- CSV columns match specification exactly
+- CSV columns match 8-column specification
 - Type values are lowercase snake_case
 - CSV data is consistent with places.v2.json
 """
@@ -22,14 +22,12 @@ from pathlib import Path
 
 
 EXPECTED_COLUMNS = [
-    'Name', 'Address', 'Latitude', 'Longitude', 'Type', 'Region',
-    'Guide', 'Practical', 'Video', 'Sources', 'Record ID'
+    'Name', 'Address', 'Type', 'Guide', 'Details', 'Video', 'Sources', 'Record ID'
 ]
 
 # The live CSVs use Korean headers for Name and Address
 EXPECTED_COLUMNS_KO = [
-    '이름', '주소', 'Latitude', 'Longitude', 'Type', 'Region',
-    'Guide', 'Practical', 'Video', 'Sources', 'Record ID'
+    '이름', '주소', 'Type', 'Guide', 'Details', 'Video', 'Sources', 'Record ID'
 ]
 
 EXPECTED_LAYERS = {

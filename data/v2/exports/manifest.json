@@ -2,17 +2,14 @@
  "columns": [
   "이름",
   "주소",
-  "Latitude",
-  "Longitude",
   "Type",
-  "Region",
   "Guide",
-  "Practical",
+  "Details",
   "Video",
   "Sources",
   "Record ID"
  ],
- "column_count": 11,
+ "column_count": 8,
  "layers": {
   "activities_wellness": {
    "title": "Activities & Wellness",
@@ -36,5 +33,6 @@
   }
  },
  "total_rows": 1565,
- "total_cells": 17215
+ "total_cells": 12520,
+ "notes": "Migrated to 8-column format on 2026-10-28. Details column combines Region, reference coordinates, and Practical information."
 }
