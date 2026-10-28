@@ -2,31 +2,31 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 1,114  
+**Total Places**: 1,264  
 **Unplaced**: 0 known  
 
-## Latest Update: Gangwon Addition (2026-10-28)
+## Latest Update: Jeolla Sync (2026-10-28)
 
-Added 147 new places from Gangwon (강원도), bringing the total from 967 to 1,114.
+Synced to authoritative live map contents (150 new Jeolla places), bringing the total from 1,114 to 1,264.
 
 ### Update Details
-- **New places**: 147 (Shopping 13, Culture 38, Food 36, Nature 40, Activities 20)
-- **Total added**: 147 places
+- **New places**: 150 (Shopping 13, Culture 41, Food 36, Nature 40, Activities 20)
+- **Total added**: 150 places from Gwangju (광주광역시), Jeonnam (전라남도), and Jeonbuk (전북특별자치도)
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 132 | +13 | shopping.csv |
-| Culture & Sights (문화·관광) | 236 | +38 | culture_sights.csv |
-| Food & Drink (음식·카페) | 233 | +36 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 251 | +40 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 262 | +20 | activities_wellness.csv |
-| **Total** | **1,114** | **+147** | |
+| Shopping (쇼핑) | 145 | +13 | shopping.csv |
+| Culture & Sights (문화·관광) | 277 | +41 | culture_sights.csv |
+| Food & Drink (음식·카페) | 269 | +36 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 291 | +40 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 282 | +20 | activities_wellness.csv |
+| **Total** | **1,264** | **+150** | |
 
 ## Data Quality
 
-- ✓ 1,114 unique Record IDs
+- ✓ 1,264 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns match specification: 이름, 주소, Latitude, Longitude, Type, Region, Guide, Practical, Video, Sources, Record ID
@@ -39,14 +39,20 @@ Added 147 new places from Gangwon (강원도), bringing the total from 967 to 1,
 - **Busan & Gyeongnam (2026-10-28)**: +150 places (부산광역시, 경상남도)
 - **Gyeongbuk forests confirmed (2026-10-28)**: +4 recreational forests with campsites
 - **Gangwon (2026-10-28)**: +147 places (강원도)
+- **Jeolla (2026-10-28)**: +150 places (광주광역시, 전라남도, 전북특별자치도)
 
 ## Cell Budget & Capacity
 
-- **Current**: 12,254 / 20,000 cells (61.3% utilization)
+- **Current**: 13,904 / 20,000 cells (69.5% utilization)
 - **Maximum capacity**: 1,818 rows (with 11 columns)
-- **Remaining capacity**: 704 rows available for expansion
+- **Remaining capacity**: 554 rows available for expansion
 
 ## Key Changes Summary
+
+**Jeolla Integration (2026-10-28):**
+1. Added 150 places from Jeolla region (Gwangju, Jeonnam, Jeonbuk)
+2. All new places use v2 format with 5-language descriptions
+3. Address fix: Gwangju/Jeonnam addresses use 광주광역시 and 전라남도 instead of 전남광주통합특별시 (which caused 38 unplaced rows due to My Maps geocoding failure)
 
 **Gangwon Integration (2026-10-28):**
 1. Added 147 places from Gangwon region
@@ -81,6 +87,7 @@ See `data/v2/exports/manifest.json` for detailed file metadata.
 
 ## Documentation
 
+- **Jeolla report**: docs/jeolla-2026-10/REPORT.md
 - **Gangwon report**: docs/gangwon-2026-10/REPORT.md
 - **Busan & Gyeongnam report**: docs/busan-gyeongnam-2026-10/REPORT.md
 - **Gyeongbuk addition report**: docs/gyeongbuk-2026-10/REPORT.md
