@@ -16,7 +16,7 @@ class TestV2DataStructure(unittest.TestCase):
     
     def test_total_places_count(self):
         """2,116 places total (2,013 + 103 Daegu / Camp Walker)."""
-        self.assertEqual(len(self.places), 2116)
+        self.assertEqual(len(self.places), 2327)
     
     def test_unique_ids(self):
         """All Record IDs are unique."""
@@ -49,11 +49,11 @@ class TestV2DataStructure(unittest.TestCase):
     def test_layer_distribution(self):
         """Layer distribution matches expected counts (updated 2026-10-28)."""
         expected = {
-            'food_drink': 485,
-            'nature_camping': 480,
-            'activities_wellness': 361,
-            'shopping': 206,
-            'culture_sights': 584,
+            'culture_sights': 626,
+            'nature_camping': 504,
+            'food_drink': 570,
+            'activities_wellness': 387,
+            'shopping': 240
         }
         actual = {}
         for place in self.places:
