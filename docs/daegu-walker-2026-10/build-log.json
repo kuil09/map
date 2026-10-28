@@ -1,0 +1,565 @@
+{
+ "addr_changes": [
+  "112723: `대구광역시 중구 종로 34 대구화교소학교` → `대구광역시 중구 종로 34`",
+  "85549: `대구광역시 중구 남성로 23 (남성로)` → `대구광역시 중구 남성로 23`",
+  "87490: `대구광역시 중구 중앙대로77길 50-5 (장관동)` → `대구광역시 중구 중앙대로77길 50-5`",
+  "88747: `대구광역시 중구 봉산문화길 38 (봉산동)` → `대구광역시 중구 봉산문화길 38`",
+  "80155: `대구광역시 중구 봉산문화길 77 (봉산동)` → `대구광역시 중구 봉산문화길 77`",
+  "89035: `대구광역시 달서구 공원순환로 201 (성당동)` → `대구광역시 달서구 공원순환로 201`",
+  "86614: `대구광역시 달서구 야외음악당로 180 (두류동)` → `대구광역시 달서구 야외음악당로 180`",
+  "80149: `대구광역시 수성구 무학로 180 (지산동)` → `대구광역시 수성구 무학로 180`",
+  "80165: `대구광역시 동구 효동로2길 24 (효목동)` → `대구광역시 동구 효동로2길 24`",
+  "81431: `대구광역시 북구 엑스코로 10 (산격동)` → `대구광역시 북구 엑스코로 10`",
+  "60210: `대구광역시 동구 해동로 82 (지저동)` → `대구광역시 동구 해동로 82`",
+  "81424: `대구광역시 동구 둔산로 535 (도동)` → `대구광역시 동구 둔산로 535`",
+  "220472: `None` → `대구광역시 수성구 미술관로 70`",
+  "65797: `None` → `대구광역시 중구 중앙대로 449`",
+  "140772: `대구광역시 중구 동성로2길 80 (공평동)` → `대구광역시 중구 동성로2길 80`",
+  "183780: `대구광역시 북구 호국로 300-22 (서변동)` → `대구광역시 북구 호국로 300-22`",
+  "193835: `대구광역시 달서구 상화로9길 2-13 (진천동)` → `대구광역시 달서구 상화로9길 2-13`",
+  "92937: `대구광역시 수성구 국채보상로186길 151 (범어동)` → `대구광역시 수성구 국채보상로186길 151`",
+  "53216: `대구광역시 중구 명덕로 333 대백프라자 11층` → `대구광역시 중구 명덕로 333`",
+  "215012: `대구광역시 동구 파계로6길 54 (지묘동)` → `대구광역시 동구 파계로6길 54`",
+  "192778: `대구광역시 동구 팔공산로185길 72 (용수동)` → `대구광역시 동구 팔공산로185길 72`",
+  "68080: `대구광역시 남구 앞산순환로 574-114 (봉덕동)` → `대구광역시 남구 앞산순환로 574-114`",
+  "183796: `대구광역시 동구 도평로116길 37 (평광동)` → `대구광역시 동구 도평로116길 37`",
+  "194648: `대구광역시 수성구 유니버시아드로11길 41 (삼덕동)` → `대구광역시 수성구 유니버시아드로11길 41`",
+  "218045: `대구광역시 수성구 달구벌대로525길 14-23 (만촌동)` → `대구광역시 수성구 달구벌대로525길 14-23`",
+  "88773: `경상북도 청도군 각북면 낙산1길 51 (각북면)` → `경상북도 청도군 각북면 낙산1길 51`",
+  "14660: `대구광역시 남구 성당로 196 (대명동)` → `대구광역시 남구 성당로 196`",
+  "14650: `대구광역시 동구 아양로9길 16-10 (신암동)` → `대구광역시 동구 아양로9길 16-10`",
+  "188056: `대구광역시 동구 팔공로49길 16 (봉무동)` → `대구광역시 동구 팔공로49길 16`",
+  "203561: `대구광역시 남구 대명로 116 (대명동)` → `대구광역시 남구 대명로 116`",
+  "148630: `대구광역시 수성구 동원로 136 (만촌동)` → `대구광역시 수성구 동원로 136`",
+  "1567317: `대구광역시 달서구 달구벌대로 1567 (죽전동) 3층` → `대구광역시 달서구 달구벌대로 1567`",
+  "172054: `대구광역시 중구 서성로14길 69 (대안동) 1층` → `대구광역시 중구 서성로14길 69`",
+  "144114: `대구광역시 북구 유통단지로14길 22 (산격동)` → `대구광역시 북구 유통단지로14길 22`",
+  "1573011: `대구광역시 중구 동성로 48-1 (동성로2가)` → `대구광역시 중구 동성로 48-1`"
+ ],
+ "dup_hits": [
+  [
+   "miryang-gukbap",
+   "Miryang Dwaeji Gukbap",
+   "대구광역시 남구 대명로 99",
+   "Miryang Dwaeji Gukbap | 밀양돼지국밥"
+  ]
+ ],
+ "shared_addr": [],
+ "rows": [
+  [
+   "66471",
+   "Daegu Modern History Streets",
+   "대구 근대골목"
+  ],
+  [
+   "57224",
+   "Daegu Dongseong-ro Street",
+   "대구 동성로거리"
+  ],
+  [
+   "112723",
+   "Daegu Korean Chinese Association",
+   "대구화교협회"
+  ],
+  [
+   "14644",
+   "Gyonam YMCA",
+   "교남YMCA"
+  ],
+  [
+   "85549",
+   "Daegu Jeil Church",
+   "대구제일교회"
+  ],
+  [
+   "87490",
+   "Petite Joongang Family Museum",
+   "작은 중앙가족박물관"
+  ],
+  [
+   "88747",
+   "Bongsan Culture Street",
+   "봉산문화거리"
+  ],
+  [
+   "80155",
+   "Bongsan Cultural Center",
+   "봉산문화회관"
+  ],
+  [
+   "89035",
+   "Daegu Culture and Arts Center",
+   "대구문화예술회관"
+  ],
+  [
+   "80142",
+   "Keimyung Art Center",
+   "계명아트센터"
+  ],
+  [
+   "86614",
+   "Daegu Kolon Open Air Music Hall",
+   "대구 코오롱 야외음악당"
+  ],
+  [
+   "80149",
+   "Suseong Artpia",
+   "수성아트피아"
+  ],
+  [
+   "80165",
+   "Ayang Art Center",
+   "아양아트센터"
+  ],
+  [
+   "81431",
+   "EXCO (Daegu Exhibition & Convention Center)",
+   "엑스코"
+  ],
+  [
+   "84924",
+   "Daegu Citizen Stadium",
+   "대구시민운동장"
+  ],
+  [
+   "60210",
+   "Ayang Gichatgil (railway bridge)",
+   "아양기찻길"
+  ],
+  [
+   "81424",
+   "Gwaneumsa Temple (Do-dong)",
+   "관음사"
+  ],
+  [
+   "78781",
+   "Dalseong Korea-Japan Friendship Center",
+   "달성 한일우호관"
+  ],
+  [
+   "66217",
+   "The ARC Communication Space",
+   "디아크문화관"
+  ],
+  [
+   "75150",
+   "Twelve Tablet Pavilion of Hyeonpung Gwak Clan",
+   "현풍곽씨십이정려각"
+  ],
+  [
+   "183788",
+   "Samunjin Jumakchon Village",
+   "사문진 주막촌"
+  ],
+  [
+   "94434",
+   "Seonbonsa Temple (Gyeongsan)",
+   "선본사"
+  ],
+  [
+   "194162",
+   "Cheongdohyanggyo Local Confucian School",
+   "청도향교"
+  ],
+  [
+   "65684",
+   "Chilgok Patriots & Peace Memorial",
+   "칠곡호국평화기념관"
+  ],
+  [
+   "220472",
+   "Daegu Kansong Art Museum",
+   "대구간송미술관"
+  ],
+  [
+   "65797",
+   "Hyangchon Cultural Center",
+   "향촌문화관"
+  ],
+  [
+   "140772",
+   "February 28th Jungang Memorial Park",
+   "2.28기념중앙공원"
+  ],
+  [
+   "189220",
+   "Hayang Life Sports Park",
+   "하양생활체육공원"
+  ],
+  [
+   "94435",
+   "Palgongsan National Park (Gatbawi Section)",
+   "팔공산국립공원 갓바위지구"
+  ],
+  [
+   "189397",
+   "St. Mary's Pine Forest Village",
+   "성모솔숲마을"
+  ],
+  [
+   "216204",
+   "Gasan Supia",
+   "가산수피아"
+  ],
+  [
+   "80948",
+   "Songjeong Recreational Forest",
+   "송정 자연휴양림"
+  ],
+  [
+   "183780",
+   "MRNW (Miraenongwon)",
+   "미래농원"
+  ],
+  [
+   "78212",
+   "Anjirang Gopchang Alley",
+   "안지랑 곱창골목"
+  ],
+  [
+   "175688",
+   "Apsan Cafe Street",
+   "앞산카페거리"
+  ],
+  [
+   "77813",
+   "Pyeonghwa Market Dakttongjip Street",
+   "평화시장 닭똥집골목"
+  ],
+  [
+   "193835",
+   "Midam",
+   "미담"
+  ],
+  [
+   "60233",
+   "Deira",
+   "데이라"
+  ],
+  [
+   "86381",
+   "Bongsan Jjimgalbi",
+   "봉산찜갈비"
+  ],
+  [
+   "192688",
+   "Asadara",
+   "아사다라"
+  ],
+  [
+   "92937",
+   "Atrium",
+   "아트리움"
+  ],
+  [
+   "84628",
+   "Gaejeong",
+   "개정"
+  ],
+  [
+   "53216",
+   "HITTO",
+   "힛또"
+  ],
+  [
+   "92969",
+   "Blue Moon Restaurant",
+   "블루문"
+  ],
+  [
+   "215012",
+   "Bumbine",
+   "붐비네"
+  ],
+  [
+   "192778",
+   "Sanchae Restaurant",
+   "산채식당"
+  ],
+  [
+   "177481",
+   "The Differ",
+   "더 디퍼"
+  ],
+  [
+   "190163",
+   "161 Coffee Studio",
+   "161스튜디오"
+  ],
+  [
+   "189432",
+   "Cheongdo Chamhanwoo Meat Restaurant",
+   "청도참한우식육식당"
+  ],
+  [
+   "68080",
+   "Apsan Cable Car (Apsan Observatory)",
+   "앞산 케이블카"
+  ],
+  [
+   "14673",
+   "Dinosaur Park",
+   "공룡공원"
+  ],
+  [
+   "63251",
+   "Ttangttang Chicken Land",
+   "땅땅치킨랜드"
+  ],
+  [
+   "75168",
+   "Gooam Farmstay Village",
+   "구암팜스테이마을"
+  ],
+  [
+   "183796",
+   "Pyeonggwang-dong Apple Village",
+   "평광동 사과마을"
+  ],
+  [
+   "194648",
+   "Puruncha Tea Culture Research",
+   "사단법인 푸른차문화연구원"
+  ],
+  [
+   "218045",
+   "Korean Traditional Culture Center",
+   "한국전통문화체험관"
+  ],
+  [
+   "88773",
+   "Gunbulo Bisl Resort Tourism Farm",
+   "비슬리조트관광농원 군불로"
+  ],
+  [
+   "88578",
+   "Bisl Pottery Studio",
+   "비슬도예원"
+  ],
+  [
+   "194210",
+   "Cheongdo Provence",
+   "청도 프로방스"
+  ],
+  [
+   "14660",
+   "Seongdang Market",
+   "성당시장"
+  ],
+  [
+   "14650",
+   "Daegu Pyeonghwa Market",
+   "대구 평화시장"
+  ],
+  [
+   "188056",
+   "LOTTE Outlets Esiapolis",
+   "롯데아울렛 이시아폴리스점"
+  ],
+  [
+   "203561",
+   "Homeplus Namdaegu",
+   "홈플러스 남대구점"
+  ],
+  [
+   "148630",
+   "E-Mart Manchon",
+   "이마트 만촌점"
+  ],
+  [
+   "1567317",
+   "Toys R Us Daegu Jukjeon",
+   "토이저러스 대구죽전점"
+  ],
+  [
+   "172054",
+   "Daegu Goods",
+   "대구굿즈"
+  ],
+  [
+   "144114",
+   "NC Outlet EXCO",
+   "NC아울렛 엑스코점"
+  ],
+  [
+   "1573011",
+   "Daiso Dongseong-ro Main Store",
+   "다이소 대구동성로본점"
+  ],
+  [
+   "geumgang",
+   "Geumgang Maeuntang",
+   "금강매운탕식당"
+  ],
+  [
+   "anjirang-galbi",
+   "Anjirang Galbi",
+   "안지랑갈비"
+  ],
+  [
+   "sangol-sundubu",
+   "Sangol Sundubu Bossam",
+   "산골순두부보쌈"
+  ],
+  [
+   "ilmijeong",
+   "Ilmijeong",
+   "일미정"
+  ],
+  [
+   "jeju-bogeo",
+   "Jeju Bogeo (pufferfish)",
+   "제주복어"
+  ],
+  [
+   "indian-sikdang",
+   "Indian Sikdang (Indian Cafe)",
+   "인디안식당"
+  ],
+  [
+   "wachon-kalguksi",
+   "Wachon Son-kalguksi (main)",
+   "와촌손칼국시본점"
+  ],
+  [
+   "halmae-kalguksu",
+   "Halmae Kalguksu",
+   "할매칼국수"
+  ],
+  [
+   "apsan-halmae-kalguksu",
+   "Apsan Halmae Son-kalguksu",
+   "앞산할매손칼국수"
+  ],
+  [
+   "daedeok-sikdang",
+   "Daedeok Sikdang",
+   "대덕식당"
+  ],
+  [
+   "oncheongol",
+   "Yang Jeong-hwa-ne Apsan Oncheongol",
+   "양정화네앞산온천골"
+  ],
+  [
+   "pungseong-memilmuk",
+   "Pungseong Son-memilmuk",
+   "풍성손메밀묵집"
+  ],
+  [
+   "apsan-memilmuk",
+   "Apsan Son-memilmuk",
+   "앞산손메밀묵집"
+  ],
+  [
+   "leewoochul-samgyetang",
+   "Lee Woo-chul Hanbang Nurungji Samgyetang (Apsan)",
+   "이우철한방누룽지삼계탕 앞산점"
+  ],
+  [
+   "shanghai-apsan",
+   "Shanghai (Apsan)",
+   "상하이"
+  ],
+  [
+   "ongi-boribap",
+   "Ongi Boribap Gonjigonji",
+   "옹기보리밥곤지곤지"
+  ],
+  [
+   "ppallaeteo-jangeo",
+   "Ppallaeteo Freshwater Eel",
+   "빨래터민물장어"
+  ],
+  [
+   "oishi-apsan",
+   "Oishi (Apsan)",
+   "오이시"
+  ],
+  [
+   "apsan-bunsik",
+   "Apsan Bunsik (main)",
+   "앞산분식 본점"
+  ],
+  [
+   "hwadeok-pizza",
+   "Hwadeok Kkot Pizza",
+   "화덕꽃피자"
+  ],
+  [
+   "hands-coffee-apsan",
+   "Hands Coffee Apsan",
+   "핸즈커피 앞산점"
+  ],
+  [
+   "dolsoe-jjajang",
+   "Apsan Dolsoe Jjajang",
+   "앞산돌쇠짜장"
+  ],
+  [
+   "watta-kongnamul",
+   "Watta Kongnamul Haejangguk",
+   "와따콩나물해장국"
+  ],
+  [
+   "uljin-daege",
+   "Apsan Uljin Snow Crab (main)",
+   "앞산울진대게본점"
+  ],
+  [
+   "yeongsuni-makchang",
+   "Yeongsuni Makchang",
+   "영순이막창육회막구이"
+  ],
+  [
+   "chungbuk-gopchang",
+   "Chungbuk Gopchang",
+   "충북곱창"
+  ],
+  [
+   "mulbegi",
+   "Mulbegi Hanjeongsik",
+   "물베기한정식"
+  ],
+  [
+   "itaeri-pizza",
+   "Itaeri Pizza (Bongdeok-dong)",
+   "이태리피자"
+  ],
+  [
+   "hitai",
+   "Hi Thai",
+   "하이타이"
+  ],
+  [
+   "tara",
+   "Tara (Indian)",
+   "타라"
+  ],
+  [
+   "gwanmun-market",
+   "Gwanmun Market",
+   "관문시장"
+  ],
+  [
+   "myeongdeok-market",
+   "Myeongdeok Market",
+   "명덕시장"
+  ],
+  [
+   "daemyeong-jungang-market",
+   "Daemyeong Jungang Market",
+   "대명중앙시장"
+  ],
+  [
+   "gwangdeok-market",
+   "Gwangdeok Market",
+   "광덕시장"
+  ],
+  [
+   "bongdeok-new-market",
+   "Bongdeok New Market",
+   "봉덕신시장"
+  ]
+ ]
+}
