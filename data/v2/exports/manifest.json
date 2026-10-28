@@ -16,25 +16,25 @@
  "layers": {
   "activities_wellness": {
    "title": "Activities & Wellness",
-   "rows": 262
+   "rows": 282
   },
   "culture_sights": {
    "title": "Culture & Sights",
-   "rows": 236
+   "rows": 277
   },
   "food_drink": {
    "title": "Food & Drink",
-   "rows": 233
+   "rows": 269
   },
   "nature_camping": {
    "title": "Nature & Camping",
-   "rows": 251
+   "rows": 291
   },
   "shopping": {
    "title": "Shopping",
-   "rows": 132
+   "rows": 145
   }
  },
- "total_rows": 1114,
- "total_cells": 12254
+ "total_rows": 1264,
+ "total_cells": 13904
 }
