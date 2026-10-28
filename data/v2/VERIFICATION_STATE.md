@@ -2,33 +2,34 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 1,715  
+**Total Places**: 1,863  
 **Unplaced**: 0 known  
 
-## Latest Update: Chungcheong Region (2026-10-28)
+## Latest Update: Daegu/Ulsan/Gyeonggi + Food Fix (2026-10-28)
 
-Added 150 places from Chungcheong region (Daejeon, Sejong, Chungbuk, Chungnam). Total places now at 1,715 with 0 unplaced.
+Added 148 places from Daegu, Ulsan, and Gyeonggi regions. Applied authoritative food layer fix (Gapyeong naengmyeon address correction to 지번). Total places now at 1,863 with 0 unplaced.
 
 ### Update Details
-- **New places**: 150 from Chungcheong (Daejeon, Sejong, Chungbuk, Chungnam)
-- **Layer changes**: Culture +49, Nature +34, Food +45, Activities +13, Shopping +9
-- **Total places**: 1,715 (Culture 419, Nature 406, Food 388, Activities 327, Shopping 175)
-- **Cell utilization**: 13,720 / 20,000 (68.6%)
+- **New places**: 148 from Daegu/Ulsan/Gyeonggi
+- **Food layer fix**: Applied authoritative live map food layer (Gapyeong naengmyeon address to 지번)
+- **Layer changes**: Culture +68, Nature +35, Food +22, Activities +14, Shopping +9
+- **Total places**: 1,863 (Culture 487, Nature 441, Food 410, Activities 341, Shopping 184)
+- **Cell utilization**: 14,904 / 20,000 (74.5%)
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 175 | +9 | shopping.csv |
-| Culture & Sights (문화·관광) | 419 | +49 | culture_sights.csv |
-| Food & Drink (음식·카페) | 388 | +45 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 406 | +34 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 327 | +13 | activities_wellness.csv |
-| **Total** | **1,715** | **+150** | |
+| Shopping (쇼핑) | 184 | +9 | shopping.csv |
+| Culture & Sights (문화·관광) | 487 | +68 | culture_sights.csv |
+| Food & Drink (음식·카페) | 410 | +22 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 441 | +35 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 341 | +14 | activities_wellness.csv |
+| **Total** | **1,863** | **+148** | |
 
 ## Data Quality
 
-- ✓ 1,715 unique Record IDs
+- ✓ 1,863 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
@@ -46,16 +47,22 @@ Added 150 places from Chungcheong region (Daejeon, Sejong, Chungbuk, Chungnam). 
 - **Jeju (2026-10-28)**: +150 places (제주특별자치도)
 - **Seoul/Incheon (2026-10-28)**: +151 places (서울특별시, 인천광역시)
 - **Chungcheong (2026-10-28)**: +150 places (대전광역시, 세종특별자치시, 충청북도, 충청남도)
+- **Daegu/Ulsan/Gyeonggi (2026-10-28)**: +148 places (대구광역시, 울산광역시, 경기도 추가)
 
 ## Cell Budget & Capacity
 
-- **Current**: 13,720 / 20,000 cells (68.6% utilization)
+- **Current**: 14,904 / 20,000 cells (74.5% utilization)
 - **Row capacity**: 2,500 rows maximum (with 8 columns)
-- **Current usage**: 1,715 rows (68.6% of capacity)
-- **Remaining capacity**: 785 rows available for expansion
+- **Current usage**: 1,863 rows (74.5% of capacity)
+- **Remaining capacity**: 637 rows available for expansion
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Daegu/Ulsan/Gyeonggi Integration + Food Fix (2026-10-28):**
+1. Added 148 places from Daegu, Ulsan, and Gyeonggi regions
+2. Applied authoritative food layer from live map (fixes Gapyeong naengmyeon address to 지번)
+3. All new places use v2 format with 5-language descriptions
 
 **Chungcheong Integration (2026-10-28):**
 1. Added 150 places from Chungcheong region (Daejeon, Sejong, Chungbuk, Chungnam)
@@ -119,6 +126,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Daegu/Ulsan/Gyeonggi report**: docs/daegu-ulsan-gyeonggi-2026-10/REPORT.md
 - **Chungcheong report**: docs/chungcheong-2026-10/REPORT.md
 - **8-column migration plan**: docs/eight-column-2026-10/PLAN.md
 - **Seoul/Incheon report**: docs/seoul-incheon-2026-10/REPORT.md
