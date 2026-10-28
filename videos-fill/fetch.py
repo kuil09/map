@@ -1,0 +1,23 @@
+import json,urllib.request,os,sys
+K=os.environ['YOUTUBE_API_KEY']
+C={'UCB_F7pQ20QD4jwSR6Yq-c2A':'Visit Jeju','UCK2JegInDWoDtwEpjh4HzLg':'제주도TV','UCqt-wpXEHWSoZ6eQJZPX2CA':'제주시','UCNI4WSmTUwb0a63BvU8KcWg':'서귀포시청',
+'UCtlz8pU3IiHf77V8s740-pQ':'VisitSeoul','UCZUPZW5idAxYp-Asj__lVAA':'서울시','UCZp3wYQOYTfmtqw4yX4RqQA':'Incheon Tourism','UC960xfXepXPsJ8HHePGvAKw':'인천광역시',
+'UCt8s2_ytxcCybqCkWWH_2WA':'충남관광','UCFS6QSDZagEB2eMShxGU9IQ':'대전관광공사','UCMapqkWlSap2wpQvDhXwMMw':'충북여행','UCXiv1QlLhil_qGtFPaEtLDQ':'충청북도청','UCosgR0a4guwZ_BwiV-c5U8w':'세종',
+'UCRKGBiW3loSun2S3wcJQuIQ':'비짓대구','UCmhag2BGdyBuQWF0vPuZ5yA':'대구TV','UCTHZPqsEmZLP5rrCLXJFwNg':'울산시청TV','UC1AlGbEktTiXzBdLx9vkBoQ':'경기관광','UCIuDua3JS1-m9zi4CuAqBVw':'경기도청','UCicR_6NEnfhLP-FvM4txuUA':'파주시청',
+'UCuGM4o-jsndVU1y8-IeHjQg':'투어전북','UCgdZeqgyKQL1durJSAsFAnw':'전남광주통합','UChhOtjq-3QyyLmP2jv9amrg':'VISITKOREA','UCTQfWDP13LMdPmnrl11XcNQ':'강원관광재단','UCi3YGagAEREvwUmDPviHmZA':'VISIT BUSAN',
+'UChrP3VKcPcOiR8WZ7LAdO8w':'순천시','UCPmy2I2GzZb2YyoRh7GR_kg':'전주시','UCtQ7Fc7Eny5MfWa9QD6CqcA':'여수시','UCoW5Rhaw1Fh_du3tgJ89RMw':'국립공원TV','UCtisr32vaq0AdULgDlskMSg':'USAG Daegu'}
+db=json.load(open('uploads.json')) if os.path.exists('uploads.json') else {}
+q=0
+for cid in C:
+  if cid in db: continue
+  out=[];tok='';pages=0
+  while pages<80:
+    try: d=json.load(urllib.request.urlopen(f'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UU{cid[2:]}&key={K}&pageToken={tok}'))
+    except Exception as e: print(cid,e);break
+    q+=1;pages+=1
+    out+=[(i['snippet']['resourceId']['videoId'],i['snippet']['title'],i['snippet']['description'][:300],i['snippet']['channelTitle']) for i in d['items']]
+    tok=d.get('nextPageToken')
+    if not tok: break
+  db[cid]=out;print(C[cid],len(out),pages,flush=True)
+  json.dump(db,open('uploads.json','w'),ensure_ascii=False)
+print('quota',q)
