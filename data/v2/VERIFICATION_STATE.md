@@ -4,17 +4,17 @@
 **Status**: Live  
 **Total Places**: 1,863  
 **Unplaced**: 0 known  
+**Video Coverage**: 381 places (20.5%) with official videos
 
-## Latest Update: Daegu/Ulsan/Gyeonggi + Food Fix (2026-10-28)
+## Latest Update: Video Fill (2026-10-28)
 
-Added 148 places from Daegu, Ulsan, and Gyeonggi regions. Applied authoritative food layer fix (Gapyeong naengmyeon address correction to 지번). Total places now at 1,863 with 0 unplaced.
+Synced video-filled layers from live map. 256 places gained official videos. Total places unchanged at 1,863 with 0 unplaced.
 
 ### Update Details
-- **New places**: 148 from Daegu/Ulsan/Gyeonggi
-- **Food layer fix**: Applied authoritative live map food layer (Gapyeong naengmyeon address to 지번)
-- **Layer changes**: Culture +68, Nature +35, Food +22, Activities +14, Shopping +9
-- **Total places**: 1,863 (Culture 487, Nature 441, Food 410, Activities 341, Shopping 184)
-- **Cell utilization**: 14,904 / 20,000 (74.5%)
+- **Video additions**: 256 places gained official videos (125 → 381)
+- **Total places**: 1,863 (unchanged)
+- **Video coverage**: 381 places (20.5%) with official videos
+- **By layer**: Culture 161, Nature 154, Activities 53, Shopping 9, Food 4
 
 ## Layer Distribution
 
@@ -35,6 +35,7 @@ Added 148 places from Daegu, Ulsan, and Gyeonggi regions. Applied authoritative 
 - ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
 - ✓ All CSVs are consistent with places.v2.json
 - ✓ Details column preserves Region, coordinates (100 places), and Practical information
+- ✓ Video coverage: 381 places (20.5%) with official videos
 
 ## Regional Coverage
 
@@ -58,6 +59,11 @@ Added 148 places from Daegu, Ulsan, and Gyeonggi regions. Applied authoritative 
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Video Fill (2026-10-28):**
+1. Synced video-filled layers from live map
+2. 256 places gained official videos (125 → 381, 20.5% coverage)
+3. Video distribution: Culture 161, Nature 154, Activities 53, Shopping 9, Food 4
 
 **Daegu/Ulsan/Gyeonggi Integration + Food Fix (2026-10-28):**
 1. Added 148 places from Daegu, Ulsan, and Gyeonggi regions
@@ -126,6 +132,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Video additions**: docs/videos-2026-10/CHANGES.md
 - **Daegu/Ulsan/Gyeonggi report**: docs/daegu-ulsan-gyeonggi-2026-10/REPORT.md
 - **Chungcheong report**: docs/chungcheong-2026-10/REPORT.md
 - **8-column migration plan**: docs/eight-column-2026-10/PLAN.md
