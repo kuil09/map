@@ -5,6 +5,33 @@
 - [기존 가이드](https://humphreys-field-guide.kuil09.chatgpt.site)
 - [기존 Google My Maps](https://www.google.com/maps/d/u/0/viewer?mid=1-wHgIPUvxP4PS6YwuxBsMp8luu_amrk)
 
+## V2 데이터 구조 (2026-10-28)
+
+**저장소는 이제 v2 데이터 구조를 표준으로 사용합니다.** 687개 장소가 5개 목적 레이어로 정리되었으며, 통합된 Type 분류 체계와 균일한 CSV 형식을 갖추었습니다.
+
+- **기준 데이터**: `data/v2/places.v2.json` — 전체 장소·출처·다국어·좌표의 정본
+- **내보내기 CSV**: `data/v2/exports/*.csv` — Google My Maps 가져오기용 5개 레이어 (11열 통일 형식)
+- **검증 상태**: [data/v2/VERIFICATION_STATE.md](data/v2/VERIFICATION_STATE.md) — 687곳 live, 0 unplaced (2026-10-28)
+- **마이그레이션 스크립트**: `migration/v2/migrate_v2.py`
+- **Type 매핑**: `migration/v2/TYPE-MAP.md` — 87개 → 37개 정규화된 type
+- **설계 문서**: [docs/v2-proposal-ko.md](docs/v2-proposal-ko.md)
+
+### V2 주요 변경사항
+
+1. **정규화된 Type 분류**: 기존 87개 type을 37개 lowercase_snake_case type으로 정리
+2. **균일한 CSV 구조**: 모든 레이어가 동일한 11열 사용 (이름, 주소, Latitude, Longitude, Type, Region, Guide, Practical, Video, Sources, Record ID)
+3. **농다리캠핑장 주소 수정**: 도로명 주소 → 지번 주소 `충청북도 진천군 문백면 평산리 543`
+4. **셀 예산 최적화**: 7,557 / 20,000 셀 (37.8% 사용), 최대 1,818행까지 확장 가능
+
+### 내보내기 워크플로
+
+1. `data/v2/places.v2.json`에서 수정 작업
+2. `python3 scripts/validate_v2.py` 실행해 검증
+3. 필요시 `migration/v2/migrate_v2.py`로 CSV 재생성
+4. `data/v2/exports/*.csv` 파일을 Google My Maps에 가져오기
+
+
+
 ## 현재 공개 사이트 · v38
 
 2026-10-27 19:57:30 UTC에 기존 공개 URL로 재배포했습니다. 기준 데이터 커밋은 `4db2466fd06867cdf8a4fb1c24207a0f1b86d95e`이며 공개 646곳·5개 목적 분류, 군 시설 2곳 제외를 적용했습니다. 다섯 언어의 목적별 건수와 393 CSS px 좁은 화면의 가로 넘침을 확인했습니다. 실제 모바일 기기 시험은 아니며 지도 전체 필드·좌표 재검수는 여전히 부분 상태입니다. [배포·검수 기록](data/history/site-deployment-v38.json)을 참고하세요.
@@ -49,8 +76,14 @@ Python 3 표준 라이브러리만 필요합니다. 네트워크 호출·지도 
 역사적 바이트 회귀 검증에는 v35·v36·v37 기준 커밋을 포함한 로컬 Git 이력이 필요합니다. 테스트는 누락된 이력을 네트워크에서 자동으로 가져오지 않습니다.
 
 ```sh
+# V1 검증 (역사 기록)
 python scripts/validate.py
 python -m unittest discover -s tests -v
+
+# V2 검증 (현재 표준)
+python scripts/validate_v2.py
+
+# V1 내보내기 (역사 기록)
 python scripts/build_exports.py --out build
 python scripts/build_site_data.py --out build/site-data
 ```
@@ -63,7 +96,18 @@ python scripts/validate.py --asset-root PATH_TO_SITE_BUILD
 
 ## 구조
 
-- `data/places.json`: 장소 ID, 5개 언어 설명, **완전한 원 주소**, 현재 출처 상태, 좌표·미확인 사항. 앞으로의 편집 기준.
+### V2 데이터 (현재 표준)
+
+- `data/v2/places.v2.json`: 687개 장소의 정본. schema_version 2, 정규화된 type, 5개 언어 분리, region 구조화.
+- `data/v2/exports/*.csv`: Google My Maps 가져오기용 5개 레이어 CSV (균일한 11열 형식).
+- `data/v2/VERIFICATION_STATE.md`: 687곳 live, 0 unplaced 검증 상태 (2026-10-28).
+- `migration/v2/migrate_v2.py`: V1 → V2 마이그레이션 스크립트.
+- `migration/v2/TYPE-MAP.md`: Type 정규화 매핑 (87개 → 37개).
+- `scripts/validate_v2.py`: V2 데이터 검증 스크립트.
+
+### V1 데이터 (역사 기록)
+
+- `data/places.json`: 장소 ID, 5개 언어 설명, **완전한 원 주소**, 현재 출처 상태, 좌표·미확인 사항. 역사 기록.
 - `data/photos.json`: 실제 사진 출처·저자·라이선스·변경 내용·32개 파일 해시 및 장소 연결. 사진 파일은 기존 사이트에 그대로 둡니다.
 - `data/research.json`: 현재 사이트가 읽는 검증 범위·변경 이력·거리 기준·열린 문제. 현재 영업 보증이 아닙니다.
 - `data/map/`: 607행 역사적 원 필드, 296개 기존 ID 연결, 현재 7개 미해결(이전 6개 보존), 검증된 추가 이력, 변경 대기 및 불완전한 좌표 증거.
@@ -74,6 +118,6 @@ python scripts/validate.py --asset-root PATH_TO_SITE_BUILD
 - `data/history/batch19-change-record.json`: 이번 변경·보존 범위와 공개 출처 검토 자료의 해시. 비공개 작업 자료는 포함하지 않습니다.
 - `schemas/`, `scripts/`, `tests/`: 계약·결정적 산출물 생성·검증.
 
-[데이터 계약](docs/SCHEMA.md) · [지도/사이트 반영 절차](docs/INTEGRATION.md) · [출처와 보존 한계](docs/PROVENANCE.md) · [권리/사진](docs/RIGHTS.md)
+[데이터 계약](docs/SCHEMA.md) · [지도/사이트 반영 절차](docs/INTEGRATION.md) · [출처와 보존 한계](docs/PROVENANCE.md) · [권리/사진](docs/RIGHTS.md) · [V2 설계 제안](docs/v2-proposal-ko.md)
 
 `verified`는 기록된 범위의 출처 본문 확인을 뜻하며 현재 영업·입장·예약 가능·외국인 인증·영어 응대를 보증하지 않습니다. 일반 지점은 입구·주차장·접근 가능한 경로가 아닙니다. 반경 값은 공개 비행장 기준점에서의 직선 계획 거리이며 게이트·운전 거리와 다릅니다.
