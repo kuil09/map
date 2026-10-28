@@ -1,0 +1,737 @@
+[
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeonju-crafts-hall",
+  "Guide",
+  "ES",
+  "removed geo-reference sentences: Punto general publicado por KTO, a unos 127.8 km en línea recta de la referencia pública Desiderio documentada. | No es una entrada topográfica, aparcamiento ni ruta accesible; distancia por carretera sin medir."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-wonju-hanji",
+  "Guide",
+  "ES",
+  "removed geo-reference sentences: Punto general publicado por KTO, a unos 90.2 km en línea recta de la referencia pública Desiderio documentada. | No es una entrada topográfica, aparcamiento ni ruta accesible; distancia por carretera sin medir."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "agro-ecopark",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: General KTO venue point, about 7.0 km straight-line from the public Desiderio reference. | Not a surveyed entrance, parking or programme meeting point; road distance unmeasured."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "agro-ecopark",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: KTO의 관광지 일반 지점으로 공개 데시데리오 기준점에서 직선 약 7.0 km입니다. | 측량된 입구·주차장·프로그램 집결지가 아니며 도로 거리는 미계산입니다."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-alpaca-world",
+  "Guide",
+  "ES",
+  "removed geo-reference sentences: Punto del mapa publicado por turismo oficial u operador: unos 122.2 km en línea recta desde la referencia pública documentada de Desiderio. | No es entrada topográfica, aparcamiento ni distancia por carretera."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-jeongseon-railbike",
+  "Guide",
+  "ES",
+  "removed geo-reference sentences: Punto del mapa publicado por turismo oficial u operador: unos 162.3 km en línea recta desde la referencia pública documentada de Desiderio. | No es entrada topográfica, aparcamiento ni distancia por carretera."
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-chiljangsa",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: General KTO venue point, about 33.3 km straight-line from the public Desiderio reference. | Not a surveyed entrance, parking or accessible route; road distance remains unmeasured."
+ ],
+ [
+  "culture_sights-FULL.csv",
+  "culture-chiljangsa",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: KTO의 시설 일반 지점으로 공개 데시데리오 기준점에서 직선 약 33.3 km입니다. | 측량된 입구·주차장·무장애 동선이 아니며 도로 거리는 미계산입니다."
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-jangan-myeonok",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: General KTO venue point, about 21.8 km straight-line from the public Desiderio reference. | Not a surveyed entrance, parking or accessible route; road distance remains unmeasured."
+ ],
+ [
+  "food_drink-FULL.csv",
+  "dining-jangan-myeonok",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: KTO의 시설 일반 지점으로 공개 데시데리오 기준점에서 직선 약 21.8 km입니다. | 측량된 입구·주차장·무장애 동선이 아니며 도로 거리는 미계산입니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "mulhyanggi",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: General KTO venue point, about 23.0 km straight-line from the public Desiderio reference. | Not a surveyed entrance, parking or programme meeting point; road distance unmeasured."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "mulhyanggi",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: KTO의 관광지 일반 지점으로 공개 데시데리오 기준점에서 직선 약 23.0 km입니다. | 측량된 입구·주차장·프로그램 집결지가 아니며 도로 거리는 미계산입니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100873",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 12.4 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7830",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 1.4 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accura"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1736",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 6.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accura"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101102",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 4.2 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accura"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2031",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 25.9 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2032",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 36.2 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7944",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 31.9 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2422",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 36.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2394",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 44.5 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-767",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 32.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101776",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 38.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3394",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 73.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-6984",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 73.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3139",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 65.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3141",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 79.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8157",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 76.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100684",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 76.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7507",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 54.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-714",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 20.3 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100219",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 42.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100246",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 63.9 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100371",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 61.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101591",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 69.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1993",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 17.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100470",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 12.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2239",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 15.3 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-822",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 25.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7271",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 24.9 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8214",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 18.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3252",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 19.4 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100900",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 23.3 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101341",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 30.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7566",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 26.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-313",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 45.0 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-315",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 60.4 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101403",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 66.8 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-233",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 69.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101956",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 88.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101183",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 86.7 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1264",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 74.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1570",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 89.6 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3013",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 61.3 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7292",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 65.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7558",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 42.0 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1139",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 49.0 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101195",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 71.2 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100812",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 76.4 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2999",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 87.9 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-3002",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 90.1 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101989",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 84.3 km straight-line from the published Desiderio airfield reference, not road distance or a gate. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accur"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 21.6 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7096",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 21.6 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 44.0 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-7763",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 44.0 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 45.4 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100105",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 45.4 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 51.0 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-8107",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 51.0 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 68.2 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100607",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 68.2 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 42.1 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2262",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 42.1 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 88.2 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-619",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 88.2 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 44.4 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2969",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 44.4 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 41.7 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2263",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 41.7 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 61.6 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-2751",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 61.6 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 51.3 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1272",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 51.3 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 55.9 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1820",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 55.9 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 42.7 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101667",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 42.7 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 56.5 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-1698",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 56.5 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 83.3 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101025",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 83.3 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 32.2 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100878",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 32.2 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 31.4 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-101127",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 31.4 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 74.5 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-100181",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 74.5 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "EN",
+  "removed geo-reference sentences: Approx 88.4 km straight-line from the published Desiderio airfield reference, not road or gate distance. | This distance ends at the map anchor published on the GoCamping listing. | The source script places its named marker 15 m east; that is a display offset, not a verified correction or an accurac"
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "gocamping-800",
+  "Details",
+  "KO",
+  "removed geo-reference sentences: 공개 데시데리오 비행장 기준점에서 직선 약 88.4 km이며 도로·출입구 거리가 아닙니다. | 이 거리는 고캠핑 등록정보 페이지의 지도 기준 좌표까지 계산한 값입니다. | 원문 스크립트는 이름 있는 표시점을 그보다 동쪽 15m에 두지만, 이는 표시용 이동이며 검증된 보정값이나 위치 오차 범위가 아닙니다."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Guide",
+  "",
+  "removed: Its published point is about 1.1 km from the existing address marker, so it has not been assigned as a confirmed Jinnam departure point."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Details",
+  "",
+  "removed: Its published point is about 1.1 km from the existing address marker, so it has not been assigned as a confirmed Jinnam departure point."
+ ],
+ [
+  "activities_wellness-FULL.csv",
+  "activity-mungyeong-jinnam-railbike",
+  "Details",
+  "",
+  "removed: 자료의 좌표가 기존 주소 마커와 약 1.1 km 떨어져 있어 확인된 진남 출발점으로 지정하지 않았습니다."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-suseongmot",
+  "Details",
+  "",
+  "removed: About 10 min walk from Suseongmot Station (Line 3)."
+ ],
+ [
+  "nature_camping-FULL.csv",
+  "scenery-daegu-suseongmot",
+  "Details",
+  "",
+  "removed: 3호선 수성못역 도보 10분."
+ ]
+]

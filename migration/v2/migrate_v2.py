@@ -137,12 +137,12 @@ CELL_BUDGET, ROW_SOFT_LIMIT = 20000, 1800
 
 def to_csv_row(r, use_coords, fields):
     d, n = r['description'], r['notes']
-    guide = '\n'.join(f"{l.upper()}: {short(d.get(l), 140)}" for l in LANGS if d.get(l))
+    guide = '\n'.join(f"{l.upper()}: {d.get(l)}" for l in LANGS if d.get(l))
     pr = r['practical']
     labels = {'tax_refund': 'Tax refund', 'foreign_card': 'Foreign cards',
               'english_support': 'English', 'passport_booking': 'Passport booking'}
     practical = ' · '.join(f"{v}: {'Yes' if pr[k] else 'No'}" for k, v in labels.items() if pr[k] is not None)
-    practical = (practical + '\n' if practical else '') + f"EN: {short(n.get('en'), 200)}\nKO: {short(n.get('ko'), 120)}"
+    practical = (practical + '\n' if practical else '') + f"EN: {n.get('en') or ''}\nKO: {n.get('ko') or ''}"
     vids = '\n'.join(f"{'★Official' if v['official'] else 'Review'} · {v['channel']}: {v['url']}" for v in r['videos'][:2])
     srcs = '\n'.join(s['url'] for s in r['sources'][:3] if isinstance(s, dict) and s.get('url'))
     loc = r['location']

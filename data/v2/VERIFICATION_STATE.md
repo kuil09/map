@@ -6,15 +6,20 @@
 **Unplaced**: 0 known  
 **Video Coverage**: 381 places (20.5%) with official videos
 
-## Latest Update: Video Fill (2026-10-28)
+## Latest Update: Content Audit (2026-10-28)
 
-Synced video-filled layers from live map. 256 places gained official videos. Total places unchanged at 1,863 with 0 unplaced.
+Synced audited layers from live map. Removed unsourced claims, fixed superlatives, repaired links, and restored 693 truncated lines. Total places unchanged at 1,863 with 0 unplaced.
 
 ### Update Details
-- **Video additions**: 256 places gained official videos (125 → 381)
-- **Total places**: 1,863 (unchanged)
-- **Video coverage**: 381 places (20.5%) with official videos
-- **By layer**: Culture 161, Nature 154, Activities 53, Shopping 9, Food 4
+- **Content audit**: 526 places updated
+  - Removed unsourced distances and times (including all Desiderio straight-line notes)
+  - Rewrote 13 superlatives to neutral language
+  - Fixed broken source links
+  - Restored 693 truncated lines (migration script fixed)
+- **Guide changes**: 78 places
+- **Details changes**: 455 places (practical notes)
+- **Sources changes**: 25 places
+- **Migration fix**: Removed ellipsis truncation from `migrate_v2.py` + added test
 
 ## Layer Distribution
 
@@ -59,6 +64,14 @@ Synced video-filled layers from live map. 256 places gained official videos. Tot
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Content Audit (2026-10-28):**
+1. Synced audited layers from live map
+2. Removed unsourced distances/times and all Desiderio straight-line notes
+3. Rewrote 13 superlatives to neutral descriptive language
+4. Fixed broken source links
+5. Restored 693 truncated lines by fixing migration script
+6. 526 places updated: 78 Guide, 455 Details, 25 Sources
 
 **Video Fill (2026-10-28):**
 1. Synced video-filled layers from live map
@@ -132,6 +145,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Content audit**: docs/audit-2026-10/AUDIT.md
 - **Video additions**: docs/videos-2026-10/CHANGES.md
 - **Daegu/Ulsan/Gyeonggi report**: docs/daegu-ulsan-gyeonggi-2026-10/REPORT.md
 - **Chungcheong report**: docs/chungcheong-2026-10/REPORT.md
