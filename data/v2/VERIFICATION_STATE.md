@@ -2,34 +2,33 @@
 
 **Date**: 2026-10-28  
 **Status**: Live  
-**Total Places**: 1,565  
+**Total Places**: 1,715  
 **Unplaced**: 0 known  
 
-## Latest Update: 8-Column Migration (2026-10-28)
+## Latest Update: Chungcheong Region (2026-10-28)
 
-Migrated My Maps exports to 8-column format, consolidating Region + reference coordinates + Practical into a single Details column. Total places remain at 1,565 with 0 unplaced.
+Added 150 places from Chungcheong region (Daejeon, Sejong, Chungbuk, Chungnam). Total places now at 1,715 with 0 unplaced.
 
 ### Update Details
-- **Export format**: Migrated from 11 columns to 8 columns
-- **New columns**: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID
-- **Details column**: Combines Region + reference coordinates (100 places) + Practical information
-- **Places unchanged**: 1,565 total (Culture 370, Nature 372, Food 343, Activities 314, Shopping 166)
-- **Capacity improvement**: Cell usage reduced from 86.1% to 62.6%, enabling ~935 more places
+- **New places**: 150 from Chungcheong (Daejeon, Sejong, Chungbuk, Chungnam)
+- **Layer changes**: Culture +49, Nature +34, Food +45, Activities +13, Shopping +9
+- **Total places**: 1,715 (Culture 419, Nature 406, Food 388, Activities 327, Shopping 175)
+- **Cell utilization**: 13,720 / 20,000 (68.6%)
 
 ## Layer Distribution
 
 | Layer | Count | Change | File |
 |---|---:|---:|---|
-| Shopping (쇼핑) | 166 | +15 | shopping.csv |
-| Culture & Sights (문화·관광) | 370 | +55 | culture_sights.csv |
-| Food & Drink (음식·카페) | 343 | +39 | food_drink.csv |
-| Nature & Camping (자연·캠핑) | 372 | +30 | nature_camping.csv |
-| Activities & Wellness (체험·휴식) | 314 | +12 | activities_wellness.csv |
-| **Total** | **1,565** | **+151** | |
+| Shopping (쇼핑) | 175 | +9 | shopping.csv |
+| Culture & Sights (문화·관광) | 419 | +49 | culture_sights.csv |
+| Food & Drink (음식·카페) | 388 | +45 | food_drink.csv |
+| Nature & Camping (자연·캠핑) | 406 | +34 | nature_camping.csv |
+| Activities & Wellness (체험·휴식) | 327 | +13 | activities_wellness.csv |
+| **Total** | **1,715** | **+150** | |
 
 ## Data Quality
 
-- ✓ 1,565 unique Record IDs
+- ✓ 1,715 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
 - ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
@@ -38,7 +37,7 @@ Migrated My Maps exports to 8-column format, consolidating Region + reference co
 
 ## Regional Coverage
 
-- **Initial (v1)**: Central region (Gyeonggi, Chungcheong)
+- **Initial (v1)**: Central region (Gyeonggi, partial Chungcheong)
 - **Gyeongbuk (2026-10-28)**: +126 places (경상북도)
 - **Busan & Gyeongnam (2026-10-28)**: +150 places (부산광역시, 경상남도)
 - **Gyeongbuk forests confirmed (2026-10-28)**: +4 recreational forests with campsites
@@ -46,16 +45,21 @@ Migrated My Maps exports to 8-column format, consolidating Region + reference co
 - **Jeolla (2026-10-28)**: +150 places (광주광역시, 전라남도, 전북특별자치도)
 - **Jeju (2026-10-28)**: +150 places (제주특별자치도)
 - **Seoul/Incheon (2026-10-28)**: +151 places (서울특별시, 인천광역시)
+- **Chungcheong (2026-10-28)**: +150 places (대전광역시, 세종특별자치시, 충청북도, 충청남도)
 
 ## Cell Budget & Capacity
 
-- **Current**: 12,520 / 20,000 cells (62.6% utilization)
+- **Current**: 13,720 / 20,000 cells (68.6% utilization)
 - **Row capacity**: 2,500 rows maximum (with 8 columns)
-- **Current usage**: 1,565 rows (62.6% of capacity)
-- **Remaining capacity**: 935 rows available for expansion
+- **Current usage**: 1,715 rows (68.6% of capacity)
+- **Remaining capacity**: 785 rows available for expansion
 - **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**Chungcheong Integration (2026-10-28):**
+1. Added 150 places from Chungcheong region (Daejeon, Sejong, Chungbuk, Chungnam)
+2. All new places use v2 format with 5-language descriptions
 
 **8-Column Migration (2026-10-28):**
 1. Consolidated export format from 11 columns to 8 columns
@@ -115,6 +119,7 @@ Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **Chungcheong report**: docs/chungcheong-2026-10/REPORT.md
 - **8-column migration plan**: docs/eight-column-2026-10/PLAN.md
 - **Seoul/Incheon report**: docs/seoul-incheon-2026-10/REPORT.md
 - **Jeju report**: docs/jeju-2026-10/REPORT.md
