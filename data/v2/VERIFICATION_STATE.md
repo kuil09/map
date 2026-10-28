@@ -5,13 +5,16 @@
 **Total Places**: 1,565  
 **Unplaced**: 0 known  
 
-## Latest Update: Seoul/Incheon Addition (2026-10-28)
+## Latest Update: 8-Column Migration (2026-10-28)
 
-Added 151 new places from Seoul (서울특별시) and Incheon (인천광역시), bringing the total from 1,414 to 1,565.
+Migrated My Maps exports to 8-column format, consolidating Region + reference coordinates + Practical into a single Details column. Total places remain at 1,565 with 0 unplaced.
 
 ### Update Details
-- **New places**: 151 (Shopping 15, Culture 55, Food 39, Nature 30, Activities 12)
-- **Total added**: 151 places from Seoul and Incheon
+- **Export format**: Migrated from 11 columns to 8 columns
+- **New columns**: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID
+- **Details column**: Combines Region + reference coordinates (100 places) + Practical information
+- **Places unchanged**: 1,565 total (Culture 370, Nature 372, Food 343, Activities 314, Shopping 166)
+- **Capacity improvement**: Cell usage reduced from 86.1% to 62.6%, enabling ~935 more places
 
 ## Layer Distribution
 
@@ -29,8 +32,9 @@ Added 151 new places from Seoul (서울특별시) and Incheon (인천광역시),
 - ✓ 1,565 unique Record IDs
 - ✓ All places have Guide content (description in at least one language)
 - ✓ All Type values use lowercase_snake_case format
-- ✓ CSV columns match specification: 이름, 주소, Latitude, Longitude, Type, Region, Guide, Practical, Video, Sources, Record ID
+- ✓ CSV columns: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID (8 columns)
 - ✓ All CSVs are consistent with places.v2.json
+- ✓ Details column preserves Region, coordinates (100 places), and Practical information
 
 ## Regional Coverage
 
@@ -45,12 +49,20 @@ Added 151 new places from Seoul (서울특별시) and Incheon (인천광역시),
 
 ## Cell Budget & Capacity
 
-- **Current**: 17,215 / 20,000 cells (86.1% utilization)
-- **Row usage**: 1,565 / 1,800 (86.9% of recommended threshold)
-- **Maximum capacity**: 1,818 rows (with 11 columns)
-- **Remaining capacity**: 253 rows available for expansion (235 rows to 1,800-row threshold)
+- **Current**: 12,520 / 20,000 cells (62.6% utilization)
+- **Row capacity**: 2,500 rows maximum (with 8 columns)
+- **Current usage**: 1,565 rows (62.6% of capacity)
+- **Remaining capacity**: 935 rows available for expansion
+- **Migration benefit**: Reduced from 17,215 cells (11 columns) to 12,520 cells (8 columns)
 
 ## Key Changes Summary
+
+**8-Column Migration (2026-10-28):**
+1. Consolidated export format from 11 columns to 8 columns
+2. Details column now combines Region, reference coordinates, and Practical information
+3. Reduced cell usage from 17,215 to 12,520 (freed 4,695 cells)
+4. Increased maximum capacity from 1,818 to 2,500 rows
+5. Canonical data in places.v2.json remains unchanged
 
 **Seoul/Incheon Integration (2026-10-28):**
 1. Added 151 places from Seoul and Incheon metropolitan areas
@@ -89,16 +101,21 @@ Added 151 new places from Seoul (서울특별시) and Incheon (인천광역시),
 
 ## Export Workflow
 
-The v2 export CSVs in `data/v2/exports/` are ready for Google My Maps import:
+The v2 export CSVs in `data/v2/exports/` are ready for Google My Maps import (8-column format):
 
-1. **Coordinate-based entries**: Use Latitude/Longitude columns
-2. **Address-based entries**: Use 주소 (Address) column for geocoding
-3. **Import order**: Recommended to start with smallest layer for testing
+1. **Column structure**: 이름, 주소, Type, Guide, Details, Video, Sources, Record ID
+2. **Placement column**: 주소 (Address) for geocoding
+3. **Style column**: Type (lowercase_snake_case format)
+4. **Details column**: Combined Region + reference coordinates + Practical information
+5. **Import order**: Recommended to start with smallest layer for testing
 
-See `data/v2/exports/manifest.json` for detailed file metadata.
+Export generator: `scripts/export_v2_8col.py`  
+See `data/v2/exports/manifest.json` for detailed file metadata.  
+Migration plan: `docs/eight-column-2026-10/PLAN.md`
 
 ## Documentation
 
+- **8-column migration plan**: docs/eight-column-2026-10/PLAN.md
 - **Seoul/Incheon report**: docs/seoul-incheon-2026-10/REPORT.md
 - **Jeju report**: docs/jeju-2026-10/REPORT.md
 - **Jeolla report**: docs/jeolla-2026-10/REPORT.md
