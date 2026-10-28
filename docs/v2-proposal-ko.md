@@ -156,11 +156,11 @@
 
 ## 7. 산출물
 
-- 마이그레이션 스크립트 초안: `/workspace/schema-review/migration/migrate_v2.py`. 오프라인 전용이고, 지도나 GitHub에 접근하지 않는다.
-- 샘플 10행(11열, 영상 4건 포함): `/workspace/schema-review/sample-migrated-10.csv`. Food 레이어 표본은 빠져 있다.
-- 샘플 v2 정본: `/workspace/schema-review/migration/out-sample/places.v2.json`
-- 전체 687행 드라이런 리포트: `/workspace/schema-review/migration/out-full/migration-report.json`. 레이어별 139/149/191/79/129로 실제 지도와 일치하고, 7,557셀, ID 유일. 군 시설 2건은 공개 대상에서 제외됨.
-- 영상 후보에서 뽑은 매핑: `/workspace/schema-review/migration/videos.json`
+- 마이그레이션 스크립트: `migration/v2/migrate_v2.py`. 오프라인 전용이고, 지도나 GitHub에 접근하지 않는다.
+- Type 매핑: `migration/v2/TYPE-MAP.md`. 87개 → 37개 정규화
+- 전체 687행 검증 완료: 레이어별 139/149/191/79/129로 실제 지도와 일치, 7,557셀, ID 유일. 군 시설 2건은 공개 대상에서 제외됨.
+- 정본: `data/v2/places.v2.json`
+- CSV 내보내기: `data/v2/exports/*.csv`
 
 드라이런의 한계:
 - `region` 파서는 주소 첫 두 토큰만 본다.
