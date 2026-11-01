@@ -10,12 +10,12 @@ This repository maintains the data for **Korea Local Guide**, a Google My Maps l
 
 ### Current Coverage
 
-- **2,327 places** across 5 categories
-- **Culture & Sights**: 626 places
-- **Nature & Camping**: 504 places
-- **Food & Drink**: 570 places
-- **Activities & Wellness**: 387 places
-- **Shopping**: 240 places
+- **2,312 places** across 5 categories
+- **Culture & Sights**: 624 places
+- **Nature & Camping**: 501 places
+- **Food & Drink**: 563 places
+- **Activities & Wellness**: 386 places
+- **Shopping**: 238 places
 
 Coverage started around **Camp Humphreys (Pyeongtaek)** and **Daegu/Camp Walker**, and has expanded to include Busan, Gyeongju, Andong, Seoul, Incheon, Jeju, and other regions. **This is not nationwide-complete** — many areas remain unrepresented.
 
@@ -46,8 +46,8 @@ Each layer exports to CSV with these columns:
 ### Technical Constraints
 
 - **Google My Maps limit**: ~20,000 cells total
-- **Current utilization**: 18,616 cells (93.1%)
-- **Remaining capacity**: ~173 rows
+- **Current utilization**: 18,496 cells (92.5%)
+- **Remaining capacity**: ~183 rows
 - **Encoding**: UTF-8 without BOM (BOM breaks My Maps title column detection)
 - **Pinning**: Places are pinned by Korean address
 
@@ -57,11 +57,13 @@ Each layer exports to CSV with these columns:
 - **Descriptions**: Available in English, Korean, Japanese, Chinese (Simplified), and Spanish
 - **Address**: Korean only (as provided by sources)
 
+**Note on address prefixes**: For 47 Jeonnam/Gwangju rows (IDs in `quality/2026-11-01/map-legacy-address-ids.json`) and Horyonggoksan, the My Maps CSV deliberately keeps the old address prefix (`전라남도` / `광주광역시`, and Incheon `중구` for Horyonggoksan) because Google cannot yet geocode the new official names. `places.v2.json` holds the official new address (`전남광주통합특별시` for those Jeonnam/Gwangju places).
+
 ## Repository Structure
 
 ```
 data/v2/
-  places.v2.json          # Source of truth: 2,327 places, full nested schema
+  places.v2.json          # Source of truth: 2,312 places, full nested schema
   exports/                # 8-column CSV exports per layer (UTF-8 no BOM)
     culture_sights.csv
     food_drink.csv
@@ -84,17 +86,23 @@ quality/                  # Quality-pass files and cleaned data snapshots
 
 ## Data Quality
 
-The October 2026 quality pass removed internal notes from map popups and applied these improvements:
+The November 2026 quality pass (building on October 2026) applied ~293 cell fixes and removed 15 places:
 
+**October 2026** (initial cleanup):
 - 7,937 redundant/internal sentences dropped
 - 4,731 Korean duplicate sentences removed
 - 62 internal-text guides rewritten as sourced content
 - 50 generic guides rewritten with proper sourcing
 - 37 unsourced superlatives softened
 - 3,241 URLs checked; dead links replaced, concatenated URLs split
-- 60-row closure spot-check: 0 confirmed closed
 
-Internal metadata (region lines, reference coordinates, check dates, process notes) is preserved in `legacy.popup_cleanup_2026_10_28` within `places.v2.json` but excluded from CSV exports.
+**November 2026** (quality3):
+- ~293 cell fixes over two passes: video-cell prefix cleanup, leaked internal notes removed, name typos fixed
+- Incheon/Hwaseong gu name updates applied
+- 140 Jeonnam/Gwangju places updated with the official `전남광주통합특별시` address prefix in JSON; 47 of those rows plus Horyonggoksan keep the old prefix in the My Maps CSV because Google cannot geocode the new names yet (see `quality/2026-11-01/map-legacy-address-ids.json`)
+- 15 places removed: 5 likely closed, 10 with dead-only sources (see `quality/2026-11-01/removed.json`)
+
+Internal metadata (region lines, reference coordinates, check dates, process notes) is preserved in `legacy.popup_cleanup_2026_10_28` within `places.v2.json` but excluded from CSV exports. Quality-pass documentation is in `quality/2026-11-01/`.
 
 ## Usage
 
@@ -126,7 +134,7 @@ python3 -B -m unittest discover tests -v
 ```
 
 Tests validate:
-- Total place count (2,327)
+- Total place count (2,312)
 - Layer distribution
 - Schema version consistency
 - Export quality (no BOM, valid UTF-8)
