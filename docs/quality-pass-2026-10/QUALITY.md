@@ -91,7 +91,7 @@ After:
 ```
 ## Re-import fixes (2026-10-28)
 
-- **Missing popup titles, root cause:** the quality FULL CSVs were written with a UTF-8 BOM (`EF BB BF`) before `이름`. The earlier working exports (`/workspace/audit/*-FULL.csv` and `data/v2/exports/*.csv` at main 85b0491) had no BOM. With the BOM, My Maps read the first header as `\ufeff이름`, so it didn't treat it as the title column and fell back to "제목 없음". Fix: BOM removed. The header line, column order, CRLF record endings, LF line breaks inside cells and quoting style are now byte-identical to 85b0491.
+- **Missing popup titles, root cause:** the quality FULL CSVs were written with a UTF-8 BOM (`EF BB BF`) before `이름`. The earlier working exports and `data/v2/exports/*.csv` at main 85b0491 had no BOM. With the BOM, My Maps read the first header as `\ufeff이름`, so it didn't treat it as the title column and fell back to "제목 없음". Fix: BOM removed. The header line, column order, CRLF record endings, LF line breaks inside cells and quoting style are now byte-identical to 85b0491.
 - **Language lines:** every Guide and Details cell still has LF line breaks between the EN/KO/JA/ZH/ES lines (0 cells run together; the average is 4 breaks per Guide, the same as 85b0491). The run-together display came from the same failed header detection, so it should clear once the BOM-free files are re-imported.
 - **Addresses:** every 주소 matches main 85b0491 (0 differences). Daiso Songtan is `경기도 평택시 경기대로 1636 (신장동)`.
 - **Typos fixed in English Details:** Novebmer→November (2), servere, unforseen, cheack, storea (2), circumsances, faciliity, facilty, offical, safey, seperately.
