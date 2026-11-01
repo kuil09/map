@@ -1,0 +1,1280 @@
+[
+ {
+  "record_id": "culture-jl-gwangju-dong-national-asian-culture-center",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 문화전당로 38",
+  "after": "전남광주통합특별시 동구 문화전당로 38",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-dong-may-18-democratic-uprising-archives",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 금남로 221",
+  "after": "전남광주통합특별시 동구 금남로 221",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-buk-may-18th-national-cemetery",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 민주로 200",
+  "after": "전남광주통합특별시 북구 민주로 200",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-buk-gwangju-national-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 하서로 110",
+  "after": "전남광주통합특별시 북구 하서로 110",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-buk-gwangju-museum-of-art",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 하서로 52",
+  "after": "전남광주통합특별시 북구 하서로 52",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-buk-gwangju-biennale-exhibition-hall",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 비엔날레로 111",
+  "after": "전남광주통합특별시 북구 비엔날레로 111",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-nam-yangnim-history-culture-village",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 천변좌로446번길 7",
+  "after": "전남광주통합특별시 남구 천변좌로446번길 7",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-nam-missionary-wilson-s-house",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 제중로47번길 20",
+  "after": "전남광주통합특별시 남구 제중로47번길 20",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gwangju-dong-gwangju-jeungsimsa-temple",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 증심사길 177",
+  "after": "전남광주통합특별시 동구 증심사길 177",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-mokpo-national-research-institute-of-maritime-cultural-h",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 목포시 남농로 136",
+  "after": "전남광주통합특별시 목포시 남농로 136",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-mokpo-mokpo-modern-history-museum-no-1",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 목포시 영산로29번길 6",
+  "after": "전남광주통합특별시 목포시 영산로29번길 6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-yeosu-jinnamgwan-hall",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 여수시 동문로 11",
+  "after": "전남광주통합특별시 여수시 동문로 11",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-yeosu-yeosu-hyangiram-hermitage",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 여수시 돌산읍 향일암로 1",
+  "after": "전남광주통합특별시 여수시 돌산읍 향일암로 1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-suncheon-naganeupseong-walled-town",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 순천시 낙안면 충민길 30",
+  "after": "전남광주통합특별시 순천시 낙안면 충민길 30",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-suncheon-suncheon-songgwangsa-temple",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 순천시 송광면 송광사안길 100",
+  "after": "전남광주통합특별시 순천시 송광면 송광사안길 100",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-suncheon-seonamsa-temple-unesco-world-heritage",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 순천시 승주읍 선암사길 450",
+  "after": "전남광주통합특별시 순천시 승주읍 선암사길 450",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-naju-naju-geumseonggwan-hall",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 나주시 금성관길 8",
+  "after": "전남광주통합특별시 나주시 금성관길 8",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-naju-naju-national-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 나주시 반남면 고분로 747",
+  "after": "전남광주통합특별시 나주시 반남면 고분로 747",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-haenam-daeheungsa-temple-unesco-world-heritage",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 해남군 삼산면 대흥사길 400",
+  "after": "전남광주통합특별시 해남군 삼산면 대흥사길 400",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-damyang-damyang-changpyeong-samjinae-village-slow-city",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 담양군 창평면 돌담길 9-22",
+  "after": "전남광주통합특별시 담양군 창평면 돌담길 9-22",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gangjin-gangjin-goryeo-celadon-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 강진군 대구면 청자촌길 33",
+  "after": "전남광주통합특별시 강진군 대구면 청자촌길 33",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-yeongam-historical-site-of-wangin",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 영암군 군서면 왕인로 440",
+  "after": "전남광주통합특별시 영암군 군서면 왕인로 440",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-yeongam-yeongam-gurim-hanok-village",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 영암군 군서면 구림로 43-14",
+  "after": "전남광주통합특별시 영암군 군서면 구림로 43-14",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-gurye-gurye-unjoru-historic-house",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 구례군 토지면 운조루길 59",
+  "after": "전남광주통합특별시 구례군 토지면 운조루길 59",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-jl-wando-bogildo-island-seyeonjeong-pavilion",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "전라남도 완도군 보길면 부황길 57",
+  "after": "전남광주통합특별시 완도군 보길면 부황길 57",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-house-of-choi-seung-hyo",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 양촌길 29-4",
+  "after": "전남광주통합특별시 남구 양촌길 29-4",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-donggok-museum-of-art",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 광산구 어등대로529번길 37",
+  "after": "전남광주통합특별시 광산구 어등대로529번길 37",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-leekangha-art-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 3·1만세운동길 6",
+  "after": "전남광주통합특별시 남구 3·1만세운동길 6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-owen-memorial-hall",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 백서로70번길 6",
+  "after": "전남광주통합특별시 남구 백서로70번길 6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-yeongsangang-river-culture-pavilion",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 승촌보길 90",
+  "after": "전남광주통합특별시 남구 승촌보길 90",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-lee-jang-woo-s-house",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 양촌길 21",
+  "after": "전남광주통합특별시 남구 양촌길 21",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-yangnim-art-center",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 제중로 70",
+  "after": "전남광주통합특별시 남구 제중로 70",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-gwangjuhyanggyo-confucian-school",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 남구 중앙로107번길 5",
+  "after": "전남광주통합특별시 남구 중앙로107번길 5",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-gwangju-art-street",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 궁동 78",
+  "after": "전남광주통합특별시 동구 궁동 78",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-de-young-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 성촌길 6",
+  "after": "전남광주통합특별시 동구 성촌길 6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-bium-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 제봉로 143-1",
+  "after": "전남광주통합특별시 동구 제봉로 143-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-kwangju-bank-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 제봉로 225",
+  "after": "전남광주통합특별시 동구 제봉로 225",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-uijae-museum-of-korean-art",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 증심사길 155",
+  "after": "전남광주통합특별시 동구 증심사길 155",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-gwangju-chungjang-ro-kpop-star-street",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 동구 충장로 94",
+  "after": "전남광주통합특별시 동구 충장로 94",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-museum-of-gwangju-literature",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 각화대로 93",
+  "after": "전남광주통합특별시 북구 각화대로 93",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-chungjangsa-shrine",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 송강로 13",
+  "after": "전남광주통합특별시 북구 송강로 13",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-chonnam-national-university-museum",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 용봉로 77",
+  "after": "전남광주통합특별시 북구 용봉로 77",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-bn-gwangju-hwanbyeokdang-pavilion",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "광주광역시 북구 환벽당길 10",
+  "after": "전남광주통합특별시 북구 환벽당길 10",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-gwangju-dong-mudeungsan-national-park-gwangju",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 동구 동산길7번길 5",
+  "after": "전남광주통합특별시 동구 동산길7번길 5",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-gwangju-buk-gwangjuho-lake",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 북구 충효샘길 7",
+  "after": "전남광주통합특별시 북구 충효샘길 7",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-suncheon-suncheonman-bay",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 순천시 순천만길 513-25",
+  "after": "전남광주통합특별시 순천시 순천만길 513-25",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-suncheon-suncheonman-national-garden",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 순천시 국가정원1호길 47",
+  "after": "전남광주통합특별시 순천시 국가정원1호길 47",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-damyang-juknokwon-bamboo-garden",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 담양군 담양읍 죽녹원로 119",
+  "after": "전남광주통합특별시 담양군 담양읍 죽녹원로 119",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-damyang-damyang-metasequoia-lined-road",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 담양군 담양읍 메타세쿼이아로 12",
+  "after": "전남광주통합특별시 담양군 담양읍 메타세쿼이아로 12",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-boseong-korean-tea-culture-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 보성군 보성읍 녹차로 775",
+  "after": "전남광주통합특별시 보성군 보성읍 녹차로 775",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-gangjin-gangjin-dawon-tea-plantation",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 강진군 성전면 백운로 93-25",
+  "after": "전남광주통합특별시 강진군 성전면 백운로 93-25",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeosu-odongdo-island",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 여수시 오동도로 222",
+  "after": "전남광주통합특별시 여수시 오동도로 222",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeosu-manseong-ri-black-sand-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 여수시 만성리길 15-1",
+  "after": "전남광주통합특별시 여수시 만성리길 15-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeosu-bangjukpo-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 여수시 돌산읍 향일암로 804-6",
+  "after": "전남광주통합특별시 여수시 돌산읍 향일암로 804-6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeosu-museulmokhaebyeon-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 여수시 돌산읍 돌산로 2876",
+  "after": "전남광주통합특별시 여수시 돌산읍 돌산로 2876",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-sinan-jeungdo-ujeon-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 신안군 증도면 지도증도로 1684",
+  "after": "전남광주통합특별시 신안군 증도면 지도증도로 1684",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-wando-wando-arboretum",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 완도군 군외면 초평1길 156",
+  "after": "전남광주통합특별시 완도군 군외면 초평1길 156",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-wando-wando-gun-cheongsando-island-slow-city",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 완도군 청산면 도청3길 30-1",
+  "after": "전남광주통합특별시 완도군 청산면 도청3길 30-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-wando-jiri-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 완도군 청산면 청산로 1462-58",
+  "after": "전남광주통합특별시 완도군 청산면 청산로 1462-58",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-haenam-galdu-village-ttangkkeut-village",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 해남군 송지면 땅끝마을길 82",
+  "after": "전남광주통합특별시 해남군 송지면 땅끝마을길 82",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-haenam-songho-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 해남군 송지면 땅끝해안로 1827",
+  "after": "전남광주통합특별시 해남군 송지면 땅끝해안로 1827",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-jindo-jindo-mysterious-sea-route",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 진도군 고군면 신비의바닷길 148",
+  "after": "전남광주통합특별시 진도군 고군면 신비의바닷길 148",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeongam-wolchulsan-national-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 영암군 영암읍 천황사로 280-43",
+  "after": "전남광주통합특별시 영암군 영암읍 천황사로 280-43",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-gurye-jirisan-national-park-nogodan-peak-section",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 구례군 마산면 화엄사로 356",
+  "after": "전남광주통합특별시 구례군 마산면 화엄사로 356",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-jangheung-jeongnamjin-cypress-forest-woodland",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 장흥군 장흥읍 우드랜드길 180",
+  "after": "전남광주통합특별시 장흥군 장흥읍 우드랜드길 180",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-jangheung-cheongwansan-provincial-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 장흥군 관산읍 천관산길 103",
+  "after": "전남광주통합특별시 장흥군 관산읍 천관산길 103",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-hampyeong-dolmeori-beach",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 함평군 함평읍 주포로 614",
+  "after": "전남광주통합특별시 함평군 함평읍 주포로 614",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-muan-muan-hoesan-white-lotus-pond",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 무안군 일로읍 백련로 333",
+  "after": "전남광주통합특별시 무안군 일로읍 백련로 333",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-jl-yeonggwang-baeksu-coastal-road",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "전라남도 영광군 백수읍 해안로 957",
+  "after": "전남광주통합특별시 영광군 백수읍 해안로 957",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-ssangam-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 광산구 첨단중앙로182번길 23",
+  "after": "전남광주통합특별시 광산구 첨단중앙로182번길 23",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-gwangju-arboretum",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 남구 도동길 142",
+  "after": "전남광주통합특별시 남구 도동길 142",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-hyusimjeong",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 광산구 임방울대로 611-25",
+  "after": "전남광주통합특별시 광산구 임방울대로 611-25",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-gwangju-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 남구 중앙로107번길 15",
+  "after": "전남광주통합특별시 남구 중앙로107번길 15",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-jungoe-park",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 북구 하서로 50",
+  "after": "전남광주통합특별시 북구 하서로 50",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-jeonpyeongje-reservoir",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 서구 전평길 1",
+  "after": "전남광주통합특별시 서구 전평길 1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-pungam-reservoir",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 서구 풍암동 460",
+  "after": "전남광주통합특별시 서구 풍암동 460",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "nature-bn-gwangju-geumnam-butterfly-garden",
+  "layer": "nature_camping",
+  "field": "주소",
+  "before": "광주광역시 동구 금남로3가 20-2",
+  "after": "전남광주통합특별시 동구 금남로3가 20-2",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-gwangsan-songjeong-tteokgalbi-1hojeom",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 광산구 광산로29번길 1",
+  "after": "전남광주통합특별시 광산구 광산로29번길 1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-dong-1960-cheongwonmomil",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 중앙로 174-1",
+  "after": "전남광주통합특별시 동구 중앙로 174-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-dong-gajokhwegwan",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 동명로 50",
+  "after": "전남광주통합특별시 동구 동명로 50",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-nam-geomok-hanjeongsik",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 남구 천변좌로364번길 3-6",
+  "after": "전남광주통합특별시 남구 천변좌로364번길 3-6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-seo-macheollu",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 서구 월드컵4강로 236",
+  "after": "전남광주통합특별시 서구 월드컵4강로 236",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangju-dong-jeil-banjeom",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 구성로 174",
+  "after": "전남광주통합특별시 동구 구성로 174",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-jungang-hoetjip",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 번화로 44-1",
+  "after": "전남광주통합특별시 목포시 번화로 44-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-namgyung-agujjim",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 백년대로307번길 15-1",
+  "after": "전남광주통합특별시 목포시 백년대로307번길 15-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-dokcheon-restaurant",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 호남로64번길 3-1",
+  "after": "전남광주통합특별시 목포시 호남로64번길 3-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-clb-bakery",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 영산로75번길 14",
+  "after": "전남광주통합특별시 목포시 영산로75번길 14",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-mokpo-ramyeon-hongeo-ramyeon",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 영산로40번길 16",
+  "after": "전남광주통합특별시 목포시 영산로40번길 16",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-yudalmyeonok",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 후광대로105번길 8",
+  "after": "전남광주통합특별시 목포시 후광대로105번길 8",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-mokpo-mujinjang-kkorigomtang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 목포시 비파로 7",
+  "after": "전남광주통합특별시 목포시 비파로 7",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-yeosu-gyeongdo-hoegwan-main-branch",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 여수시 대경도길 2-2",
+  "after": "전남광주통합특별시 여수시 대경도길 2-2",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-yeosu-hanilgwan",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 여수시 봉산2로 32",
+  "after": "전남광주통합특별시 여수시 봉산2로 32",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-yeosu-namhae-saengseon-gui",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 여수시 망마로 75",
+  "after": "전남광주통합특별시 여수시 망마로 75",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-yeosu-yeosudang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 여수시 중앙로 72",
+  "after": "전남광주통합특별시 여수시 중앙로 72",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-suncheon-daedaeseonchangjip",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 순천시 순천만길 542",
+  "after": "전남광주통합특별시 순천시 순천만길 542",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-naju-naju-gomtang-noanjip",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 나주시 금성관길 1-3",
+  "after": "전남광주통합특별시 나주시 금성관길 1-3",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-damyang-deokinkwan",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 담양군 담양읍 죽향대로 1121",
+  "after": "전남광주통합특별시 담양군 담양읍 죽향대로 1121",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-damyang-damyang-apzip",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 담양군 담양읍 죽향문화로 22",
+  "after": "전남광주통합특별시 담양군 담양읍 죽향문화로 22",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-gwangyang-geumjeong-gwangyang-bulgogi",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 광양시 시청로 27",
+  "after": "전남광주통합특별시 광양시 시청로 27",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-haenam-jeonju-sikdang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 해남군 삼산면 대흥사길 170",
+  "after": "전남광주통합특별시 해남군 삼산면 대흥사길 170",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-haenam-wonjo-jangsu-tongdak",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 해남군 해남읍 고산로 295",
+  "after": "전남광주통합특별시 해남군 해남읍 고산로 295",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-jangheung-myeonghuine-eumsikjeom",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 장흥군 장흥읍 토요시장2길 3-6",
+  "after": "전남광주통합특별시 장흥군 장흥읍 토요시장2길 3-6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-jl-wando-wando-haemultang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "전라남도 완도군 완도읍 장보고대로 256-1",
+  "after": "전남광주통합특별시 완도군 완도읍 장보고대로 256-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-traditional-tea-house-punggyeong",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 북구 용봉동 700-24",
+  "after": "전남광주통합특별시 북구 용봉동 700-24",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-arirang-house",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 무등로321번길 2",
+  "after": "전남광주통합특별시 동구 무등로321번길 2",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-mimiwon",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 백서로 218",
+  "after": "전남광주통합특별시 동구 백서로 218",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-kkotpineun-chunsamwol",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 선교로 50",
+  "after": "전남광주통합특별시 동구 선교로 50",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-coboc",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 동구 지호로 161-7",
+  "after": "전남광주통합특별시 동구 지호로 161-7",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-yumyeong-hoegwan",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 북구 금남로131번길 18",
+  "after": "전남광주통합특별시 북구 금남로131번길 18",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-yeonhwa-sikdang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 서구 마륵복개로 147",
+  "after": "전남광주통합특별시 서구 마륵복개로 147",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "food-bn-gwangju-daegwang-sikdang",
+  "layer": "food_drink",
+  "field": "주소",
+  "before": "광주광역시 서구 상무대로695번길 15",
+  "after": "전남광주통합특별시 서구 상무대로695번길 15",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "attraction-seoul-grand-park-zoo",
+  "layer": "activities_wellness",
+  "field": "Details",
+  "before": "EN: As checked: partial Nocturnal House closure through Oct 30 and Oriental House primate closure through Oct 31, 2026; other enclosures remain restricted. Check the current closure list. Seoul Land and park transport have separate ticket conditions. Check hours and booking before visiting.\nKO: 확인일 기준 야행동물관 일부는 2026년 10월 30일까지, 동양관 영장류는 10월 31일까지 휴관하며 다른 제한 구역도 있습니다. 최신 휴관표를 확인하세요. 서울랜드·공원 교통수단은 이용권 조건이 별도입니다. 종료 예정일이 재개장을 보장하지는 않습니다. 방문 전 최신 통제 목록을 확인하세요.",
+  "after": "EN: Seoul Land and park transport have separate ticket conditions. Check hours and booking before visiting.\nKO: 서울랜드·공원 교통수단은 이용권 조건이 별도입니다. 방문 전 운영시간과 통제 구역을 확인하세요.",
+  "reason": "Removed expired temporary-closure notice (ran through 2026-10-30/31); Guide (5 langs) had no closure text; JSON notes en/ko updated too",
+  "evidence": "Notice dates themselves"
+ },
+ {
+  "record_id": "activities-jl-mokpo-mokpo-marine-cable-car",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 목포시 해양대학로 240",
+  "after": "전남광주통합특별시 목포시 해양대학로 240",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-yeosu-yeosu-maritime-cable-car",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 여수시 돌산읍 돌산로 3600-1",
+  "after": "전남광주통합특별시 여수시 돌산읍 돌산로 3600-1",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-yeosu-yeosu-ocean-railbike",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 여수시 망양로 187",
+  "after": "전남광주통합특별시 여수시 망양로 187",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-yeosu-yeosu-u-world-luge-theme-park",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 여수시 소라면 안심산길 155",
+  "after": "전남광주통합특별시 여수시 소라면 안심산길 155",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-yeosu-hanhwa-aqua-planet-yeosu",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 여수시 오동도로 61-11",
+  "after": "전남광주통합특별시 여수시 오동도로 61-11",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-haenam-duryunsan-cable-car",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 해남군 삼산면 대흥사길 88-45",
+  "after": "전남광주통합특별시 해남군 삼산면 대흥사길 88-45",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-haenam-myong-ryang-air-voyager",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 해남군 문내면 관광레저로 12-20",
+  "after": "전남광주통합특별시 해남군 문내면 관광레저로 12-20",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-gwangju-dong-mudeungsan-lift-monorail",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 동구 지호로164번길 14-10",
+  "after": "전남광주통합특별시 동구 지호로164번길 14-10",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-gwangju-buk-gwangju-national-science-museum",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 북구 첨단과기로 235",
+  "after": "전남광주통합특별시 북구 첨단과기로 235",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-gokseong-seomjingang-train-village",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 곡성군 오곡면 기차마을로 232",
+  "after": "전남광주통합특별시 곡성군 오곡면 기차마을로 232",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-gurye-gokseong-seomjingang-astronomical-observatory",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 구례군 구례읍 섬진강로 1234",
+  "after": "전남광주통합특별시 구례군 구례읍 섬진강로 1234",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-haenam-haenam-uhangri-dinosaur-museum",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "전라남도 해남군 황산면 공룡박물관길 234",
+  "after": "전남광주통합특별시 해남군 황산면 공룡박물관길 234",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-jl-gwangju-buk-gwangju-kia-champions-field",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 북구 서림로 10",
+  "after": "전남광주통합특별시 북구 서림로 10",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-bn-gwangju-gossaumnori-theme-park",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 남구 고싸움로 2",
+  "after": "전남광주통합특별시 남구 고싸움로 2",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-bn-gwangju-pyeongchon-ceramics-workshop",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 북구 담안평무길 77",
+  "after": "전남광주통합특별시 북구 담안평무길 77",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-bn-gwangju-gwangju-pyeongchon-village",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 북구 평촌길 15",
+  "after": "전남광주통합특별시 북구 평촌길 15",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-bn-gwangju-gwangju-drive-in-theater",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 북구 우치로 649",
+  "after": "전남광주통합특별시 북구 우치로 649",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "activities-bn-gwangju-energy-park-haedammaru",
+  "layer": "activities_wellness",
+  "field": "주소",
+  "before": "광주광역시 서구 상무공원로 131",
+  "after": "전남광주통합특별시 서구 상무공원로 131",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-gwangju-gwangsan-1913-songjeong-station-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "광주광역시 광산구 송정로8번길 13",
+  "after": "전남광주통합특별시 광산구 송정로8번길 13",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-gwangju-dong-gwangju-daein-market-daein-art-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "광주광역시 동구 제봉로184번길 13-9",
+  "after": "전남광주통합특별시 동구 제봉로184번길 13-9",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-gwangju-seo-gwangju-yangdong-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "광주광역시 서구 천변좌로 238",
+  "after": "전남광주통합특별시 서구 천변좌로 238",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-mokpo-mokpo-fishery-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 목포시 해안로267번길 6",
+  "after": "전남광주통합특별시 목포시 해안로267번길 6",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-yeosu-yeosu-fish-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 여수시 여객선터미널길 24",
+  "after": "전남광주통합특별시 여수시 여객선터미널길 24",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-suncheon-suncheon-jungang-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 순천시 중앙시장길 18",
+  "after": "전남광주통합특별시 순천시 중앙시장길 18",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-suncheon-suncheon-utjang-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 순천시 북문길 40",
+  "after": "전남광주통합특별시 순천시 북문길 40",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-jangheung-jeongnamjin-jangheung-saturday-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 장흥군 장흥읍 토요시장3길 15",
+  "after": "전남광주통합특별시 장흥군 장흥읍 토요시장3길 15",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-gurye-gurye-fifth-day-market-gurye-traditional-market",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "전라남도 구례군 구례읍 5일시장작은길 20",
+  "after": "전남광주통합특별시 구례군 구례읍 5일시장작은길 20",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-jl-gwangju-gwangsan-lotte-outlets-gwangju-suwan-branch",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "광주광역시 광산구 장신로 98",
+  "after": "전남광주통합특별시 광산구 장신로 98",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "shopping-bn-gwangju-lotte-outlets-gwangju-world-cup-branch",
+  "layer": "shopping",
+  "field": "주소",
+  "before": "광주광역시 서구 금화로 240",
+  "after": "전남광주통합특별시 서구 금화로 240",
+  "reason": "전남광주통합특별시 rename",
+  "evidence": "Sido prefix '전라남도 ' / '광주광역시 ' -> '전남광주통합특별시 '; rest unchanged (전남광주통합특별시 설치를 위한 특별법, 시행 2026-07-01; jeonnam-gwangju.go.kr 행정통합Q&A pageId=jngj122; MOIS 행정동·법정동 변경내역 nttId=127039)"
+ },
+ {
+  "record_id": "culture-dw-daegu-twelve-tablet-pavilion-of-hyeonpung-gwak-clan",
+  "layer": "culture_sights",
+  "field": "주소",
+  "before": "대구광역시 달성군 현풍면 지동길 3",
+  "after": "대구광역시 달성군 현풍읍 지동길 3",
+  "reason": "현풍면 is now 현풍읍; old form failed to geocode in My Maps on 2026-11-01",
+  "evidence": "행정안전부 공중화장실 정보 (dongnemap.kr) lists 대구광역시 달성군 현풍읍 지동길 3"
+ }
+]
